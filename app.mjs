@@ -1,5 +1,5 @@
-import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs';
-import { layoutGraph } from './src/layout.mjs';
+import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs?v=ded7f03645573050';
+import { layoutGraph } from './src/layout.mjs?v=ded7f03645573050';
 const $ = selector => document.querySelector(selector);
 function el(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
 function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
@@ -31,7 +31,7 @@ const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate:
 let kb, current, positions, graphWidth = 1000, graphHeight = 780;
 
 try {
-  const response = await fetch('./data/knowledge.json', { signal: AbortSignal.timeout(15000) });
+  const response = await fetch('./data/knowledge.json?v=ded7f03645573050', { signal: AbortSignal.timeout(15000) });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   kb = await response.json();
   const errors = validateKnowledge(kb);
