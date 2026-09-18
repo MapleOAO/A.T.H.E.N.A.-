@@ -22,9 +22,9 @@ Atlas commit 7df0623bf538ef5dedd49e620fc7a6356f5318d2；blob c52b9ff73955ca9bf4d
 - Colosseo Gladiatori（nodes）与 Colloseo Gladiatori（connections）仍为两条实体，等待命名消歧依据；Talon Empire 与 Talon 同样分开。
 - 当前工作译名中含音译、意译和保留原文，状态明确为 pending。
 - 没有后台编辑、账户、自动抓取、生成式翻译或完整时间线。
-- 真实 UI 视觉验收未完成：云浏览器无法访问本地服务。数据/HTTP/布局测试不等于实际浏览器交互验收。
-- 用户报告登录接管标签页 Failed to fetch。GitHub 连接器可写代码，但无 Pages 设置接口。不要反复要求用户在失效接管标签页登录，也不要声称部署成功。
-- GitHub Pages 需要单独检查实际部署结果，见 DEPLOYMENT.md。
+- GitHub Pages 已实际打开：https://mapleoao.github.io/A.T.H.E.N.A.-/。桌面截图及主要交互已检查，详见 VERIFY.md；窄屏与拖拽尚未验收。
+- 用户报告登录接管标签页 Failed to fetch，但创建 gh-pages 后网站实际成功上线；不要再要求用户在失效接管页登录。
+- 后续更新仍需单独检查线上版本，见 DEPLOYMENT.md。
 
 ## 下一步
 

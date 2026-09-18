@@ -37,9 +37,9 @@ npm run build
 
 ## GitHub Pages
 
-用户已授权 GitHub Pages 发布。发布文件将放入 `gh-pages` 分支根目录；首次启用需仓库 Pages 设置权限。
+已发布并通过实际浏览器检查：[打开 A.T.H.E.N.A.](https://mapleoao.github.io/A.T.H.E.N.A.-/)。发布文件位于 `gh-pages` 分支根目录。
 
-在仓库 Settings → Pages 中选择 **Deploy from a branch → gh-pages → /(root) → Save**。代码提交成功不代表网站已经上线，需实际部署完成并验证站点。
+后续重新配置可在仓库 Settings → Pages 中选择 **Deploy from a branch → gh-pages → /(root) → Save**。每次更新仍需核对线上版本，不能只检查提交成功。
 
 详见 [发布说明](docs/DEPLOYMENT.md)。
 
