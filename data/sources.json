@@ -1147,5 +1147,69 @@
     "locator": "实际阅读PDF第3–8、19–20页；MEKA指挥、队长办公室标牌及D.VA获派新任务，未标记整篇已读",
     "rights": "仅引用独立事实摘要与少量身份辨识局部，不转载整页或整部作品。",
     "sha256": "067376e2d840a28fa00a3ef45bba20d76625e11678494954ef9a16732c39ce41"
+  },
+  {
+    "id": "en-story-bastet",
+    "title": "官方短篇 · Bastet",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blte733a6fae5ac79c2/5d043324486d1c3d0af734e7/ana-bastet_en-us.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-text-and-selected-page-render",
+    "accessedAt": "2026-09-18",
+    "locator": "实际阅读PDF第13–14页，查看第10–11、13–14页插画；第14页正文与照片确认Vincent身份，未标记全文已读",
+    "rights": "仅保存独立事实摘要、定位与少量身份辨识局部，不转载整页或整部作品。",
+    "sha256": "e56addf2547b9c91ac56f3e1354fdf574974559a834d613e6da02d39e1ac7f50"
+  },
+  {
+    "id": "en-story-ramattra-reflections",
+    "title": "官方短篇 · Ramattra: Reflections",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltc08ef1227df73769/638db09da056f810486e240e/OW_LoreBite-Ramattra_FINAL_EN.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-text-and-selected-page-render",
+    "accessedAt": "2026-09-18",
+    "locator": "实际阅读PDF第1–7页全文；第1页插画、第3页Nameless外形与第6–7页Zera体型对应",
+    "rights": "仅保存独立事实摘要、定位与少量身份辨识局部，不转载整页或整部作品。",
+    "sha256": "2cd2816c326c0929526c5e07e63d8495e99122b5c33d364d63682f8a613dd295"
+  },
+  {
+    "id": "en-comic-mission-statement",
+    "title": "官方漫画 · Mission Statement",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd61a7c0fa6827b4d/5d02e273cf7aa6330ac67308/comic-overwatch-mission-statement_en-us.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-text-and-selected-page-render",
+    "accessedAt": "2026-09-18",
+    "locator": "实际阅读PDF第3–5页；第3页叙述海力士派出小队，第4页角色点名；未标记全文已读",
+    "rights": "仅保存独立事实摘要、定位与少量身份辨识局部，不转载整页或整部作品。",
+    "sha256": "d8ea75e31da45358e787fdfd9b3028b7c7aa7656ab25ed6274a11e03ebe0fe04"
+  },
+  {
+    "id": "en-comic-vengeance-comes",
+    "title": "官方漫画 · Vengeance Comes",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt230509ca48e4a621/697d4fa37a42448b0868c853/OW_Talon_EN_FNL_121825.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-render",
+    "accessedAt": "2026-09-18",
+    "locator": "实际阅读PDF第3–12页剧情正文；斩仇主持会议、费斯卡护盾合作及毛加获派渣客镇任务",
+    "rights": "仅保存独立事实摘要、定位与少量身份辨识局部，不转载整页或整部作品。",
+    "sha256": "7d42592123f13620fd7aa4e4cbc9dd208ed5f0723ee57e69832aa917ec6fefbc"
+  },
+  {
+    "id": "cn-news-reign-spotlight",
+    "title": "国服新闻 · 《守望先锋》精彩聚焦：黑爪之治开始",
+    "url": "https://ow.blizzard.cn/news/24246206/index.html",
+    "kind": "official",
+    "language": "zh-CN",
+    "read": true,
+    "accessMethod": "public-page-text",
+    "accessedAt": "2026-09-18",
+    "locator": "第1赛季五名首发英雄 → 重装（金驭）段落；仅此段用于结盟与成员身份区分",
+    "rights": "仅保存独立摘要与段落定位，不转载正文。"
   }
 ]

@@ -7,7 +7,7 @@ function link(text, url) { const n = el('a', text); if (safeUrl(url)) { n.href =
 const hasImage = entity => entity.visual?.kind?.startsWith('official-');
 const embeddedImages = JSON.parse(document.querySelector('#embedded-images')?.textContent || '{}');
 const imageUrl = entity => embeddedImages[entity.visual?.url] || entity.visual?.url;
-const imageLabel = entity => ({'official-portrait':'官方头像','official-scene':'官方剧情配图','official-logo':'官方组织标志','official-excerpt':'官方漫画局部'}[entity.visual?.kind] || '名称占位图 · 待补图');
+const imageLabel = entity => ({'official-portrait':'官方头像','official-scene':'官方剧情配图','official-logo':'官方组织标志','official-excerpt':'官方原作局部'}[entity.visual?.kind] || '名称占位图 · 待补图');
 function avatar(entity, className = '') {
   const name = labelFor(kb, entity.id), node = el('span', name.slice(0, entity.kind==='organization'?2:1), 'avatar '+entity.kind+' '+className);
   node.setAttribute('role','img');

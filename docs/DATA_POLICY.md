@@ -57,3 +57,7 @@ Atlas 端点关联不是特定关系证据。以 `Ana ↔ Pharah` 为例，只�
 本地图像仅允许./assets/portraits/下内容哈希命名的JPEG，构建和校验时核对实际字节。preview.html内嵌这些局部图像；官网CDN配图仍保持外链。
 
 已审阅局部的复现：`node scripts/render-excerpt.mjs <entity-id> <official-source.pdf>`，需要Poppler。源PDF必须匹配记录的哈希，渲染结果不同则停止，需重新目视审核。
+
+## v0.8 短篇插画
+
+已确认身份的短篇插画与漫画共用official-excerpt及哈希校验，界面统一标记“官方原作局部”。原有漫画提取记录不改变，新增记录写明作品类型和角色辨识依据。章节标题相符但内容只是通用游戏截图的图片，不作为组织配图。

@@ -1,0 +1,233 @@
+{
+  "date": "2026-09-18",
+  "version": "0.8.0",
+  "reviewed": [
+    {
+      "sourceId": "en-story-bastet",
+      "scope": "实际阅读PDF第13–14页，查看第10–11、13–14页插画；第14页正文与照片确认Vincent身份，未标记全文已读",
+      "sha256": "e56addf2547b9c91ac56f3e1354fdf574974559a834d613e6da02d39e1ac7f50"
+    },
+    {
+      "sourceId": "en-story-ramattra-reflections",
+      "scope": "实际阅读PDF第1–7页全文；第1页插画、第3页Nameless外形与第6–7页Zera体型对应",
+      "sha256": "2cd2816c326c0929526c5e07e63d8495e99122b5c33d364d63682f8a613dd295"
+    },
+    {
+      "sourceId": "en-comic-mission-statement",
+      "scope": "实际阅读PDF第3–5页；第3页叙述海力士派出小队，第4页角色点名；未标记全文已读",
+      "sha256": "d8ea75e31da45358e787fdfd9b3028b7c7aa7656ab25ed6274a11e03ebe0fe04"
+    },
+    {
+      "sourceId": "en-comic-vengeance-comes",
+      "scope": "实际阅读PDF第3–12页剧情正文；斩仇主持会议、费斯卡护盾合作及毛加获派渣客镇任务",
+      "sha256": "7d42592123f13620fd7aa4e4cbc9dd208ed5f0723ee57e69832aa917ec6fefbc"
+    },
+    {
+      "sourceId": "cn-news-reign-spotlight",
+      "scope": "第1赛季五名首发英雄 → 重装（金驭）段落；仅此段用于结盟与成员身份区分"
+    }
+  ],
+  "visuals": [
+    {
+      "entityId": "talon-empire",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/talon-empire-15d667ecc8c3.jpg",
+        "sourceId": "en-comic-vengeance-comes",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt230509ca48e4a621/697d4fa37a42448b0868c853/OW_Talon_EN_FNL_121825.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第3页；原作局部提取，原文语言en-US",
+        "captionZh": "斩仇主持黑爪会议时墙面的标识局部；用于展示其统治时期的黑爪形象，不据此主张“黑爪帝国”是另一个独立组织，也不是独立发布的logo文件。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量原作局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "15d667ecc8c399e22875c37ceb9c79a6d03e8f6a9ef21152e4732563b85fb26c",
+          "sourceSha256": "7d42592123f13620fd7aa4e4cbc9dd208ed5f0723ee57e69832aa917ec6fefbc",
+          "page": 3,
+          "scaleTo": 1400,
+          "region": [
+            226,
+            385,
+            500,
+            350
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "helix-securities",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/helix-securities-13bb4402b400.jpg",
+        "sourceId": "en-comic-mission-statement",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd61a7c0fa6827b4d/5d02e273cf7aa6330ac67308/comic-overwatch-mission-statement_en-us.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第3页；原作局部提取，原文语言en-US",
+        "captionZh": "漫画第3页的海力士行动小队；同页叙述公司派出本小队处置阿努比斯设施失控。这是团队场景，不是组织标志。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量原作局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "13bb4402b400a0d166a73f5bc532ada7a0d7bf54be2d56ad344fa29a94cc8071",
+          "sourceSha256": "d8ea75e31da45358e787fdfd9b3028b7c7aa7656ab25ed6274a11e03ebe0fe04",
+          "page": 3,
+          "scaleTo": 1400,
+          "region": [
+            175,
+            371,
+            573,
+            291
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "caribbean-coalition",
+      "visual": {
+        "kind": "official-scene",
+        "url": "https://ld5.res.netease.com/images/20260206/1770343859965_eb73c0ef17.jpg",
+        "sourceId": "cn-baptiste",
+        "sourcePage": "https://ow.blizzard.cn/heroes/baptiste/",
+        "checkedAt": "2026-09-18",
+        "locator": "故事章节：加勒比联盟",
+        "captionZh": "巴蒂斯特服役时期的加勒比联盟军人群像；这是官方传记剧情配图，不是组织标志。",
+        "position": "center",
+        "rights": "图像版权归Blizzard Entertainment及相关作者；引用国服官网传记公开图源。"
+      }
+    },
+    {
+      "entityId": "inti-warriors",
+      "visual": {
+        "kind": "official-scene",
+        "url": "https://ld5.res.netease.com/images/20260206/1770345728067_ab53f398cf.jpg",
+        "sourceId": "cn-illari",
+        "sourcePage": "https://ow.blizzard.cn/heroes/illari/",
+        "checkedAt": "2026-09-18",
+        "locator": "故事章节：成为勇士",
+        "captionZh": "伊拉锐传记中印蒂勇士的集体仪式场景；这是官方传记剧情配图，不是组织标志。",
+        "position": "center",
+        "rights": "图像版权归Blizzard Entertainment及相关作者；引用国服官网传记公开图源。"
+      }
+    },
+    {
+      "entityId": "nameless",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/nameless-5a61b0d6a423.jpg",
+        "sourceId": "en-story-ramattra-reflections",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltc08ef1227df73769/638db09da056f810486e240e/OW_LoreBite-Ramattra_FINAL_EN.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第1页；原作局部提取，原文语言en-US",
+        "captionZh": "短篇第1页插画右侧角色；第3页以蓝眼、兔耳形结构和纤细体型描述Nameless，与此画面对应。中文工作译名仍待核对。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量原作局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "5a61b0d6a4230ffe0bdd5425ec59aa9bc0d67846f6c91734595ba860bec1ed97",
+          "sourceSha256": "2cd2816c326c0929526c5e07e63d8495e99122b5c33d364d63682f8a613dd295",
+          "page": 1,
+          "scaleTo": 1400,
+          "region": [
+            786,
+            335,
+            155,
+            206
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "zera",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/zera-296a063b37d9.jpg",
+        "sourceId": "en-story-ramattra-reflections",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltc08ef1227df73769/638db09da056f810486e240e/OW_LoreBite-Ramattra_FINAL_EN.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第1页；原作局部提取，原文语言en-US",
+        "captionZh": "短篇第1页插画左上方大型智械；第4页列出三名同行者，第6–7页描述Zera俯视拉玛刹及巨大的手，与插画中的大型同伴对应。中文工作译名仍待核对。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量原作局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "296a063b37d945500e391673589ba11e37d55aa3a443f4bcf401e03c180d33e4",
+          "sourceSha256": "2cd2816c326c0929526c5e07e63d8495e99122b5c33d364d63682f8a613dd295",
+          "page": 1,
+          "scaleTo": 1400,
+          "region": [
+            240,
+            74,
+            181,
+            228
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "vincent",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/vincent-5bac8cd58308.jpg",
+        "sourceId": "en-story-bastet",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blte733a6fae5ac79c2/5d043324486d1c3d0af734e7/ana-bastet_en-us.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第14页；原作局部提取，原文语言en-US",
+        "captionZh": "短篇插画中杰克所持旧照片的黑发男子；第13–14页正文以黑色衬衫、杰克搭肩的照片说明直接点名Vincent。中文工作译名仍待核对。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量原作局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "5bac8cd58308633277111a990d43d0256c60c68854d890299a9e72fb555c45a6",
+          "sourceSha256": "e56addf2547b9c91ac56f3e1354fdf574974559a834d613e6da02d39e1ac7f50",
+          "page": 14,
+          "scaleTo": 1400,
+          "region": [
+            345,
+            451,
+            111,
+            118
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "colosseo-gladiatori",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/colosseo-gladiatori-f948758fa350.jpg",
+        "sourceId": "en-comic-vengeance-comes",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt230509ca48e4a621/697d4fa37a42448b0868c853/OW_Talon_EN_FNL_121825.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第4页；原作局部提取，原文语言en-US",
+        "captionZh": "金驭向斩仇演示新护盾时呈现的角斗士装甲；本页同时谈到角斗场及其角斗士。未确认个体姓名，不用于上游的其他具名角色；Colloseo异拼仍待消歧。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量原作局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "f948758fa350d515a734e765f9f3ad8cfc0ee4bd436f4f7af635c4885e130727",
+          "sourceSha256": "7d42592123f13620fd7aa4e4cbc9dd208ed5f0723ee57e69832aa917ec6fefbc",
+          "page": 4,
+          "scaleTo": 1400,
+          "region": [
+            422,
+            30,
+            170,
+            289
+          ]
+        }
+      }
+    }
+  ],
+  "held": [
+    "Lanet在Ramattra: Reflections插画中的身份只靠排除法仍不够明确，本轮未采用头像。",
+    "Torbjorn短篇第2页确认Ingrid为妻子，但第1、10页插画没有她；Reflections第10页的女性不只凭拥抱动作指认为Ingrid。",
+    "Adawe基金名称不自动确认同名人物；Nobuto工作译名“信人”在“相信人…”中的子串命中不是姓名依据。",
+    "Pharah的海力士传记章节、Hazard的怪咖盟章节、Juno和Mei部分章节实际配游戏截图，未用来冒充组织场景。",
+    "New Blood #4实际查看第3–6页，Going Legit实际查看第3–4页；未明确姓名的人物不映射Alisa等条目。",
+    "Thoughtless Gods实际阅读PDF第4、5、8、22页；Geiger单眼及义体描写不足以直接确认一走了之漫画中未点名的背景人物，本轮暂缓配图。",
+    "密不可分实际阅读长条PDF第1、3、4页；火星家庭合照中的人物没有直接姓名对应，本轮未采用为Jiayi头像。",
+    "Yokai短篇本轮阅读第1、2、4、5、6页；没有将未点名插画自动分配给Ryota/Nobuto/Sakura。",
+    "53条工作译名、40条上游关联、77项图像仍待独立依据；资料下载不等于已核验。"
+  ]
+}

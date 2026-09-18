@@ -1,11 +1,11 @@
-# v0.7.0 未解决资料清单
+# v0.8.0 未解决资料清单
 
 日期：2026-09-18。这里逐项记录当前缺口；不是声称互联网不存在这些资料。固定 Atlas 目录已收齐，但仍有未获支持的主张。
 
 ## 已完成范围
 
-- 172 个实体、323 条关系（283 已核验／40 待核验）、118 个已核对中文名称。
-- 87 个实体接入官方图像：53 英雄头像、17 剧情配图、2 组织标志、15 漫画局部。85 个实体仍用明确标记的名称占位。
+- 172 个实体、326 条关系（286 已核验／40 待核验）、119 个已核对中文名称。
+- 95 个实体接入官方图像：53 英雄头像、19 剧情配图、2 组织标志、21 原作局部。77 个实体仍用明确标记的名称占位。
 - 读取官方英雄公开页面资料、12篇官方故事及选定漫画页面。媒体目录中另有60个旧PDF链接返回403，未能读取；下载成功但没有完成审阅的作品也不会被当作证据。
 
 ## 需要消歧的条目
@@ -22,7 +22,6 @@
 
 | 实体ID | 英文名称 | 当前工作译名 |
 | --- | --- | --- |
-| talon-empire | Talon Empire | 黑爪帝国 |
 | the-sombra-collective | The Sombra Collective | 黑影集体 |
 | the-chernobog-conspiracy | The Chernobog Conspiracy | 切尔诺伯格密谋组织 |
 | crusader-initiative | Crusader Initiative | 十字军计划 |
@@ -130,16 +129,12 @@
 | --- | --- | --- |
 | search-rescue | 搜救部门 | 组织／上游组织类条目 |
 | shimada | 岛田家族 | 组织／上游组织类条目 |
-| talon-empire | 黑爪帝国 | 组织／上游组织类条目 |
 | ecopoints | 生态监测站 | 组织／上游组织类条目 |
 | ijc | 国际司法委员会 | 组织／上游组织类条目 |
 | the-sombra-collective | 黑影集体 | 组织／上游组织类条目 |
 | the-chernobog-conspiracy | 切尔诺伯格密谋组织 | 组织／上游组织类条目 |
 | omnica-corporation | 奥尼卡集团 | 组织／上游组织类条目 |
-| helix-securities | 海力士国际安保 | 组织／上游组织类条目 |
-| caribbean-coalition | 加勒比联盟 | 组织／上游组织类条目 |
 | crusader-initiative | 十字军计划 | 组织／上游组织类条目 |
-| inti-warriors | 印蒂勇士 | 组织／上游组织类条目 |
 | ironclad-guild | 铁甲公会 | 组织／上游组织类条目 |
 | the-martins-collective | 马丁斯集体 | 组织／上游组织类条目 |
 | the-phreaks | 怪咖盟 | 组织／上游组织类条目 |
@@ -164,7 +159,6 @@
 | kendra | 肯德拉·班克斯 | 人物 |
 | lanet | 拉内特 | 人物 |
 | meri | 梅里 | 人物 |
-| nameless | 无名者 | 人物 |
 | nobuto | 信人 | 人物 |
 | revel | 雷维尔 | 人物 |
 | ryota | 良太 | 人物 |
@@ -173,7 +167,6 @@
 | sven | 斯文 | 人物 |
 | the-triplets | 三胞胎 | 人物 |
 | touch-up | 点睛师 | 人物 |
-| zera | 泽拉 | 人物 |
 | la-coterie | 密友会 | 组织／上游组织类条目 |
 | dae-hyun | 大贤 | 人物 |
 | ngumi | 阿达布·古米 | 人物 |
@@ -184,7 +177,6 @@
 | naughton | 诺顿 | 人物 |
 | osai | 奥塞 | 人物 |
 | portero | 波特罗 | 人物 |
-| vincent | 文森特 | 人物 |
 | frankie | 弗朗姬 | 人物 |
 | bhatt | 费斯瓦卡玛·巴特 | 人物 |
 | sojiro | 岛田宗次郎 | 人物 |
@@ -211,12 +203,11 @@
 | chikasa | 千笠 | 人物 |
 | anubis-directives | 阿努比斯指令 | 组织／上游组织类条目 |
 | deepsea-raiders | 深海悍徒 | 组织／上游组织类条目 |
-| colosseo-gladiatori | 斗兽场角斗士 | 组织／上游组织类条目 |
 | colloseo-gladiatori | 斗兽场角斗士〔异拼条目〕 | 组织／上游组织类条目 |
 
 ## 继续核验方法
 
-- 国际服官方作品页提供可读PDF，链接及下载记录见research/2026-09-18-official-comics-excerpts.json。vengeance-comes与Deadlock首章下载后未逐页审阅，不能引用为已读证据。
+- 国际服官方作品页提供可读PDF，链接及下载记录见research/2026-09-18-official-comics-excerpts.json。Vengeance Comes现已阅读第3–12页并引用；Deadlock首章下载后未逐页审阅，仍不能引用为已读证据。
 - 可从身份已确认的官方PDF提取小幅局部；保存页码、区域、源PDF和结果SHA-256。完整PDF不发布。复现命令见DATA_POLICY.md。
 - Palak与生命之梭的科研搭档及共同未来对话已有英文依据，但Palak中文名称未批准，关系暂未升级；不要绕过术语闸门。
 - Echo短篇里的雅典娜/奥罗拉技术比较不等于人际关系。
@@ -227,4 +218,11 @@
 
 - Sombra Collective：官方《Searching》第5–6页明确揭示这是对黑影个人身份的误认。保留上游目录类型及名字，但详情页展示证据说明，不当作已证实组织。
 - Osai / Osei：同一新闻问答中英对照，国服用字为奥塞，官方英文为Osei；上游Osai和旧工作译名保留为别名。
-- 新审计记录见research/2026-09-18-comics-identity-audit.json。不能把仅有对白的弗朗姬、仅有剪影的明队长，或未点名的妖怪团成员配成其他角色。
+- 新审计记录见research/2026-09-18-comics-identity-audit.json。不能把仅有对白的弗朗姬或未点名的妖怪团成员配成其他角色。明队长已在v0.7通过新血5另行核对并补图。
+
+## v0.8 核对说明
+
+- Talon Empire的中文用词已核对；独立组织身份仍不作断言。
+- 三位NPC的英文身份与画面确认不等于中文工作译名获批。
+- 官网故事章节的配图须实际看过并匹配主体；游戏截图未被当作组织标志。
+- 当前审计见research/2026-09-18-original-art-audit.json。
