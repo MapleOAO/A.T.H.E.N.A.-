@@ -77,3 +77,7 @@ Atlas commit 7df0623bf538ef5dedd49e620fc7a6356f5318d2；blob c52b9ff73955ca9bf4d
 ## v0.10.0 官方扩充
 
 新增尾形虎珀（kohaku-ogata）、芹泽椿（tsubaki-serizawa）、伊集院矢右卫门（yaemon-ijuuin）、诚罗·霍瓦特（seira-horvath）。中英官方姓名已核对，新增4条隶属与4条胁迫关系。原74缺图未减少，加上新角色共78缺图；53待审译名、39待审关系保持。不得用死怨往事里的无名长老充当新角色头像。详情见research/2026-09-18-official-expansion.json。
+
+## v0.10.0 发布验收（2026-09-18）
+
+源码提交05954befe83e9d96266446b8c9713f3bf90ccfaf；发布提交cf6ae92d6292c60c12b7bdb66a4e1ddb61847ad7。GitHub Pages运行35355127177成功。线上实际显示176实体、321已核验/39待核验关系、123/176译名、98/176图像。点击尾形虎珀入口后，详情展示双语姓名、隶属及胁迫关系、官方原作扩充来源；浏览器未记录本站错误。47项测试、validate、build通过。图像缺口78，尚未全部补齐。
