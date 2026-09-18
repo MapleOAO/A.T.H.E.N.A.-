@@ -1056,5 +1056,70 @@
     "locator": "PDF第8–10页；其余正文未在本轮逐页审阅",
     "sha256": "dea0cb478cc242a5d2d2d6cb33c7dfd84f8983ba7e99dc0c9cc6f3e4c6b93eb7",
     "rights": "版权归Blizzard Entertainment及相关作者。仅保存独立事实摘要及必要人物/组织画面局部，不再分发完整作品。"
+  },
+  {
+    "id": "en-lore-searching",
+    "title": "官方漫画 · searching",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd13218194c4736a5/5d02e4d5486d1c3d0af73280/comic-overwatch-searching_en-us.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-selected-page-render",
+    "accessedAt": "2026-09-18",
+    "locator": "PDF第3–6页；角色介绍、受托追查及Sombra Collective误认澄清",
+    "rights": "仅引用角色辨识所需少量局部及独立事实摘要；原作版权归暴雪及署名作者。",
+    "sha256": "03a4b088d038b18ce7114e51820a5deeccb30d47c14b13dd6af864a1275b213b"
+  },
+  {
+    "id": "en-lore-masquerade",
+    "title": "官方漫画 · masquerade",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt193f89e1010ef25b/5d02e207a812cef40914a4dc/comic-overwatch-masquerade_en-us.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-selected-page-render",
+    "accessedAt": "2026-09-18",
+    "locator": "PDF第4–12页；卡特娅事件回顾、摩纳哥会谈及威尼斯行动",
+    "rights": "仅引用角色辨识所需少量局部及独立事实摘要；原作版权归暴雪及署名作者。",
+    "sha256": "1456f93647e61507c878eeb850bdc61b373efb90202e6a2d011157be8c9ab6f5"
+  },
+  {
+    "id": "en-lore-tracer-london-calling-1",
+    "title": "官方漫画 · tracer-london-calling-1",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt92403a23118788bd/5f5fc3d0b24c984f27fbd231/OVRWTR_i1_DHDP_ENG-L-min.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-selected-page-render",
+    "accessedAt": "2026-09-18",
+    "locator": "PDF第5–21页；猎空与埃米莉生活、与伊基相识及地下城访问",
+    "rights": "仅引用角色辨识所需少量局部及独立事实摘要；原作版权归暴雪及署名作者。",
+    "sha256": "6a75acc3038c68f62a69307b050b5bd0c8902c3b37f26afbb60202d404a6779f"
+  },
+  {
+    "id": "cn-story-atlas-news-report",
+    "title": "国服官方故事 · 阿特拉斯新闻报道",
+    "url": "https://ld5.res.netease.com/video/2026/0330/static/short-stories/OW_Micro-Sojourn_SinglePage_CN_updated_3575feb9.pdf",
+    "kind": "official",
+    "language": "zh-CN",
+    "read": true,
+    "accessMethod": "public-pdf-page-render",
+    "accessedAt": "2026-09-18",
+    "locator": "完整阅读PDF第1–6页；索杰恩汇报、奥塞秘书长问答与归零者撤退",
+    "rights": "仅保留独立事实摘要及定位，不转载全文。",
+    "sha256": "a7d67297dae7b042875486330e21fe2cc8773d4b29778d14426a80a56b702032"
+  },
+  {
+    "id": "en-lore-atlas-news-report",
+    "title": "官方短篇 · Atlas News Report",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt24704c33b162846e/68fa55d1b5da2d436d224db7/OW_Micro-Sojourn_SinglePage_EN.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-text",
+    "accessedAt": "2026-09-18",
+    "locator": "完整阅读PDF第1–7页；Secretary-General Osei对应国服奥塞秘书长，双语分页不同",
+    "rights": "仅保留独立事实摘要及定位，不转载全文。",
+    "sha256": "b26414efd1be02d734a4d14a2311e25954668074d677d63b6ae6409ccc943ad6"
   }
 ]

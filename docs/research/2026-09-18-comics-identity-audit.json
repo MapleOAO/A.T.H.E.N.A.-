@@ -1,0 +1,188 @@
+{
+  "date": "2026-09-18",
+  "reviewed": {
+    "searching": "PDF第3–6页；角色介绍、受托追查及Sombra Collective误认澄清",
+    "masquerade": "PDF第4–12页；卡特娅事件回顾、摩纳哥会谈及威尼斯行动",
+    "tracer-london-calling-1": "PDF第5–21页；猎空与埃米莉生活、与伊基相识及地下城访问"
+  },
+  "news": {
+    "cn": "完整PDF第1–6页图像阅读",
+    "en": "完整PDF第1–7页文字阅读"
+  },
+  "excerpts": [
+    {
+      "entityId": "lumerico-incorporated",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/lumerico-incorporated-5fea6d6014eb.jpg",
+        "sourceId": "en-lore-searching",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd13218194c4736a5/5d02e4d5486d1c3d0af73280/comic-overwatch-searching_en-us.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第6页；页面局部提取，原文语言en-US",
+        "captionZh": "光明科创办公室屏幕上的公司标志局部；同一屏幕写有Lumérico名称。这是漫画内标志画面，不是独立发布的标志文件。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量漫画局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "5fea6d6014eb9f9cc4ef56494c9901899ae3a3891e0583f033cbb78eeb060048",
+          "sourceSha256": "03a4b088d038b18ce7114e51820a5deeccb30d47c14b13dd6af864a1275b213b",
+          "page": 6,
+          "scaleTo": 1400,
+          "region": [
+            160,
+            844,
+            62,
+            39
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "iggy",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/iggy-5cd17da4c94a.jpg",
+        "sourceId": "en-lore-tracer-london-calling-1",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt92403a23118788bd/5f5fc3d0b24c984f27fbd231/OVRWTR_i1_DHDP_ENG-L-min.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第18页；身份由第12页自我介绍及后续连续画面核对",
+        "captionZh": "伊基；第12页向猎空自报姓名Iggy，此处为第18页二人道别时的画面局部。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量漫画局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "5cd17da4c94a132e01783c6a4648fb9513632452aaf93492ecd0a89fe13fccc4",
+          "sourceSha256": "6a75acc3038c68f62a69307b050b5bd0c8902c3b37f26afbb60202d404a6779f",
+          "page": 18,
+          "scaleTo": 1400,
+          "region": [
+            485,
+            318,
+            195,
+            255
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "katya",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/katya-d88902dfd234.jpg",
+        "sourceId": "en-lore-searching",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd13218194c4736a5/5d02e4d5486d1c3d0af73280/comic-overwatch-searching_en-us.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第3页；页面局部提取，原文语言en-US",
+        "captionZh": "卡特娅侧面；同页自报姓名Katya，并由查莉娅称作Chairman Volskaya。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量漫画局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "d88902dfd23441ffd3e98fc17c75a7cd92ff653a7725f215d643585ddd35ea15",
+          "sourceSha256": "03a4b088d038b18ce7114e51820a5deeccb30d47c14b13dd6af864a1275b213b",
+          "page": 3,
+          "scaleTo": 1400,
+          "region": [
+            120,
+            1140,
+            155,
+            190
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "lynx-17",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/lynx-17-eff4ba8d3d9e.jpg",
+        "sourceId": "en-lore-searching",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd13218194c4736a5/5d02e4d5486d1c3d0af73280/comic-overwatch-searching_en-us.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第5页；页面局部提取，原文语言en-US",
+        "captionZh": "林克斯·赛文汀；同页自我介绍为Lynx Seventeen。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量漫画局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "eff4ba8d3d9e9bb32db3508946ebe9512fcf202a354a25470a6af21b0eae1b6a",
+          "sourceSha256": "03a4b088d038b18ce7114e51820a5deeccb30d47c14b13dd6af864a1275b213b",
+          "page": 5,
+          "scaleTo": 1400,
+          "region": [
+            154,
+            36,
+            125,
+            180
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "maximillien",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/maximillien-7e6f8a0e7a9d.jpg",
+        "sourceId": "en-lore-masquerade",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt193f89e1010ef25b/5d02e207a812cef40914a4dc/comic-overwatch-masquerade_en-us.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第6页；页面局部提取，原文语言en-US",
+        "captionZh": "马克西米里安；第5页铁拳当面称其为Maximilien，第6页为同一会谈人物。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量漫画局部，未重绘，非独立官方头像或标志文件。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "7e6f8a0e7a9d0fc67181bcf81c102e05fbb1ddf846c020b07ab62743587879bd",
+          "sourceSha256": "1456f93647e61507c878eeb850bdc61b373efb90202e6a2d011157be8c9ab6f5",
+          "page": 6,
+          "scaleTo": 1400,
+          "region": [
+            98,
+            1047,
+            197,
+            220
+          ]
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "added": "lore6-sojourn-leader-overwatch-recall"
+    },
+    {
+      "added": "lore6-sojourn-contacted-osai-recall"
+    },
+    {
+      "enriched": "cn4-efi-member-overwatch-reign"
+    },
+    {
+      "enriched": "cn4-zarya-colleague-lynx-17-unspecified"
+    },
+    {
+      "added": "lore6-katya-colleague-zarya-unspecified"
+    },
+    {
+      "added": "lore6-maximillien-colleague-doomfist-unspecified"
+    },
+    {
+      "enriched": "cn4-widowmaker-killed-mondatta-unspecified"
+    },
+    {
+      "enriched": "cn4-tracer-colleague-iggy-unspecified"
+    }
+  ],
+  "identityCorrection": {
+    "summaryZh": "《Searching》中，林克斯·赛文汀最初把黑影视作一个黑客集体；查莉娅随后明确纠正：黑影是一名女性。这里保留Atlas的组织类原始条目供溯源，不将这个误认称谓视为已证实存在的独立组织。中文工作译名仍待核对。",
+    "sourceId": "en-lore-searching",
+    "locator": "PDF第5–6页；先提到Sombra Collective，随后明确否定集体身份",
+    "reviewedAt": "2026-09-18"
+  },
+  "limitations": [
+    "Legacy仅阅读第3页，未用作主张证据；Dragon Slayer已下载但未读。",
+    "直面心魔第3–10页未能凭姓名定位其余妖怪团成员，未擅自配图。",
+    "明队长在已读蜕变之痛第6页仅有剪影；不将D.Mon误作其头像。",
+    "弗朗姬在十字路口第4–5页仅有通信对白，不能从对白给她分配画中其他角色的脸。",
+    "努巴尼候选局部被对白遮挡，未收录为城市配图。"
+  ]
+}

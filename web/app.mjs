@@ -159,6 +159,10 @@ function renderDetail() {
   pane.append(el('span','ENTITY / '+(entity.kind==='person'?'人物档案':'组织档案'),'eyebrow'),el('h2',labelFor(kb,entity.id)),el('p',entity.name,'detail-en'),badge(term.status==='approved'?'国服译名已核对':'暂译 · 待确认',term.status==='approved'?'verified':'pending'));
   const intro = {ana:'守望先锋创始成员。她与组织的历史关系、亲属关系和召回时期的行动，分条记录。',genji:'从岛田家族到暗影守望，再到禅雅塔门下。不同人生阶段，不合并为一个“当前阵营”。',overwatch:'连接人物与组织的历史节点。加入、领导和部门隶属，各有不同含义。'};
   pane.append(el('p',intro[entity.id] || '选择下方关系，查看具体含义、故事时期与出处。没有连线仅表示本库尚未录入关系，不代表该实体没有故事关联。','detail-lead'));
+  if(entity.researchNote) {
+    const n=entity.researchNote, source=kb.sources.find(s=>s.id===n.sourceId);
+    pane.append(el('h3','资料核对说明'),el('p',n.summaryZh,'small-note'),link(source.title,source.url),el('p',n.locator,'small-note'));
+  }
   if (!current.entities.some(e=>e.id===entity.id)) pane.append(el('p','该实体不在当前筛选结果中。','small-note'));
   pane.append(button(state.focus?'查看完整网络':'聚焦一跳关系',()=>{state.focus=!state.focus;$('#focus').checked=state.focus;render();},'focus-button'));
   pane.append(el('div',null,'detail-separator'),el('h3',`当前筛选中的关系 · ${relations.length}`));

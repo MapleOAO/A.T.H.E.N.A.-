@@ -1964,14 +1964,20 @@
     "id": "term-osai",
     "entityId": "osai",
     "en": "Osai",
-    "zh": "奥赛",
+    "zh": "奥塞",
     "locale": "zh-CN",
-    "status": "pending",
-    "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "status": "approved",
+    "aliases": [
+      "Osei",
+      "奥赛"
+    ],
+    "sourceIds": [
+      "cn-story-atlas-news-report",
+      "en-lore-atlas-news-report"
+    ],
+    "locator": "国服PDF第1–3、5–6页；英文PDF第1–4页，Secretary-General Osei",
+    "reviewedAt": "2026-09-18",
+    "note": "国服原作用字为“奥塞”。Atlas原名Osai保留；官方英文报道写作Osei，按同一秘书长及同一问答的中英对照核对，保留异拼以供检索。"
   },
   {
     "id": "term-portero",

@@ -20,6 +20,16 @@ test('unknown relation status and period fail', () => { const d=clone();d.relati
 test('translation provenance requires actual term IDs', () => { const d=clone();d.relations[0].translation.termIds=['term-genji'];assert.ok(validateKnowledge(d).some(x=>x.includes('term IDs mismatch'))); });
 test('candidate provenance cannot be attached to unrelated facts', () => { const d=clone();d.relations[0].candidateIds=['atlas-ana-2'];assert.ok(validateKnowledge(d).some(x=>x.includes('endpoint mismatch'))); });
 test('unsafe source URLs fail', () => { const d=clone();d.sources[0].url='javascript:alert(1)';assert.ok(validateKnowledge(d).some(x=>x.includes('unsafe URL'))); });
+test('identity corrections require read official evidence and a precise locator', () => {
+  for (const field of ['sourceId','locator','reviewedAt']) {
+    const d=clone(), entity=d.entities.find(e=>e.id==='the-sombra-collective');
+    entity.researchNote[field]=field==='sourceId'?'atlas-codex':'';
+    assert.ok(validateKnowledge(d).some(x=>x.includes('invalid research note evidence')));
+  }
+  const d=clone(), note=d.entities.find(e=>e.id==='the-sombra-collective').researchNote;
+  d.sources.find(s=>s.id===note.sourceId).read=false;
+  assert.ok(validateKnowledge(d).some(x=>x.includes('invalid research note evidence')));
+});
 test('normalization handles fullwidth punctuation and aliases', () => { assert.equal(normalize('Ｓｏｌｄｉｅｒ：７６'),normalize('Soldier 76')); const result=filterGraph(kb,{query:'士兵76'});assert.ok(result.entities.some(e=>e.id==='soldier-76')); });
 test('Chinese and English search return the same incident graph', () => { assert.deepEqual(filterGraph(kb,{query:'安娜'}),filterGraph(kb,{query:'ANA'})); });
 test('verified filter never returns uncertain edges', () => { const r=filterGraph(kb,{status:'verified'});assert.equal(r.relations.length,kb.relations.filter(r=>r.status==='verified').length);assert.ok(r.relations.every(x=>x.status==='verified')); });
