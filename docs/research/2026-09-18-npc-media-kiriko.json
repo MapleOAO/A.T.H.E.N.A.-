@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-18-npc-media-kiriko",
+  "status": "researched-not-integrated",
+  "reviewedAt": "2026-09-18",
+  "reviewer": "assistant-source-review",
+  "baseCommit": "cee6cec9dc1b293062cc34717ebf6220d726fbf4",
+  "integrationBlocker": "Execution environment disconnected before edits, validation, tests and build. Canonical data and live site remain v0.3.0.",
+  "sources": [
+    {
+      "id": "cn-orisa",
+      "url": "https://ow.blizzard.cn/heroes/orisa/",
+      "locator": "故事 → 伊菲·奥拉迪尔",
+      "method": "browser-visible-dom-and-image",
+      "findingZh": "章节介绍伊菲购买OR15零件并制造奥丽莎；配图可见戴绿帽、持工具的伊菲在机器人旁工作。"
+    },
+    {
+      "id": "cn-ashe",
+      "url": "https://ow.blizzard.cn/heroes/ashe/",
+      "locator": "故事 → 早年生活",
+      "method": "browser-visible-dom-and-image",
+      "findingZh": "正文说明鲍勃照料艾什；对应配图可见鲍勃和艾什。"
+    },
+    {
+      "id": "cn-echo",
+      "url": "https://ow.blizzard.cn/heroes/echo/",
+      "locator": "故事 → 米娜·廖",
+      "method": "browser-visible-dom-and-image",
+      "findingZh": "章节介绍回声的创造者；配图右侧为米娜·廖，左侧为回声。"
+    },
+    {
+      "id": "cn-kiriko",
+      "url": "https://ow.blizzard.cn/heroes/kiriko/",
+      "locator": "故事 → 岛田家族 / 铁坂神社 / 妖怪团",
+      "method": "browser-visible-dom",
+      "findingZh": "实际展开并读取上述章节，新增独立摘要见关系建议。"
+    }
+  ],
+  "media": [
+    {
+      "entityId": "efi",
+      "proposedKind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343793087_7ad8de4260.jpg",
+      "sourceId": "cn-orisa",
+      "locator": "故事 → 伊菲·奥拉迪尔 → .pic-img",
+      "captionZh": "伊菲为奥丽莎进行研发的官方剧情配图。",
+      "subjectLocation": "center",
+      "verifiedBy": "visible chapter plus screenshot"
+    },
+    {
+      "entityId": "b-o-b",
+      "proposedKind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343690138_dd09e76a78.jpg",
+      "sourceId": "cn-ashe",
+      "locator": "故事 → 早年生活 → .pic-img",
+      "captionZh": "鲍勃与艾什的官方剧情配图；鲍勃位于画面中部，艾什在右侧。",
+      "subjectLocation": "center",
+      "verifiedBy": "visible chapter plus screenshot"
+    },
+    {
+      "entityId": "liao",
+      "proposedKind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344419005_d36a821ba9.jpg",
+      "sourceId": "cn-echo",
+      "locator": "故事 → 米娜·廖 → .pic-img",
+      "captionZh": "米娜·廖与回声相对的官方剧情配图；廖博士位于右侧。",
+      "subjectLocation": "right",
+      "verifiedBy": "visible chapter plus screenshot"
+    }
+  ],
+  "mediaRights": "图片与角色归相应权利人。仅记录实际观察到的官方CDN引用；未复制Atlas媒体，未取得额外再分发许可。剧情配图不等同于独立官方头像，缩略图应保留类型说明并提供完整画面。",
+  "termProposals": [
+    {
+      "entityId": "toshiro",
+      "previousZh": "俊郎",
+      "zh": "敏郎",
+      "sourceId": "cn-kiriko",
+      "locator": "铁坂神社，第3段",
+      "noteZh": "以雾子父亲身份对齐；官方中文正文实际用字为敏郎，原暂译应移除，不保留为官方别名。"
+    },
+    {
+      "entityId": "sojiro",
+      "previousZh": "宗次郎",
+      "zh": "岛田宗次郎",
+      "aliases": [
+        "宗次郎"
+      ],
+      "sourceId": "cn-kiriko",
+      "locator": "铁坂神社，第1段"
+    },
+    {
+      "entityId": "yokai-gang",
+      "previousZh": "妖怪小队",
+      "zh": "妖怪团",
+      "aliases": [
+        "花村妖怪"
+      ],
+      "sourceId": "cn-kiriko",
+      "locator": "妖怪团，章节标题与第1段"
+    }
+  ],
+  "relationProposals": [
+    {
+      "id": "kiriko-yokai-member",
+      "from": "kiriko",
+      "to": "yokai-gang",
+      "predicate": "member",
+      "period": "unspecified",
+      "sourceId": "cn-kiriko",
+      "locator": "妖怪团，第1段",
+      "summaryZh": "雾子加入了自称花村妖怪的青年团体。",
+      "status": "proposal"
+    },
+    {
+      "id": "kiriko-yokai-leader",
+      "from": "kiriko",
+      "to": "yokai-gang",
+      "predicate": "leader",
+      "period": "unspecified",
+      "sourceId": "cn-kiriko",
+      "locator": "妖怪团，第1段",
+      "summaryZh": "雾子在妖怪团中发挥领导作用，组织对桥元产业的袭击。",
+      "status": "proposal"
+    },
+    {
+      "id": "yokai-fought-hashimoto",
+      "from": "yokai-gang",
+      "to": "hashimoto-clan",
+      "predicate": "fought",
+      "period": "unspecified",
+      "sourceId": "cn-kiriko",
+      "locator": "妖怪团，第1段",
+      "summaryZh": "妖怪团通过伏击、扰乱补给和袭击产业对抗桥元家族。",
+      "status": "proposal"
+    },
+    {
+      "id": "asa-shimada",
+      "from": "asa",
+      "to": "shimada-clan",
+      "predicate": "member",
+      "period": "family",
+      "sourceId": "cn-kiriko",
+      "locator": "岛田家族，第1段",
+      "summaryZh": "朝曾担任岛田家的剑术师傅。",
+      "status": "proposal"
+    },
+    {
+      "id": "toshiro-father-kiriko",
+      "from": "toshiro",
+      "to": "kiriko",
+      "predicate": "father",
+      "period": "family",
+      "sourceId": "cn-kiriko",
+      "locator": "故事概述 / 铁坂神社，第3段",
+      "summaryZh": "敏郎是雾子的父亲。",
+      "status": "proposal"
+    },
+    {
+      "id": "toshiro-shimada",
+      "from": "toshiro",
+      "to": "shimada-clan",
+      "predicate": "member",
+      "period": "family",
+      "sourceId": "cn-kiriko",
+      "locator": "岛田家族，第1段；铁坂神社，第3段",
+      "summaryZh": "雾子的父亲敏郎曾作为锻刀匠为岛田家效力。",
+      "status": "proposal"
+    },
+    {
+      "id": "sojiro-led-shimada",
+      "from": "sojiro",
+      "to": "shimada-clan",
+      "predicate": "leader",
+      "period": "family",
+      "sourceId": "cn-kiriko",
+      "locator": "铁坂神社，第1段",
+      "summaryZh": "岛田宗次郎曾是岛田家的大名。",
+      "status": "proposal"
+    },
+    {
+      "id": "hashimoto-killed-sojiro",
+      "from": "hashimoto-clan",
+      "to": "sojiro",
+      "predicate": "killed",
+      "period": "family",
+      "sourceId": "cn-kiriko",
+      "locator": "铁坂神社，第1段",
+      "summaryZh": "官方本次读取的传记明确记述，岛田宗次郎遭桥元家族刺杀。",
+      "status": "proposal"
+    },
+    {
+      "id": "hashimoto-abducted-toshiro",
+      "from": "hashimoto-clan",
+      "to": "toshiro",
+      "predicate": "abducted",
+      "period": "family",
+      "sourceId": "cn-kiriko",
+      "locator": "铁坂神社，第2段",
+      "summaryZh": "桥元家族绑架了雾子的父亲，强迫他打造武器。",
+      "status": "proposal"
+    },
+    {
+      "id": "toshiro-contacted-asa",
+      "from": "toshiro",
+      "to": "asa",
+      "predicate": "contacted",
+      "period": "unspecified",
+      "sourceId": "cn-kiriko",
+      "locator": "铁坂神社，第3段",
+      "summaryZh": "敏郎从东京通过书信向朝传递情报。",
+      "status": "proposal"
+    },
+    {
+      "id": "toshiro-contacted-kiriko",
+      "from": "toshiro",
+      "to": "kiriko",
+      "predicate": "contacted",
+      "period": "unspecified",
+      "sourceId": "cn-kiriko",
+      "locator": "铁坂神社，第3段",
+      "summaryZh": "敏郎从东京写信安慰女儿雾子。",
+      "status": "proposal"
+    },
+    {
+      "id": "asa-protected-kiriko",
+      "from": "asa",
+      "to": "kiriko",
+      "predicate": "protected",
+      "period": "family",
+      "sourceId": "cn-kiriko",
+      "locator": "铁坂神社，第2段",
+      "summaryZh": "朝为保护雾子，将她送到外婆身边，并让她使用家守这一娘家姓。",
+      "status": "proposal"
+    }
+  ],
+  "rejectedMedia": [
+    {
+      "url": "https://ld5.res.netease.com/images/20260812/1786517441432_8b65810cf2.png",
+      "sourceId": "cn-kiriko",
+      "reasonZh": "初次读取的配图显示源氏，不能因邻近朝的正文就认定是朝的头像。"
+    },
+    {
+      "url": "https://ld5.res.netease.com/images/20260206/1770345626210_96d961b9bb.jpg",
+      "sourceId": "cn-kiriko",
+      "reasonZh": "铁坂神社配图为幼年雾子、外婆与灵狐；不能用作朝、敏郎或宗次郎的头像。"
+    }
+  ],
+  "nextSteps": [
+    "Add official-scene visual schema with mandatory locator/caption and image source validation.",
+    "Render correct thumbnail positioning, full scene and type/source in detail; preserve image-failure fallback.",
+    "Approve terms only after checking this pack against canonical IDs; add killed/abducted predicate definitions with person/organization to person.",
+    "Check duplicate relations and Atlas candidate endpoint matches before merging; never drop Atlas attribution.",
+    "Update source locators and glossary version provenance, then validate/test/build.",
+    "Publish main and gh-pages by fast-forward only, and verify the actual website before claiming deployed.",
+    "Organization logos remain unresolved: do not substitute the game's product logo or fabricate emblems."
+  ]
+}
