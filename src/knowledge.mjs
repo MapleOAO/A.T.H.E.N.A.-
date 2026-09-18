@@ -1,6 +1,7 @@
 export const statuses = { verified: '已核验', pending: '待核验', disputed: '有争议' };
 export const periods = { all: '全部时期', early: '早期守望先锋', recall: '召回时期', reign: '黑爪之治', family: '亲属与成长', unspecified: '时期未明' };
 export const predicates = {
+  researched: { label: '研究对象', from: ['person'], to: ['person'] },
   appointed: { label: '任命', from: ['person'], to: ['person'] },
   dissolved: { label: '解散', from: ['organization'], to: ['organization'] },
   'stole-from': { label: '窃取其物资', from: ['person','organization'], to: ['person','organization'] },
@@ -112,9 +113,15 @@ export function validateKnowledge(kb) {
     fail(['person', 'organization'].includes(e.kind), `${e.id}: invalid entity kind`);
     fail(typeof e.name === 'string' && e.name.length > 0, `${e.id}: missing name`);
     if (e.visual) {
-      fail(['official-portrait','official-scene','official-logo','name-icon'].includes(e.visual.kind), `${e.id}: invalid visual kind`);
+      fail(['official-portrait','official-scene','official-logo','official-excerpt','name-icon'].includes(e.visual.kind), `${e.id}: invalid visual kind`);
       if(e.visual.kind?.startsWith('official-')) {
-        fail(safeUrl(e.visual.url) && ['ld5.res.netease.com','bnetcmsus-a.akamaihd.net'].includes(new URL(e.visual.url).hostname), `${e.id}: untrusted image URL`);
+        const excerpt = e.visual.kind === 'official-excerpt';
+        fail(excerpt ? /^\.\/assets\/portraits\/[a-z0-9-]+-[a-f0-9]{12}\.jpg$/.test(e.visual.url) : safeUrl(e.visual.url) && ['ld5.res.netease.com','bnetcmsus-a.akamaihd.net'].includes(new URL(e.visual.url).hostname), `${e.id}: untrusted image URL`);
+        if(excerpt) {
+          const x=e.visual.extraction;
+          fail(Boolean(e.visual.captionZh) && Boolean(e.visual.locator) && x?.method==='pdf-region-render' && /^[a-f0-9]{64}$/.test(x?.sourceSha256) && /^[a-f0-9]{64}$/.test(x?.sha256) && e.visual.url.endsWith(`-${x?.sha256?.slice(0,12)}.jpg`) && Number.isInteger(x?.page) && x.page>0 && Number.isInteger(x?.scaleTo) && x.scaleTo>0 && Array.isArray(x?.region) && x.region.length===4 && x.region.every(Number.isInteger) && x.region[0]>=0 && x.region[1]>=0 && x.region[2]>0 && x.region[3]>0, `${e.id}: invalid excerpt provenance`);
+          fail(sources.get(e.visual.sourceId)?.sha256===x?.sourceSha256 && x?.region?.[0]+x?.region?.[2]<=x?.scaleTo && x?.region?.[1]+x?.region?.[3]<=x?.scaleTo, `${e.id}: excerpt source or bounds mismatch`);
+        }
         fail(sources.get(e.visual.sourceId)?.kind==='official' && sources.get(e.visual.sourceId)?.read===true && safeUrl(e.visual.sourcePage) && date(e.visual.checkedAt) && Boolean(e.visual.rights), `${e.id}: missing image provenance`);
         if(e.visual.kind==='official-scene') fail(Boolean(e.visual.locator) && Boolean(e.visual.captionZh) && ['left','center','right'].includes(e.visual.position), `${e.id}: scene needs identity and framing evidence`);
         if(e.visual.kind==='official-logo') fail(e.kind==='organization' && Boolean(e.visual.locator), `${e.id}: logo needs organization evidence`);

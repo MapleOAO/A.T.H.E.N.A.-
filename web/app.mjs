@@ -5,7 +5,9 @@ function el(tag, text, className) { const n = document.createElement(tag); if (t
 function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
 function link(text, url) { const n = el('a', text); if (safeUrl(url)) { n.href = url; n.target = '_blank'; n.rel = 'noopener noreferrer'; } return n; }
 const hasImage = entity => entity.visual?.kind?.startsWith('official-');
-const imageLabel = entity => ({'official-portrait':'官方头像','official-scene':'官方剧情配图','official-logo':'官方组织标志'}[entity.visual?.kind] || '名称占位图 · 待补图');
+const embeddedImages = JSON.parse(document.querySelector('#embedded-images')?.textContent || '{}');
+const imageUrl = entity => embeddedImages[entity.visual?.url] || entity.visual?.url;
+const imageLabel = entity => ({'official-portrait':'官方头像','official-scene':'官方剧情配图','official-logo':'官方组织标志','official-excerpt':'官方漫画局部'}[entity.visual?.kind] || '名称占位图 · 待补图');
 function avatar(entity, className = '') {
   const name = labelFor(kb, entity.id), node = el('span', name.slice(0, entity.kind==='organization'?2:1), 'avatar '+entity.kind+' '+className);
   node.setAttribute('role','img');
@@ -14,7 +16,7 @@ function avatar(entity, className = '') {
   if(hasImage(entity) && entity.visual.crop) {
     node.append(framedImage(entity, {class:'avatar-frame','aria-hidden':'true'}));
   } else if(hasImage(entity)) {
-    const img=el('img');img.src=entity.visual.url;img.alt='';img.loading='lazy';img.referrerPolicy='no-referrer';img.style.objectPosition=(entity.visual.position||'center')+' center';
+    const img=el('img');img.src=imageUrl(entity);img.alt='';img.loading='lazy';img.referrerPolicy='no-referrer';img.style.objectPosition=(entity.visual.position||'center')+' center';
     img.addEventListener('error',()=>{img.remove();node.title='图片暂时无法加载 · 显示名称图标';});
     node.append(img);
   }
@@ -24,7 +26,7 @@ function svg(tag, attrs = {}, text) { const n = document.createElementNS('http:/
 function framedImage(entity, attrs = {}) {
   const v=entity.visual;
   const frame=svg('svg',{viewBox:v.crop.join(' '),preserveAspectRatio:'xMidYMid meet',overflow:'hidden',...attrs});
-  const photo=svg('image',{href:v.url,width:v.sourceSize[0],height:v.sourceSize[1]});
+  const photo=svg('image',{href:imageUrl(entity),width:v.sourceSize[0],height:v.sourceSize[1]});
   photo.addEventListener('error',()=>frame.remove());frame.append(photo);return frame;
 }
 const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate: 'all', selected: 'ana', relation: null, focus: true, zoom: 1, x: 0, y: 0, view: 'graph' };
@@ -125,7 +127,7 @@ function renderGraph() {
     if(hasImage(entity)) {
       const clip=svg('clipPath',{id:'portrait-'+entity.id,clipPathUnits:'userSpaceOnUse'});clip.append(svg('circle',{r:27}));
       const defs=svg('defs');defs.append(clip);
-      const photo=entity.visual.crop ? svg('g',{'clip-path':`url(#portrait-${entity.id})`}) : svg('image',{href:entity.visual.url,x:-27,y:-27,width:54,height:54,'clip-path':`url(#portrait-${entity.id})`,preserveAspectRatio:entity.visual.kind==='official-logo'?'xMidYMid meet':({left:'xMinYMid slice',center:'xMidYMid slice',right:'xMaxYMid slice'}[entity.visual.position]||'xMidYMin slice'),class:'node-portrait'});
+      const photo=entity.visual.crop ? svg('g',{'clip-path':`url(#portrait-${entity.id})`}) : svg('image',{href:imageUrl(entity),x:-27,y:-27,width:54,height:54,'clip-path':`url(#portrait-${entity.id})`,preserveAspectRatio:entity.visual.kind==='official-logo'?'xMidYMid meet':({left:'xMinYMid slice',center:'xMidYMid slice',right:'xMaxYMid slice'}[entity.visual.position]||'xMidYMin slice'),class:'node-portrait'});
       if(entity.visual.crop)photo.append(framedImage(entity,{x:-27,y:-27,width:54,height:54,class:'node-portrait'}));
       photo.addEventListener('error',()=>photo.remove());n.append(defs,photo);
     }
@@ -170,8 +172,8 @@ function renderDetail() {
   pane.append(el('h3','图像来源'));
   if(hasImage(entity)) {
     pane.append(link(imageLabel(entity)+' · 查看出处',entity.visual.sourcePage));
-    if(entity.visual.kind==='official-scene' || entity.visual.kind==='official-logo') {
-      const figure=el('figure',null,'scene-figure'),img=el('img');img.src=entity.visual.url;img.alt=entity.visual.captionZh;img.loading='lazy';img.referrerPolicy='no-referrer';
+    if(['official-scene','official-logo','official-excerpt'].includes(entity.visual.kind)) {
+      const figure=el('figure',null,'scene-figure'),img=el('img');img.src=imageUrl(entity);img.alt=entity.visual.captionZh;img.loading='lazy';img.referrerPolicy='no-referrer';
       img.addEventListener('error',()=>{img.remove();figure.prepend(el('p','配图暂时无法加载，可通过出处查看原图。','small-note'));});
       figure.append(img,el('figcaption',entity.visual.captionZh));pane.append(figure);
     }

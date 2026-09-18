@@ -71,8 +71,8 @@
       "Ana",
       "Reinhardt"
     ],
-    "status": "pending",
-    "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
+    "status": "corroborated",
+    "note": "显式关联保留，具体性质通过所引官方作品页码独立核验。"
   },
   {
     "id": "atlas-ana-5",
@@ -266,8 +266,8 @@
       "Liao",
       "Aurora"
     ],
-    "status": "pending",
-    "note": "Atlas 显式关联端点；尚无独立依据确认具体关系。"
+    "status": "corroborated",
+    "note": "显式关联保留，具体性质通过所引官方作品页码独立核验。"
   },
   {
     "id": "atlas-link-18",

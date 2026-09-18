@@ -49,3 +49,11 @@ Atlas 端点关联不是特定关系证据。以 `Ana ↔ Pharah` 为例，只�
 本轮使用官网页面实际请求的公开heroConfigs.json读取53位英雄传记；未把乱码或占位段落当作证据。媒体目录提供漫画及短篇PDF，以正文页码作定位。只把实际阅读并支持主张的资料列为read=true。国服旧图源60条PDF返回403，失败清单保存在research中的lore审计文件，不绕过限制。
 
 图像新增official-scene和official-logo，与独立头像分开。允许官方网易ld5.res.netease.com及暴雪bnetcmsus-a.akamaihd.net图源；每张配图都说明身份及位置。crop/sourceSize只控制原图在界面中的显示范围，不生成或修改原始图像。场景内的背影、盔甲纪念画面明确说明，不冒称面部肖像。
+
+## v0.5 官方PDF局部
+
+对于没有独立头像的角色，允许从已读取、已确认身份的官方PDF渲染少量辨识所需画面局部，类型为official-excerpt，页面标记“官方漫画局部”。保留原作链接、页码、区域、原PDF及结果SHA-256、作者版权说明；不重绘、不补画、不发布整页或完整漫画。建筑与AI终端标识分别说明，不能冒称组织logo或人物面貌。
+
+本地图像仅允许./assets/portraits/下内容哈希命名的JPEG，构建和校验时核对实际字节。preview.html内嵌这些局部图像；官网CDN配图仍保持外链。
+
+已审阅局部的复现：`node scripts/render-excerpt.mjs <entity-id> <official-source.pdf>`，需要Poppler。源PDF必须匹配记录的哈希，渲染结果不同则停止，需重新目视审核。

@@ -1,0 +1,345 @@
+{
+  "date": "2026-09-18",
+  "version": "0.5.0",
+  "reviewedSources": [
+    {
+      "id": "en-lore-retribution",
+      "scope": "PDF第3–10页正文与封面",
+      "pdfSha256": "bc730fdaaa295f660aac734bf0aae671a7b8424f8ad67b6fb4f3a130100b058c"
+    },
+    {
+      "id": "en-lore-a-new-empire",
+      "scope": "PDF第2–12页正文",
+      "pdfSha256": "cbd34ed66899425d63220863cffa5390a057b699d406be26f3093b95a7db5eda"
+    },
+    {
+      "id": "en-lore-a-better-world",
+      "scope": "PDF第3–10页正文",
+      "pdfSha256": "b2355702cafc014c94713c3917cea567c18589dcfc885e381d45737a7f029a02"
+    },
+    {
+      "id": "en-lore-reflections",
+      "scope": "PDF第8–12页；只核对本次引用画面",
+      "pdfSha256": "1f806972ec5b5076e9582c43f741c54b84298664d9acc0e5db5d9a5fda5fd3f8"
+    },
+    {
+      "id": "en-lore-ventures-adventures-the-deep-sea-deception",
+      "scope": "PDF第2–12页文字及第4页身份画面",
+      "pdfSha256": "939579350697ab9a737120c43ced2504a40321276c122c57fbf9254c89cd9573"
+    },
+    {
+      "id": "en-lore-echo",
+      "scope": "PDF第1–8页",
+      "pdfSha256": "94fedec976a38dd64733d12411f39bc488531b2f17447612a30277f186252132"
+    },
+    {
+      "id": "en-lore-lost-ghosts",
+      "scope": "PDF第8–10页；其余正文未在本轮逐页审阅",
+      "pdfSha256": "dea0cb478cc242a5d2d2d6cb33c7dfd84f8983ba7e99dc0c9cc6f3e4c6b93eb7"
+    }
+  ],
+  "downloads": [
+    {
+      "id": "retribution",
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/retribution/",
+      "pdfs": [
+        "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4887c701b3d2ad4a/5d03c5d2578308e409458356/overwatch-comic-retribution_en-us.pdf"
+      ],
+      "bytes": 8644768,
+      "sha256": "bc730fdaaa295f660aac734bf0aae671a7b8424f8ad67b6fb4f3a130100b058c",
+      "textSize": 1456
+    },
+    {
+      "id": "a-new-empire",
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/a-new-empire/",
+      "pdfs": [
+        "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt88558193e32a2781/68f2cfbc403b2522cfc2f88d/OW_Vendetta_EN.pdf"
+      ],
+      "bytes": 44347160,
+      "sha256": "cbd34ed66899425d63220863cffa5390a057b699d406be26f3093b95a7db5eda",
+      "textSize": 16333
+    },
+    {
+      "id": "ventures-adventures-the-deep-sea-deception",
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/ventures-adventures-the-deep-sea-deception/",
+      "pdfs": [
+        "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt574ce45285b28c88/6a0e5cddd39aa3279ccedd07/OW_Pride_EN_FULL.pdf"
+      ],
+      "bytes": 20657211,
+      "sha256": "939579350697ab9a737120c43ced2504a40321276c122c57fbf9254c89cd9573",
+      "textSize": 19496
+    },
+    {
+      "id": "vengeance-comes",
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/vengeance-comes/",
+      "pdfs": [
+        "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt230509ca48e4a621/697d4fa37a42448b0868c853/OW_Talon_EN_FNL_121825.pdf"
+      ],
+      "bytes": 47363062,
+      "sha256": "7d42592123f13620fd7aa4e4cbc9dd208ed5f0723ee57e69832aa917ec6fefbc",
+      "textSize": 1765
+    },
+    {
+      "id": "a-better-world",
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/a-better-world/",
+      "pdfs": [
+        "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd93d424d2d00043b/5d02d05ccf7aa6330ac672b6/comic-overwatch-a-better-world_en-us.pdf"
+      ],
+      "bytes": 9011011,
+      "sha256": "b2355702cafc014c94713c3917cea567c18589dcfc885e381d45737a7f029a02",
+      "textSize": 2517
+    },
+    {
+      "id": "reflections",
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/reflections/",
+      "pdfs": [
+        "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt26451d9115028b05/5d02e33f7b48be290a7f964d/comic-overwatch-reflections_en-us.pdf"
+      ],
+      "bytes": 14376133,
+      "sha256": "1f806972ec5b5076e9582c43f741c54b84298664d9acc0e5db5d9a5fda5fd3f8",
+      "textSize": 2344
+    },
+    {
+      "id": "lost-ghosts",
+      "page": "https://overwatch.blizzard.com/en-us/media/short-story/lost-ghosts/",
+      "pdfs": [
+        "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd48ce4e52c29ed8f/66c8d57225057a85203f8db0/OW_Heroes_Ana_EN_FINAL.pdf"
+      ],
+      "bytes": 60881585
+    },
+    {
+      "id": "deadlock-rebels-chapter-1",
+      "page": "https://overwatch.blizzard.com/en-us/media/short-story/deadlock-rebels-chapter-1/",
+      "pdfs": [
+        "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt1f939c5127a99742/60d240e5ad189d64efcc9ff0/AsheChpt1_EN_BS.pdf"
+      ],
+      "bytes": 2013839
+    },
+    {
+      "id": "echo",
+      "page": "https://overwatch.blizzard.com/en-us/media/short-story/echo/",
+      "pdfs": [
+        "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltb4614cf292f07c02/64ac6d0f3c5c6c5a40c21a1e/OW-LoreBites-Echo_enEN.pdf"
+      ],
+      "bytes": 1525710
+    }
+  ],
+  "localizedRouteNote": "国际站zh-cn作品路由仍返回同一英文PDF，未用它核对国服译名。",
+  "excerpts": [
+    {
+      "entityId": "antonio",
+      "document": "retribution",
+      "url": "./assets/portraits/antonio-c7d85f8875d8.jpg",
+      "sha256": "c7d85f8875d823815545c32f24d73f436bc0cdeb3b95c94b399e2efdb7c0301d",
+      "sourceSha256": "bc730fdaaa295f660aac734bf0aae671a7b8424f8ad67b6fb4f3a130100b058c",
+      "page": 4,
+      "scaleTo": 1400,
+      "region": [
+        157,
+        119,
+        290,
+        300
+      ],
+      "bytes": 33013
+    },
+    {
+      "entityId": "gerard",
+      "document": "retribution",
+      "url": "./assets/portraits/gerard-bec852543834.jpg",
+      "sha256": "bec852543834a34256d0ace34f93f437c2025990ebce94fc335aaaee489ee9b2",
+      "sourceSha256": "bc730fdaaa295f660aac734bf0aae671a7b8424f8ad67b6fb4f3a130100b058c",
+      "page": 3,
+      "scaleTo": 1400,
+      "region": [
+        448,
+        508,
+        124,
+        160
+      ],
+      "bytes": 8141
+    },
+    {
+      "entityId": "sanjay",
+      "document": "a-better-world",
+      "url": "./assets/portraits/sanjay-ac682b359155.jpg",
+      "sha256": "ac682b35915525aa86ffa7e454f7b64da21b1a5f7360abfedcb2360a7133bb0c",
+      "sourceSha256": "b2355702cafc014c94713c3917cea567c18589dcfc885e381d45737a7f029a02",
+      "page": 10,
+      "scaleTo": 1400,
+      "region": [
+        710,
+        786,
+        160,
+        194
+      ],
+      "bytes": 7593
+    },
+    {
+      "entityId": "palak",
+      "document": "ventures-adventures-the-deep-sea-deception",
+      "url": "./assets/portraits/palak-6b8fd19bf3cd.jpg",
+      "sha256": "6b8fd19bf3cdc69e7786033dfa4c75a348f0fea563837c4b6c94868c42d563c5",
+      "sourceSha256": "939579350697ab9a737120c43ced2504a40321276c122c57fbf9254c89cd9573",
+      "page": 4,
+      "scaleTo": 1400,
+      "region": [
+        572,
+        913,
+        154,
+        190
+      ],
+      "bytes": 11759
+    },
+    {
+      "entityId": "emily",
+      "document": "reflections",
+      "url": "./assets/portraits/emily-9db43cca7bd5.jpg",
+      "sha256": "9db43cca7bd50ab382a370a2b8f4d27ce40e21017ea1c1d84016d5f24fc7dd8b",
+      "sourceSha256": "1f806972ec5b5076e9582c43f741c54b84298664d9acc0e5db5d9a5fda5fd3f8",
+      "page": 8,
+      "scaleTo": 1400,
+      "region": [
+        160,
+        466,
+        171,
+        190
+      ],
+      "bytes": 17350
+    },
+    {
+      "entityId": "athena",
+      "document": "reflections",
+      "url": "./assets/portraits/athena-b624c1475638.jpg",
+      "sha256": "b624c147563863d4ff614b5e0410bb3561f71375270f9d6005a0693a98be5dc6",
+      "sourceSha256": "1f806972ec5b5076e9582c43f741c54b84298664d9acc0e5db5d9a5fda5fd3f8",
+      "page": 12,
+      "scaleTo": 1400,
+      "region": [
+        605,
+        126,
+        219,
+        149
+      ],
+      "bytes": 11492
+    },
+    {
+      "entityId": "vishkar-corporation",
+      "document": "a-better-world",
+      "url": "./assets/portraits/vishkar-corporation-ebb1ba8e13c4.jpg",
+      "sha256": "ebb1ba8e13c41f341d1b20e34baf0d8d90f43c9a8047b4e6f028f44fed7e7cd4",
+      "sourceSha256": "b2355702cafc014c94713c3917cea567c18589dcfc885e381d45737a7f029a02",
+      "page": 10,
+      "scaleTo": 1400,
+      "region": [
+        220,
+        45,
+        440,
+        285
+      ],
+      "bytes": 38940
+    }
+  ],
+  "relationChanges": [
+    {
+      "kind": "resolve",
+      "id": "ana-colleague-reinhardt-early"
+    },
+    {
+      "kind": "add",
+      "id": "ana-rescued-soldier-76-recall"
+    },
+    {
+      "kind": "resolve",
+      "id": "liao-researched-aurora-early"
+    },
+    {
+      "kind": "add",
+      "id": "reaper-appointed-cassidy-early"
+    },
+    {
+      "kind": "add",
+      "id": "cassidy-colleague-liao-early"
+    },
+    {
+      "kind": "add",
+      "id": "cassidy-mentor-echo-early"
+    },
+    {
+      "kind": "add",
+      "id": "gerard-colleague-reaper-early"
+    },
+    {
+      "kind": "add",
+      "id": "gerard-protected-reaper-early"
+    },
+    {
+      "kind": "add",
+      "id": "reaper-freed-gerard-early"
+    },
+    {
+      "kind": "corroborate",
+      "id": "cn4-antonio-leader-talon-early"
+    },
+    {
+      "kind": "corroborate",
+      "id": "cn4-antonio-father-vendetta-family"
+    },
+    {
+      "kind": "add",
+      "id": "talon-stole-from-antonio-early"
+    },
+    {
+      "kind": "add",
+      "id": "venture-colleague-lifeweaver-unspecified"
+    },
+    {
+      "kind": "add",
+      "id": "domina-attempted-capture-lifeweaver-unspecified"
+    },
+    {
+      "kind": "add",
+      "id": "talon-attempted-capture-lifeweaver-unspecified"
+    },
+    {
+      "kind": "add",
+      "id": "domina-fought-venture-unspecified"
+    },
+    {
+      "kind": "add",
+      "id": "domina-fought-lifeweaver-unspecified"
+    },
+    {
+      "kind": "corroborate",
+      "id": "cn4-venture-fought-talon-unspecified"
+    }
+  ],
+  "pendingFindings": [
+    {
+      "entities": [
+        "lifeweaver",
+        "palak"
+      ],
+      "source": "en-lore-ventures-adventures-the-deep-sea-deception",
+      "locator": "PDF第4、7、12页",
+      "finding": "科研搭档及表达共同未来的关系有英文证据，但Palak的国服工作译名未获批准，暂不进入已核验关系。"
+    },
+    {
+      "entities": [
+        "echo",
+        "athena",
+        "aurora"
+      ],
+      "source": "en-lore-echo",
+      "locator": "PDF第1–3、8页",
+      "finding": "正文有技术比较和历史讨论，不能据此判定朋友、合作或创造关系。"
+    },
+    {
+      "entities": [
+        "ming",
+        "juno"
+      ],
+      "source": "https://overwatch.blizzard.com/en-us/heroes/juno/",
+      "finding": "国服父亲名明谦文对应英文Khiem Van Minh；Atlas条目是Ming，拼写差异仍需独立核对，暂不自动合并。"
+    }
+  ]
+}

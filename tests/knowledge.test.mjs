@@ -8,7 +8,7 @@ const clone = () => structuredClone(kb);
 test('seed data passes all cross-reference checks', () => assert.deepEqual(validateKnowledge(kb), []));
 test('coverage distinguishes complete inventory from pending evidence', () => {
   assert.equal(kb.entities.length,172); assert.ok(kb.relations.filter(r=>r.status==='verified').length>=22);
-  assert.equal(kb.relations.filter(r=>r.status==='pending').length,42); assert.equal(kb.candidates.length,57);
+  assert.equal(kb.relations.filter(r=>r.status==='pending').length,40); assert.equal(kb.candidates.length,57);
 });
 test('dangling endpoints fail', () => { const d=clone();d.relations[0].from='missing';assert.ok(validateKnowledge(d).some(x=>x.includes('dangling'))); });
 test('duplicate IDs fail', () => { const d=clone();d.entities.push(d.entities[0]);assert.ok(validateKnowledge(d).some(x=>x.includes('duplicate id'))); });

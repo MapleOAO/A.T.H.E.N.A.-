@@ -6,7 +6,7 @@ import { root, loadKnowledge } from './load.mjs';
 import { validateKnowledge } from '../src/knowledge.mjs';
 
 const rootPath = fileURLToPath(root);
-const mime = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml' };
+const mime = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg' };
 export function makeServer(kb) {
   const errors = validateKnowledge(kb);
   if (errors.length) throw new Error(errors.join('\n'));

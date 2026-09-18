@@ -532,9 +532,15 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20250724/1753341058510_92b10c6336.png",
+      "sourceId": "en-lore-retribution",
+      "sourcePage": "https://overwatch.blizzard.com/en-us/media/comic/retribution/",
+      "checkedAt": "2026-09-18",
+      "locator": "《威尼斯行动》官方封面；PDF第9–10页核对行动小队",
+      "captionZh": "暗影守望威尼斯行动成员合绘；这是漫画封面配图，并非组织标志。",
+      "position": "center",
+      "rights": "版权归Blizzard Entertainment及相关作者；引用国服官网媒体目录公开图源。"
     }
   },
   {
@@ -845,9 +851,25 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344115936_9ea1111e49.jpg",
+      "sourceId": "cn-dva",
+      "sourcePage": "https://ow.blizzard.cn/heroes/dva/",
+      "checkedAt": "2026-09-18",
+      "locator": "鬼神智械章节配图；图左机械敌人与D.VA对峙",
+      "captionZh": "D.VA与鬼神智械对峙；局部突出左侧机械敌人，不是组织徽记。",
+      "position": "left",
+      "crop": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "sourceSize": [
+        1920,
+        1080
+      ],
+      "rights": "版权归Blizzard Entertainment及相关权利人；引用官方英雄传记图源。"
     }
   },
   {
@@ -866,9 +888,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/vishkar-corporation-ebb1ba8e13c4.jpg",
+      "sourceId": "en-lore-a-better-world",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd93d424d2d00043b/5d02d05ccf7aa6330ac672b6/comic-overwatch-a-better-world_en-us.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第10页；页面局部提取，原文语言en-US",
+      "captionZh": "《更好的世界》第10页费斯卡建成的新城市中心；这是项目建筑配图，不是企业标志。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为角色辨识引用少量漫画局部，未重绘，非独立官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "ebb1ba8e13c41f341d1b20e34baf0d8d90f43c9a8047b4e6f028f44fed7e7cd4",
+        "sourceSha256": "b2355702cafc014c94713c3917cea567c18589dcfc885e381d45737a7f029a02",
+        "page": 10,
+        "scaleTo": 1400,
+        "region": [
+          220,
+          45,
+          440,
+          285
+        ]
+      }
     }
   },
   {
@@ -2474,9 +2515,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/antonio-c7d85f8875d8.jpg",
+      "sourceId": "en-lore-retribution",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4887c701b3d2ad4a/5d03c5d2578308e409458356/overwatch-comic-retribution_en-us.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第4页；页面局部提取，原文语言en-US",
+      "captionZh": "《威尼斯行动》第4页通缉资料中的安东尼奥；页内文字直接点名。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为角色辨识引用少量漫画局部，未重绘，非独立官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "c7d85f8875d823815545c32f24d73f436bc0cdeb3b95c94b399e2efdb7c0301d",
+        "sourceSha256": "bc730fdaaa295f660aac734bf0aae671a7b8424f8ad67b6fb4f3a130100b058c",
+        "page": 4,
+        "scaleTo": 1400,
+        "region": [
+          157,
+          119,
+          290,
+          300
+        ]
+      }
     }
   },
   {
@@ -2511,9 +2571,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/athena-b624c1475638.jpg",
+      "sourceId": "en-lore-reflections",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt26451d9115028b05/5d02e33f7b48be290a7f964d/comic-overwatch-reflections_en-us.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第12页；页面局部提取，原文语言en-US",
+      "captionZh": "《Reflections》第12页雅典娜的终端界面标识；这是AI界面，不是人形面貌。中文工作译名仍待核对。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为角色辨识引用少量漫画局部，未重绘，非独立官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "b624c147563863d4ff614b5e0410bb3561f71375270f9d6005a0693a98be5dc6",
+        "sourceSha256": "1f806972ec5b5076e9582c43f741c54b84298664d9acc0e5db5d9a5fda5fd3f8",
+        "page": 12,
+        "scaleTo": 1400,
+        "region": [
+          605,
+          126,
+          219,
+          149
+        ]
+      }
     }
   },
   {
@@ -2774,9 +2853,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/emily-9db43cca7bd5.jpg",
+      "sourceId": "en-lore-reflections",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt26451d9115028b05/5d02e33f7b48be290a7f964d/comic-overwatch-reflections_en-us.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第8页；页面局部提取，原文语言en-US",
+      "captionZh": "《Reflections》第8页端着杯子的埃米莉；猎空在同页直接以Emily称呼她。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为角色辨识引用少量漫画局部，未重绘，非独立官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "9db43cca7bd50ab382a370a2b8f4d27ce40e21017ea1c1d84016d5f24fc7dd8b",
+        "sourceSha256": "1f806972ec5b5076e9582c43f741c54b84298664d9acc0e5db5d9a5fda5fd3f8",
+        "page": 8,
+        "scaleTo": 1400,
+        "region": [
+          160,
+          466,
+          171,
+          190
+        ]
+      }
     }
   },
   {
@@ -3460,9 +3558,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/sanjay-ac682b359155.jpg",
+      "sourceId": "en-lore-a-better-world",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd93d424d2d00043b/5d02d05ccf7aa6330ac672b6/comic-overwatch-a-better-world_en-us.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第10页；页面局部提取，原文语言en-US",
+      "captionZh": "《更好的世界》第10页的Sanjay；结合第3页Korpal称呼与第6–8页通讯对话核对。中文工作译名仍待核对。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为角色辨识引用少量漫画局部，未重绘，非独立官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "ac682b35915525aa86ffa7e454f7b64da21b1a5f7360abfedcb2360a7133bb0c",
+        "sourceSha256": "b2355702cafc014c94713c3917cea567c18589dcfc885e381d45737a7f029a02",
+        "page": 10,
+        "scaleTo": 1400,
+        "region": [
+          710,
+          786,
+          160,
+          194
+        ]
+      }
     }
   },
   {
@@ -3835,9 +3952,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/gerard-bec852543834.jpg",
+      "sourceId": "en-lore-retribution",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt4887c701b3d2ad4a/5d03c5d2578308e409458356/overwatch-comic-retribution_en-us.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第3页；页面局部提取，原文语言en-US",
+      "captionZh": "《威尼斯行动》第3页罗马基地里的杰哈·拉克瓦；同页对话称其为Gérard，第5页继续与莱耶斯交谈。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为角色辨识引用少量漫画局部，未重绘，非独立官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "bec852543834a34256d0ace34f93f437c2025990ebce94fc335aaaee489ee9b2",
+        "sourceSha256": "bc730fdaaa295f660aac734bf0aae671a7b8424f8ad67b6fb4f3a130100b058c",
+        "page": 3,
+        "scaleTo": 1400,
+        "region": [
+          448,
+          508,
+          124,
+          160
+        ]
+      }
     }
   },
   {
@@ -4302,9 +4438,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/palak-6b8fd19bf3cd.jpg",
+      "sourceId": "en-lore-ventures-adventures-the-deep-sea-deception",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt574ce45285b28c88/6a0e5cddd39aa3279ccedd07/OW_Pride_EN_FULL.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第4页；页面局部提取，原文语言en-US",
+      "captionZh": "《The Deep-Sea Deception》第4页，生命之梭介绍的Dr. Palak Nathani。中文工作译名仍待核对。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为角色辨识引用少量漫画局部，未重绘，非独立官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "6b8fd19bf3cdc69e7786033dfa4c75a348f0fea563837c4b6c94868c42d563c5",
+        "sourceSha256": "939579350697ab9a737120c43ced2504a40321276c122c57fbf9254c89cd9573",
+        "page": 4,
+        "scaleTo": 1400,
+        "region": [
+          572,
+          913,
+          154,
+          190
+        ]
+      }
     }
   },
   {
