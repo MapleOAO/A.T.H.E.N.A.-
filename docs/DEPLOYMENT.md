@@ -57,3 +57,10 @@ preview.html 是不依赖托管的离线审阅版；下载后可直接打开。
 - Pages运行35332006708完成success；部署树470c13075d576fb9261b7067f43f03d21488a5cf与本地dist逐文件Git树一致。
 - 浏览器确认275条已核验关系、79项官方图像，漫画头像与对应原PDF页码可见。
 - 7张JPEG通过Git blob上传；离线preview内嵌图像，源PDF不进入仓库或发布产物。
+
+## v0.6.0 发布记录
+
+- 源码：224c61dfa45d9c9707d2fd6cfbd935c6076acbd4。
+- gh-pages：63bc780a7ef7a4b05744650e7ab69ed827c41640。
+- 构建树：e74df3aaba2ada3df530e5c6d6ff75bc93fafe99；本地dist树与发布树完全一致。
+- GitHub Pages运行35336562002成功；浏览器实测v0.6.0及5项新增图像。
