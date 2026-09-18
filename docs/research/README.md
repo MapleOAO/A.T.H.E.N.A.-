@@ -8,7 +8,7 @@
 | [v0.8 原作图像](2026-09-18-original-art-audit.json) | 文森特、Nameless、Zera、海力士、黑爪帝国与角斗士图像；金驭结盟区别；未采用候选 |
 | [v0.7 新血与伦敦](2026-09-18-new-blood-london-audit.json) | Kace、孟达塔、明队长；MEKA派遣与留守；漫画精确页码 |
 | [v0.6 漫画身份核对](2026-09-18-comics-identity-audit.json) | 卡特娅、林克斯、马克西米里安、伊基、光明科创；Sombra Collective误认；Osai/Osei |
-| [v0.5 官方漫画局部](2026-09-18-official-comics-excerpts.json) | 国际服官方PDF下载链接与哈希、局部复现参数、已读范围、Palak等待审发现 |
+| [v0.5 官方漫画局部](2026-09-18-official-comics-excerpts.json) | 国际服官方PDF下载链接与哈希、局部复现参数、已读范围、Palak相关待审发现 |
 | [官方剧情资料](2026-09-18-official-lore-audit.json) | 国服媒体目录、可读作品和60项旧PDF访问失败记录；译名与关系核对 |
 | [官方英雄资料](2026-09-18-official-hero-audit.json) | 官方英雄传记核对与数据来源 |
 | [早期NPC与雾子研究](2026-09-18-npc-media-kiriko.json) | NPC图像、雾子家庭与身份核对 |
