@@ -36,3 +36,7 @@ index.html、app.mjs、style.css、favicon.svg、src/、data/knowledge.json、pr
 每次核对 Pages 部署结果及线上知识库版本，不能只凭分支提交成功报告部署成功。
 
 preview.html 是不依赖托管的离线审阅版；下载后可直接打开。
+
+### v0.4.0 更新准备
+
+本地源码及构建已更新为302关系、260已核验、70官方图像。使用现有main与gh-pages历史快进发布，具体提交与线上验收结果将在发布后追加。

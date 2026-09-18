@@ -1,17 +1,39 @@
 export const statuses = { verified: '已核验', pending: '待核验', disputed: '有争议' };
-export const periods = { all: '全部时期', early: '早期守望先锋', recall: '召回时期', family: '亲属与成长', unspecified: '时期未明' };
+export const periods = { all: '全部时期', early: '早期守望先锋', recall: '召回时期', reign: '黑爪之治', family: '亲属与成长', unspecified: '时期未明' };
 export const predicates = {
+  appointed: { label: '任命', from: ['person'], to: ['person'] },
+  dissolved: { label: '解散', from: ['organization'], to: ['organization'] },
+  'stole-from': { label: '窃取其物资', from: ['person','organization'], to: ['person','organization'] },
+  'coerced': { label: '胁迫', from: ['person'], to: ['person'] },
+  'sister': { label: '姐姐 → 弟弟', from: ['person'], to: ['person'] },
+  'student': { label: '就读', from: ['person'], to: ['organization'] },
+  'recruited': { label: '招募', from: ['person'], to: ['person'] },
+  'department': { label: '所属部门', from: ['organization'], to: ['organization'] },
+  'hired': { label: '雇佣', from: ['person'], to: ['person'] },
+  'infiltrated': { label: '潜入', from: ['person'], to: ['organization'] },
+  'grandparent': { label: '祖父母 → 孙辈', from: ['person'], to: ['person'] },
+  'allied': { label: '合作', from: ['organization'], to: ['organization'], symmetric: true },
+  'partner': { label: '伴侣', from: ['person'], to: ['person'], symmetric: true },
+  'modified': { label: '改造', from: ['person'], to: ['person'] },
+  'injured': { label: '击伤', from: ['person'], to: ['person'] },
+  'blackmailed': { label: '敲诈', from: ['person'], to: ['person'] },
+  'left': { label: '离开', from: ['person'], to: ['organization'] },
+  'arrested': { label: '逮捕', from: ['person'], to: ['person'] },
+  'imprisoned': { label: '监禁', from: ['organization'], to: ['person'] },
+
+  killed: { label: '杀害', from: ['person','organization'], to: ['person'] },
+  abducted: { label: '绑架', from: ['person','organization'], to: ['person'] },
   protected: { label: '保护', from: ['person'], to: ['person'] },
   'cared-for': { label: '照料', from: ['person'], to: ['person'] },
   fought: { label: '曾交战', from: ['person','organization'], to: ['person','organization'], symmetric: true },
   'attempted-capture': { label: '试图劫走', from: ['person','organization'], to: ['person'] },
   guarded: { label: '看守 / 收容', from: ['person','organization'], to: ['person'] },
   gifted: { label: '赠予装备', from: ['person'], to: ['person'] },
-  father: { label: '父亲 → 女儿', from: ['person'], to: ['person'] },
+  father: { label: '父亲 → 子女', from: ['person'], to: ['person'] },
   godparent: { label: '教父', from: ['person'], to: ['person'] },
   squire: { label: '侍从 → 骑士', from: ['person'], to: ['person'] },
   created: { label: '创造 / 开发', from: ['person'], to: ['person'] },
-  freed: { label: '帮助脱困', from: ['person'], to: ['person'] },
+  freed: { label: '帮助脱困', from: ['person','organization'], to: ['person'] },
   founder: { label: '创始成员', from: ['person'], to: ['organization'] },
   member: { label: '曾隶属', from: ['person'], to: ['organization'] },
   leader: { label: '曾领导', from: ['person'], to: ['organization'] },
@@ -90,10 +112,16 @@ export function validateKnowledge(kb) {
     fail(['person', 'organization'].includes(e.kind), `${e.id}: invalid entity kind`);
     fail(typeof e.name === 'string' && e.name.length > 0, `${e.id}: missing name`);
     if (e.visual) {
-      fail(['official-portrait','name-icon'].includes(e.visual.kind), `${e.id}: invalid visual kind`);
-      if(e.visual.kind==='official-portrait') {
-        fail(safeUrl(e.visual.url) && new URL(e.visual.url).hostname === 'ld5.res.netease.com', `${e.id}: untrusted image URL`);
+      fail(['official-portrait','official-scene','official-logo','name-icon'].includes(e.visual.kind), `${e.id}: invalid visual kind`);
+      if(e.visual.kind?.startsWith('official-')) {
+        fail(safeUrl(e.visual.url) && ['ld5.res.netease.com','bnetcmsus-a.akamaihd.net'].includes(new URL(e.visual.url).hostname), `${e.id}: untrusted image URL`);
         fail(sources.get(e.visual.sourceId)?.kind==='official' && sources.get(e.visual.sourceId)?.read===true && safeUrl(e.visual.sourcePage) && date(e.visual.checkedAt) && Boolean(e.visual.rights), `${e.id}: missing image provenance`);
+        if(e.visual.kind==='official-scene') fail(Boolean(e.visual.locator) && Boolean(e.visual.captionZh) && ['left','center','right'].includes(e.visual.position), `${e.id}: scene needs identity and framing evidence`);
+        if(e.visual.kind==='official-logo') fail(e.kind==='organization' && Boolean(e.visual.locator), `${e.id}: logo needs organization evidence`);
+        if(e.visual.crop) {
+          const c=e.visual.crop, s=e.visual.sourceSize;
+          fail(Array.isArray(c) && c.length===4 && c.every(Number.isFinite) && Array.isArray(s) && s.length===2 && s.every(n=>Number.isFinite(n)&&n>0) && c[0]>=0 && c[1]>=0 && c[2]>0 && c[3]>0 && c[0]+c[2]<=s[0] && c[1]+c[3]<=s[1] && Boolean(e.visual.captionZh), `${e.id}: invalid image framing`);
+        }
       }
     }
     for (const origin of e.origins || []) {

@@ -56,7 +56,7 @@
       "Ana",
       "Reaper"
     ],
-    "status": "pending",
+    "status": "corroborated",
     "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
   },
   {
@@ -596,7 +596,7 @@
       "Junker Queen",
       "Mason"
     ],
-    "status": "pending",
+    "status": "corroborated",
     "note": "Atlas 显式关联端点；尚无独立依据确认具体关系。"
   },
   {
@@ -626,7 +626,7 @@
       "Shion",
       "Mizuki"
     ],
-    "status": "pending",
+    "status": "corroborated",
     "note": "Atlas 显式关联端点；尚无独立依据确认具体关系。"
   },
   {
@@ -641,7 +641,7 @@
       "Shion",
       "Hashimoto Clan"
     ],
-    "status": "pending",
+    "status": "corroborated",
     "note": "Atlas 显式关联端点；尚无独立依据确认具体关系。"
   },
   {
@@ -686,7 +686,7 @@
       "Deep Sea Raiders",
       "Mauga"
     ],
-    "status": "pending",
+    "status": "corroborated",
     "note": "Atlas 显式关联端点；尚无独立依据确认具体关系。"
   },
   {

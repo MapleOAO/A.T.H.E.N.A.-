@@ -1,11 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "2026-09-18-npc-media-kiriko",
-  "status": "researched-not-integrated",
+  "status": "integrated",
   "reviewedAt": "2026-09-18",
   "reviewer": "assistant-source-review",
   "baseCommit": "cee6cec9dc1b293062cc34717ebf6220d726fbf4",
-  "integrationBlocker": "Execution environment disconnected before edits, validation, tests and build. Canonical data and live site remain v0.3.0.",
   "sources": [
     {
       "id": "cn-orisa",
@@ -253,5 +252,6 @@
     "Update source locators and glossary version provenance, then validate/test/build.",
     "Publish main and gh-pages by fast-forward only, and verify the actual website before claiming deployed.",
     "Organization logos remain unresolved: do not substitute the game's product logo or fabricate emblems."
-  ]
+  ],
+  "integratedVersion": "0.4.0"
 }

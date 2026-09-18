@@ -126,14 +126,16 @@
     "id": "term-search-rescue",
     "entityId": "search-rescue",
     "en": "Search & Rescue",
-    "zh": "搜救部门（暂译）",
+    "zh": "搜救部门",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "尚未取得国服官方组织译名",
+    "sourceIds": [
+      "cn-freja"
+    ],
+    "locator": "风暴前夕",
     "reviewedAt": "2026-09-18",
-    "note": "Atlas 名称暂译；不可作为已核验术语。"
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-genji",
@@ -304,38 +306,44 @@
     "en": "Ecopoints",
     "zh": "生态监测站",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-mei"
+    ],
+    "locator": "守望先锋",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-ijc",
     "entityId": "ijc",
     "en": "IJC",
-    "zh": "IJC",
+    "zh": "国际司法委员会",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-a-rare-power"
+    ],
+    "locator": "PDF 第 8 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-shambali-order",
     "entityId": "shambali-order",
     "en": "Shambali Order",
-    "zh": "香巴里僧团",
+    "zh": "香巴里",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-zenyatta"
+    ],
+    "locator": "香巴里",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-the-sombra-collective",
@@ -382,14 +390,16 @@
     "id": "term-the-gwishin",
     "entityId": "the-gwishin",
     "en": "The Gwishin",
-    "zh": "鬼神",
+    "zh": "鬼神智械",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-dva"
+    ],
+    "locator": "故事概述",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-vishkar-corporation",
@@ -397,12 +407,14 @@
     "en": "Vishkar Corporation",
     "zh": "费斯卡集团",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-domina"
+    ],
+    "locator": "故事概述",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-helix-securities",
@@ -427,12 +439,14 @@
     "en": "M.E.K.A Squad",
     "zh": "MEKA小队",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-dmon"
+    ],
+    "locator": "MEKA小队",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-caribbean-coalition",
@@ -440,12 +454,14 @@
     "en": "Caribbean Coalition",
     "zh": "加勒比联盟",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-baptiste"
+    ],
+    "locator": "加勒比联盟",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服传记章节实际用字核对。"
   },
   {
     "id": "term-crusader-initiative",
@@ -464,14 +480,16 @@
     "id": "term-inti-warriors",
     "entityId": "inti-warriors",
     "en": "Inti Warriors",
-    "zh": "印蒂战士",
+    "zh": "印蒂勇士",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-illari"
+    ],
+    "locator": "故事概述",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-deadlock-rebels",
@@ -496,12 +514,14 @@
     "en": "Ironclad Guild",
     "zh": "铁甲公会",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-bastion"
+    ],
+    "locator": "托比昂",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-the-martins-collective",
@@ -520,14 +540,16 @@
     "id": "term-the-phreaks",
     "entityId": "the-phreaks",
     "en": "The Phreaks",
-    "zh": "怪客帮",
+    "zh": "怪咖盟",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-hazard"
+    ],
+    "locator": "遇见怪咖盟",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-los-muertos",
@@ -535,12 +557,14 @@
     "en": "Los Muertos",
     "zh": "骷髅帮",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-sombra"
+    ],
+    "locator": "早年生活",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-yamagami-blades",
@@ -574,27 +598,33 @@
     "id": "term-yokai-gang",
     "entityId": "yokai-gang",
     "en": "Yokai Gang",
-    "zh": "妖怪小队",
+    "zh": "妖怪团",
     "locale": "zh-CN",
-    "status": "pending",
-    "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "status": "approved",
+    "aliases": [
+      "花村妖怪"
+    ],
+    "sourceIds": [
+      "cn-kiriko"
+    ],
+    "locator": "妖怪团，章节标题与第1段",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服传记实际用字核对。"
   },
   {
     "id": "term-lumerico-incorporated",
     "entityId": "lumerico-incorporated",
     "en": "Lumérico Incorporated",
-    "zh": "光明科创",
+    "zh": "光明科创集团",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-sombra"
+    ],
+    "locator": "黑爪",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-heliotech-industries",
@@ -639,14 +669,16 @@
     "id": "term-lucheng-interstellar",
     "entityId": "lucheng-interstellar",
     "en": "Lucheng Interstellar",
-    "zh": "旅程星际",
+    "zh": "星际旅程集团",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-winston"
+    ],
+    "locator": "“地平线”月球基地",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-wuxing-university",
@@ -654,12 +686,14 @@
     "en": "Wuxing University",
     "zh": "五行大学",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-wuyang"
+    ],
+    "locator": "故事概述",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-junker-monarchy",
@@ -1201,14 +1235,16 @@
     "id": "term-antonio",
     "entityId": "antonio",
     "en": "Antonio",
-    "zh": "安东尼奥",
+    "zh": "安东尼奥·巴塔罗蒂",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-vendetta"
+    ],
+    "locator": "出身权门",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-athena",
@@ -1229,12 +1265,14 @@
     "en": "Aurora",
     "zh": "奥罗拉",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-zenyatta"
+    ],
+    "locator": "漂泊僧",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-b-o-b",
@@ -1285,12 +1323,14 @@
     "en": "Casino",
     "zh": "卡西诺",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-growing-pains"
+    ],
+    "locator": "PDF 第 3–4、11 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-claudio",
@@ -1341,40 +1381,46 @@
     "id": "term-emily",
     "entityId": "emily",
     "en": "Emily",
-    "zh": "艾米丽",
+    "zh": "埃米莉",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-tracer"
+    ],
+    "locator": "归来",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-geiger",
     "entityId": "geiger",
     "en": "Geiger",
-    "zh": "盖革",
+    "zh": "盖格",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-left-behind"
+    ],
+    "locator": "PDF 第 12 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-harold",
     "entityId": "harold",
     "en": "Harold",
-    "zh": "哈罗德",
+    "zh": "哈罗德·温斯顿",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-winston"
+    ],
+    "locator": "“地平线”月球基地",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-hector",
@@ -1393,14 +1439,16 @@
     "id": "term-iggy",
     "entityId": "iggy",
     "en": "Iggy",
-    "zh": "伊吉",
+    "zh": "伊基",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-tracer"
+    ],
+    "locator": "守望先锋解散后",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-ingrid",
@@ -1432,27 +1480,31 @@
     "id": "term-jiayi",
     "entityId": "jiayi",
     "en": "Jiayi",
-    "zh": "嘉怡",
+    "zh": "张佳怡",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-juno"
+    ],
+    "locator": "朱诺的童年",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-katya",
     "entityId": "katya",
     "en": "Katya",
-    "zh": "卡特娅",
+    "zh": "卡特娅·沃斯卡娅",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-zarya"
+    ],
+    "locator": "俄罗斯防御部队",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-kace",
@@ -1471,27 +1523,34 @@
     "id": "term-kendra",
     "entityId": "kendra",
     "en": "Kendra",
-    "zh": "肯德拉",
+    "zh": "肯德拉·班克斯",
     "locale": "zh-CN",
-    "status": "pending",
-    "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "status": "approved",
+    "aliases": [
+      "肯德拉·伍兹"
+    ],
+    "sourceIds": [
+      "cn-sierra",
+      "cn-story-new-heights"
+    ],
+    "locator": "诺顿计划",
+    "reviewedAt": "2026-09-18",
+    "note": "英雄传记称肯德拉·班克斯；《攀上新高》PDF 第3页使用肯德拉·伍兹。保留两种官方称呼，不推定姓氏变化原因。"
   },
   {
     "id": "term-king",
     "entityId": "king",
     "en": "King",
-    "zh": "金",
+    "zh": "大王",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-growing-pains"
+    ],
+    "locator": "PDF 第 3–5、11 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-lanet",
@@ -1525,27 +1584,31 @@
     "id": "term-lynx-17",
     "entityId": "lynx-17",
     "en": "Lynx 17",
-    "zh": "猞猁17",
+    "zh": "林克斯·赛文汀",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-zarya"
+    ],
+    "locator": "俄罗斯防御部队",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-maximillien",
     "entityId": "maximillien",
     "en": "Maximillien",
-    "zh": "马克西米连",
+    "zh": "马克西米里安",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-freja"
+    ],
+    "locator": "机遇叩门",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-meri",
@@ -1564,14 +1627,16 @@
     "id": "term-mondatta",
     "entityId": "mondatta",
     "en": "Mondatta",
-    "zh": "蒙达塔",
+    "zh": "泰哈撒孟达塔",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-zenyatta"
+    ],
+    "locator": "香巴里",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-nameless",
@@ -1603,14 +1668,16 @@
     "id": "term-overlord",
     "entityId": "overlord",
     "en": "Overlord",
-    "zh": "领主",
+    "zh": "智多星",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-growing-pains"
+    ],
+    "locator": "PDF 第 3–4、11 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-revel",
@@ -1642,14 +1709,16 @@
     "id": "term-sakura",
     "entityId": "sakura",
     "en": "Sakura",
-    "zh": "樱",
+    "zh": "咲良",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-facing-demons"
+    ],
+    "locator": "PDF 第 6 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-sanjay",
@@ -1707,27 +1776,34 @@
     "id": "term-toshiro",
     "entityId": "toshiro",
     "en": "Toshiro",
-    "zh": "俊郎",
+    "zh": "山神敏郎",
     "locale": "zh-CN",
-    "status": "pending",
-    "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "status": "approved",
+    "aliases": [
+      "敏郎"
+    ],
+    "sourceIds": [
+      "cn-kiriko",
+      "cn-mizuki"
+    ],
+    "locator": "故事概述",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-touch-up",
     "entityId": "touch-up",
     "en": "Touch Up",
-    "zh": "补漆",
+    "zh": "点睛师",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-hazard"
+    ],
+    "locator": "遇见怪咖盟",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-zera",
@@ -1787,27 +1863,31 @@
     "id": "term-ngumi",
     "entityId": "ngumi",
     "en": "Ngumi",
-    "zh": "恩古米",
+    "zh": "阿达布·古米",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-successors"
+    ],
+    "locator": "PDF 第 5 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-adeyemi",
     "entityId": "adeyemi",
     "en": "Adeyemi",
-    "zh": "阿德耶米",
+    "zh": "阿金吉·奥迪耶米",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-doomfist"
+    ],
+    "locator": "智械危机",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-alisa",
@@ -1854,14 +1934,16 @@
     "id": "term-gerard",
     "entityId": "gerard",
     "en": "Gérard",
-    "zh": "杰拉德",
+    "zh": "杰哈·拉克瓦",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-widowmaker"
+    ],
+    "locator": "早年生活",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-naughton",
@@ -1869,12 +1951,14 @@
     "en": "Naughton",
     "zh": "诺顿",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-progress"
+    ],
+    "locator": "PDF 第 3 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-osai",
@@ -1906,14 +1990,16 @@
     "id": "term-balderich",
     "entityId": "balderich",
     "en": "Balderich",
-    "zh": "巴尔德里希",
+    "zh": "鲍德里奇·冯阿德勒",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-reinhardt"
+    ],
+    "locator": "守望先锋",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-vincent",
@@ -1932,27 +2018,31 @@
     "id": "term-frankie",
     "entityId": "frankie",
     "en": "Frankie",
-    "zh": "弗兰基",
+    "zh": "弗朗姬",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-crossroads"
+    ],
+    "locator": "PDF 第 4–5 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-bhatt",
     "entityId": "bhatt",
     "en": "Bhatt",
-    "zh": "巴特",
+    "zh": "费斯瓦卡玛·巴特",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-domina"
+    ],
+    "locator": "与生俱来的期许",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-d-va",
@@ -1973,55 +2063,66 @@
     "id": "term-sojiro",
     "entityId": "sojiro",
     "en": "Sojiro",
-    "zh": "宗次郎",
+    "zh": "岛田宗次郎",
     "locale": "zh-CN",
-    "status": "pending",
-    "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "status": "approved",
+    "aliases": [
+      "宗次郎"
+    ],
+    "sourceIds": [
+      "cn-kiriko"
+    ],
+    "locator": "铁坂神社，第1段",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服传记实际用字核对。"
   },
   {
     "id": "term-kamori-san",
     "entityId": "kamori-san",
     "en": "Kamori-san",
-    "zh": "卡莫里先生",
+    "zh": "家守大人",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-the-fall-of-a-aparrow"
+    ],
+    "locator": "PDF 第 13 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-asa",
     "entityId": "asa",
     "en": "Asa",
-    "zh": "朝",
+    "zh": "山神朝",
     "locale": "zh-CN",
     "status": "approved",
-    "aliases": [],
-    "sourceIds": [
-      "cn-kiriko"
+    "aliases": [
+      "朝"
     ],
-    "locator": "故事概述 / 岛田家族",
+    "sourceIds": [
+      "cn-kiriko",
+      "cn-genji"
+    ],
+    "locator": "岛田家族",
     "reviewedAt": "2026-09-18",
-    "note": "按国服实际正文核对中文用字"
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-vialli",
     "entityId": "vialli",
     "en": "Vialli",
-    "zh": "维亚利",
+    "zh": "奥古斯托·维埃利",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-vendetta"
+    ],
+    "locator": "出身权门",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-mauga",
@@ -2042,14 +2143,16 @@
     "id": "term-wayfinder-society",
     "entityId": "wayfinder-society",
     "en": "Wayfinder Society",
-    "zh": "寻路者协会",
+    "zh": "寻迹者协会",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-venture"
+    ],
+    "locator": "故事概述",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-venture",
@@ -2085,25 +2188,29 @@
     "en": "Volskaya Industries",
     "zh": "沃斯卡娅工业集团",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-zarya"
+    ],
+    "locator": "俄罗斯防御部队",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-mason",
     "entityId": "mason",
     "en": "Mason",
-    "zh": "梅森",
+    "zh": "梅森·豪尔",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-junker-queen"
+    ],
+    "locator": "大清算",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-palak",
@@ -2243,12 +2350,14 @@
     "en": "Kuroura",
     "zh": "黑浦",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-cursebreaker"
+    ],
+    "locator": "PDF 第 3 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服官方 PDF 实际用字；按作品语境对应人物，不把同名字符串自动合并。"
   },
   {
     "id": "term-pompamoto",
@@ -2269,12 +2378,15 @@
     "en": "Myung",
     "zh": "明",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-story-growing-pains",
+      "en-dmon-myung"
+    ],
+    "locator": "PDF 第 4、6 页",
+    "reviewedAt": "2026-09-18",
+    "note": "国服“明队长”与英文 D.Mon 传记 Captain Myung 按同一任命情节交叉对应；不与 Atlas 的 Ming 条目合并。"
   },
   {
     "id": "term-trembley",
@@ -2345,14 +2457,16 @@
     "id": "term-deepsea-raiders",
     "entityId": "deepsea-raiders",
     "en": "Deepsea Raiders",
-    "zh": "深海掠夺者",
+    "zh": "深海悍徒",
     "locale": "zh-CN",
-    "status": "pending",
+    "status": "approved",
     "aliases": [],
-    "sourceIds": [],
-    "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
-    "reviewedAt": null,
-    "note": "项目工作译名，不宣称官方命名；歧义保留英文对照"
+    "sourceIds": [
+      "cn-mauga"
+    ],
+    "locator": "深海悍徒",
+    "reviewedAt": "2026-09-18",
+    "note": "按国服官网公开页面数据的实际用字核对；保留英文实体标识。"
   },
   {
     "id": "term-colosseo-gladiatori",

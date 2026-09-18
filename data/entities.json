@@ -342,9 +342,24 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-logo",
+      "url": "https://bnetcmsus-a.akamaihd.net/cms/gallery/5T0FYVLNJJD11770142389160.png",
+      "sourceId": "en-spotlight-conquest",
+      "sourcePage": "https://overwatch.blizzard.com/en-us/news/24246206/overwatch-spotlight-the-reign-of-talon-begins/",
+      "locator": "CONQUEST META EVENT → Faction Challenges.png → 右上方 OVERWATCH 标签旁的阵营标志",
+      "captionZh": "守望先锋阵营标志，取自官方活动界面；该图展示黑爪之治版本。",
+      "crop": [
+        1857,
+        217,
+        54,
+        54
+      ],
+      "sourceSize": [
+        2048,
+        1152
+      ],
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方图源。"
     }
   },
   {
@@ -528,9 +543,24 @@
     "kind": "organization",
     "cluster": "blackwatch",
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-logo",
+      "url": "https://bnetcmsus-a.akamaihd.net/cms/gallery/5T0FYVLNJJD11770142389160.png",
+      "sourceId": "en-spotlight-conquest",
+      "sourcePage": "https://overwatch.blizzard.com/en-us/news/24246206/overwatch-spotlight-the-reign-of-talon-begins/",
+      "locator": "CONQUEST META EVENT → Faction Challenges.png → 右上方 TALON 标签旁的阵营标志",
+      "captionZh": "黑爪阵营标志，取自官方活动界面；该图展示黑爪之治版本。",
+      "crop": [
+        1473,
+        218,
+        53,
+        53
+      ],
+      "sourceSize": [
+        2048,
+        1152
+      ],
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方图源。"
     }
   },
   {
@@ -640,9 +670,15 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344566165_be9f2718a9.jpg",
+      "sourceId": "cn-ramattra",
+      "sourcePage": "https://ow.blizzard.cn/heroes/ramattra/",
+      "locator": "故事 → 归零者 → 章节配图；已逐图查看",
+      "captionZh": "拉玛刹与归零者部队；组织的官方剧情配图，不是组织标志。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方图源。"
     }
   },
   {
@@ -703,9 +739,15 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344565629_2b06fd418f.jpg",
+      "sourceId": "cn-ramattra",
+      "sourcePage": "https://ow.blizzard.cn/heroes/ramattra/",
+      "locator": "故事 → 香巴里 → 章节配图；已逐图查看",
+      "captionZh": "拉玛刹在香巴里僧侣之中；组织的官方剧情配图，不是组织标志。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方图源。"
     }
   },
   {
@@ -874,9 +916,15 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260812/1786517851486_c4e19f8c50.png",
+      "sourceId": "cn-story-growing-pains",
+      "sourcePage": "https://ow.blizzard.cn/media/",
+      "locator": "媒体目录 → 蜕变之痛 → 官方缩略图；图中身份结合正文核对",
+      "captionZh": "《蜕变之痛》官方封面中的MEKA小队；这是成员合绘，并非队徽。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方媒体目录图源。"
     }
   },
   {
@@ -974,9 +1022,15 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343691707_a0f2510c0a.jpg",
+      "sourceId": "cn-ashe",
+      "sourcePage": "https://ow.blizzard.cn/heroes/ashe/",
+      "locator": "故事 → 死局反叛者 → 章节配图；已逐图查看",
+      "captionZh": "死局帮成员鲍勃与艾什的官方剧情配图；组织配图，不是组织标志。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方图源。"
     }
   },
   {
@@ -1108,9 +1162,15 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260803/1785725230804_30e0535254.png",
+      "sourceId": "cn-story-ambush",
+      "sourcePage": "https://ow.blizzard.cn/media/",
+      "locator": "媒体目录 → 杀机四伏 → 官方缩略图；图中身份结合正文核对",
+      "captionZh": "死怨与桥元家族长老的议事场景；人物身份及议事内容见正文第3、6–10页。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方媒体目录图源。"
     }
   },
   {
@@ -1129,9 +1189,15 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260803/1785725230781_5e743e472b.png",
+      "sourceId": "cn-story-paths-we-choose",
+      "sourcePage": "https://ow.blizzard.cn/media/",
+      "locator": "媒体目录 → 自己的路 → 官方缩略图；图中身份结合正文核对",
+      "captionZh": "妖怪团成员与瑞稀的官方封面合绘；展示该故事时期的群像，不代表所有人物当前仍属组织。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方媒体目录图源。"
     }
   },
   {
@@ -2503,9 +2569,25 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343691707_a0f2510c0a.jpg",
+      "sourceId": "cn-ashe",
+      "sourcePage": "https://ow.blizzard.cn/heroes/ashe/",
+      "locator": "故事 → 死局反叛者 → 章节配图；已逐图查看",
+      "captionZh": "鲍勃位于画面左侧，艾什位于右侧；列表与图谱聚焦鲍勃。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方图源。",
+      "crop": [
+        90,
+        195,
+        440,
+        440
+      ],
+      "sourceSize": [
+        1920,
+        1080
+      ]
     }
   },
   {
@@ -2566,9 +2648,25 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260812/1786517851486_c4e19f8c50.png",
+      "sourceId": "cn-story-growing-pains",
+      "sourcePage": "https://ow.blizzard.cn/media/",
+      "locator": "媒体目录 → 蜕变之痛 → 官方缩略图；图中身份结合正文核对",
+      "captionZh": "卡西诺为左侧银发队员；结合第3–5页小队行动及座舱画面核对。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方媒体目录图源。",
+      "crop": [
+        330,
+        345,
+        215,
+        215
+      ],
+      "sourceSize": [
+        1553,
+        873
+      ]
     }
   },
   {
@@ -2649,9 +2747,15 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343793087_7ad8de4260.jpg",
+      "sourceId": "cn-orisa",
+      "sourcePage": "https://ow.blizzard.cn/heroes/orisa/",
+      "locator": "故事 → 伊菲·奥拉迪尔 → .pic-img",
+      "captionZh": "伊菲为奥丽莎进行研发的官方剧情配图。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图片与角色归相应权利人。仅记录实际观察到的官方CDN引用；未复制Atlas媒体，未取得额外再分发许可。剧情配图不等同于独立官方头像，缩略图应保留类型说明并提供完整画面。"
     }
   },
   {
@@ -2712,9 +2816,25 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345564812_38b20d5edf.jpg",
+      "sourceId": "cn-winston",
+      "sourcePage": "https://ow.blizzard.cn/heroes/winston/",
+      "locator": "故事 → “地平线”月球基地 → 章节配图；已逐图查看",
+      "captionZh": "哈罗德·温斯顿博士牵着幼年温斯顿眺望地球；这是背影场景，并非正面肖像。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方图源。",
+      "crop": [
+        760,
+        595,
+        320,
+        400
+      ],
+      "sourceSize": [
+        1920,
+        1080
+      ]
     }
   },
   {
@@ -2917,9 +3037,25 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260812/1786517851486_c4e19f8c50.png",
+      "sourceId": "cn-story-growing-pains",
+      "sourcePage": "https://ow.blizzard.cn/media/",
+      "locator": "媒体目录 → 蜕变之痛 → 官方缩略图；图中身份结合正文核对",
+      "captionZh": "大王为中部佩戴眼镜、穿绿色制服的队员；与正文第4–5页的称呼和退出座舱画面交叉核对。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方媒体目录图源。",
+      "crop": [
+        755,
+        305,
+        190,
+        190
+      ],
+      "sourceSize": [
+        1553,
+        873
+      ]
     }
   },
   {
@@ -3071,9 +3207,15 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344419005_d36a821ba9.jpg",
+      "sourceId": "cn-echo",
+      "sourcePage": "https://ow.blizzard.cn/heroes/echo/",
+      "locator": "故事 → 米娜·廖 → .pic-img",
+      "captionZh": "米娜·廖与回声相对的官方剧情配图；廖博士位于右侧。",
+      "position": "right",
+      "checkedAt": "2026-09-18",
+      "rights": "图片与角色归相应权利人。仅记录实际观察到的官方CDN引用；未复制Atlas媒体，未取得额外再分发许可。剧情配图不等同于独立官方头像，缩略图应保留类型说明并提供完整画面。"
     }
   },
   {
@@ -3218,9 +3360,25 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260812/1786517851486_c4e19f8c50.png",
+      "sourceId": "cn-story-growing-pains",
+      "sourcePage": "https://ow.blizzard.cn/media/",
+      "locator": "媒体目录 → 蜕变之痛 → 官方缩略图；图中身份结合正文核对",
+      "captionZh": "智多星为右下方穿蓝色制服的年轻队员；结合第3–5页小队行动及座舱画面核对。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方媒体目录图源。",
+      "crop": [
+        980,
+        645,
+        205,
+        205
+      ],
+      "sourceSize": [
+        1553,
+        873
+      ]
     }
   },
   {
@@ -3402,9 +3560,25 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260326/1774513237960_8fd1726812.png",
+      "sourceId": "cn-story-cursebreaker",
+      "sourcePage": "https://ow.blizzard.cn/media/",
+      "locator": "媒体目录 → 破咒之镰 → 官方缩略图；图中身份结合正文核对",
+      "captionZh": "敏郎在左侧将锁镰交给瑞稀；正文第3、6–7页与第4–5页插图对应。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方媒体目录图源。",
+      "crop": [
+        225,
+        110,
+        300,
+        300
+      ],
+      "sourceSize": [
+        1080,
+        607
+      ]
     }
   },
   {
@@ -3745,9 +3919,25 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-scene",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344577785_f6a1479d02.jpg",
+      "sourceId": "cn-reinhardt",
+      "sourcePage": "https://ow.blizzard.cn/heroes/reinhardt/",
+      "locator": "故事 → 守望先锋 → 章节配图；已逐图查看",
+      "captionZh": "莱因哈特在鲍德里奇留下的盔甲前驻足；此处展示的是纪念场景，不是人物面部肖像。",
+      "position": "center",
+      "checkedAt": "2026-09-18",
+      "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方图源。",
+      "crop": [
+        270,
+        410,
+        470,
+        470
+      ],
+      "sourceSize": [
+        1920,
+        1080
+      ]
     }
   },
   {

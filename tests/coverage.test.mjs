@@ -10,6 +10,18 @@ test('official portraits have source provenance and unknown images stay named pl
   const k=structuredClone(kb);k.entities.find(e=>e.visual.kind==='official-portrait').visual.url='https://untrusted.example/portrait.png';
   assert.ok(validateKnowledge(k).some(e=>e.includes('untrusted image')));
 });
+test('scene identity evidence and source-image framing are required',()=>{
+  const d=structuredClone(kb);delete d.entities.find(e=>e.visual.kind==='official-scene').visual.captionZh;
+  assert.ok(validateKnowledge(d).some(e=>e.includes('scene needs identity')));
+  const k=structuredClone(kb);k.entities.find(e=>e.id==='talon').visual.crop=[2000,0,100,100];
+  assert.ok(validateKnowledge(k).some(e=>e.includes('invalid image framing')));
+});
+test('reign facts remain separate from earlier affiliations',()=>{
+  const latest=filterGraph(kb,{period:'reign'});
+  assert.ok(latest.relations.some(r=>r.from==='mizuki'&&r.to==='overwatch'&&r.predicate==='member'));
+  assert.ok(latest.relations.every(r=>r.period==='reign'));
+  assert.ok(kb.relations.some(r=>r.from==='mizuki'&&r.to==='hashimoto-clan'&&r.period==='family'));
+});
 test('missing source inventory or connection is caught',()=>{
   const k=structuredClone(kb); k.entities.find(e=>e.origins?.some(o=>o.pointer.startsWith('/nodes/'))).origins=[];
   assert.ok(validateKnowledge(k).some(e=>e.includes('coverage mismatch')));

@@ -24,7 +24,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ana",
         "term-overwatch"
@@ -56,7 +56,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ana",
         "term-pharah"
@@ -88,7 +88,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ana",
         "term-soldier-76"
@@ -120,7 +120,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ana",
         "term-cassidy"
@@ -150,7 +150,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-reaper",
         "term-overwatch"
@@ -180,7 +180,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-reaper",
         "term-blackwatch"
@@ -210,7 +210,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-blackwatch",
         "term-overwatch"
@@ -240,7 +240,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-reaper",
         "term-talon"
@@ -270,7 +270,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-widowmaker",
         "term-talon"
@@ -300,7 +300,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-overwatch",
         "term-genji"
@@ -330,7 +330,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-genji",
         "term-blackwatch"
@@ -360,7 +360,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-hanzo",
         "term-genji"
@@ -390,7 +390,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-zenyatta",
         "term-genji"
@@ -420,7 +420,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-genji",
         "term-kiriko"
@@ -450,7 +450,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-genji",
         "term-winston"
@@ -480,7 +480,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-genji",
         "term-shimada"
@@ -510,7 +510,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-hanzo",
         "term-shimada"
@@ -537,37 +537,10 @@
     ],
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ana",
         "term-emre"
-      ]
-    }
-  },
-  {
-    "id": "pending-atlas-ana-3",
-    "from": "ana",
-    "to": "reaper",
-    "predicate": "related",
-    "period": "unspecified",
-    "status": "pending",
-    "summaryZh": "Atlas 记录了两者的关联，但未提供明确关系说明；尚未核验具体性质。",
-    "evidence": [
-      {
-        "sourceId": "atlas-codex",
-        "locator": "/connections/3",
-        "noteZh": "仅有端点，不能据此推断亲属、队友或敌对关系。"
-      }
-    ],
-    "candidateIds": [
-      "atlas-ana-3"
-    ],
-    "translation": {
-      "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
-      "termIds": [
-        "term-ana",
-        "term-reaper"
       ]
     }
   },
@@ -591,7 +564,7 @@
     ],
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ana",
         "term-reinhardt"
@@ -618,7 +591,7 @@
     ],
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ana",
         "term-search-rescue"
@@ -1101,25 +1074,6 @@
     ]
   },
   {
-    "id": "atlas-related-39",
-    "from": "junker-queen",
-    "to": "mason",
-    "predicate": "related",
-    "period": "unspecified",
-    "status": "pending",
-    "summaryZh": "Atlas 收录了这两个条目的关联；关系含义与发生时期尚待官方资料核验。",
-    "evidence": [
-      {
-        "sourceId": "atlas-codex",
-        "locator": "connections[39]",
-        "noteZh": "仅作关联发现来源，不作为隶属、亲属或敌对关系证据。"
-      }
-    ],
-    "candidateIds": [
-      "atlas-link-39"
-    ]
-  },
-  {
     "id": "atlas-related-40",
     "from": "shion",
     "to": "mauga",
@@ -1136,44 +1090,6 @@
     ],
     "candidateIds": [
       "atlas-link-40"
-    ]
-  },
-  {
-    "id": "atlas-related-41",
-    "from": "shion",
-    "to": "mizuki",
-    "predicate": "related",
-    "period": "unspecified",
-    "status": "pending",
-    "summaryZh": "Atlas 收录了这两个条目的关联；关系含义与发生时期尚待官方资料核验。",
-    "evidence": [
-      {
-        "sourceId": "atlas-codex",
-        "locator": "connections[41]",
-        "noteZh": "仅作关联发现来源，不作为隶属、亲属或敌对关系证据。"
-      }
-    ],
-    "candidateIds": [
-      "atlas-link-41"
-    ]
-  },
-  {
-    "id": "atlas-related-42",
-    "from": "shion",
-    "to": "hashimoto-clan",
-    "predicate": "related",
-    "period": "unspecified",
-    "status": "pending",
-    "summaryZh": "Atlas 收录了这两个条目的关联；关系含义与发生时期尚待官方资料核验。",
-    "evidence": [
-      {
-        "sourceId": "atlas-codex",
-        "locator": "connections[42]",
-        "noteZh": "仅作关联发现来源，不作为隶属、亲属或敌对关系证据。"
-      }
-    ],
-    "candidateIds": [
-      "atlas-link-42"
     ]
   },
   {
@@ -1212,25 +1128,6 @@
     ],
     "candidateIds": [
       "atlas-link-44"
-    ]
-  },
-  {
-    "id": "atlas-related-45",
-    "from": "deepsea-raiders",
-    "to": "mauga",
-    "predicate": "related",
-    "period": "unspecified",
-    "status": "pending",
-    "summaryZh": "Atlas 收录了这两个条目的关联；关系含义与发生时期尚待官方资料核验。",
-    "evidence": [
-      {
-        "sourceId": "atlas-codex",
-        "locator": "connections[45]",
-        "noteZh": "仅作关联发现来源，不作为隶属、亲属或敌对关系证据。"
-      }
-    ],
-    "candidateIds": [
-      "atlas-link-45"
     ]
   },
   {
@@ -1468,7 +1365,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-liao",
         "term-echo"
@@ -1500,7 +1397,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-cassidy",
         "term-echo"
@@ -1532,7 +1429,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-echo",
         "term-overwatch"
@@ -1562,7 +1459,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-liao",
         "term-overwatch"
@@ -1594,7 +1491,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-liao",
         "term-omnica-corporation"
@@ -1624,7 +1521,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-torbjorn",
         "term-brigitte"
@@ -1654,7 +1551,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-torbjorn",
         "term-brigitte"
@@ -1684,7 +1581,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-reinhardt",
         "term-brigitte"
@@ -1714,7 +1611,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-brigitte",
         "term-reinhardt"
@@ -1744,7 +1641,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-brigitte",
         "term-overwatch"
@@ -1774,7 +1671,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-reinhardt",
         "term-overwatch"
@@ -1804,7 +1701,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-torbjorn",
         "term-reinhardt"
@@ -1834,7 +1731,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-asa",
         "term-kiriko"
@@ -1864,7 +1761,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-asa",
         "term-kiriko"
@@ -1894,7 +1791,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-asa",
         "term-genji"
@@ -1924,7 +1821,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-asa",
         "term-hanzo"
@@ -1956,7 +1853,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-cassidy",
         "term-liao"
@@ -1986,7 +1883,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-cassidy",
         "term-blackwatch"
@@ -2016,7 +1913,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-echo",
         "term-null-sector"
@@ -2046,7 +1943,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-deadlock-rebels",
         "term-echo"
@@ -2076,7 +1973,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ashe",
         "term-deadlock-rebels"
@@ -2106,7 +2003,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-b-o-b",
         "term-ashe"
@@ -2136,7 +2033,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-cassidy",
         "term-deadlock-rebels"
@@ -2168,7 +2065,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ana",
         "term-overwatch"
@@ -2198,7 +2095,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-pharah",
         "term-helix-securities"
@@ -2228,7 +2125,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-pharah",
         "term-anubis"
@@ -2258,7 +2155,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-helix-securities",
         "term-anubis"
@@ -2290,7 +2187,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-ana",
         "term-pharah"
@@ -2320,7 +2217,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-tracer",
         "term-pharah"
@@ -2350,7 +2247,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-brigitte",
         "term-pharah"
@@ -2380,7 +2277,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-reinhardt",
         "term-pharah"
@@ -2410,7 +2307,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-cassidy",
         "term-pharah"
@@ -2440,7 +2337,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-pharah",
         "term-cassidy"
@@ -2470,7 +2367,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-pharah",
         "term-overwatch"
@@ -2500,7 +2397,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-efi",
         "term-orisa"
@@ -2530,7 +2427,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-orisa",
         "term-doomfist"
@@ -2560,7 +2457,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-lucio",
         "term-doomfist"
@@ -2590,7 +2487,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-lucio",
         "term-orisa"
@@ -2620,7 +2517,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-lucio",
         "term-efi"
@@ -2650,7 +2547,7 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-doomfist",
         "term-talon"
@@ -2680,10 +2577,6056 @@
     },
     "translation": {
       "method": "knowledge-base-guided-summary",
-      "glossaryVersion": "0.3.0",
+      "glossaryVersion": "0.4.0",
       "termIds": [
         "term-sojourn",
         "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "kiriko-yokai-member",
+    "from": "kiriko",
+    "to": "yokai-gang",
+    "predicate": "member",
+    "period": "unspecified",
+    "summaryZh": "雾子加入了自称花村妖怪的青年团体。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "妖怪团，第1段",
+        "noteZh": "雾子加入了自称花村妖怪的青年团体。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-kiriko",
+        "term-yokai-gang"
+      ]
+    }
+  },
+  {
+    "id": "kiriko-yokai-leader",
+    "from": "kiriko",
+    "to": "yokai-gang",
+    "predicate": "leader",
+    "period": "unspecified",
+    "summaryZh": "雾子在妖怪团中发挥领导作用，组织对桥元产业的袭击。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "妖怪团，第1段",
+        "noteZh": "雾子在妖怪团中发挥领导作用，组织对桥元产业的袭击。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-kiriko",
+        "term-yokai-gang"
+      ]
+    }
+  },
+  {
+    "id": "yokai-fought-hashimoto",
+    "from": "yokai-gang",
+    "to": "hashimoto-clan",
+    "predicate": "fought",
+    "period": "unspecified",
+    "summaryZh": "妖怪团通过伏击、扰乱补给和袭击产业对抗桥元家族。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "妖怪团，第1段",
+        "noteZh": "妖怪团通过伏击、扰乱补给和袭击产业对抗桥元家族。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-yokai-gang",
+        "term-hashimoto-clan"
+      ]
+    }
+  },
+  {
+    "id": "asa-shimada",
+    "from": "asa",
+    "to": "shimada",
+    "predicate": "member",
+    "period": "family",
+    "summaryZh": "朝曾担任岛田家的剑术师傅。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "岛田家族，第1段",
+        "noteZh": "朝曾担任岛田家的剑术师傅。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-asa",
+        "term-shimada"
+      ]
+    }
+  },
+  {
+    "id": "toshiro-father-kiriko",
+    "from": "toshiro",
+    "to": "kiriko",
+    "predicate": "father",
+    "period": "family",
+    "summaryZh": "敏郎是雾子的父亲。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "故事概述 / 铁坂神社，第3段",
+        "noteZh": "敏郎是雾子的父亲。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-toshiro",
+        "term-kiriko"
+      ]
+    }
+  },
+  {
+    "id": "toshiro-shimada",
+    "from": "toshiro",
+    "to": "shimada",
+    "predicate": "member",
+    "period": "family",
+    "summaryZh": "雾子的父亲敏郎曾作为锻刀匠为岛田家效力。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "岛田家族，第1段；铁坂神社，第3段",
+        "noteZh": "雾子的父亲敏郎曾作为锻刀匠为岛田家效力。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-toshiro",
+        "term-shimada"
+      ]
+    }
+  },
+  {
+    "id": "sojiro-led-shimada",
+    "from": "sojiro",
+    "to": "shimada",
+    "predicate": "leader",
+    "period": "family",
+    "summaryZh": "岛田宗次郎曾是岛田家的大名。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "铁坂神社，第1段",
+        "noteZh": "岛田宗次郎曾是岛田家的大名。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sojiro",
+        "term-shimada"
+      ]
+    }
+  },
+  {
+    "id": "hashimoto-killed-sojiro",
+    "from": "hashimoto-clan",
+    "to": "sojiro",
+    "predicate": "killed",
+    "period": "family",
+    "summaryZh": "官方本次读取的传记明确记述，岛田宗次郎遭桥元家族刺杀。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "铁坂神社，第1段",
+        "noteZh": "官方本次读取的传记明确记述，岛田宗次郎遭桥元家族刺杀。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-hashimoto-clan",
+        "term-sojiro"
+      ]
+    }
+  },
+  {
+    "id": "hashimoto-abducted-toshiro",
+    "from": "hashimoto-clan",
+    "to": "toshiro",
+    "predicate": "abducted",
+    "period": "family",
+    "summaryZh": "桥元家族绑架了雾子的父亲，强迫他打造武器。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "铁坂神社，第2段",
+        "noteZh": "桥元家族绑架了雾子的父亲，强迫他打造武器。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-hashimoto-clan",
+        "term-toshiro"
+      ]
+    }
+  },
+  {
+    "id": "toshiro-contacted-asa",
+    "from": "toshiro",
+    "to": "asa",
+    "predicate": "contacted",
+    "period": "unspecified",
+    "summaryZh": "敏郎从东京通过书信向朝传递情报。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "铁坂神社，第3段",
+        "noteZh": "敏郎从东京通过书信向朝传递情报。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-toshiro",
+        "term-asa"
+      ]
+    }
+  },
+  {
+    "id": "toshiro-contacted-kiriko",
+    "from": "toshiro",
+    "to": "kiriko",
+    "predicate": "contacted",
+    "period": "unspecified",
+    "summaryZh": "敏郎从东京写信安慰女儿雾子。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "铁坂神社，第3段",
+        "noteZh": "敏郎从东京写信安慰女儿雾子。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-toshiro",
+        "term-kiriko"
+      ]
+    }
+  },
+  {
+    "id": "asa-protected-kiriko",
+    "from": "asa",
+    "to": "kiriko",
+    "predicate": "protected",
+    "period": "family",
+    "summaryZh": "朝为保护雾子，将她送到外婆身边，并让她使用家守这一娘家姓。",
+    "status": "verified",
+    "evidence": [
+      {
+        "sourceId": "cn-kiriko",
+        "locator": "铁坂神社，第2段",
+        "noteZh": "朝为保护雾子，将她送到外婆身边，并让她使用家守这一娘家姓。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应官方传记章节；不外推当前身份"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-asa",
+        "term-kiriko"
+      ]
+    }
+  },
+  {
+    "id": "cn4-d-mon-leader-m-e-k-a-squad-reign",
+    "from": "d-mon",
+    "to": "m-e-k-a-squad",
+    "predicate": "leader",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "明队长委派D.Mon担任MEKA小队领队。",
+    "evidence": [
+      {
+        "sourceId": "cn-dmon",
+        "locator": "MEKA小队；公开页面数据 /heroConfigs/0",
+        "noteZh": "明队长委派D.Mon担任MEKA小队领队。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-d-mon",
+        "term-m-e-k-a-squad"
+      ]
+    }
+  },
+  {
+    "id": "cn4-d-mon-friend-d-va-family",
+    "from": "d-mon",
+    "to": "d-va",
+    "predicate": "friend",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "D.Mon与D.VA在职业电竞时期成为好友。",
+    "evidence": [
+      {
+        "sourceId": "cn-dmon",
+        "locator": "电竞冠军；公开页面数据 /heroConfigs/0",
+        "noteZh": "D.Mon与D.VA在职业电竞时期成为好友。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-d-mon",
+        "term-d-va"
+      ]
+    }
+  },
+  {
+    "id": "cn4-d-mon-fought-the-gwishin-unspecified",
+    "from": "d-mon",
+    "to": "the-gwishin",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "D.Mon随MEKA小队抵御鬼神智械的袭击。",
+    "evidence": [
+      {
+        "sourceId": "cn-dmon",
+        "locator": "MEKA小队；公开页面数据 /heroConfigs/0",
+        "noteZh": "D.Mon随MEKA小队抵御鬼神智械的袭击。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-d-mon",
+        "term-the-gwishin"
+      ]
+    }
+  },
+  {
+    "id": "cn4-d-va-member-m-e-k-a-squad-unspecified",
+    "from": "d-va",
+    "to": "m-e-k-a-squad",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "D.VA曾作为驾驶员在MEKA小队服役。",
+    "evidence": [
+      {
+        "sourceId": "cn-dva",
+        "locator": "MEKA小队；公开页面数据 /heroConfigs/20",
+        "noteZh": "D.VA曾作为驾驶员在MEKA小队服役。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-d-va",
+        "term-m-e-k-a-squad"
+      ]
+    }
+  },
+  {
+    "id": "cn4-d-va-member-overwatch-recall",
+    "from": "d-va",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "为应对归零者，D.VA获长官批准加入重组后的守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-dva",
+        "locator": "MEKA小队；公开页面数据 /heroConfigs/20",
+        "noteZh": "为应对归零者，D.VA获长官批准加入重组后的守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-d-va",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-d-va-fought-the-gwishin-unspecified",
+    "from": "d-va",
+    "to": "the-gwishin",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "D.VA驾驶机甲抵御鬼神智械。",
+    "evidence": [
+      {
+        "sourceId": "cn-dva",
+        "locator": "故事概述；公开页面数据 /heroConfigs/20",
+        "noteZh": "D.VA驾驶机甲抵御鬼神智械。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-d-va",
+        "term-the-gwishin"
+      ]
+    }
+  },
+  {
+    "id": "cn4-hashimoto-clan-abducted-shion-unspecified",
+    "from": "hashimoto-clan",
+    "to": "shion",
+    "predicate": "abducted",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "后来组建桥元家族的匪徒俘获死怨，并将她长期囚禁。",
+    "evidence": [
+      {
+        "sourceId": "cn-shion",
+        "locator": "纷争中的觉醒 / 枷锁缚身；公开页面数据 /heroConfigs/1",
+        "noteZh": "后来组建桥元家族的匪徒俘获死怨，并将她长期囚禁。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-link-42"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-hashimoto-clan",
+        "term-shion"
+      ]
+    }
+  },
+  {
+    "id": "cn4-shion-leader-hashimoto-clan-unspecified",
+    "from": "shion",
+    "to": "hashimoto-clan",
+    "predicate": "leader",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "死怨杀死四位长老后在桥元长老会增设席位，夺取家族权力。",
+    "evidence": [
+      {
+        "sourceId": "cn-shion",
+        "locator": "沐血成王；公开页面数据 /heroConfigs/1",
+        "noteZh": "死怨杀死四位长老后在桥元长老会增设席位，夺取家族权力。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-link-42"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-shion",
+        "term-hashimoto-clan"
+      ]
+    }
+  },
+  {
+    "id": "cn4-shion-coerced-toshiro-unspecified",
+    "from": "shion",
+    "to": "toshiro",
+    "predicate": "coerced",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "死怨强迫山神敏郎为她打造幻灵手枪。",
+    "evidence": [
+      {
+        "sourceId": "cn-shion",
+        "locator": "沐血成王；公开页面数据 /heroConfigs/1",
+        "noteZh": "死怨强迫山神敏郎为她打造幻灵手枪。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-shion",
+        "term-toshiro"
+      ]
+    }
+  },
+  {
+    "id": "cn4-shion-mentor-mizuki-reign",
+    "from": "shion",
+    "to": "mizuki",
+    "predicate": "mentor",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "瑞稀曾是死怨的弟子，随后背叛她并帮助营救敏郎。",
+    "evidence": [
+      {
+        "sourceId": "cn-shion",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/1",
+        "noteZh": "瑞稀曾是死怨的弟子，随后背叛她并帮助营救敏郎。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-link-41"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-shion",
+        "term-mizuki"
+      ]
+    }
+  },
+  {
+    "id": "cn4-overwatch-freed-toshiro-reign",
+    "from": "overwatch",
+    "to": "toshiro",
+    "predicate": "freed",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "守望先锋突袭桥元据点，参与救出山神敏郎。",
+    "evidence": [
+      {
+        "sourceId": "cn-shion",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/1",
+        "noteZh": "守望先锋突袭桥元据点，参与救出山神敏郎。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-overwatch",
+        "term-toshiro"
+      ]
+    }
+  },
+  {
+    "id": "cn4-yokai-gang-freed-toshiro-reign",
+    "from": "yokai-gang",
+    "to": "toshiro",
+    "predicate": "freed",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "妖怪团参与行动，帮助被桥元囚禁的山神敏郎脱困。",
+    "evidence": [
+      {
+        "sourceId": "cn-shion",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/1",
+        "noteZh": "妖怪团参与行动，帮助被桥元囚禁的山神敏郎脱困。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-yokai-gang",
+        "term-toshiro"
+      ]
+    }
+  },
+  {
+    "id": "cn4-kendra-mother-sierra-family",
+    "from": "kendra",
+    "to": "sierra",
+    "predicate": "mother",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "西拉的母亲是肯德拉·班克斯，她曾以士兵：00的身份接受实验。",
+    "evidence": [
+      {
+        "sourceId": "cn-sierra",
+        "locator": "诺顿计划；公开页面数据 /heroConfigs/2",
+        "noteZh": "西拉的母亲是肯德拉·班克斯，她曾以士兵：00的身份接受实验。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-kendra",
+        "term-sierra"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sierra-member-helix-securities-unspecified",
+    "from": "sierra",
+    "to": "helix-securities",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "西拉加入海力士国际安保，并成为危险行动队队长。",
+    "evidence": [
+      {
+        "sourceId": "cn-sierra",
+        "locator": "尖峰小队；公开页面数据 /heroConfigs/2",
+        "noteZh": "西拉加入海力士国际安保，并成为危险行动队队长。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sierra",
+        "term-helix-securities"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sierra-fought-talon-reign",
+    "from": "sierra",
+    "to": "talon",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "格兰德台地受袭时，西拉率队抵御黑爪。",
+    "evidence": [
+      {
+        "sourceId": "cn-sierra",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/2",
+        "noteZh": "格兰德台地受袭时，西拉率队抵御黑爪。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sierra",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sierra-fought-deadlock-rebels-reign",
+    "from": "sierra",
+    "to": "deadlock-rebels",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "西拉在格兰德台地对抗参与袭击的死局帮。",
+    "evidence": [
+      {
+        "sourceId": "cn-sierra",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/2",
+        "noteZh": "西拉在格兰德台地对抗参与袭击的死局帮。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sierra",
+        "term-deadlock-rebels"
+      ]
+    }
+  },
+  {
+    "id": "cn4-anran-sister-wuyang-family",
+    "from": "anran",
+    "to": "wuyang",
+    "predicate": "sister",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "安燃是无漾的姐姐，从小承担照顾和保护弟弟的责任。",
+    "evidence": [
+      {
+        "sourceId": "cn-anran",
+        "locator": "家人的牵绊；公开页面数据 /heroConfigs/3",
+        "noteZh": "安燃是无漾的姐姐，从小承担照顾和保护弟弟的责任。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-anran",
+        "term-wuyang"
+      ]
+    }
+  },
+  {
+    "id": "cn4-anran-student-wuxing-university-family",
+    "from": "anran",
+    "to": "wuxing-university",
+    "predicate": "student",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "安燃在五行大学火学院学习并以优异成绩毕业。",
+    "evidence": [
+      {
+        "sourceId": "cn-anran",
+        "locator": "五行大学：火学院；公开页面数据 /heroConfigs/3",
+        "noteZh": "安燃在五行大学火学院学习并以优异成绩毕业。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-anran",
+        "term-wuxing-university"
+      ]
+    }
+  },
+  {
+    "id": "cn4-anran-member-overwatch-reign",
+    "from": "anran",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "毕业后的安燃赴直布罗陀加入守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-anran",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/3",
+        "noteZh": "毕业后的安燃赴直布罗陀加入守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-anran",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-anran-fought-null-sector-unspecified",
+    "from": "anran",
+    "to": "null-sector",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "安燃在成都帮助疏散民众并阻击归零者。",
+    "evidence": [
+      {
+        "sourceId": "cn-anran",
+        "locator": "五行大学：火学院；公开页面数据 /heroConfigs/3",
+        "noteZh": "安燃在成都帮助疏散民众并阻击归零者。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-anran",
+        "term-null-sector"
+      ]
+    }
+  },
+  {
+    "id": "cn4-wuyang-student-wuxing-university-family",
+    "from": "wuyang",
+    "to": "wuxing-university",
+    "predicate": "student",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "无漾被五行大学水学院录取并学习医术与气功。",
+    "evidence": [
+      {
+        "sourceId": "cn-wuyang",
+        "locator": "五行大学：水学院；公开页面数据 /heroConfigs/9",
+        "noteZh": "无漾被五行大学水学院录取并学习医术与气功。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-wuyang",
+        "term-wuxing-university"
+      ]
+    }
+  },
+  {
+    "id": "cn4-wuyang-freed-anran-unspecified",
+    "from": "wuyang",
+    "to": "anran",
+    "predicate": "freed",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "无漾冲入成都，救出遭归零者包围的安燃。",
+    "evidence": [
+      {
+        "sourceId": "cn-wuyang",
+        "locator": "归零者袭击成都；公开页面数据 /heroConfigs/9",
+        "noteZh": "无漾冲入成都，救出遭归零者包围的安燃。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-wuyang",
+        "term-anran"
+      ]
+    }
+  },
+  {
+    "id": "cn4-wuyang-fought-null-sector-unspecified",
+    "from": "wuyang",
+    "to": "null-sector",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "无漾以水系武功击退围攻姐姐的归零者。",
+    "evidence": [
+      {
+        "sourceId": "cn-wuyang",
+        "locator": "归零者袭击成都；公开页面数据 /heroConfigs/9",
+        "noteZh": "无漾以水系武功击退围攻姐姐的归零者。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-wuyang",
+        "term-null-sector"
+      ]
+    }
+  },
+  {
+    "id": "cn4-wuyang-member-overwatch-reign",
+    "from": "wuyang",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "无漾抵达直布罗陀后加入守望先锋的战斗。",
+    "evidence": [
+      {
+        "sourceId": "cn-wuyang",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/9",
+        "noteZh": "无漾抵达直布罗陀后加入守望先锋的战斗。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-wuyang",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-emre-member-overwatch-early",
+    "from": "emre",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "埃姆雷在智械危机后加入守望先锋突击小队，后来主动离开。",
+    "evidence": [
+      {
+        "sourceId": "cn-emre",
+        "locator": "一走了之；公开页面数据 /heroConfigs/4",
+        "noteZh": "埃姆雷在智械危机后加入守望先锋突击小队，后来主动离开。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-emre",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-emre-friend-freja-early",
+    "from": "emre",
+    "to": "freja",
+    "predicate": "friend",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "弗蕾娅曾是埃姆雷亲密的朋友，并在再次相遇后帮助他。",
+    "evidence": [
+      {
+        "sourceId": "cn-emre",
+        "locator": "悬赏目标；公开页面数据 /heroConfigs/4",
+        "noteZh": "弗蕾娅曾是埃姆雷亲密的朋友，并在再次相遇后帮助他。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-emre",
+        "term-freja"
+      ]
+    }
+  },
+  {
+    "id": "cn4-emre-member-talon-reign",
+    "from": "emre",
+    "to": "talon",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "受未知力量影响的埃姆雷与弗蕾娅在黑爪麾下行动。",
+    "evidence": [
+      {
+        "sourceId": "cn-emre",
+        "locator": "悬赏目标；公开页面数据 /heroConfigs/4",
+        "noteZh": "受未知力量影响的埃姆雷与弗蕾娅在黑爪麾下行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-emre",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-emre-fought-sierra-reign",
+    "from": "emre",
+    "to": "sierra",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "埃姆雷执行诺顿保险库任务时与西拉交战。",
+    "evidence": [
+      {
+        "sourceId": "cn-emre",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/4",
+        "noteZh": "埃姆雷执行诺顿保险库任务时与西拉交战。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-emre",
+        "term-sierra"
+      ]
+    }
+  },
+  {
+    "id": "cn4-ana-recruited-freja-early",
+    "from": "ana",
+    "to": "freja",
+    "predicate": "recruited",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "安娜招募弗蕾娅加入守望先锋的搜救部门。",
+    "evidence": [
+      {
+        "sourceId": "cn-freja",
+        "locator": "风暴前夕；公开页面数据 /heroConfigs/10",
+        "noteZh": "安娜招募弗蕾娅加入守望先锋的搜救部门。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-ana",
+        "term-freja"
+      ]
+    }
+  },
+  {
+    "id": "cn4-freja-member-search-rescue-early",
+    "from": "freja",
+    "to": "search-rescue",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "弗蕾娅在守望先锋的搜救部门担任干员。",
+    "evidence": [
+      {
+        "sourceId": "cn-freja",
+        "locator": "风暴前夕；公开页面数据 /heroConfigs/10",
+        "noteZh": "弗蕾娅在守望先锋的搜救部门担任干员。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-freja",
+        "term-search-rescue"
+      ]
+    }
+  },
+  {
+    "id": "cn4-search-rescue-department-overwatch-early",
+    "from": "search-rescue",
+    "to": "overwatch",
+    "predicate": "department",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "搜救部门曾是守望先锋的组成部分。",
+    "evidence": [
+      {
+        "sourceId": "cn-freja",
+        "locator": "风暴前夕；公开页面数据 /heroConfigs/10",
+        "noteZh": "搜救部门曾是守望先锋的组成部分。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-search-rescue",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-freja-colleague-reinhardt-early",
+    "from": "freja",
+    "to": "reinhardt",
+    "predicate": "colleague",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "莱因哈特曾指名要求弗蕾娅参与任务。",
+    "evidence": [
+      {
+        "sourceId": "cn-freja",
+        "locator": "风暴前夕；公开页面数据 /heroConfigs/10",
+        "noteZh": "莱因哈特曾指名要求弗蕾娅参与任务。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-freja",
+        "term-reinhardt"
+      ]
+    }
+  },
+  {
+    "id": "cn4-freja-colleague-mercy-early",
+    "from": "freja",
+    "to": "mercy",
+    "predicate": "colleague",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "安吉拉·齐格勒曾指名要求弗蕾娅参与任务。",
+    "evidence": [
+      {
+        "sourceId": "cn-freja",
+        "locator": "风暴前夕；公开页面数据 /heroConfigs/10",
+        "noteZh": "安吉拉·齐格勒曾指名要求弗蕾娅参与任务。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-freja",
+        "term-mercy"
+      ]
+    }
+  },
+  {
+    "id": "cn4-maximillien-hired-freja-unspecified",
+    "from": "maximillien",
+    "to": "freja",
+    "predicate": "hired",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "马克西米里安雇佣弗蕾娅追踪埃姆雷。",
+    "evidence": [
+      {
+        "sourceId": "cn-freja",
+        "locator": "机遇叩门；公开页面数据 /heroConfigs/10",
+        "noteZh": "马克西米里安雇佣弗蕾娅追踪埃姆雷。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-maximillien",
+        "term-freja"
+      ]
+    }
+  },
+  {
+    "id": "cn4-maximillien-member-talon-unspecified",
+    "from": "maximillien",
+    "to": "talon",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "马克西米里安为黑爪提供资金支持。",
+    "evidence": [
+      {
+        "sourceId": "cn-freja",
+        "locator": "机遇叩门；公开页面数据 /heroConfigs/10",
+        "noteZh": "马克西米里安为黑爪提供资金支持。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-maximillien",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-freja-member-talon-reign",
+    "from": "freja",
+    "to": "talon",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "弗蕾娅选择留在黑爪，协助埃姆雷保住人性。",
+    "evidence": [
+      {
+        "sourceId": "cn-freja",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/10",
+        "noteZh": "弗蕾娅选择留在黑爪，协助埃姆雷保住人性。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-freja",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-freja-fought-sierra-reign",
+    "from": "freja",
+    "to": "sierra",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "弗蕾娅在夺取强化血清时与西拉交战。",
+    "evidence": [
+      {
+        "sourceId": "cn-freja",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/10",
+        "noteZh": "弗蕾娅在夺取强化血清时与西拉交战。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-freja",
+        "term-sierra"
+      ]
+    }
+  },
+  {
+    "id": "cn4-toshiro-mentor-mizuki-family",
+    "from": "toshiro",
+    "to": "mizuki",
+    "predicate": "mentor",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "被囚禁的山神敏郎给予瑞稀教导，两人亦师亦友。",
+    "evidence": [
+      {
+        "sourceId": "cn-mizuki",
+        "locator": "故事概述；公开页面数据 /heroConfigs/6",
+        "noteZh": "被囚禁的山神敏郎给予瑞稀教导，两人亦师亦友。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-toshiro",
+        "term-mizuki"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mizuki-member-hashimoto-clan-family",
+    "from": "mizuki",
+    "to": "hashimoto-clan",
+    "predicate": "member",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "九岁的瑞稀被桥元家族吸纳，以效忠换取债务豁免。",
+    "evidence": [
+      {
+        "sourceId": "cn-mizuki",
+        "locator": "桥元家族的收养；公开页面数据 /heroConfigs/6",
+        "noteZh": "九岁的瑞稀被桥元家族吸纳，以效忠换取债务豁免。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mizuki",
+        "term-hashimoto-clan"
+      ]
+    }
+  },
+  {
+    "id": "cn4-toshiro-gifted-mizuki-unspecified",
+    "from": "toshiro",
+    "to": "mizuki",
+    "predicate": "gifted",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "敏郎将亲手打造的幻灵锁镰赠予瑞稀。",
+    "evidence": [
+      {
+        "sourceId": "cn-mizuki",
+        "locator": "渗透铁坂；公开页面数据 /heroConfigs/6",
+        "noteZh": "敏郎将亲手打造的幻灵锁镰赠予瑞稀。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-toshiro",
+        "term-mizuki"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mizuki-infiltrated-yokai-gang-unspecified",
+    "from": "mizuki",
+    "to": "yokai-gang",
+    "predicate": "infiltrated",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "瑞稀受桥元派遣潜入妖怪团。",
+    "evidence": [
+      {
+        "sourceId": "cn-mizuki",
+        "locator": "渗透铁坂；公开页面数据 /heroConfigs/6",
+        "noteZh": "瑞稀受桥元派遣潜入妖怪团。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mizuki",
+        "term-yokai-gang"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mizuki-freed-genji-reign",
+    "from": "mizuki",
+    "to": "genji",
+    "predicate": "freed",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "瑞稀在东京行动中帮助源氏获救。",
+    "evidence": [
+      {
+        "sourceId": "cn-mizuki",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/6",
+        "noteZh": "瑞稀在东京行动中帮助源氏获救。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mizuki",
+        "term-genji"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mizuki-freed-toshiro-reign",
+    "from": "mizuki",
+    "to": "toshiro",
+    "predicate": "freed",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "瑞稀背叛桥元与死怨，帮助营救敏郎。",
+    "evidence": [
+      {
+        "sourceId": "cn-mizuki",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/6",
+        "noteZh": "瑞稀背叛桥元与死怨，帮助营救敏郎。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mizuki",
+        "term-toshiro"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mizuki-member-overwatch-reign",
+    "from": "mizuki",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "瑞稀离开妖怪团后加入守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-mizuki",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/6",
+        "noteZh": "瑞稀离开妖怪团后加入守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mizuki",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-bhatt-grandparent-domina-family",
+    "from": "bhatt",
+    "to": "domina",
+    "predicate": "grandparent",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "费斯瓦卡玛·巴特博士是金驭的祖父。",
+    "evidence": [
+      {
+        "sourceId": "cn-domina",
+        "locator": "与生俱来的期许；公开页面数据 /heroConfigs/7",
+        "noteZh": "费斯瓦卡玛·巴特博士是金驭的祖父。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-bhatt",
+        "term-domina"
+      ]
+    }
+  },
+  {
+    "id": "cn4-bhatt-founder-vishkar-corporation-unspecified",
+    "from": "bhatt",
+    "to": "vishkar-corporation",
+    "predicate": "founder",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "费斯瓦卡玛·巴特博士创立了费斯卡集团。",
+    "evidence": [
+      {
+        "sourceId": "cn-domina",
+        "locator": "与生俱来的期许；公开页面数据 /heroConfigs/7",
+        "noteZh": "费斯瓦卡玛·巴特博士创立了费斯卡集团。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-bhatt",
+        "term-vishkar-corporation"
+      ]
+    }
+  },
+  {
+    "id": "cn4-domina-leader-vishkar-corporation-unspecified",
+    "from": "domina",
+    "to": "vishkar-corporation",
+    "predicate": "leader",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "金驭进入董事会，并出任费斯卡集团运营和发展副总裁。",
+    "evidence": [
+      {
+        "sourceId": "cn-domina",
+        "locator": "火炼出真金；公开页面数据 /heroConfigs/7",
+        "noteZh": "金驭进入董事会，并出任费斯卡集团运营和发展副总裁。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-domina",
+        "term-vishkar-corporation"
+      ]
+    }
+  },
+  {
+    "id": "cn4-domina-colleague-vendetta-reign",
+    "from": "domina",
+    "to": "vendetta",
+    "predicate": "colleague",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "金驭资助斩仇并提供科技，换取重建开发权；不据此认定她是黑爪成员。",
+    "evidence": [
+      {
+        "sourceId": "cn-domina",
+        "locator": "志在必得；公开页面数据 /heroConfigs/7",
+        "noteZh": "金驭资助斩仇并提供科技，换取重建开发权；不据此认定她是黑爪成员。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-domina",
+        "term-vendetta"
+      ]
+    }
+  },
+  {
+    "id": "cn4-antonio-father-vendetta-family",
+    "from": "antonio",
+    "to": "vendetta",
+    "predicate": "father",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "安东尼奥·巴塔罗蒂是斩仇的父亲。",
+    "evidence": [
+      {
+        "sourceId": "cn-vendetta",
+        "locator": "出身权门；公开页面数据 /heroConfigs/8",
+        "noteZh": "安东尼奥·巴塔罗蒂是斩仇的父亲。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-antonio",
+        "term-vendetta"
+      ]
+    }
+  },
+  {
+    "id": "cn4-antonio-leader-talon-early",
+    "from": "antonio",
+    "to": "talon",
+    "predicate": "leader",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "安东尼奥曾是黑爪议会中的重要人物。",
+    "evidence": [
+      {
+        "sourceId": "cn-vendetta",
+        "locator": "出身权门；公开页面数据 /heroConfigs/8",
+        "noteZh": "安东尼奥曾是黑爪议会中的重要人物。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-antonio",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-blackwatch-killed-antonio-early",
+    "from": "blackwatch",
+    "to": "antonio",
+    "predicate": "killed",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "安东尼奥死于暗影守望特工的行动。",
+    "evidence": [
+      {
+        "sourceId": "cn-vendetta",
+        "locator": "出身权门；公开页面数据 /heroConfigs/8",
+        "noteZh": "安东尼奥死于暗影守望特工的行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-blackwatch",
+        "term-antonio"
+      ]
+    }
+  },
+  {
+    "id": "cn4-vialli-colleague-antonio-early",
+    "from": "vialli",
+    "to": "antonio",
+    "predicate": "colleague",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "维埃利曾是安东尼奥的心腹。",
+    "evidence": [
+      {
+        "sourceId": "cn-vendetta",
+        "locator": "出身权门；公开页面数据 /heroConfigs/8",
+        "noteZh": "维埃利曾是安东尼奥的心腹。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-vialli",
+        "term-antonio"
+      ]
+    }
+  },
+  {
+    "id": "cn4-vialli-leader-talon-unspecified",
+    "from": "vialli",
+    "to": "talon",
+    "predicate": "leader",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "传记记述维埃利曾领导黑爪。",
+    "evidence": [
+      {
+        "sourceId": "cn-vendetta",
+        "locator": "恶名远扬；公开页面数据 /heroConfigs/8",
+        "noteZh": "传记记述维埃利曾领导黑爪。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-vialli",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-ashe-colleague-vendetta-reign",
+    "from": "ashe",
+    "to": "vendetta",
+    "predicate": "colleague",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "艾什与斩仇达成临时协议，参与夺取武器的行动。",
+    "evidence": [
+      {
+        "sourceId": "cn-ashe",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/11",
+        "noteZh": "艾什与斩仇达成临时协议，参与夺取武器的行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-ashe",
+        "term-vendetta"
+      ]
+    }
+  },
+  {
+    "id": "cn4-deadlock-rebels-allied-talon-reign",
+    "from": "deadlock-rebels",
+    "to": "talon",
+    "predicate": "allied",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "死局帮与黑爪在格兰德台地袭击中临时合作。",
+    "evidence": [
+      {
+        "sourceId": "cn-ashe",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/11",
+        "noteZh": "死局帮与黑爪在格兰德台地袭击中临时合作。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-deadlock-rebels",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-deadlock-rebels-fought-helix-securities-reign",
+    "from": "deadlock-rebels",
+    "to": "helix-securities",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "死局帮参与袭击格兰德台地，与海力士交战。",
+    "evidence": [
+      {
+        "sourceId": "cn-ashe",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/11",
+        "noteZh": "死局帮参与袭击格兰德台地，与海力士交战。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-deadlock-rebels",
+        "term-helix-securities"
+      ]
+    }
+  },
+  {
+    "id": "cn4-deadlock-rebels-fought-overwatch-reign",
+    "from": "deadlock-rebels",
+    "to": "overwatch",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "死局帮在格兰德台地袭击中与守望先锋交战。",
+    "evidence": [
+      {
+        "sourceId": "cn-ashe",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/11",
+        "noteZh": "死局帮在格兰德台地袭击中与守望先锋交战。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-deadlock-rebels",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-efi-member-overwatch-reign",
+    "from": "efi",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "伊菲与奥丽莎在保卫努巴尼后加入守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-orisa",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/13",
+        "noteZh": "伊菲与奥丽莎在保卫努巴尼后加入守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-efi",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-orisa-member-overwatch-reign",
+    "from": "orisa",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "奥丽莎加入守望先锋，帮助抵挡黑爪攻势。",
+    "evidence": [
+      {
+        "sourceId": "cn-orisa",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/13",
+        "noteZh": "奥丽莎加入守望先锋，帮助抵挡黑爪攻势。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-orisa",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-baptiste-member-caribbean-coalition-early",
+    "from": "baptiste",
+    "to": "caribbean-coalition",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "巴蒂斯特曾在加勒比联盟特种部队任战地医疗兵。",
+    "evidence": [
+      {
+        "sourceId": "cn-baptiste",
+        "locator": "加勒比联盟；公开页面数据 /heroConfigs/14",
+        "noteZh": "巴蒂斯特曾在加勒比联盟特种部队任战地医疗兵。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-baptiste",
+        "term-caribbean-coalition"
+      ]
+    }
+  },
+  {
+    "id": "cn4-baptiste-member-talon-unspecified",
+    "from": "baptiste",
+    "to": "talon",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "巴蒂斯特曾加入黑爪，后因组织的暴行而离开。",
+    "evidence": [
+      {
+        "sourceId": "cn-baptiste",
+        "locator": "黑爪；公开页面数据 /heroConfigs/14",
+        "noteZh": "巴蒂斯特曾加入黑爪，后因组织的暴行而离开。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-baptiste",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-baptiste-colleague-cassidy-recall",
+    "from": "baptiste",
+    "to": "cassidy",
+    "predicate": "colleague",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "巴蒂斯特在寻找齐格勒时结识卡西迪，并与他合作。",
+    "evidence": [
+      {
+        "sourceId": "cn-baptiste",
+        "locator": "逃亡；公开页面数据 /heroConfigs/14",
+        "noteZh": "巴蒂斯特在寻找齐格勒时结识卡西迪，并与他合作。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-baptiste",
+        "term-cassidy"
+      ]
+    }
+  },
+  {
+    "id": "cn4-baptiste-member-overwatch-reign",
+    "from": "baptiste",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "巴蒂斯特加入了重建后的守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-baptiste",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/14",
+        "noteZh": "巴蒂斯特加入了重建后的守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-baptiste",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-hanzo-freed-genji-reign",
+    "from": "hanzo",
+    "to": "genji",
+    "predicate": "freed",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "半藏与雾子、妖怪团协助源氏逃离桥元的囚禁。",
+    "evidence": [
+      {
+        "sourceId": "cn-hanzo",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/15",
+        "noteZh": "半藏与雾子、妖怪团协助源氏逃离桥元的囚禁。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-hanzo",
+        "term-genji"
+      ]
+    }
+  },
+  {
+    "id": "cn4-hanzo-freed-toshiro-reign",
+    "from": "hanzo",
+    "to": "toshiro",
+    "predicate": "freed",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "半藏参与从桥元寨救出敏郎的行动。",
+    "evidence": [
+      {
+        "sourceId": "cn-hanzo",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/15",
+        "noteZh": "半藏参与从桥元寨救出敏郎的行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-hanzo",
+        "term-toshiro"
+      ]
+    }
+  },
+  {
+    "id": "cn4-torbjorn-cared-for-bastion-unspecified",
+    "from": "torbjorn",
+    "to": "bastion",
+    "predicate": "cared-for",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "托比昂收留堡垒，修理系统并帮助他摆脱战时程序影响。",
+    "evidence": [
+      {
+        "sourceId": "cn-bastion",
+        "locator": "托比昂；公开页面数据 /heroConfigs/16",
+        "noteZh": "托比昂收留堡垒，修理系统并帮助他摆脱战时程序影响。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-torbjorn",
+        "term-bastion"
+      ]
+    }
+  },
+  {
+    "id": "cn4-torbjorn-colleague-bastion-unspecified",
+    "from": "torbjorn",
+    "to": "bastion",
+    "predicate": "colleague",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "堡垒在托比昂的工坊中担任助理。",
+    "evidence": [
+      {
+        "sourceId": "cn-bastion",
+        "locator": "托比昂；公开页面数据 /heroConfigs/16",
+        "noteZh": "堡垒在托比昂的工坊中担任助理。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-torbjorn",
+        "term-bastion"
+      ]
+    }
+  },
+  {
+    "id": "cn4-torbjorn-member-ironclad-guild-unspecified",
+    "from": "torbjorn",
+    "to": "ironclad-guild",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "托比昂将堡垒带回自己所属的铁甲公会。",
+    "evidence": [
+      {
+        "sourceId": "cn-bastion",
+        "locator": "托比昂；公开页面数据 /heroConfigs/16",
+        "noteZh": "托比昂将堡垒带回自己所属的铁甲公会。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-torbjorn",
+        "term-ironclad-guild"
+      ]
+    }
+  },
+  {
+    "id": "cn4-reinhardt-mentor-brigitte-unspecified",
+    "from": "reinhardt",
+    "to": "brigitte",
+    "predicate": "mentor",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "莱因哈特教导布丽吉塔战斗技巧。",
+    "evidence": [
+      {
+        "sourceId": "cn-brigitte",
+        "locator": "骑士的侍从；公开页面数据 /heroConfigs/17",
+        "noteZh": "莱因哈特教导布丽吉塔战斗技巧。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-reinhardt",
+        "term-brigitte"
+      ]
+    }
+  },
+  {
+    "id": "cn4-brigitte-rescued-reinhardt-unspecified",
+    "from": "brigitte",
+    "to": "reinhardt",
+    "predicate": "rescued",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "布丽吉塔在莱因哈特与恶龙帮交战后为他包扎伤口。",
+    "evidence": [
+      {
+        "sourceId": "cn-brigitte",
+        "locator": "骑士的侍从；公开页面数据 /heroConfigs/17",
+        "noteZh": "布丽吉塔在莱因哈特与恶龙帮交战后为他包扎伤口。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-brigitte",
+        "term-reinhardt"
+      ]
+    }
+  },
+  {
+    "id": "cn4-brigitte-fought-null-sector-recall",
+    "from": "brigitte",
+    "to": "null-sector",
+    "predicate": "fought",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "布丽吉塔在巴黎参与对抗归零者的战斗。",
+    "evidence": [
+      {
+        "sourceId": "cn-brigitte",
+        "locator": "骑士的侍从；公开页面数据 /heroConfigs/17",
+        "noteZh": "布丽吉塔在巴黎参与对抗归零者的战斗。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-brigitte",
+        "term-null-sector"
+      ]
+    }
+  },
+  {
+    "id": "cn4-katya-leader-volskaya-industries-unspecified",
+    "from": "katya",
+    "to": "volskaya-industries",
+    "predicate": "leader",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "卡特娅·沃斯卡娅担任沃斯卡娅工业集团CEO。",
+    "evidence": [
+      {
+        "sourceId": "cn-zarya",
+        "locator": "俄罗斯防御部队；公开页面数据 /heroConfigs/18",
+        "noteZh": "卡特娅·沃斯卡娅担任沃斯卡娅工业集团CEO。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-katya",
+        "term-volskaya-industries"
+      ]
+    }
+  },
+  {
+    "id": "cn4-katya-gifted-zarya-unspecified",
+    "from": "katya",
+    "to": "zarya",
+    "predicate": "gifted",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "卡特娅向查莉娅提供实验型粒子炮。",
+    "evidence": [
+      {
+        "sourceId": "cn-zarya",
+        "locator": "俄罗斯防御部队；公开页面数据 /heroConfigs/18",
+        "noteZh": "卡特娅向查莉娅提供实验型粒子炮。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-katya",
+        "term-zarya"
+      ]
+    }
+  },
+  {
+    "id": "cn4-zarya-colleague-lynx-17-unspecified",
+    "from": "zarya",
+    "to": "lynx-17",
+    "predicate": "colleague",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "查莉娅与林克斯·赛文汀合作追踪黑影。",
+    "evidence": [
+      {
+        "sourceId": "cn-zarya",
+        "locator": "俄罗斯防御部队；公开页面数据 /heroConfigs/18",
+        "noteZh": "查莉娅与林克斯·赛文汀合作追踪黑影。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-zarya",
+        "term-lynx-17"
+      ]
+    }
+  },
+  {
+    "id": "cn4-cassidy-recruited-zarya-recall",
+    "from": "cassidy",
+    "to": "zarya",
+    "predicate": "recruited",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "卡西迪在西伯利亚前线招募查莉娅。",
+    "evidence": [
+      {
+        "sourceId": "cn-zarya",
+        "locator": "西伯利亚前线；公开页面数据 /heroConfigs/18",
+        "noteZh": "卡西迪在西伯利亚前线招募查莉娅。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-cassidy",
+        "term-zarya"
+      ]
+    }
+  },
+  {
+    "id": "cn4-zarya-member-overwatch-recall",
+    "from": "zarya",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "查莉娅接受邀请，为重组的守望先锋效力。",
+    "evidence": [
+      {
+        "sourceId": "cn-zarya",
+        "locator": "西伯利亚前线；公开页面数据 /heroConfigs/18",
+        "noteZh": "查莉娅接受邀请，为重组的守望先锋效力。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-zarya",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mondatta-leader-shambali-order-unspecified",
+    "from": "mondatta",
+    "to": "shambali-order",
+    "predicate": "leader",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "孟达塔带领香巴里僧侣倡导人类与智械和谐共处。",
+    "evidence": [
+      {
+        "sourceId": "cn-zenyatta",
+        "locator": "香巴里；公开页面数据 /heroConfigs/19",
+        "noteZh": "孟达塔带领香巴里僧侣倡导人类与智械和谐共处。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mondatta",
+        "term-shambali-order"
+      ]
+    }
+  },
+  {
+    "id": "cn4-zenyatta-member-shambali-order-unspecified",
+    "from": "zenyatta",
+    "to": "shambali-order",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "禅雅塔曾在香巴里寺院修行，后离开云游。",
+    "evidence": [
+      {
+        "sourceId": "cn-zenyatta",
+        "locator": "香巴里；公开页面数据 /heroConfigs/19",
+        "noteZh": "禅雅塔曾在香巴里寺院修行，后离开云游。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-zenyatta",
+        "term-shambali-order"
+      ]
+    }
+  },
+  {
+    "id": "cn4-ramattra-friend-zenyatta-unspecified",
+    "from": "ramattra",
+    "to": "zenyatta",
+    "predicate": "friend",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "拉玛刹与禅雅塔在相识后成为亲密的伙伴。",
+    "evidence": [
+      {
+        "sourceId": "cn-zenyatta",
+        "locator": "香巴里；公开页面数据 /heroConfigs/19",
+        "noteZh": "拉玛刹与禅雅塔在相识后成为亲密的伙伴。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-ramattra",
+        "term-zenyatta"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mondatta-mentor-zenyatta-unspecified",
+    "from": "mondatta",
+    "to": "zenyatta",
+    "predicate": "mentor",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "孟达塔是禅雅塔的师父。",
+    "evidence": [
+      {
+        "sourceId": "cn-zenyatta",
+        "locator": "漂泊僧；公开页面数据 /heroConfigs/19",
+        "noteZh": "孟达塔是禅雅塔的师父。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mondatta",
+        "term-zenyatta"
+      ]
+    }
+  },
+  {
+    "id": "cn4-zenyatta-mentor-symmetra-unspecified",
+    "from": "zenyatta",
+    "to": "symmetra",
+    "predicate": "mentor",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "禅雅塔在苏拉瓦萨向秩序之光讲述奥罗拉，并启发她看待不完美之美。",
+    "evidence": [
+      {
+        "sourceId": "cn-zenyatta",
+        "locator": "漂泊僧；公开页面数据 /heroConfigs/19",
+        "noteZh": "禅雅塔在苏拉瓦萨向秩序之光讲述奥罗拉，并启发她看待不完美之美。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-zenyatta",
+        "term-symmetra"
+      ]
+    }
+  },
+  {
+    "id": "cn4-widowmaker-partner-gerard-family",
+    "from": "widowmaker",
+    "to": "gerard",
+    "predicate": "partner",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "艾米丽·拉克瓦与杰哈·拉克瓦曾是夫妻。",
+    "evidence": [
+      {
+        "sourceId": "cn-widowmaker",
+        "locator": "早年生活；公开页面数据 /heroConfigs/22",
+        "noteZh": "艾米丽·拉克瓦与杰哈·拉克瓦曾是夫妻。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-widowmaker",
+        "term-gerard"
+      ]
+    }
+  },
+  {
+    "id": "cn4-gerard-member-overwatch-early",
+    "from": "gerard",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "杰哈曾是守望先锋对抗黑爪的先锋特工。",
+    "evidence": [
+      {
+        "sourceId": "cn-widowmaker",
+        "locator": "早年生活；公开页面数据 /heroConfigs/22",
+        "noteZh": "杰哈曾是守望先锋对抗黑爪的先锋特工。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-gerard",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-talon-abducted-widowmaker-early",
+    "from": "talon",
+    "to": "widowmaker",
+    "predicate": "abducted",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "黑爪绑架艾米丽，并对她实施神经重构。",
+    "evidence": [
+      {
+        "sourceId": "cn-widowmaker",
+        "locator": "神经重构；公开页面数据 /heroConfigs/22",
+        "noteZh": "黑爪绑架艾米丽，并对她实施神经重构。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-talon",
+        "term-widowmaker"
+      ]
+    }
+  },
+  {
+    "id": "cn4-widowmaker-killed-gerard-early",
+    "from": "widowmaker",
+    "to": "gerard",
+    "predicate": "killed",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "艾米丽获救返回家中后杀死了丈夫杰哈。",
+    "evidence": [
+      {
+        "sourceId": "cn-widowmaker",
+        "locator": "神经重构；公开页面数据 /heroConfigs/22",
+        "noteZh": "艾米丽获救返回家中后杀死了丈夫杰哈。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-widowmaker",
+        "term-gerard"
+      ]
+    }
+  },
+  {
+    "id": "cn4-widowmaker-member-talon-unspecified",
+    "from": "widowmaker",
+    "to": "talon",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "艾米丽回归黑爪并接受训练，成为黑百合。",
+    "evidence": [
+      {
+        "sourceId": "cn-widowmaker",
+        "locator": "黑爪；公开页面数据 /heroConfigs/22",
+        "noteZh": "艾米丽回归黑爪并接受训练，成为黑百合。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-widowmaker",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-moira-modified-widowmaker-unspecified",
+    "from": "moira",
+    "to": "widowmaker",
+    "predicate": "modified",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "莫伊拉调整了黑百合的生理结构以强化其狙击能力。",
+    "evidence": [
+      {
+        "sourceId": "cn-widowmaker",
+        "locator": "黑爪；公开页面数据 /heroConfigs/22",
+        "noteZh": "莫伊拉调整了黑百合的生理结构以强化其狙击能力。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-moira",
+        "term-widowmaker"
+      ]
+    }
+  },
+  {
+    "id": "cn4-widowmaker-injured-ana-early",
+    "from": "widowmaker",
+    "to": "ana",
+    "predicate": "injured",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "黑百合在波兰行动中击中了安娜；不据此认定安娜死亡。",
+    "evidence": [
+      {
+        "sourceId": "cn-widowmaker",
+        "locator": "黑爪；公开页面数据 /heroConfigs/22",
+        "noteZh": "黑百合在波兰行动中击中了安娜；不据此认定安娜死亡。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-widowmaker",
+        "term-ana"
+      ]
+    }
+  },
+  {
+    "id": "cn4-widowmaker-killed-mondatta-unspecified",
+    "from": "widowmaker",
+    "to": "mondatta",
+    "predicate": "killed",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "黑百合在国王大道刺杀了孟达塔。",
+    "evidence": [
+      {
+        "sourceId": "cn-widowmaker",
+        "locator": "黑爪；公开页面数据 /heroConfigs/22",
+        "noteZh": "黑百合在国王大道刺杀了孟达塔。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-widowmaker",
+        "term-mondatta"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sombra-member-los-muertos-early",
+    "from": "sombra",
+    "to": "los-muertos",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "黑影曾加入墨西哥的骷髅帮。",
+    "evidence": [
+      {
+        "sourceId": "cn-sombra",
+        "locator": "早年生活；公开页面数据 /heroConfigs/23",
+        "noteZh": "黑影曾加入墨西哥的骷髅帮。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sombra",
+        "term-los-muertos"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sombra-member-talon-unspecified",
+    "from": "sombra",
+    "to": "talon",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "黑影曾加入黑爪，借组织资源追踪全球阴谋。",
+    "evidence": [
+      {
+        "sourceId": "cn-sombra",
+        "locator": "黑爪；公开页面数据 /heroConfigs/23",
+        "noteZh": "黑影曾加入黑爪，借组织资源追踪全球阴谋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sombra",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sombra-abducted-sigma-unspecified",
+    "from": "sombra",
+    "to": "sigma",
+    "predicate": "abducted",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "黑影协助死神绑架希尔伯伦·德·柯伊伯，即西格玛。",
+    "evidence": [
+      {
+        "sourceId": "cn-sombra",
+        "locator": "黑爪；公开页面数据 /heroConfigs/23",
+        "noteZh": "黑影协助死神绑架希尔伯伦·德·柯伊伯，即西格玛。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sombra",
+        "term-sigma"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sombra-blackmailed-katya-unspecified",
+    "from": "sombra",
+    "to": "katya",
+    "predicate": "blackmailed",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "黑影没有刺杀卡特娅，而是利用秘密交易敲诈她。",
+    "evidence": [
+      {
+        "sourceId": "cn-sombra",
+        "locator": "黑爪；公开页面数据 /heroConfigs/23",
+        "noteZh": "黑影没有刺杀卡特娅，而是利用秘密交易敲诈她。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sombra",
+        "term-katya"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sombra-left-talon-reign",
+    "from": "sombra",
+    "to": "talon",
+    "predicate": "left",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "黑影不愿为斩仇效力，离开她掌控的黑爪。",
+    "evidence": [
+      {
+        "sourceId": "cn-sombra",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/23",
+        "noteZh": "黑影不愿为斩仇效力，离开她掌控的黑爪。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sombra",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-hazard-member-the-phreaks-unspecified",
+    "from": "hazard",
+    "to": "the-phreaks",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "骇灾加入了由躯体改造者组成的怪咖盟。",
+    "evidence": [
+      {
+        "sourceId": "cn-hazard",
+        "locator": "遇见怪咖盟；公开页面数据 /heroConfigs/24",
+        "noteZh": "骇灾加入了由躯体改造者组成的怪咖盟。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-hazard",
+        "term-the-phreaks"
+      ]
+    }
+  },
+  {
+    "id": "cn4-touch-up-member-the-phreaks-unspecified",
+    "from": "touch-up",
+    "to": "the-phreaks",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "点睛师是怪咖盟的躯体改造专家。",
+    "evidence": [
+      {
+        "sourceId": "cn-hazard",
+        "locator": "遇见怪咖盟；公开页面数据 /heroConfigs/24",
+        "noteZh": "点睛师是怪咖盟的躯体改造专家。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-touch-up",
+        "term-the-phreaks"
+      ]
+    }
+  },
+  {
+    "id": "cn4-touch-up-modified-hazard-unspecified",
+    "from": "touch-up",
+    "to": "hazard",
+    "predicate": "modified",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "点睛师为骇灾量身设计强化改造，恢复行动能力并增加钒模组。",
+    "evidence": [
+      {
+        "sourceId": "cn-hazard",
+        "locator": "遇见怪咖盟 / 无可阻挡的升级；公开页面数据 /heroConfigs/24",
+        "noteZh": "点睛师为骇灾量身设计强化改造，恢复行动能力并增加钒模组。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-touch-up",
+        "term-hazard"
+      ]
+    }
+  },
+  {
+    "id": "cn4-cassidy-founder-deadlock-rebels-early",
+    "from": "cassidy",
+    "to": "deadlock-rebels",
+    "predicate": "founder",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "卡西迪曾是死局帮的创始成员。",
+    "evidence": [
+      {
+        "sourceId": "cn-cassidy",
+        "locator": "故事概述；公开页面数据 /heroConfigs/26",
+        "noteZh": "卡西迪曾是死局帮的创始成员。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-cassidy",
+        "term-deadlock-rebels"
+      ]
+    }
+  },
+  {
+    "id": "cn4-cassidy-friend-liao-early",
+    "from": "cassidy",
+    "to": "liao",
+    "predicate": "friend",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "传记将米娜·廖称为卡西迪已故的朋友。",
+    "evidence": [
+      {
+        "sourceId": "cn-cassidy",
+        "locator": "守望先锋解散后；公开页面数据 /heroConfigs/26",
+        "noteZh": "传记将米娜·廖称为卡西迪已故的朋友。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-link-9"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-cassidy",
+        "term-liao"
+      ]
+    }
+  },
+  {
+    "id": "cn4-cassidy-fought-talon-unspecified",
+    "from": "cassidy",
+    "to": "talon",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "卡西迪在德克萨斯州的列车上与黑爪交战。",
+    "evidence": [
+      {
+        "sourceId": "cn-cassidy",
+        "locator": "守望先锋解散后；公开页面数据 /heroConfigs/26",
+        "noteZh": "卡西迪在德克萨斯州的列车上与黑爪交战。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-cassidy",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-roadhog-protected-junkrat-unspecified",
+    "from": "roadhog",
+    "to": "junkrat",
+    "predicate": "protected",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "路霸以宝藏分成为条件，担任狂鼠的私人保镖。",
+    "evidence": [
+      {
+        "sourceId": "cn-junkrat",
+        "locator": "通缉犯；公开页面数据 /heroConfigs/27",
+        "noteZh": "路霸以宝藏分成为条件，担任狂鼠的私人保镖。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-roadhog",
+        "term-junkrat"
+      ]
+    }
+  },
+  {
+    "id": "cn4-ramattra-member-shambali-order-unspecified",
+    "from": "ramattra",
+    "to": "shambali-order",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "拉玛刹曾成为香巴里僧侣并修行多年。",
+    "evidence": [
+      {
+        "sourceId": "cn-ramattra",
+        "locator": "香巴里；公开页面数据 /heroConfigs/28",
+        "noteZh": "拉玛刹曾成为香巴里僧侣并修行多年。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-ramattra",
+        "term-shambali-order"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mondatta-mentor-ramattra-unspecified",
+    "from": "mondatta",
+    "to": "ramattra",
+    "predicate": "mentor",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "孟达塔接纳拉玛刹并指导其修行。",
+    "evidence": [
+      {
+        "sourceId": "cn-ramattra",
+        "locator": "香巴里；公开页面数据 /heroConfigs/28",
+        "noteZh": "孟达塔接纳拉玛刹并指导其修行。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mondatta",
+        "term-ramattra"
+      ]
+    }
+  },
+  {
+    "id": "cn4-ramattra-leader-null-sector-unspecified",
+    "from": "ramattra",
+    "to": "null-sector",
+    "predicate": "leader",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "拉玛刹组织追随者并领导归零者。",
+    "evidence": [
+      {
+        "sourceId": "cn-ramattra",
+        "locator": "归零者；公开页面数据 /heroConfigs/28",
+        "noteZh": "拉玛刹组织追随者并领导归零者。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-ramattra",
+        "term-null-sector"
+      ]
+    }
+  },
+  {
+    "id": "cn4-overwatch-fought-null-sector-early",
+    "from": "overwatch",
+    "to": "null-sector",
+    "predicate": "fought",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "守望先锋挫败了归零者在伦敦的行动。",
+    "evidence": [
+      {
+        "sourceId": "cn-ramattra",
+        "locator": "归零者；公开页面数据 /heroConfigs/28",
+        "noteZh": "守望先锋挫败了归零者在伦敦的行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-overwatch",
+        "term-null-sector"
+      ]
+    }
+  },
+  {
+    "id": "cn4-balderich-mentor-reinhardt-early",
+    "from": "balderich",
+    "to": "reinhardt",
+    "predicate": "mentor",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "鲍德里奇·冯阿德勒是莱因哈特的导师。",
+    "evidence": [
+      {
+        "sourceId": "cn-reinhardt",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/29",
+        "noteZh": "鲍德里奇·冯阿德勒是莱因哈特的导师。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-balderich",
+        "term-reinhardt"
+      ]
+    }
+  },
+  {
+    "id": "cn4-reinhardt-friend-torbjorn-unspecified",
+    "from": "reinhardt",
+    "to": "torbjorn",
+    "predicate": "friend",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "莱因哈特与托比昂是挚友。",
+    "evidence": [
+      {
+        "sourceId": "cn-reinhardt",
+        "locator": "守望先锋解散后；公开页面数据 /heroConfigs/29",
+        "noteZh": "莱因哈特与托比昂是挚友。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-reinhardt",
+        "term-torbjorn"
+      ]
+    }
+  },
+  {
+    "id": "cn4-winston-gifted-tracer-early",
+    "from": "winston",
+    "to": "tracer",
+    "predicate": "gifted",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "温斯顿为猎空设计了稳定时间状态的装置。",
+    "evidence": [
+      {
+        "sourceId": "cn-tracer",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/30",
+        "noteZh": "温斯顿为猎空设计了稳定时间状态的装置。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-winston",
+        "term-tracer"
+      ]
+    }
+  },
+  {
+    "id": "cn4-tracer-arrested-maximillien-early",
+    "from": "tracer",
+    "to": "maximillien",
+    "predicate": "arrested",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "猎空参与在哈瓦那逮捕马克西米里安的行动。",
+    "evidence": [
+      {
+        "sourceId": "cn-tracer",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/30",
+        "noteZh": "猎空参与在哈瓦那逮捕马克西米里安的行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-tracer",
+        "term-maximillien"
+      ]
+    }
+  },
+  {
+    "id": "cn4-tracer-arrested-doomfist-early",
+    "from": "tracer",
+    "to": "doomfist",
+    "predicate": "arrested",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "猎空所在的小队随后逮捕了末日铁拳。",
+    "evidence": [
+      {
+        "sourceId": "cn-tracer",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/30",
+        "noteZh": "猎空所在的小队随后逮捕了末日铁拳。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-tracer",
+        "term-doomfist"
+      ]
+    }
+  },
+  {
+    "id": "cn4-tracer-colleague-iggy-unspecified",
+    "from": "tracer",
+    "to": "iggy",
+    "predicate": "colleague",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "猎空与伊基合作，帮助伦敦地下世界的智械居民。",
+    "evidence": [
+      {
+        "sourceId": "cn-tracer",
+        "locator": "守望先锋解散后；公开页面数据 /heroConfigs/30",
+        "noteZh": "猎空与伊基合作，帮助伦敦地下世界的智械居民。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-tracer",
+        "term-iggy"
+      ]
+    }
+  },
+  {
+    "id": "cn4-tracer-fought-widowmaker-unspecified",
+    "from": "tracer",
+    "to": "widowmaker",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "猎空试图阻止黑百合刺杀孟达塔，与她交战。",
+    "evidence": [
+      {
+        "sourceId": "cn-tracer",
+        "locator": "守望先锋解散后；公开页面数据 /heroConfigs/30",
+        "noteZh": "猎空试图阻止黑百合刺杀孟达塔，与她交战。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-tracer",
+        "term-widowmaker"
+      ]
+    }
+  },
+  {
+    "id": "cn4-tracer-partner-emily-unspecified",
+    "from": "tracer",
+    "to": "emily",
+    "predicate": "partner",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "埃米莉是猎空的伴侣，并帮助她从重伤中康复。",
+    "evidence": [
+      {
+        "sourceId": "cn-tracer",
+        "locator": "归来；公开页面数据 /heroConfigs/30",
+        "noteZh": "埃米莉是猎空的伴侣，并帮助她从重伤中康复。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-tracer",
+        "term-emily"
+      ]
+    }
+  },
+  {
+    "id": "cn4-lucio-fought-vishkar-corporation-unspecified",
+    "from": "lucio",
+    "to": "vishkar-corporation",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "卢西奥带领居民反抗费斯卡在里约的压迫，将集团逐出社区。",
+    "evidence": [
+      {
+        "sourceId": "cn-lucio",
+        "locator": "活动家；公开页面数据 /heroConfigs/31",
+        "noteZh": "卢西奥带领居民反抗费斯卡在里约的压迫，将集团逐出社区。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-lucio",
+        "term-vishkar-corporation"
+      ]
+    }
+  },
+  {
+    "id": "cn4-lucio-member-overwatch-reign",
+    "from": "lucio",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "卢西奥在迎战里约归零者后加入守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-lucio",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/31",
+        "noteZh": "卢西奥在迎战里约归零者后加入守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-lucio",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-roadhog-colleague-junkrat-unspecified",
+    "from": "roadhog",
+    "to": "junkrat",
+    "predicate": "colleague",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "路霸与狂鼠结成合作搭档并约定分配宝藏。",
+    "evidence": [
+      {
+        "sourceId": "cn-roadhog",
+        "locator": "渣客；公开页面数据 /heroConfigs/32",
+        "noteZh": "路霸与狂鼠结成合作搭档并约定分配宝藏。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-roadhog",
+        "term-junkrat"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mauga-member-deepsea-raiders-early",
+    "from": "mauga",
+    "to": "deepsea-raiders",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "毛加在深海悍徒萨摩亚分部成长并成为战士。",
+    "evidence": [
+      {
+        "sourceId": "cn-mauga",
+        "locator": "深海悍徒；公开页面数据 /heroConfigs/33",
+        "noteZh": "毛加在深海悍徒萨摩亚分部成长并成为战士。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-link-45"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mauga",
+        "term-deepsea-raiders"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mauga-fought-doomfist-unspecified",
+    "from": "mauga",
+    "to": "doomfist",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "毛加与末日铁拳进行无规则对决，双方力竭战平。",
+    "evidence": [
+      {
+        "sourceId": "cn-mauga",
+        "locator": "新的挑战；公开页面数据 /heroConfigs/33",
+        "noteZh": "毛加与末日铁拳进行无规则对决，双方力竭战平。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mauga",
+        "term-doomfist"
+      ]
+    }
+  },
+  {
+    "id": "cn4-doomfist-recruited-mauga-unspecified",
+    "from": "doomfist",
+    "to": "mauga",
+    "predicate": "recruited",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "末日铁拳在对决后邀请毛加加入黑爪。",
+    "evidence": [
+      {
+        "sourceId": "cn-mauga",
+        "locator": "新的挑战；公开页面数据 /heroConfigs/33",
+        "noteZh": "末日铁拳在对决后邀请毛加加入黑爪。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-doomfist",
+        "term-mauga"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mauga-friend-baptiste-unspecified",
+    "from": "mauga",
+    "to": "baptiste",
+    "predicate": "friend",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "毛加与巴蒂斯特在黑爪结为朋友。",
+    "evidence": [
+      {
+        "sourceId": "cn-mauga",
+        "locator": "黑爪与未来；公开页面数据 /heroConfigs/33",
+        "noteZh": "毛加与巴蒂斯特在黑爪结为朋友。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mauga",
+        "term-baptiste"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mauga-member-talon-unspecified",
+    "from": "mauga",
+    "to": "talon",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "毛加在黑爪执行任务，包括追踪巴蒂斯特。",
+    "evidence": [
+      {
+        "sourceId": "cn-mauga",
+        "locator": "黑爪与未来；公开页面数据 /heroConfigs/33",
+        "noteZh": "毛加在黑爪执行任务，包括追踪巴蒂斯特。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mauga",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mei-member-ecopoints-early",
+    "from": "mei",
+    "to": "ecopoints",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "美参与守望先锋的生态监测项目，并驻扎南极站。",
+    "evidence": [
+      {
+        "sourceId": "cn-mei",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/34",
+        "noteZh": "美参与守望先锋的生态监测项目，并驻扎南极站。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mei",
+        "term-ecopoints"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mei-member-overwatch-recall",
+    "from": "mei",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "美在苏醒后回应召集令，加入重建后的守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-mei",
+        "locator": "归来；公开页面数据 /heroConfigs/34",
+        "noteZh": "美在苏醒后回应召集令，加入重建后的守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mei",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mei-fought-null-sector-recall",
+    "from": "mei",
+    "to": "null-sector",
+    "predicate": "fought",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "美暂缓个人研究，参与阻止归零者袭击巴黎。",
+    "evidence": [
+      {
+        "sourceId": "cn-mei",
+        "locator": "归来；公开页面数据 /heroConfigs/34",
+        "noteZh": "美暂缓个人研究，参与阻止归零者袭击巴黎。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mei",
+        "term-null-sector"
+      ]
+    }
+  },
+  {
+    "id": "cn4-adeyemi-mentor-doomfist-early",
+    "from": "adeyemi",
+    "to": "doomfist",
+    "predicate": "mentor",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "前任末日铁拳奥迪耶米亲自训练奥古迪姆。",
+    "evidence": [
+      {
+        "sourceId": "cn-doomfist",
+        "locator": "智械危机 / 黑爪；公开页面数据 /heroConfigs/35",
+        "noteZh": "前任末日铁拳奥迪耶米亲自训练奥古迪姆。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-adeyemi",
+        "term-doomfist"
+      ]
+    }
+  },
+  {
+    "id": "cn4-doomfist-killed-adeyemi-unspecified",
+    "from": "doomfist",
+    "to": "adeyemi",
+    "predicate": "killed",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "奥古迪姆杀死导师奥迪耶米，继承末日铁拳名号和武器。",
+    "evidence": [
+      {
+        "sourceId": "cn-doomfist",
+        "locator": "黑爪；公开页面数据 /heroConfigs/35",
+        "noteZh": "奥古迪姆杀死导师奥迪耶米，继承末日铁拳名号和武器。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-doomfist",
+        "term-adeyemi"
+      ]
+    }
+  },
+  {
+    "id": "cn4-doomfist-leader-talon-unspecified",
+    "from": "doomfist",
+    "to": "talon",
+    "predicate": "leader",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "奥古迪姆曾领导黑爪，推动组织转向私人军事力量。",
+    "evidence": [
+      {
+        "sourceId": "cn-doomfist",
+        "locator": "黑爪；公开页面数据 /heroConfigs/35",
+        "noteZh": "奥古迪姆曾领导黑爪，推动组织转向私人军事力量。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-doomfist",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-vendetta-fought-doomfist-reign",
+    "from": "vendetta",
+    "to": "doomfist",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "斩仇击败末日铁拳并斩下拳套；他的最终命运仍未明。",
+    "evidence": [
+      {
+        "sourceId": "cn-doomfist",
+        "locator": "“末日铁拳”的陨落；公开页面数据 /heroConfigs/35",
+        "noteZh": "斩仇击败末日铁拳并斩下拳套；他的最终命运仍未明。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-vendetta",
+        "term-doomfist"
+      ]
+    }
+  },
+  {
+    "id": "cn4-vendetta-leader-talon-reign",
+    "from": "vendetta",
+    "to": "talon",
+    "predicate": "leader",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "斩仇击败末日铁拳后夺取黑爪的领导权。",
+    "evidence": [
+      {
+        "sourceId": "cn-doomfist",
+        "locator": "“末日铁拳”的陨落；公开页面数据 /heroConfigs/35",
+        "noteZh": "斩仇击败末日铁拳后夺取黑爪的领导权。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-vendetta",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-moira-member-blackwatch-early",
+    "from": "moira",
+    "to": "blackwatch",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "莫伊拉在暗影守望秘密从事研究。",
+    "evidence": [
+      {
+        "sourceId": "cn-moira",
+        "locator": "暗影守望；公开页面数据 /heroConfigs/36",
+        "noteZh": "莫伊拉在暗影守望秘密从事研究。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-moira",
+        "term-blackwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-moira-modified-reaper-early",
+    "from": "moira",
+    "to": "reaper",
+    "predicate": "modified",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "莫伊拉曾对加布里尔·莱耶斯实施实验。",
+    "evidence": [
+      {
+        "sourceId": "cn-moira",
+        "locator": "暗影守望；公开页面数据 /heroConfigs/36",
+        "noteZh": "莫伊拉曾对加布里尔·莱耶斯实施实验。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-moira",
+        "term-reaper"
+      ]
+    }
+  },
+  {
+    "id": "cn4-moira-member-talon-unspecified",
+    "from": "moira",
+    "to": "talon",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "莫伊拉在黑爪的资助下继续研究。",
+    "evidence": [
+      {
+        "sourceId": "cn-moira",
+        "locator": "黑爪；公开页面数据 /heroConfigs/36",
+        "noteZh": "莫伊拉在黑爪的资助下继续研究。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-moira",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-moira-rescued-reaper-unspecified",
+    "from": "moira",
+    "to": "reaper",
+    "predicate": "rescued",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "瑞士总部被毁后，莫伊拉给濒危的莱耶斯注射药剂以保命，但也加剧了能力失控。",
+    "evidence": [
+      {
+        "sourceId": "cn-moira",
+        "locator": "黑爪；公开页面数据 /heroConfigs/36",
+        "noteZh": "瑞士总部被毁后，莫伊拉给濒危的莱耶斯注射药剂以保命，但也加剧了能力失控。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-moira",
+        "term-reaper"
+      ]
+    }
+  },
+  {
+    "id": "cn4-wrecking-ball-protected-junker-queen-unspecified",
+    "from": "wrecking-ball",
+    "to": "junker-queen",
+    "predicate": "protected",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "破坏球成为渣客女王的保镖。",
+    "evidence": [
+      {
+        "sourceId": "cn-wrecking-ball",
+        "locator": "故事概述；公开页面数据 /heroConfigs/37",
+        "noteZh": "破坏球成为渣客女王的保镖。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-wrecking-ball",
+        "term-junker-queen"
+      ]
+    }
+  },
+  {
+    "id": "cn4-lifeweaver-friend-symmetra-family",
+    "from": "lifeweaver",
+    "to": "symmetra",
+    "predicate": "friend",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "生命之梭与秩序之光在学院同住并成为好友。",
+    "evidence": [
+      {
+        "sourceId": "cn-lifeweaver",
+        "locator": "室友；公开页面数据 /heroConfigs/38",
+        "noteZh": "生命之梭与秩序之光在学院同住并成为好友。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-lifeweaver",
+        "term-symmetra"
+      ]
+    }
+  },
+  {
+    "id": "cn4-soldier-76-fought-reaper-recall",
+    "from": "soldier-76",
+    "to": "reaper",
+    "predicate": "fought",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "士兵：76与死神在埃及多次交战。",
+    "evidence": [
+      {
+        "sourceId": "cn-soldier-76",
+        "locator": "归来；公开页面数据 /heroConfigs/39",
+        "noteZh": "士兵：76与死神在埃及多次交战。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-soldier-76",
+        "term-reaper"
+      ]
+    }
+  },
+  {
+    "id": "cn4-reaper-contacted-ana-recall",
+    "from": "reaper",
+    "to": "ana",
+    "predicate": "contacted",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "死神在埃及与安娜相遇；不据此推断两人的长期关系。",
+    "evidence": [
+      {
+        "sourceId": "cn-reaper",
+        "locator": "黑爪；公开页面数据 /heroConfigs/40",
+        "noteZh": "死神在埃及与安娜相遇；不据此推断两人的长期关系。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-ana-3"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-reaper",
+        "term-ana"
+      ]
+    }
+  },
+  {
+    "id": "cn4-reaper-killed-antonio-early",
+    "from": "reaper",
+    "to": "antonio",
+    "predicate": "killed",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "死神传记明确将斩仇父亲之死归于他。",
+    "evidence": [
+      {
+        "sourceId": "cn-reaper",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/40",
+        "noteZh": "死神传记明确将斩仇父亲之死归于他。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-reaper",
+        "term-antonio"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sojourn-colleague-liao-early",
+    "from": "sojourn",
+    "to": "liao",
+    "predicate": "colleague",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "索杰恩与廖博士共同在加拿大对抗智械。",
+    "evidence": [
+      {
+        "sourceId": "cn-sojourn",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/41",
+        "noteZh": "索杰恩与廖博士共同在加拿大对抗智械。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sojourn",
+        "term-liao"
+      ]
+    }
+  },
+  {
+    "id": "cn4-sojourn-colleague-torbjorn-early",
+    "from": "sojourn",
+    "to": "torbjorn",
+    "predicate": "colleague",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "索杰恩与托比昂共同参与驱逐加拿大智械的行动。",
+    "evidence": [
+      {
+        "sourceId": "cn-sojourn",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/41",
+        "noteZh": "索杰恩与托比昂共同参与驱逐加拿大智械的行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sojourn",
+        "term-torbjorn"
+      ]
+    }
+  },
+  {
+    "id": "cn4-soldier-76-recruited-sojourn-early",
+    "from": "soldier-76",
+    "to": "sojourn",
+    "predicate": "recruited",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "杰克·莫里森招募索杰恩加入守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-sojourn",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/41",
+        "noteZh": "杰克·莫里森招募索杰恩加入守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-soldier-76",
+        "term-sojourn"
+      ]
+    }
+  },
+  {
+    "id": "cn4-venture-member-wayfinder-society-unspecified",
+    "from": "venture",
+    "to": "wayfinder-society",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "探奇完成学徒生涯，成为寻迹者协会成员。",
+    "evidence": [
+      {
+        "sourceId": "cn-venture",
+        "locator": "寻迹者协会；公开页面数据 /heroConfigs/42",
+        "noteZh": "探奇完成学徒生涯，成为寻迹者协会成员。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-venture",
+        "term-wayfinder-society"
+      ]
+    }
+  },
+  {
+    "id": "cn4-venture-fought-talon-unspecified",
+    "from": "venture",
+    "to": "talon",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "探奇在伊利奥斯遗址击退黑爪。",
+    "evidence": [
+      {
+        "sourceId": "cn-venture",
+        "locator": "新的谜团；公开页面数据 /heroConfigs/42",
+        "noteZh": "探奇在伊利奥斯遗址击退黑爪。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-venture",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mercy-friend-torbjorn-early",
+    "from": "mercy",
+    "to": "torbjorn",
+    "predicate": "friend",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "安吉拉·齐格勒是托比昂一家的多年挚友。",
+    "evidence": [
+      {
+        "sourceId": "cn-mercy",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/43",
+        "noteZh": "安吉拉·齐格勒是托比昂一家的多年挚友。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mercy",
+        "term-torbjorn"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mercy-fought-talon-recall",
+    "from": "mercy",
+    "to": "talon",
+    "predicate": "fought",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "天使在开罗与老战友共同抵御黑爪。",
+    "evidence": [
+      {
+        "sourceId": "cn-mercy",
+        "locator": "守望先锋解散后；公开页面数据 /heroConfigs/43",
+        "noteZh": "天使在开罗与老战友共同抵御黑爪。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mercy",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-mercy-member-overwatch-recall",
+    "from": "mercy",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "巴黎遭归零者袭击后，天使回到守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-mercy",
+        "locator": "守望先锋解散后；公开页面数据 /heroConfigs/43",
+        "noteZh": "巴黎遭归零者袭击后，天使回到守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mercy",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-harold-mentor-winston-family",
+    "from": "harold",
+    "to": "winston",
+    "predicate": "mentor",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "哈罗德·温斯顿博士教导年轻的大猩猩科学知识。",
+    "evidence": [
+      {
+        "sourceId": "cn-winston",
+        "locator": "“地平线”月球基地；公开页面数据 /heroConfigs/45",
+        "noteZh": "哈罗德·温斯顿博士教导年轻的大猩猩科学知识。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-harold",
+        "term-winston"
+      ]
+    }
+  },
+  {
+    "id": "cn4-winston-friend-wrecking-ball-family",
+    "from": "winston",
+    "to": "wrecking-ball",
+    "predicate": "friend",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "温斯顿与名为哈蒙德的仓鼠在月球基地是朋友。",
+    "evidence": [
+      {
+        "sourceId": "cn-winston",
+        "locator": "守望先锋；公开页面数据 /heroConfigs/45",
+        "noteZh": "温斯顿与名为哈蒙德的仓鼠在月球基地是朋友。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-winston",
+        "term-wrecking-ball"
+      ]
+    }
+  },
+  {
+    "id": "cn4-winston-fought-reaper-recall",
+    "from": "winston",
+    "to": "reaper",
+    "predicate": "fought",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "温斯顿在直布罗陀击退了企图盗取特工名单的死神。",
+    "evidence": [
+      {
+        "sourceId": "cn-winston",
+        "locator": "归来；公开页面数据 /heroConfigs/45",
+        "noteZh": "温斯顿在直布罗陀击退了企图盗取特工名单的死神。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-winston",
+        "term-reaper"
+      ]
+    }
+  },
+  {
+    "id": "cn4-reaper-abducted-sigma-unspecified",
+    "from": "reaper",
+    "to": "sigma",
+    "predicate": "abducted",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "死神参加黑爪将西格玛带离政府设施的行动。",
+    "evidence": [
+      {
+        "sourceId": "cn-sigma",
+        "locator": "实验体西格玛；公开页面数据 /heroConfigs/47",
+        "noteZh": "死神参加黑爪将西格玛带离政府设施的行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-reaper",
+        "term-sigma"
+      ]
+    }
+  },
+  {
+    "id": "cn4-widowmaker-abducted-sigma-unspecified",
+    "from": "widowmaker",
+    "to": "sigma",
+    "predicate": "abducted",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "黑百合参加黑爪对西格玛的劫持行动。",
+    "evidence": [
+      {
+        "sourceId": "cn-sigma",
+        "locator": "实验体西格玛；公开页面数据 /heroConfigs/47",
+        "noteZh": "黑百合参加黑爪对西格玛的劫持行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-widowmaker",
+        "term-sigma"
+      ]
+    }
+  },
+  {
+    "id": "cn4-talon-imprisoned-sigma-reign",
+    "from": "talon",
+    "to": "sigma",
+    "predicate": "imprisoned",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "斩仇统领黑爪后，将西格玛作为不稳定武器监禁。",
+    "evidence": [
+      {
+        "sourceId": "cn-sigma",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/47",
+        "noteZh": "斩仇统领黑爪后，将西格玛作为不稳定武器监禁。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-talon",
+        "term-sigma"
+      ]
+    }
+  },
+  {
+    "id": "cn4-illari-member-inti-warriors-family",
+    "from": "illari",
+    "to": "inti-warriors",
+    "predicate": "member",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "伊拉锐经过训练，成为印蒂勇士中最年轻的成员。",
+    "evidence": [
+      {
+        "sourceId": "cn-illari",
+        "locator": "成为勇士；公开页面数据 /heroConfigs/48",
+        "noteZh": "伊拉锐经过训练，成为印蒂勇士中最年轻的成员。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-illari",
+        "term-inti-warriors"
+      ]
+    }
+  },
+  {
+    "id": "cn4-hashimoto-clan-allied-talon-reign",
+    "from": "hashimoto-clan",
+    "to": "talon",
+    "predicate": "allied",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "桥元家族与黑爪合作，扩张其在东京的势力。",
+    "evidence": [
+      {
+        "sourceId": "cn-genji",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/49",
+        "noteZh": "桥元家族与黑爪合作，扩张其在东京的势力。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-hashimoto-clan",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "cn4-genji-left-overwatch-reign",
+    "from": "genji",
+    "to": "overwatch",
+    "predicate": "left",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "获救后的源氏暂时离开守望先锋，留在东京协助重建。",
+    "evidence": [
+      {
+        "sourceId": "cn-genji",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/49",
+        "noteZh": "获救后的源氏暂时离开守望先锋，留在东京协助重建。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-genji",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "cn4-junker-queen-fought-mason-unspecified",
+    "from": "junker-queen",
+    "to": "mason",
+    "predicate": "fought",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "渣客女王在大清算中击败渣客大王梅森·豪尔。",
+    "evidence": [
+      {
+        "sourceId": "cn-junker-queen",
+        "locator": "大清算；公开页面数据 /heroConfigs/50",
+        "noteZh": "渣客女王在大清算中击败渣客大王梅森·豪尔。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-link-39"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-junker-queen",
+        "term-mason"
+      ]
+    }
+  },
+  {
+    "id": "cn4-symmetra-member-vishkar-corporation-unspecified",
+    "from": "symmetra",
+    "to": "vishkar-corporation",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "秩序之光以光子建筑师和行动人员身份为费斯卡集团效力。",
+    "evidence": [
+      {
+        "sourceId": "cn-symmetra",
+        "locator": "故事概述；公开页面数据 /heroConfigs/51",
+        "noteZh": "秩序之光以光子建筑师和行动人员身份为费斯卡集团效力。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-symmetra",
+        "term-vishkar-corporation"
+      ]
+    }
+  },
+  {
+    "id": "cn4-jiayi-mother-juno-family",
+    "from": "jiayi",
+    "to": "juno",
+    "predicate": "mother",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "张佳怡博士是朱诺的母亲。",
+    "evidence": [
+      {
+        "sourceId": "cn-juno",
+        "locator": "朱诺的童年；公开页面数据 /heroConfigs/52",
+        "noteZh": "张佳怡博士是朱诺的母亲。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-jiayi",
+        "term-juno"
+      ]
+    }
+  },
+  {
+    "id": "cn4-jiayi-friend-mei-unspecified",
+    "from": "jiayi",
+    "to": "mei",
+    "predicate": "friend",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "张佳怡曾向女儿讲述她与周美灵的旧日友谊。",
+    "evidence": [
+      {
+        "sourceId": "cn-juno",
+        "locator": "飞向地球；公开页面数据 /heroConfigs/52",
+        "noteZh": "张佳怡曾向女儿讲述她与周美灵的旧日友谊。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-jiayi",
+        "term-mei"
+      ]
+    }
+  },
+  {
+    "id": "cn4-juno-colleague-mei-reign",
+    "from": "juno",
+    "to": "mei",
+    "predicate": "colleague",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "朱诺和美一同拜访星际旅程集团，寻找火星家人的消息。",
+    "evidence": [
+      {
+        "sourceId": "cn-juno",
+        "locator": "黑爪之治；公开页面数据 /heroConfigs/52",
+        "noteZh": "朱诺和美一同拜访星际旅程集团，寻找火星家人的消息。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "仅主张对应章节所述事件或历史身份；不推断当前阵营"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-juno",
+        "term-mei"
+      ]
+    }
+  },
+  {
+    "id": "lore4-casino-member-m-e-k-a-squad-reign",
+    "from": "casino",
+    "to": "m-e-k-a-squad",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "卡西诺与MEKA小队共同训练并抵御鬼神智械。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-growing-pains",
+        "locator": "PDF 第 3–5、11 页",
+        "noteZh": "卡西诺与MEKA小队共同训练并抵御鬼神智械。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-casino",
+        "term-m-e-k-a-squad"
+      ]
+    }
+  },
+  {
+    "id": "lore4-overlord-member-m-e-k-a-squad-reign",
+    "from": "overlord",
+    "to": "m-e-k-a-squad",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "智多星是D.Mon率领的MEKA小队队员。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-growing-pains",
+        "locator": "PDF 第 3–5、11 页",
+        "noteZh": "智多星是D.Mon率领的MEKA小队队员。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-overlord",
+        "term-m-e-k-a-squad"
+      ]
+    }
+  },
+  {
+    "id": "lore4-king-member-m-e-k-a-squad-reign",
+    "from": "king",
+    "to": "m-e-k-a-squad",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "大王随MEKA小队保护釜山，并与队友调整战术。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-growing-pains",
+        "locator": "PDF 第 3–5、11 页",
+        "noteZh": "大王随MEKA小队保护釜山，并与队友调整战术。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-king",
+        "term-m-e-k-a-squad"
+      ]
+    }
+  },
+  {
+    "id": "lore4-myung-appointed-d-mon-reign",
+    "from": "myung",
+    "to": "d-mon",
+    "predicate": "appointed",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "明队长任命D.Mon为MEKA小队的新领队。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-growing-pains",
+        "locator": "PDF 第 4、6 页",
+        "noteZh": "明队长任命D.Mon为MEKA小队的新领队。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-myung",
+        "term-d-mon"
+      ]
+    }
+  },
+  {
+    "id": "lore4-myung-leader-m-e-k-a-squad-reign",
+    "from": "myung",
+    "to": "m-e-k-a-squad",
+    "predicate": "leader",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "明队长负责MEKA小队的指挥与领队任命。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-growing-pains",
+        "locator": "PDF 第 6 页",
+        "noteZh": "明队长负责MEKA小队的指挥与领队任命。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-myung",
+        "term-m-e-k-a-squad"
+      ]
+    }
+  },
+  {
+    "id": "lore4-casino-fought-the-gwishin-reign",
+    "from": "casino",
+    "to": "the-gwishin",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "卡西诺参加了应对鬼神智械再次来袭的战斗。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-growing-pains",
+        "locator": "PDF 第 9–11 页",
+        "noteZh": "卡西诺参加了应对鬼神智械再次来袭的战斗。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-casino",
+        "term-the-gwishin"
+      ]
+    }
+  },
+  {
+    "id": "lore4-overlord-fought-the-gwishin-reign",
+    "from": "overlord",
+    "to": "the-gwishin",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "智多星与队友交换目标，对抗模仿旧战术的鬼神智械。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-growing-pains",
+        "locator": "PDF 第 9–11 页",
+        "noteZh": "智多星与队友交换目标，对抗模仿旧战术的鬼神智械。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-overlord",
+        "term-the-gwishin"
+      ]
+    }
+  },
+  {
+    "id": "lore4-king-fought-the-gwishin-reign",
+    "from": "king",
+    "to": "the-gwishin",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "大王运用速度优势参与击退鬼神智械。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-growing-pains",
+        "locator": "PDF 第 9–11 页",
+        "noteZh": "大王运用速度优势参与击退鬼神智械。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-king",
+        "term-the-gwishin"
+      ]
+    }
+  },
+  {
+    "id": "lore4-ijc-dissolved-overwatch-early",
+    "from": "ijc",
+    "to": "overwatch",
+    "predicate": "dissolved",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "索杰恩回顾国际司法委员会解散守望先锋后的特工去向。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-a-rare-power",
+        "locator": "PDF 第 8 页",
+        "noteZh": "索杰恩回顾国际司法委员会解散守望先锋后的特工去向。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-ijc",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "lore4-sierra-member-overwatch-reign",
+    "from": "sierra",
+    "to": "overwatch",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "西拉坚持加入守望先锋追查血清与母亲的遭遇，索杰恩接受了她。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-a-rare-power",
+        "locator": "PDF 第 14 页",
+        "noteZh": "西拉坚持加入守望先锋追查血清与母亲的遭遇，索杰恩接受了她。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sierra",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "lore4-sojourn-recruited-sierra-reign",
+    "from": "sojourn",
+    "to": "sierra",
+    "predicate": "recruited",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "索杰恩在格兰德台地接受西拉加入守望先锋。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-a-rare-power",
+        "locator": "PDF 第 9、14 页",
+        "noteZh": "索杰恩在格兰德台地接受西拉加入守望先锋。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sojourn",
+        "term-sierra"
+      ]
+    }
+  },
+  {
+    "id": "lore4-sojourn-friend-emre-early",
+    "from": "sojourn",
+    "to": "emre",
+    "predicate": "friend",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "索杰恩将埃姆雷认作过去在守望先锋共事的朋友。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-a-rare-power",
+        "locator": "PDF 第 8 页",
+        "noteZh": "索杰恩将埃姆雷认作过去在守望先锋共事的朋友。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sojourn",
+        "term-emre"
+      ]
+    }
+  },
+  {
+    "id": "lore4-frankie-member-deadlock-rebels-reign",
+    "from": "frankie",
+    "to": "deadlock-rebels",
+    "predicate": "member",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "弗朗姬为死局帮协调格兰德台地袭击，并听从艾什调遣。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-crossroads",
+        "locator": "PDF 第 4–5 页",
+        "noteZh": "弗朗姬为死局帮协调格兰德台地袭击，并听从艾什调遣。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-frankie",
+        "term-deadlock-rebels"
+      ]
+    }
+  },
+  {
+    "id": "lore4-frankie-contacted-cassidy-reign",
+    "from": "frankie",
+    "to": "cassidy",
+    "predicate": "contacted",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "弗朗姬在袭击中通过通讯与卡西迪交谈。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-crossroads",
+        "locator": "PDF 第 4 页",
+        "noteZh": "弗朗姬在袭击中通过通讯与卡西迪交谈。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-frankie",
+        "term-cassidy"
+      ]
+    }
+  },
+  {
+    "id": "lore4-frankie-colleague-ashe-reign",
+    "from": "frankie",
+    "to": "ashe",
+    "predicate": "colleague",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "弗朗姬配合艾什协调死局帮的进攻和增援。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-crossroads",
+        "locator": "PDF 第 4–5 页",
+        "noteZh": "弗朗姬配合艾什协调死局帮的进攻和增援。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-frankie",
+        "term-ashe"
+      ]
+    }
+  },
+  {
+    "id": "lore4-ashe-fought-cassidy-reign",
+    "from": "ashe",
+    "to": "cassidy",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "艾什与卡西迪在格兰德台地交战，并争论死局帮往事。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-crossroads",
+        "locator": "PDF 第 5–9 页",
+        "noteZh": "艾什与卡西迪在格兰德台地交战，并争论死局帮往事。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-ashe",
+        "term-cassidy"
+      ]
+    }
+  },
+  {
+    "id": "lore4-shion-colleague-vendetta-reign",
+    "from": "shion",
+    "to": "vendetta",
+    "predicate": "colleague",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "死怨主导对斩仇的武器交易，同时坚持桥元自身利益。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-ambush",
+        "locator": "PDF 第 7 页",
+        "noteZh": "死怨主导对斩仇的武器交易，同时坚持桥元自身利益。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-shion",
+        "term-vendetta"
+      ]
+    }
+  },
+  {
+    "id": "lore4-sojiro-father-genji-family",
+    "from": "sojiro",
+    "to": "genji",
+    "predicate": "father",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "岛田宗次郎是源氏的父亲。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-the-fall-of-a-aparrow",
+        "locator": "PDF 第 3、10–11 页",
+        "noteZh": "岛田宗次郎是源氏的父亲。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sojiro",
+        "term-genji"
+      ]
+    }
+  },
+  {
+    "id": "lore4-sojiro-father-hanzo-family",
+    "from": "sojiro",
+    "to": "hanzo",
+    "predicate": "father",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "岛田宗次郎是半藏的父亲，半藏作为长子继承家主之位。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-the-fall-of-a-aparrow",
+        "locator": "PDF 第 3、10–11 页",
+        "noteZh": "岛田宗次郎是半藏的父亲，半藏作为长子继承家主之位。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-sojiro",
+        "term-hanzo"
+      ]
+    }
+  },
+  {
+    "id": "lore4-asa-partner-toshiro-family",
+    "from": "asa",
+    "to": "toshiro",
+    "predicate": "partner",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "山神朝与山神敏郎是夫妻，共同育有雾子。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-the-fall-of-a-aparrow",
+        "locator": "PDF 第 3 页",
+        "noteZh": "山神朝与山神敏郎是夫妻，共同育有雾子。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-asa",
+        "term-toshiro"
+      ]
+    }
+  },
+  {
+    "id": "lore4-kamori-san-grandparent-kiriko-family",
+    "from": "kamori-san",
+    "to": "kiriko",
+    "predicate": "grandparent",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "家守大人是雾子的祖母，也是神社的神主。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-the-fall-of-a-aparrow",
+        "locator": "PDF 第 13 页",
+        "noteZh": "家守大人是雾子的祖母，也是神社的神主。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-kamori-san",
+        "term-kiriko"
+      ]
+    }
+  },
+  {
+    "id": "lore4-kiriko-rescued-genji-reign",
+    "from": "kiriko",
+    "to": "genji",
+    "predicate": "rescued",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "雾子在东京与源氏重逢，使用神符治愈他的伤口。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-the-fall-of-a-aparrow",
+        "locator": "PDF 第 17 页",
+        "noteZh": "雾子在东京与源氏重逢，使用神符治愈他的伤口。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-kiriko",
+        "term-genji"
+      ]
+    }
+  },
+  {
+    "id": "lore4-kiriko-freed-toshiro-reign",
+    "from": "kiriko",
+    "to": "toshiro",
+    "predicate": "freed",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "雾子进入桥元锻炉，与父亲重逢并协助他脱困。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-paths-we-choose",
+        "locator": "PDF 第 6–8 页",
+        "noteZh": "雾子进入桥元锻炉，与父亲重逢并协助他脱困。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-kiriko",
+        "term-toshiro"
+      ]
+    }
+  },
+  {
+    "id": "lore4-mizuki-left-yokai-gang-reign",
+    "from": "mizuki",
+    "to": "yokai-gang",
+    "predicate": "left",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "瑞稀承认卧底身份后离开妖怪团，雾子表示仍需时间原谅他。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-paths-we-choose",
+        "locator": "PDF 第 10–11 页",
+        "noteZh": "瑞稀承认卧底身份后离开妖怪团，雾子表示仍需时间原谅他。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mizuki",
+        "term-yokai-gang"
+      ]
+    }
+  },
+  {
+    "id": "lore4-mizuki-fought-shion-reign",
+    "from": "mizuki",
+    "to": "shion",
+    "predicate": "fought",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "瑞稀正面对抗死怨，为伙伴营救源氏和敏郎争取时间。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-facing-demons",
+        "locator": "PDF 第 10–12 页",
+        "noteZh": "瑞稀正面对抗死怨，为伙伴营救源氏和敏郎争取时间。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-link-41"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mizuki",
+        "term-shion"
+      ]
+    }
+  },
+  {
+    "id": "lore4-m-e-k-a-squad-imprisoned-wrecking-ball-reign",
+    "from": "m-e-k-a-squad",
+    "to": "wrecking-ball",
+    "predicate": "imprisoned",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "MEKA小队在电磁炸弹被夺后扣押破坏球并尝试审问。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-left-behind",
+        "locator": "PDF 第 2–3 页",
+        "noteZh": "MEKA小队在电磁炸弹被夺后扣押破坏球并尝试审问。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-m-e-k-a-squad",
+        "term-wrecking-ball"
+      ]
+    }
+  },
+  {
+    "id": "lore4-mauga-colleague-junker-queen-reign",
+    "from": "mauga",
+    "to": "junker-queen",
+    "predicate": "colleague",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "毛加代表黑爪与渣客女王交易，要求渣客协助袭击釜山。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-left-behind",
+        "locator": "PDF 第 4–5 页",
+        "noteZh": "毛加代表黑爪与渣客女王交易，要求渣客协助袭击釜山。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-mauga",
+        "term-junker-queen"
+      ]
+    }
+  },
+  {
+    "id": "lore4-winston-friend-wrecking-ball-reign",
+    "from": "winston",
+    "to": "wrecking-ball",
+    "predicate": "friend",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "温斯顿与哈蒙德解开月球逃离事件的误会，并重新确认友谊。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-left-behind",
+        "locator": "PDF 第 7–12 页",
+        "noteZh": "温斯顿与哈蒙德解开月球逃离事件的误会，并重新确认友谊。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-winston",
+        "term-wrecking-ball"
+      ]
+    }
+  },
+  {
+    "id": "lore4-moira-colleague-vendetta-reign",
+    "from": "moira",
+    "to": "vendetta",
+    "predicate": "colleague",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "莫伊拉在斩仇资助下研究从格兰德台地夺来的强化血清。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-progress",
+        "locator": "PDF 第 3、6 页",
+        "noteZh": "莫伊拉在斩仇资助下研究从格兰德台地夺来的强化血清。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-moira",
+        "term-vendetta"
+      ]
+    }
+  },
+  {
+    "id": "lore4-the-phreaks-stole-from-moira-reign",
+    "from": "the-phreaks",
+    "to": "moira",
+    "predicate": "stole-from",
+    "period": "reign",
+    "status": "verified",
+    "summaryZh": "莫伊拉记录怪咖盟在绿洲城偷走她的钒同位素。",
+    "evidence": [
+      {
+        "sourceId": "cn-story-progress",
+        "locator": "PDF 第 6 页",
+        "noteZh": "莫伊拉记录怪咖盟在绿洲城偷走她的钒同位素。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.4.0",
+      "termIds": [
+        "term-the-phreaks",
+        "term-moira"
       ]
     }
   }
