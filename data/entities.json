@@ -972,6 +972,12 @@
       "position": "center",
       "checkedAt": "2026-09-18",
       "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方媒体目录图源。"
+    },
+    "researchNote": {
+      "summaryZh": "《新血》第5期中，明队长派D.VA前往守望先锋调查归零者威胁；其余MEKA小队成员留守韩国。这段剧情不能作为整个小队加入守望先锋的证据。",
+      "sourceId": "en-lore-new-blood-5",
+      "locator": "PDF第19–20页，尤其第20页队长说明留守与派遣安排",
+      "reviewedAt": "2026-09-18"
     }
   },
   {
@@ -3156,9 +3162,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/kace-d4404f1bd234.jpg",
+      "sourceId": "en-lore-tracer-london-calling-2",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blta4fe7d836404538f/5f84cabdebec920d7046f8a5/OVRWTR_i2_ENG.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第5页；页面局部提取，原文语言en-US",
+      "captionZh": "伊基在同页上方明确将红披肩智械介绍为Kace；采用左侧中间分格的面部局部。中文工作译名仍待核对。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量漫画局部，未重绘，非独立官方头像或标志文件。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "d4404f1bd234169f1eec67541f4b95db443dbabbd6a8360c8628feb603b716a7",
+        "sourceSha256": "73d9d73b5374809f63c557ff9dfd6b69cf090b07d8111f0d9e51173828a1bce1",
+        "page": 5,
+        "scaleTo": 1400,
+        "region": [
+          64,
+          554,
+          148,
+          198
+        ]
+      }
     }
   },
   {
@@ -3496,9 +3521,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/mondatta-e54a2a6e7b67.jpg",
+      "sourceId": "en-lore-tracer-london-calling-2",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blta4fe7d836404538f/5f84cabdebec920d7046f8a5/OVRWTR_i2_ENG.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第14页；页面局部提取，原文语言en-US",
+      "captionZh": "猎空在同页对白称呼Mondatta；采用两人会谈画面的头部局部，中文名称沿用已核对知识库。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量漫画局部，未重绘，非独立官方头像或标志文件。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "e54a2a6e7b679b77b5b8491b6fbfc1fec018fcd534624bed3dcc8782ea0d3266",
+        "sourceSha256": "73d9d73b5374809f63c557ff9dfd6b69cf090b07d8111f0d9e51173828a1bce1",
+        "page": 14,
+        "scaleTo": 1400,
+        "region": [
+          578,
+          440,
+          150,
+          217
+        ]
+      }
     }
   },
   {
@@ -4908,9 +4952,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/myung-4d4a7be93038.jpg",
+      "sourceId": "en-lore-new-blood-5",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltafcb62fe756a3879/622fa71cda5a7125ed751adf/OW_2.5_Final_EN.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第20页；页面局部提取，原文语言en-US",
+      "captionZh": "第4–8页的MEKA队长与第20页同一红制服人物连续对应；第6页办公室标牌为韩文“大尉 明”（대위 명），与已核对Captain Myung身份交叉对应。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；本站为实体辨识引用少量漫画局部，未重绘，非独立官方头像或标志文件。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "4d4a7be930383328a71b4bde15fc678bafc45b57d83e4086b2e1c6cef4e5eb27",
+        "sourceSha256": "067376e2d840a28fa00a3ef45bba20d76625e11678494954ef9a16732c39ce41",
+        "page": 20,
+        "scaleTo": 1400,
+        "region": [
+          196,
+          194,
+          130,
+          170
+        ]
+      }
     }
   },
   {

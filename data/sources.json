@@ -1121,5 +1121,31 @@
     "locator": "完整阅读PDF第1–7页；Secretary-General Osei对应国服奥塞秘书长，双语分页不同",
     "rights": "仅保留独立事实摘要及定位，不转载全文。",
     "sha256": "b26414efd1be02d734a4d14a2311e25954668074d677d63b6ae6409ccc943ad6"
+  },
+  {
+    "id": "en-lore-tracer-london-calling-2",
+    "title": "官方漫画 · Tracer: London Calling #2",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blta4fe7d836404538f/5f84cabdebec920d7046f8a5/OVRWTR_i2_ENG.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-render",
+    "accessedAt": "2026-09-18",
+    "locator": "实际阅读PDF第3–8、12–15页；角色介绍、早期营救回忆及会面，未标记整篇已读",
+    "rights": "仅引用独立事实摘要与少量身份辨识局部，不转载整页或整部作品。",
+    "sha256": "73d9d73b5374809f63c557ff9dfd6b69cf090b07d8111f0d9e51173828a1bce1"
+  },
+  {
+    "id": "en-lore-new-blood-5",
+    "title": "官方漫画 · New Blood #5",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltafcb62fe756a3879/622fa71cda5a7125ed751adf/OW_2.5_Final_EN.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "read": true,
+    "accessMethod": "public-pdf-render",
+    "accessedAt": "2026-09-18",
+    "locator": "实际阅读PDF第3–8、19–20页；MEKA指挥、队长办公室标牌及D.VA获派新任务，未标记整篇已读",
+    "rights": "仅引用独立事实摘要与少量身份辨识局部，不转载整页或整部作品。",
+    "sha256": "067376e2d840a28fa00a3ef45bba20d76625e11678494954ef9a16732c39ce41"
   }
 ]
