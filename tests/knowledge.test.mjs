@@ -8,7 +8,7 @@ const clone = () => structuredClone(kb);
 test('seed data passes all cross-reference checks', () => assert.deepEqual(validateKnowledge(kb), []));
 test('coverage distinguishes complete inventory from pending evidence', () => {
   assert.equal(kb.entities.length,172); assert.ok(kb.relations.filter(r=>r.status==='verified').length>=22);
-  assert.equal(kb.relations.filter(r=>r.status==='pending').length,48); assert.equal(kb.candidates.length,57);
+  assert.equal(kb.relations.filter(r=>r.status==='pending').length,47); assert.equal(kb.candidates.length,57);
 });
 test('dangling endpoints fail', () => { const d=clone();d.relations[0].from='missing';assert.ok(validateKnowledge(d).some(x=>x.includes('dangling'))); });
 test('duplicate IDs fail', () => { const d=clone();d.entities.push(d.entities[0]);assert.ok(validateKnowledge(d).some(x=>x.includes('duplicate id'))); });
@@ -26,7 +26,7 @@ test('verified filter never returns uncertain edges', () => { const r=filterGrap
 test('period filter does not invent dates', () => { const r=filterGraph(kb,{period:'recall'});assert.ok(r.relations.length>0);assert.ok(r.relations.every(x=>x.period==='recall')); });
 test('entity type filtering removes dangling graph edges', () => { const r=filterGraph(kb,{kind:'organization'});assert.ok(r.entities.every(x=>x.kind==='organization'));assert.ok(r.relations.every(x=>r.entities.some(e=>e.id===x.from)&&r.entities.some(e=>e.id===x.to))); });
 test('focus is one hop and zero results stay empty', () => { assert.ok(filterGraph(kb,{focus:'ana'}).relations.every(r=>r.from==='ana'||r.to==='ana'));assert.deepEqual(filterGraph(kb,{query:'nonexistent-hero'}),{entities:[],relations:[]}); });
-test('Chinese relation output resolves approved terms', () => { const r=translateRelation(kb,kb.relations.find(r=>r.id==='ana-mother'));assert.equal(r.text,'安娜 — 母亲 → 女儿 — 法老之鹰');assert.equal(r.glossaryVersion,'0.2.0'); });
+test('Chinese relation output resolves approved terms', () => { const r=translateRelation(kb,kb.relations.find(r=>r.id==='ana-mother'));assert.equal(r.text,'安娜 — 母亲 → 女儿 — 法老之鹰');assert.equal(r.glossaryVersion,kb.glossaryVersion); });
 test('unknown Chinese terms stop automatic approval', () => { const r=translateRelation(kb,kb.relations.find(r=>r.to==='search-rescue'));assert.equal(r.status,'pending');assert.equal(r.text,null);assert.deepEqual(r.missing,['search-rescue']); });
 test('unsafe and credential-bearing URLs are rejected', () => { assert.equal(safeUrl('https://example.org'),true);for(const x of ['javascript:alert(1)','data:text/html,x','https://user:pass@example.org'])assert.equal(safeUrl(x),false); });
 const provenance={commit:'a'.repeat(40),blob:'b'.repeat(40)};

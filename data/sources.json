@@ -94,7 +94,7 @@
     "accessMethod": "browser-visible-dom",
     "read": true,
     "accessedAt": "2026-09-18",
-    "locator": "故事概述 / 米娜·廖",
+    "locator": "故事概述 / 米娜·廖 / 守望先锋（补读后续章节）",
     "rights": "保留自行概括的事实及定位，不复制传记全文。"
   },
   {
@@ -120,5 +120,41 @@
     "accessedAt": "2026-09-18",
     "locator": "故事概述 / 岛田家族",
     "rights": "仅保存自行概括的事实与章节定位；原作归相应权利人。"
+  },
+  {
+    "id": "cn-ashe",
+    "title": "国服官网 · 艾什",
+    "url": "https://ow.blizzard.cn/heroes/ashe/",
+    "kind": "official",
+    "language": "zh-CN",
+    "accessMethod": "browser-visible-dom",
+    "read": true,
+    "accessedAt": "2026-09-18",
+    "locator": "故事概述 / 早年生活 / 死局反叛者",
+    "rights": "自行概括事实与章节定位，不复制传记全文。"
+  },
+  {
+    "id": "cn-pharah",
+    "title": "国服官网 · 法老之鹰",
+    "url": "https://ow.blizzard.cn/heroes/pharah/",
+    "kind": "official",
+    "language": "zh-CN",
+    "accessMethod": "browser-visible-dom",
+    "read": true,
+    "accessedAt": "2026-09-18",
+    "locator": "早年生活 / 海力士 / 归来",
+    "rights": "自行概括事实与章节定位，不复制传记全文。"
+  },
+  {
+    "id": "cn-orisa",
+    "title": "国服官网 · 奥丽莎",
+    "url": "https://ow.blizzard.cn/heroes/orisa/",
+    "kind": "official",
+    "language": "zh-CN",
+    "accessMethod": "browser-visible-dom",
+    "read": true,
+    "accessedAt": "2026-09-18",
+    "locator": "故事概述 / 伊菲·奥拉迪尔 / 努巴尼的英雄",
+    "rights": "自行概括事实与章节定位，不复制传记全文。"
   }
 ]

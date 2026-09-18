@@ -21,3 +21,9 @@
 去重键：端点 + 谓词 + 时期；对称关系排序端点后去重。不同时间或不同含义可以共存。
 
 新增 verified 关系必须同时满足：实体存在、谓词端点类型有效、官方来源已读、至少一条具体证据、审核记录、中文术语批准、术语版本一致，以及候选引用端点一致。程序校验不能代替来源语义审阅。
+
+## 实体图像
+
+entity.visual.kind 为 official-portrait 或 name-icon。official-portrait 需要已读取的官方 sourceId、sourcePage、checkedAt、rights 和HTTPS url；当前允许图源域名 ld5.res.netease.com。name-icon 为本站名称占位图，status=pending，不作为角色真实外观或官方组织标志。
+
+新增谓词 protected（保护）、cared-for（照料）、fought（曾交战，对称）、attempted-capture（试图劫走）、guarded（看守/收容）、gifted（赠予装备）均只表达具体章节的事实。

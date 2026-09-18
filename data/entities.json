@@ -77,7 +77,16 @@
         "originalName": "Ana",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343745482_5dbfa340a7.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/ana/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "cassidy",
@@ -117,7 +126,16 @@
         "originalName": "Cassidy",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344420636_f5b9d814cb.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/cassidy/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "emre",
@@ -141,7 +159,16 @@
         "originalName": "Emre",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260227/1772161166550_8d155e68a4.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/emre/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "pharah",
@@ -173,7 +200,16 @@
         "originalName": "Pharah",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344234870_aeffaf7b79.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/pharah/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "reaper",
@@ -197,7 +233,16 @@
         "originalName": "Reaper",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345147228_7d7063ea61.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/reaper/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "reinhardt",
@@ -221,7 +266,16 @@
         "originalName": "Reinhardt",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344568581_13339bc21d.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/reinhardt/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "soldier-76",
@@ -245,7 +299,16 @@
         "originalName": "Soldier 76",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345086338_589415f7c4.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/soldier-76/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "overwatch",
@@ -277,7 +340,12 @@
         "originalName": "Overwatch",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "search-rescue",
@@ -301,7 +369,12 @@
         "originalName": "Search & Rescue",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "genji",
@@ -317,7 +390,16 @@
         "originalName": "Genji",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345730149_8a4eb79474.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/genji/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "hanzo",
@@ -333,7 +415,16 @@
         "originalName": "Hanzo",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343861928_8e06207e8c.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/hanzo/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "zenyatta",
@@ -349,7 +440,16 @@
         "originalName": "Zenyatta",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344038417_8e127ae379.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/zenyatta/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "kiriko",
@@ -365,7 +465,16 @@
         "originalName": "Kiriko",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345609610_ac79cb89fb.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/kiriko/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "winston",
@@ -381,7 +490,16 @@
         "originalName": "Winston",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345555277_72d8324dc1.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/winston/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "blackwatch",
@@ -397,13 +515,23 @@
         "originalName": "Blackwatch",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "talon",
     "name": "Talon",
     "kind": "organization",
-    "cluster": "blackwatch"
+    "cluster": "blackwatch",
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "widowmaker",
@@ -419,7 +547,16 @@
         "originalName": "Widowmaker",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344265598_9d3c296b05.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/widowmaker/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "shimada",
@@ -435,7 +572,12 @@
         "originalName": "Shimada Clan",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "talon-empire",
@@ -475,7 +617,12 @@
         "originalName": "Talon Empire",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "null-sector",
@@ -491,7 +638,12 @@
         "originalName": "Null Sector",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "ecopoints",
@@ -507,7 +659,12 @@
         "originalName": "Ecopoints",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "ijc",
@@ -523,7 +680,12 @@
         "originalName": "IJC",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "shambali-order",
@@ -539,7 +701,12 @@
         "originalName": "Shambali Order",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "the-sombra-collective",
@@ -555,7 +722,12 @@
         "originalName": "The Sombra Collective",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "the-chernobog-conspiracy",
@@ -579,7 +751,12 @@
         "originalName": "The Chernobog Conspiracy",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "omnica-corporation",
@@ -603,7 +780,12 @@
         "originalName": "Omnica Corporation",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "the-gwishin",
@@ -619,7 +801,12 @@
         "originalName": "The Gwishin",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "vishkar-corporation",
@@ -635,7 +822,12 @@
         "originalName": "Vishkar Corporation",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "helix-securities",
@@ -659,7 +851,12 @@
         "originalName": "Helix Securities",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "m-e-k-a-squad",
@@ -675,7 +872,12 @@
         "originalName": "M.E.K.A Squad",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "caribbean-coalition",
@@ -699,7 +901,12 @@
         "originalName": "Caribbean Coalition",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "crusader-initiative",
@@ -715,7 +922,12 @@
         "originalName": "Crusader Initiative",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "inti-warriors",
@@ -731,7 +943,12 @@
         "originalName": "Inti Warriors",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "deadlock-rebels",
@@ -755,7 +972,12 @@
         "originalName": "Deadlock Rebels",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "ironclad-guild",
@@ -771,7 +993,12 @@
         "originalName": "Ironclad Guild",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "the-martins-collective",
@@ -787,7 +1014,12 @@
         "originalName": "The Martins Collective",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "the-phreaks",
@@ -803,7 +1035,12 @@
         "originalName": "The Phreaks",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "los-muertos",
@@ -819,7 +1056,12 @@
         "originalName": "Los Muertos",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "yamagami-blades",
@@ -835,7 +1077,12 @@
         "originalName": "Yamagami Blades",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "hashimoto-clan",
@@ -859,7 +1106,12 @@
         "originalName": "Hashimoto Clan",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "yokai-gang",
@@ -875,7 +1127,12 @@
         "originalName": "Yokai Gang",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "lumerico-incorporated",
@@ -891,7 +1148,12 @@
         "originalName": "Lumérico Incorporated",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "heliotech-industries",
@@ -907,7 +1169,12 @@
         "originalName": "Heliotech Industries",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "pacific-energy-solutions",
@@ -931,7 +1198,12 @@
         "originalName": "Pacific Energy Solutions",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "oasis-ministries",
@@ -947,7 +1219,12 @@
         "originalName": "Oasis Ministries",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "lucheng-interstellar",
@@ -963,7 +1240,12 @@
         "originalName": "Lucheng Interstellar",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "wuxing-university",
@@ -979,7 +1261,12 @@
         "originalName": "Wuxing University",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "junker-monarchy",
@@ -995,7 +1282,12 @@
         "originalName": "Junker Monarchy",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "anran",
@@ -1011,7 +1303,16 @@
         "originalName": "Anran",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260415/1776235043486_7600582524.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/anran/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "ashe",
@@ -1035,7 +1336,16 @@
         "originalName": "Ashe",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343684623_511e9831c9.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/ashe/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "baptiste",
@@ -1059,7 +1369,16 @@
         "originalName": "Baptiste",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343853300_2996f20a85.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/baptiste/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "bastion",
@@ -1075,7 +1394,16 @@
         "originalName": "Bastion",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343871550_ed901efbf9.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/bastion/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "brigitte",
@@ -1091,7 +1419,16 @@
         "originalName": "Brigitte",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343880840_118a29132b.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/brigitte/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "domina",
@@ -1115,7 +1452,16 @@
         "originalName": "Domina",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260227/1772161166536_5e611d4fb0.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/domina/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "doomfist",
@@ -1131,7 +1477,16 @@
         "originalName": "Doomfist",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344956007_530e01e386.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/doomfist/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "echo",
@@ -1299,7 +1654,16 @@
         "originalName": "Echo",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344410244_9d7a9f01b9.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/echo/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "freja",
@@ -1315,7 +1679,16 @@
         "originalName": "Freja",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343601631_494945c57e.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/freja/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "hazard",
@@ -1331,7 +1704,16 @@
         "originalName": "Hazard",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344361158_af8f9502b5.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/hazard/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "illari",
@@ -1347,7 +1729,16 @@
         "originalName": "Illari",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345720108_25aa5687e0.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/illari/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "jetpack-cat",
@@ -1363,7 +1754,16 @@
         "originalName": "Jetpack Cat",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260227/1772161166572_520bd4f944.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/jetpackcat/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "junker-queen",
@@ -1387,7 +1787,16 @@
         "originalName": "Junker Queen",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345799934_839573accf.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/junker-queen/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "junkrat",
@@ -1403,7 +1812,16 @@
         "originalName": "Junkrat",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344518471_6694640983.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/junkrat/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "juno",
@@ -1419,7 +1837,16 @@
         "originalName": "Juno",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345880148_104d05c5ac.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/juno/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "lifeweaver",
@@ -1435,7 +1862,16 @@
         "originalName": "Lifeweaver",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345065664_ef5a73e847.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/lifeweaver/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "lucio",
@@ -1451,7 +1887,16 @@
         "originalName": "Lúcio",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344795972_a27d8b1835.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/lucio/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "mei",
@@ -1467,7 +1912,16 @@
         "originalName": "Mei",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344861505_65a04d4ba8.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/mei/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "mercy",
@@ -1483,7 +1937,16 @@
         "originalName": "Mercy",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345331108_df768a20f2.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/mercy/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "moira",
@@ -1499,7 +1962,16 @@
         "originalName": "Moira",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344990351_7b059cede4.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/moira/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "orisa",
@@ -1515,7 +1987,16 @@
         "originalName": "Orisa",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343784176_7bb7b4361b.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/orisa/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "ramattra",
@@ -1531,7 +2012,16 @@
         "originalName": "Ramattra",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344559514_30c8544a58.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/ramattra/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "roadhog",
@@ -1547,7 +2037,16 @@
         "originalName": "Roadhog",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344835007_e476db0de0.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/roadhog/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "sierra",
@@ -1571,7 +2070,16 @@
         "originalName": "Sierra",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260414/1776168411922_fcd14bee26.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/sierra/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "sigma",
@@ -1587,7 +2095,16 @@
         "originalName": "Sigma",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345683902_9072d3014c.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/sigma/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "sojourn",
@@ -1603,7 +2120,16 @@
         "originalName": "Sojourn",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345212218_19a8ef85cc.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/sojourn/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "sombra",
@@ -1619,7 +2145,16 @@
         "originalName": "Sombra",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344279611_1ec099c6b9.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/sombra/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "symmetra",
@@ -1635,7 +2170,16 @@
         "originalName": "Symmetra",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345867640_419b4c28b6.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/symmetra/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "torbjorn",
@@ -1667,7 +2211,16 @@
         "originalName": "Torbjörn",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345516431_b4e4a3db29.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/torbjorn/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "tracer",
@@ -1683,7 +2236,16 @@
         "originalName": "Tracer",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344756601_230a35bbfe.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/tracer/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "vendetta",
@@ -1707,7 +2269,16 @@
         "originalName": "Vendetta",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343474061_811025e090.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/vendetta/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "wrecking-ball",
@@ -1723,7 +2294,16 @@
         "originalName": "Wrecking Ball",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345057916_a09a61f8c4.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/wrecking-ball/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "wuyang",
@@ -1739,7 +2319,16 @@
         "originalName": "Wuyang",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343573582_31ebd32f84.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/wuyang/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "zarya",
@@ -1763,7 +2352,16 @@
         "originalName": "Zarya",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344000592_a122b6548c.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/zarya/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "adawe",
@@ -1779,7 +2377,12 @@
         "originalName": "Adawe",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "antonio",
@@ -1803,7 +2406,12 @@
         "originalName": "Antonio",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "athena",
@@ -1835,7 +2443,12 @@
         "originalName": "Athena",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "aurora",
@@ -1867,7 +2480,12 @@
         "originalName": "Aurora",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "b-o-b",
@@ -1883,7 +2501,12 @@
         "originalName": "B.O.B",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "bars",
@@ -1899,7 +2522,12 @@
         "originalName": "Bars",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "boomslang",
@@ -1915,7 +2543,12 @@
         "originalName": "Boomslang",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "casino",
@@ -1931,7 +2564,12 @@
         "originalName": "Casino",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "claudio",
@@ -1963,7 +2601,12 @@
         "originalName": "Claudio",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "d-mon",
@@ -1979,7 +2622,16 @@
         "originalName": "D.mon",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260806/1786022282273_a597b92ce5.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/dmon/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "efi",
@@ -1995,7 +2647,12 @@
         "originalName": "Efi",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "emily",
@@ -2011,7 +2668,12 @@
         "originalName": "Emily",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "geiger",
@@ -2027,7 +2689,12 @@
         "originalName": "Geiger",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "harold",
@@ -2043,7 +2710,12 @@
         "originalName": "Harold",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "hector",
@@ -2075,7 +2747,12 @@
         "originalName": "Hector",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "iggy",
@@ -2091,7 +2768,12 @@
         "originalName": "Iggy",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "ingrid",
@@ -2107,7 +2789,12 @@
         "originalName": "Ingrid",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "jackdaw",
@@ -2123,7 +2810,12 @@
         "originalName": "Jackdaw",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "jiayi",
@@ -2139,7 +2831,12 @@
         "originalName": "Jiayi",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "katya",
@@ -2155,7 +2852,12 @@
         "originalName": "Katya",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "kace",
@@ -2171,7 +2873,12 @@
         "originalName": "Kace",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "kendra",
@@ -2187,7 +2894,12 @@
         "originalName": "Kendra",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "king",
@@ -2203,7 +2915,12 @@
         "originalName": "King",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "lanet",
@@ -2219,7 +2936,12 @@
         "originalName": "Lanet",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "liao",
@@ -2347,7 +3069,12 @@
         "originalName": "Liao",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "lynx-17",
@@ -2363,7 +3090,12 @@
         "originalName": "Lynx 17",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "maximillien",
@@ -2379,7 +3111,12 @@
         "originalName": "Maximillien",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "meri",
@@ -2395,7 +3132,12 @@
         "originalName": "Meri",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "mondatta",
@@ -2411,7 +3153,12 @@
         "originalName": "Mondatta",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "nameless",
@@ -2427,7 +3174,12 @@
         "originalName": "Nameless",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "nobuto",
@@ -2443,7 +3195,12 @@
         "originalName": "Nobuto",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "overlord",
@@ -2459,7 +3216,12 @@
         "originalName": "Overlord",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "revel",
@@ -2475,7 +3237,12 @@
         "originalName": "Revel",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "ryota",
@@ -2491,7 +3258,12 @@
         "originalName": "Ryota",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "sakura",
@@ -2507,7 +3279,12 @@
         "originalName": "Sakura",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "sanjay",
@@ -2523,7 +3300,12 @@
         "originalName": "Sanjay",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "susannah",
@@ -2539,7 +3321,12 @@
         "originalName": "Susannah",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "sven",
@@ -2571,7 +3358,12 @@
         "originalName": "Sven",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "the-triplets",
@@ -2587,7 +3379,12 @@
         "originalName": "The Triplets",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "toshiro",
@@ -2603,7 +3400,12 @@
         "originalName": "Toshiro",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "touch-up",
@@ -2619,7 +3421,12 @@
         "originalName": "Touch Up",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "zera",
@@ -2635,7 +3442,12 @@
         "originalName": "Zera",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "mizuki",
@@ -2659,7 +3471,16 @@
         "originalName": "Mizuki",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260227/1772161166513_c40437c565.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/mizuki/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "la-coterie",
@@ -2675,7 +3496,12 @@
         "originalName": "La Coterie",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "dae-hyun",
@@ -2691,7 +3517,12 @@
         "originalName": "Dae-Hyun",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "ngumi",
@@ -2707,7 +3538,12 @@
         "originalName": "Ngumi",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "adeyemi",
@@ -2723,7 +3559,12 @@
         "originalName": "Adeyemi",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "alisa",
@@ -2739,7 +3580,12 @@
         "originalName": "Alisa",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "anubis",
@@ -2771,7 +3617,12 @@
         "originalName": "Anubis",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "chao",
@@ -2787,7 +3638,12 @@
         "originalName": "Chao",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "gerard",
@@ -2803,7 +3659,12 @@
         "originalName": "Gérard",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "naughton",
@@ -2819,7 +3680,12 @@
         "originalName": "Naughton",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "osai",
@@ -2835,7 +3701,12 @@
         "originalName": "Osai",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "portero",
@@ -2851,7 +3722,12 @@
         "originalName": "Portero",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "balderich",
@@ -2867,7 +3743,12 @@
         "originalName": "Balderich",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "vincent",
@@ -2883,7 +3764,12 @@
         "originalName": "Vincent",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "frankie",
@@ -2899,7 +3785,12 @@
         "originalName": "Frankie",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "bhatt",
@@ -2915,7 +3806,12 @@
         "originalName": "Bhatt",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "d-va",
@@ -2939,7 +3835,16 @@
         "originalName": "D.va",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344106986_1e81a16aa9.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/dva/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "sojiro",
@@ -2955,7 +3860,12 @@
         "originalName": "Sojiro",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "kamori-san",
@@ -2971,7 +3881,12 @@
         "originalName": "Kamori-san",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "asa",
@@ -2987,7 +3902,12 @@
         "originalName": "Asa",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "vialli",
@@ -3003,7 +3923,12 @@
         "originalName": "Vialli",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "mauga",
@@ -3035,7 +3960,16 @@
         "originalName": "Mauga",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770344848735_c1b6e8680d.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/mauga/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "wayfinder-society",
@@ -3059,7 +3993,12 @@
         "originalName": "Wayfinder Society",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "venture",
@@ -3075,7 +4014,16 @@
         "originalName": "Venture",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260206/1770345321595_01c8267e25.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/venture/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "numbani-city-of-harmony",
@@ -3091,7 +4039,12 @@
         "originalName": "Numbani City of Harmony",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "volskaya-industries",
@@ -3107,7 +4060,12 @@
         "originalName": "Volskaya Industries",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "mason",
@@ -3131,7 +4089,12 @@
         "originalName": "Mason",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "palak",
@@ -3147,7 +4110,12 @@
         "originalName": "Palak",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "chernobog",
@@ -3163,7 +4131,12 @@
         "originalName": "Chernobog",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "ming",
@@ -3179,7 +4152,12 @@
         "originalName": "Ming",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "maximus",
@@ -3203,7 +4181,12 @@
         "originalName": "Maximus",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "magnus",
@@ -3227,7 +4210,12 @@
         "originalName": "Magnus",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "carmilla",
@@ -3251,7 +4239,12 @@
         "originalName": "Carmilla",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "zephyrus",
@@ -3275,7 +4268,12 @@
         "originalName": "Zephyrus",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "titus",
@@ -3299,7 +4297,12 @@
         "originalName": "Titus",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "bez",
@@ -3315,7 +4318,12 @@
         "originalName": "Bez",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "shion",
@@ -3371,7 +4379,16 @@
         "originalName": "Shion",
         "kind": "hero"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "official-portrait",
+      "url": "https://ld5.res.netease.com/images/20260612/1781246423382_b7df5f662a.png",
+      "sourceId": "cn-heroes",
+      "sourcePage": "https://ow.blizzard.cn/heroes/",
+      "entityPage": "https://ow.blizzard.cn/heroes/shion/",
+      "checkedAt": "2026-09-18",
+      "rights": "角色图片归相应权利人；引用国服官网公开图源，未取得额外再分发授权。"
+    }
   },
   {
     "id": "kuroura",
@@ -3387,7 +4404,12 @@
         "originalName": "Kuroura",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "pompamoto",
@@ -3411,7 +4433,12 @@
         "originalName": "Pompamoto",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "myung",
@@ -3427,7 +4454,12 @@
         "originalName": "Myung",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "trembley",
@@ -3443,7 +4475,12 @@
         "originalName": "Trembley",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "sam",
@@ -3459,7 +4496,12 @@
         "originalName": "Sam",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "benicio",
@@ -3475,7 +4517,12 @@
         "originalName": "Benicio",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "chikasa",
@@ -3491,7 +4538,12 @@
         "originalName": "Chikasa",
         "kind": "npc"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "anubis-directives",
@@ -3507,7 +4559,12 @@
         "originalName": "Anubis Directives",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "deepsea-raiders",
@@ -3555,7 +4612,12 @@
         "originalName": "Deep Sea Raiders",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "colosseo-gladiatori",
@@ -3571,7 +4633,12 @@
         "originalName": "Colosseo Gladiatori",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   },
   {
     "id": "colloseo-gladiatori",
@@ -3643,6 +4710,11 @@
         "originalName": "Colloseo Gladiatori",
         "kind": "faction"
       }
-    ]
+    ],
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
   }
 ]

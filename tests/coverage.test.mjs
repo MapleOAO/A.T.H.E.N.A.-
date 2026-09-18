@@ -4,6 +4,12 @@ import {loadKnowledge} from '../scripts/load.mjs';
 import {validateKnowledge, filterGraph} from '../src/knowledge.mjs';
 import {layoutGraph} from '../src/layout.mjs';
 const kb=await loadKnowledge();
+test('official portraits have source provenance and unknown images stay named placeholders',()=>{
+  assert.equal(kb.entities.filter(e=>e.visual?.kind==='official-portrait').length,53);
+  assert.ok(kb.entities.every(e=>e.visual));
+  const k=structuredClone(kb);k.entities.find(e=>e.visual.kind==='official-portrait').visual.url='https://untrusted.example/portrait.png';
+  assert.ok(validateKnowledge(k).some(e=>e.includes('untrusted image')));
+});
 test('missing source inventory or connection is caught',()=>{
   const k=structuredClone(kb); k.entities.find(e=>e.origins?.some(o=>o.pointer.startsWith('/nodes/'))).origins=[];
   assert.ok(validateKnowledge(k).some(e=>e.includes('coverage mismatch')));
