@@ -2502,5 +2502,69 @@
     "locator": "待核对官方中文名称；当前为项目暂译或保留原名",
     "reviewedAt": null,
     "note": "上游 connections 使用 Colloseo，nodes 使用 Colosseo；疑似异拼，尚未合并实体。"
+  },
+  {
+    "id": "term-kohaku-ogata",
+    "entityId": "kohaku-ogata",
+    "en": "Kohaku Ogata",
+    "zh": "尾形虎珀",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-story-ambush",
+      "en-story-ambush"
+    ],
+    "locator": "国服PDF第3页；英文PDF第3页。",
+    "reviewedAt": "2026-09-18",
+    "note": "中英官方版本按同一段落具名身份逐一对应；不借用相似名字的已有角色。"
+  },
+  {
+    "id": "term-tsubaki-serizawa",
+    "entityId": "tsubaki-serizawa",
+    "en": "Tsubaki Serizawa",
+    "zh": "芹泽椿",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-story-ambush",
+      "en-story-ambush"
+    ],
+    "locator": "国服PDF第3页；英文PDF第3页。",
+    "reviewedAt": "2026-09-18",
+    "note": "中英官方版本按同一段落具名身份逐一对应；不借用相似名字的已有角色。"
+  },
+  {
+    "id": "term-yaemon-ijuuin",
+    "entityId": "yaemon-ijuuin",
+    "en": "Yaemon Ijuuin",
+    "zh": "伊集院矢右卫门",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-story-ambush",
+      "en-story-ambush"
+    ],
+    "locator": "国服PDF第3、6页；英文PDF第6页。",
+    "reviewedAt": "2026-09-18",
+    "note": "中英官方版本按同一段落具名身份逐一对应；不借用相似名字的已有角色。"
+  },
+  {
+    "id": "term-seira-horvath",
+    "entityId": "seira-horvath",
+    "en": "Seira Horvath",
+    "zh": "诚罗·霍瓦特",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-story-ambush",
+      "en-story-ambush"
+    ],
+    "locator": "国服PDF第6页；英文PDF第6页。",
+    "reviewedAt": "2026-09-18",
+    "note": "中英官方版本按同一段落具名身份逐一对应；不借用相似名字的已有角色。"
   }
 ]

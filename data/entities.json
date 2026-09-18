@@ -567,6 +567,11 @@
       ],
       "checkedAt": "2026-09-18",
       "rights": "图像版权归 Blizzard Entertainment 及相关权利人；仅引用官方图源。"
+    },
+    "discovery": {
+      "sourceId": "cn-story-ambush",
+      "locator": "中文PDF第10页桥元与黑爪结盟；英文Ambush同页对应Talon。既有实体补录。",
+      "reviewedAt": "2026-09-18"
     }
   },
   {
@@ -5443,6 +5448,98 @@
       "kind": "name-icon",
       "status": "pending",
       "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+    }
+  },
+  {
+    "id": "kohaku-ogata",
+    "name": "Kohaku Ogata",
+    "kind": "person",
+    "cluster": "archive",
+    "origins": [],
+    "discovery": {
+      "sourceId": "cn-story-ambush",
+      "locator": "PDF第3页：具名桥元长老；英文姓名见Ambush第3页。",
+      "reviewedAt": "2026-09-18"
+    },
+    "researchNote": {
+      "summaryZh": "尾形虎珀是出席家族议事会议的桥元长老。正文外貌描述为虎纹西装外套，但本篇插图未能确认其个人形象。",
+      "sourceId": "cn-story-ambush",
+      "locator": "PDF第3、10页",
+      "reviewedAt": "2026-09-18"
+    },
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "已核对官方姓名；尚未找到身份明确的官方人物图像。"
+    }
+  },
+  {
+    "id": "tsubaki-serizawa",
+    "name": "Tsubaki Serizawa",
+    "kind": "person",
+    "cluster": "archive",
+    "origins": [],
+    "discovery": {
+      "sourceId": "cn-story-ambush",
+      "locator": "PDF第3页：具名桥元长老；英文姓名见Ambush第3页。",
+      "reviewedAt": "2026-09-18"
+    },
+    "researchNote": {
+      "summaryZh": "芹泽椿是出席家族议事会议的桥元长老。正文外貌描述为歌舞伎面妆与折扇，但本篇插图未能确认其个人形象。",
+      "sourceId": "cn-story-ambush",
+      "locator": "PDF第3、10页",
+      "reviewedAt": "2026-09-18"
+    },
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "已核对官方姓名；尚未找到身份明确的官方人物图像。"
+    }
+  },
+  {
+    "id": "yaemon-ijuuin",
+    "name": "Yaemon Ijuuin",
+    "kind": "person",
+    "cluster": "archive",
+    "origins": [],
+    "discovery": {
+      "sourceId": "cn-story-ambush",
+      "locator": "PDF第3、6页：具名桥元长老；英文姓名见Ambush第6页。",
+      "reviewedAt": "2026-09-18"
+    },
+    "researchNote": {
+      "summaryZh": "伊集院矢右卫门是出席家族议事会议的桥元长老。正文外貌描述为纹付羽织袴，但本篇插图未能确认其个人形象。",
+      "sourceId": "cn-story-ambush",
+      "locator": "PDF第3、6、10页",
+      "reviewedAt": "2026-09-18"
+    },
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "已核对官方姓名；尚未找到身份明确的官方人物图像。"
+    }
+  },
+  {
+    "id": "seira-horvath",
+    "name": "Seira Horvath",
+    "kind": "person",
+    "cluster": "archive",
+    "origins": [],
+    "discovery": {
+      "sourceId": "cn-story-ambush",
+      "locator": "PDF第6页：具名桥元长老；英文姓名见Ambush第6页。",
+      "reviewedAt": "2026-09-18"
+    },
+    "researchNote": {
+      "summaryZh": "诚罗·霍瓦特是出席家族议事会议的桥元长老。正文外貌描述为白金长发束成马尾，但本篇插图未能确认其个人形象。",
+      "sourceId": "cn-story-ambush",
+      "locator": "PDF第6、10页",
+      "reviewedAt": "2026-09-18"
+    },
+    "visual": {
+      "kind": "name-icon",
+      "status": "pending",
+      "note": "已核对官方姓名；尚未找到身份明确的官方人物图像。"
     }
   }
 ]

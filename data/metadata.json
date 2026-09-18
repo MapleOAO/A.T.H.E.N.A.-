@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "glossaryVersion": "0.9.1",
-  "version": "0.9.2",
+  "glossaryVersion": "0.10.0",
+  "version": "0.10.0",
   "asOf": "2026-09-18",
-  "scope": "固定 Atlas v5 的全部实体目录与 57 条显式关联输入；核验与译名审核仍在持续",
+  "scope": "固定Atlas目录与显式关联输入，加上从官方原作独立发现的扩充实体；持续核验译名、关系与图像",
   "atlasVersion": {
     "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
     "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",

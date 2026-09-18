@@ -7,7 +7,7 @@ const kb = await loadKnowledge();
 const clone = () => structuredClone(kb);
 test('seed data passes all cross-reference checks', () => assert.deepEqual(validateKnowledge(kb), []));
 test('coverage distinguishes complete inventory from pending evidence', () => {
-  assert.equal(kb.entities.length,172); assert.ok(kb.relations.filter(r=>r.status==='verified').length>=22);
+  assert.ok(kb.entities.length>=172); assert.ok(kb.relations.filter(r=>r.status==='verified').length>=22);
   assert.equal(kb.relations.filter(r=>r.status==='pending').length,39); assert.equal(kb.candidates.length,57);
 });
 test('department recruitment retains Atlas lineage without implying membership or leadership', () => {
@@ -60,3 +60,16 @@ test('Atlas import stages names only, strips prose, ignores layout and never app
 test('Atlas reverse duplicates are de-duplicated without guessing directions', () => {const r=stageAtlas({v:5,connections:[entry,{subjectKind:'hero',subjectName:'Pharah',linkedKind:'hero',linkedName:'Ana'}]},kb,provenance);assert.equal(r.candidates.length,1);assert.equal(r.duplicates.length,1);});
 test('Atlas missing names and kind mismatches are quarantined', () => { const r=stageAtlas({v:5,connections:[{...entry,linkedName:'Unknown'},{...entry,linkedKind:'faction'}]},kb,provenance);assert.equal(r.candidates.length,0);assert.equal(r.unresolved.length,2); });
 test('Atlas schema drift and unpinned imports fail', () => {assert.throws(()=>stageAtlas({v:6,connections:[]},kb,provenance));assert.throws(()=>stageAtlas({v:5,connections:[]},kb,{commit:'main',blob:'x'}));});
+
+test('official expansion preserves discovery evidence and search', () => {
+  for(const id of ['kohaku-ogata','tsubaki-serizawa','yaemon-iju uin'.replace(' ',''),'seira-horvath']) {
+    const e=kb.entities.find(e=>e.id===id),t=kb.glossary.find(t=>t.entityId===id);
+    assert.equal(e.origins.length,0);assert.equal(t.status,'approved');
+    assert.ok(filterGraph(kb,{query:t.zh}).entities.some(e=>e.id===id));
+  }
+  for(const field of ['sourceId','locator','reviewedAt','missing']) {
+    const d=clone(),e=d.entities.find(e=>e.id==='kohaku-ogata');
+    if(field==='missing')delete e.discovery;else e.discovery[field]='';
+    assert.ok(validateKnowledge(d).some(x=>x.includes('discovery')));
+  }
+});

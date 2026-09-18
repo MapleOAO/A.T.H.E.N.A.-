@@ -1258,5 +1258,18 @@
     "locator": "本轮逐页图像阅读PDF第7–22页；第3–6页为v0.8历史审阅范围。",
     "rights": "仅记录独立事实摘要与页码，不转载漫画正文。",
     "sha256": "4b84dc75390981c74b53f1fb33c5616db5665f238eac1a7e990c245b03961c35"
+  },
+  {
+    "id": "en-story-ambush",
+    "title": "官方短篇 · Ambush",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt1f045c78ab440de9/6a45646e970e6f7b7eb75d8a/Ha$H_EN_FNL.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "accessMethod": "official-pdf-text",
+    "read": true,
+    "accessedAt": "2026-09-18",
+    "locator": "PDF正文第3、6–7、10页；与国服版本对应姓名及会议事件。",
+    "rights": "仅记录独立事实摘要、姓名与页码，不转载正文。",
+    "sha256": "19b3f3a44e413a3de8bc42f1ad252b9220b4cec72f2ad425204c64e5f9adcb85"
   }
 ]

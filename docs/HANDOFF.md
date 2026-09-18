@@ -1,13 +1,13 @@
-# 当前接手状态：v0.9.2（2026-09-18）
+# 当前接手状态：v0.10.0（2026-09-18）
 
 用户要求原创代码、Atlas资料输入、自有中文知识库、所有人物与组织可靠配图；已授权发布GitHub Pages，不使用Sites或用户服务器，不清空仓库。
 
-- 172实体；352关系：313 verified / 39 pending。
-- 119 approved术语 / 53 pending；92 sources。
-- 98官方图像：53头像、19剧情配图、2阵营标志、24原作局部；74缺图。
+- 176实体；360关系：321 verified / 39 pending。
+- 123 approved术语 / 53 pending；93 sources。
+- 98官方图像：53头像、19剧情配图、2阵营标志、24原作局部；78缺图。
 - 原先npc-media-kiriko研究已接入（shimada-clan建议ID映射为现有shimada）；鲍勃换成更清晰的官方双人场景。
 - 本轮英雄资料与PDF来源审计在docs/research，准确缺口在docs/REMAINING.md；不能报告“全部补齐”。
-- 46项测试、数据校验、静态构建通过。发布及浏览器最新结果见DEPLOYMENT.md与VERIFY.md。
+- 47项测试、数据校验、静态构建通过。发布及浏览器最新结果见DEPLOYMENT.md与VERIFY.md。
 - 前端新增时期reign与图像目录、原图局部展示。官方CDN图片保持外链，漫画局部保存在本地；没有生成或复制Atlas资产。
 - 60个官方目录旧PDF链接返回403，不可当作已读；15份下载成功，其中实际引用的作品有来源记录和页码。成功下载但未读的作品也不能自动核验。
 - 当前依旧保留Talon Empire/Talon、Colosseo/Colloseo、Ming/Myung的消歧边界。肯德拉两种官方姓氏保留，不编造原因。
@@ -73,3 +73,7 @@ Atlas commit 7df0623bf538ef5dedd49e620fc7a6356f5318d2；blob c52b9ff73955ca9bf4d
 - 本轮没有确认新译名或缺图人物身份，39关系、53译名、74图像缺口保持。完整未采用原因见research/2026-09-18-new-blood-followup.json，勿重复将Ira/Marisha当Alisa或Hyde Global当其他公司。
 
 - v0.9.2已发布，Pages运行35353767623成功。上轮安娜招募关系的鼠标点击问题已实测修复；键盘选择及焦点保留通过。资料为313已核验／39待核验关系；研究和源码均存于main。
+
+## v0.10.0 官方扩充
+
+新增尾形虎珀（kohaku-ogata）、芹泽椿（tsubaki-serizawa）、伊集院矢右卫门（yaemon-ijuuin）、诚罗·霍瓦特（seira-horvath）。中英官方姓名已核对，新增4条隶属与4条胁迫关系。原74缺图未减少，加上新角色共78缺图；53待审译名、39待审关系保持。不得用死怨往事里的无名长老充当新角色头像。详情见research/2026-09-18-official-expansion.json。

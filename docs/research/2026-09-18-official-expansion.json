@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-18",
+  "version": "0.10.0",
+  "sources": [
+    {
+      "sourceId": "cn-story-ambush",
+      "textPages": [
+        3,
+        6,
+        7,
+        10
+      ],
+      "illustrationPages": [
+        4,
+        5,
+        8,
+        9
+      ],
+      "sha256": "51f4132ca2f15fdb9120ed95da45a07d737c7cbdedcdc647d65fb5fc11e4be7b"
+    },
+    {
+      "sourceId": "en-story-ambush",
+      "textPages": [
+        3,
+        6,
+        7,
+        10
+      ],
+      "sha256": "19b3f3a44e413a3de8bc42f1ad252b9220b4cec72f2ad425204c64e5f9adcb85"
+    }
+  ],
+  "addedEntityIds": [
+    "kohaku-ogata",
+    "tsubaki-serizawa",
+    "yaemon-ijuuin",
+    "seira-horvath"
+  ],
+  "addedRelations": 8,
+  "held": [
+    {
+      "subject": "四位长老头像",
+      "reason": "第4–5页是死怨派对，第8–9页是其旧事；不能映射为当下四位具名长老。"
+    },
+    {
+      "subject": "Seira Horvath / Zera",
+      "reason": "英文官方姓名确认是两个不同名称；不合并。"
+    },
+    {
+      "subject": "警视厅",
+      "reason": "中文点名但英文只称police force，暂不杜撰正式英文机构名。"
+    }
+  ],
+  "imageChecks": [
+    {
+      "file": "kiriko-shimada.png",
+      "sha256": "4df29062733e9f9cf525ac16e08c135c054f9c4bb59208cefc0027d99c6b919b",
+      "decision": "held",
+      "reason": "源氏图像，不能作为麻或岛田宗次郎的头像",
+      "url": "https://ld5.res.netease.com/images/20260812/1786517441432_8b65810cf2.png"
+    },
+    {
+      "file": "hanzo-shimada.jpg",
+      "sha256": "9ff5db2f804a0f624d48bf81ee32381d34cac507d106227de1640e52e9e46c08",
+      "decision": "held",
+      "reason": "半藏图像，不能作为岛田宗次郎头像",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343868792_a3f07a2b83.jpg"
+    },
+    {
+      "file": "wuyang-family.png",
+      "sha256": "3c7d5445240eff7bd077e4032a4e3eb21bdb55f8dfb6fb04333b1023453594f9",
+      "decision": "held",
+      "reason": "无漾游戏画面，无具名家人",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343583727_b91465f649.png"
+    },
+    {
+      "file": "water-college.png",
+      "sha256": "7e09fc142a785123e06866195089e0b2d7a726da6d8884075e1864b66e23ba84",
+      "decision": "held",
+      "reason": "无漾游戏画面，不能作为学院身份明确配图",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343585933_824400d4c9.png"
+    },
+    {
+      "file": "rescue.png",
+      "sha256": "5306e3958655c2337ace597b77a1f819fd2a8a30218c9d72c3922b1461d2c916",
+      "decision": "held",
+      "reason": "弗蕾娅英雄介绍画面，未展示搜救部门",
+      "url": "https://ld5.res.netease.com/images/20260206/1770343609466_fa8c2c4804.png"
+    }
+  ]
+}
