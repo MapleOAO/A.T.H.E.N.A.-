@@ -4,6 +4,18 @@ const $ = selector => document.querySelector(selector);
 function el(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
 function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
 function link(text, url) { const n = el('a', text); if (safeUrl(url)) { n.href = url; n.target = '_blank'; n.rel = 'noopener noreferrer'; } return n; }
+function avatar(entity, className = '') {
+  const name = labelFor(kb, entity.id), node = el('span', name.slice(0, entity.kind==='organization'?2:1), 'avatar '+entity.kind+' '+className);
+  node.setAttribute('role','img');
+  node.setAttribute('aria-label', name + (entity.visual?.kind==='official-portrait'?'：官方头像':'：名称占位图，待补图'));
+  node.title = entity.visual?.kind==='official-portrait'?'官方头像':'名称占位图 · 待补官方图像';
+  if(entity.visual?.kind==='official-portrait') {
+    const img=el('img');img.src=entity.visual.url;img.alt='';img.loading='lazy';img.referrerPolicy='no-referrer';
+    img.addEventListener('error',()=>{img.remove();node.title='图片暂时无法加载 · 显示名称图标';});
+    node.append(img);
+  }
+  return node;
+}
 function svg(tag, attrs = {}, text) { const n = document.createElementNS('http://www.w3.org/2000/svg', tag); Object.entries(attrs).forEach(([k, v]) => n.setAttribute(k, v)); if (text) n.textContent = text; return n; }
 const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate: 'all', selected: 'ana', relation: null, focus: true, zoom: 1, x: 0, y: 0, view: 'graph' };
 let kb, current, positions, graphWidth = 1000, graphHeight = 780;
@@ -20,6 +32,7 @@ try {
 }
 
 function boot() {
+  $('.version b').textContent = 'v'+kb.version;
   $('#boot').hidden = true; $('#workspace').hidden = false;
   for (const [key, name] of Object.entries(periods)) $('#period').append(new Option(name, key));
   $('#predicate').append(new Option('全部关系', 'all'));
@@ -69,7 +82,7 @@ function render() {
   const directory = filterGraph(kb, { ...state, focus:null }).entities;
   $('#entity-count').textContent = directory.length;
   $('#empty').hidden = current.entities.length > 0;
-  $('#entity-list').replaceChildren(...directory.map(e => { const n = button('', () => selectEntity(e.id), `entity-item${e.id === state.selected ? ' selected' : ''}`); n.setAttribute('aria-label',`查看${labelFor(kb,e.id)}`); const name = el('span',labelFor(kb,e.id)); name.append(el('small',e.name)); n.append(el('span',e.kind === 'organization' ? '◇':'○',`entity-dot ${e.kind}`),name); return n; }));
+  $('#entity-list').replaceChildren(...directory.map(e => { const n = button('', () => selectEntity(e.id), `entity-item${e.id === state.selected ? ' selected' : ''}`); n.setAttribute('aria-label',`查看${labelFor(kb,e.id)}`); const name = el('span',labelFor(kb,e.id)); name.append(el('small',e.name)); n.append(avatar(e,'list-avatar'),name); return n; }));
   const computed = layoutGraph(current.entities, current.relations, state.selected);
   positions = computed.positions; graphWidth = computed.width; graphHeight = computed.height;
   $('#graph').setAttribute('viewBox', `0 0 ${graphWidth} ${graphHeight}`);
@@ -97,7 +110,13 @@ function renderGraph() {
     n.append(svg('title',{}, `${name} / ${entity.name}`));
     n.append(svg('circle',{r:42,class:'halo'}));
     n.append(org ? svg('rect',{x:-28,y:-28,width:56,height:56,rx:9,transform:'rotate(45)',class:'body'}) : svg('circle',{r:28,class:'body'}));
-    n.append(svg('text',{class:'symbol',y:0},org?'◇':name.slice(0,1)),svg('text',{class:'name',y:org?66:58},name.length>12?name.slice(0,11)+'…':name),svg('text',{class:'en',y:org?86:78},entity.name.length>24?entity.name.slice(0,23)+'…':entity.name));
+    n.append(svg('text',{class:'symbol',y:0},org?name.slice(0,2):name.slice(0,1)),svg('text',{class:'name',y:org?66:58},name.length>12?name.slice(0,11)+'…':name),svg('text',{class:'en',y:org?86:78},entity.name.length>24?entity.name.slice(0,23)+'…':entity.name));
+    if(entity.visual?.kind==='official-portrait') {
+      const clip=svg('clipPath',{id:'portrait-'+entity.id,clipPathUnits:'userSpaceOnUse'});clip.append(svg('circle',{r:27}));
+      const defs=svg('defs');defs.append(clip);
+      const photo=svg('image',{href:entity.visual.url,x:-27,y:-27,width:54,height:54,'clip-path':`url(#portrait-${entity.id})`,preserveAspectRatio:'xMidYMin slice',class:'node-portrait'});
+      photo.addEventListener('error',()=>photo.remove());n.append(defs,photo);
+    }
     n.onclick = () => selectEntity(entity.id); n.onkeydown = e => { if(e.key==='Enter'||e.key===' ') {e.preventDefault();selectEntity(entity.id);} };
     $('#nodes').append(n);
   }
@@ -122,6 +141,7 @@ function renderDetail() {
     return;
   }
   const term = termFor(kb,entity.id), relations = current.relations.filter(r=>r.from===entity.id||r.to===entity.id);
+  pane.append(avatar(entity,'detail-avatar'));
   pane.append(el('span','ENTITY / '+(entity.kind==='person'?'人物档案':'组织档案'),'eyebrow'),el('h2',labelFor(kb,entity.id)),el('p',entity.name,'detail-en'),badge(term.status==='approved'?'国服译名已核对':'暂译 · 待确认',term.status==='approved'?'verified':'pending'));
   const intro = {ana:'守望先锋创始成员。她与组织的历史关系、亲属关系和召回时期的行动，分条记录。',genji:'从岛田家族到暗影守望，再到禅雅塔门下。不同人生阶段，不合并为一个“当前阵营”。',overwatch:'连接人物与组织的历史节点。加入、领导和部门隶属，各有不同含义。'};
   pane.append(el('p',intro[entity.id] || '选择下方关系，查看具体含义、故事时期与出处。没有连线仅表示本库尚未录入关系，不代表该实体没有故事关联。','detail-lead'));
@@ -134,6 +154,12 @@ function renderDetail() {
     const n=button('',()=>selectRelation(r),'connection-button');
     const text=el('span',labelFor(kb,other)); text.append(el('small',`${r.from===entity.id?'→':'←'} ${predicates[r.predicate].label} · ${periods[r.period]}`));
     n.append(text,el('span',r.status==='pending'?'待核验':'↗',r.status==='pending'?'badge pending':'arrow')); pane.append(n);
+  }
+  pane.append(el('h3','图像来源'));
+  if(entity.visual?.kind==='official-portrait') {
+    pane.append(link('国服官网英雄头像',entity.visual.sourcePage),el('p',entity.visual.rights,'small-note'));
+  } else {
+    pane.append(el('p','本站名称占位图 · 待补可靠的头像或组织标志。此图不是官方形象。','small-note'));
   }
   pane.append(el('h3','中文名称依据'));
   for(const id of term.sourceIds) {const s=kb.sources.find(s=>s.id===id);pane.append(link(s.title,s.url));}
@@ -169,7 +195,8 @@ function renderCoverage() {
     ['组织目录', origin.filter(o=>o.kind==='faction').length, kb.atlasVersion.organizationNodes],
     ['显式关联记录', kb.candidates.length, kb.atlasVersion.connections],
     ['中文译名核对', kb.glossary.filter(t=>t.status==='approved').length, kb.glossary.length],
-    ['具体关系核验', kb.relations.filter(r=>r.status==='verified').length, kb.relations.length]
+    ['具体关系核验', kb.relations.filter(r=>r.status==='verified').length, kb.relations.length],
+    ['官方头像 / 标志', kb.entities.filter(e=>e.visual?.kind==='official-portrait').length, kb.entities.length]
   ];
   for(const [label,done,total] of data) {
     const card=el('article',null,'source-card'), progress=el('progress');

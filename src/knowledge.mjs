@@ -1,6 +1,12 @@
 export const statuses = { verified: '已核验', pending: '待核验', disputed: '有争议' };
 export const periods = { all: '全部时期', early: '早期守望先锋', recall: '召回时期', family: '亲属与成长', unspecified: '时期未明' };
 export const predicates = {
+  protected: { label: '保护', from: ['person'], to: ['person'] },
+  'cared-for': { label: '照料', from: ['person'], to: ['person'] },
+  fought: { label: '曾交战', from: ['person','organization'], to: ['person','organization'], symmetric: true },
+  'attempted-capture': { label: '试图劫走', from: ['person','organization'], to: ['person'] },
+  guarded: { label: '看守 / 收容', from: ['person','organization'], to: ['person'] },
+  gifted: { label: '赠予装备', from: ['person'], to: ['person'] },
   father: { label: '父亲 → 女儿', from: ['person'], to: ['person'] },
   godparent: { label: '教父', from: ['person'], to: ['person'] },
   squire: { label: '侍从 → 骑士', from: ['person'], to: ['person'] },
@@ -83,6 +89,13 @@ export function validateKnowledge(kb) {
   for (const e of kb.entities) {
     fail(['person', 'organization'].includes(e.kind), `${e.id}: invalid entity kind`);
     fail(typeof e.name === 'string' && e.name.length > 0, `${e.id}: missing name`);
+    if (e.visual) {
+      fail(['official-portrait','name-icon'].includes(e.visual.kind), `${e.id}: invalid visual kind`);
+      if(e.visual.kind==='official-portrait') {
+        fail(safeUrl(e.visual.url) && new URL(e.visual.url).hostname === 'ld5.res.netease.com', `${e.id}: untrusted image URL`);
+        fail(sources.get(e.visual.sourceId)?.kind==='official' && sources.get(e.visual.sourceId)?.read===true && safeUrl(e.visual.sourcePage) && date(e.visual.checkedAt) && Boolean(e.visual.rights), `${e.id}: missing image provenance`);
+      }
+    }
     for (const origin of e.origins || []) {
       fail(sources.has(origin.sourceId) && /^\/(nodes|connections)\/\d+(\/(subjectName|linkedName))?$/.test(origin.pointer || '') && origin.commit === kb.atlasVersion?.commit && origin.blob === kb.atlasVersion?.blob && Boolean(origin.originalName), `${e.id}: invalid entity provenance`);
     }
