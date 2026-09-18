@@ -15,6 +15,14 @@ index.html、app.mjs、style.css、favicon.svg、src/、data/knowledge.json、pr
 
 已上线：https://mapleoao.github.io/A.T.H.E.N.A.-/
 
+### 最新 v0.3.0
+
+- 源码：28e1683a911d298382e36ff28a30c38ed04f2f1e。
+- gh-pages：c610dc974f341a6d75f9084db51b865c774bedb6。
+- 实际浏览器确认版本、58条已核验关系、47条待核验关系、三处英雄头像和新关系证据。官方图片联网加载；缺图有明确占位说明。
+
+### 首次 v0.2.0 发布记录
+
 - 源码提交：c1f6f66ed918b9fc02e80fd5e311f82dd1f0a7b6。
 - gh-pages 构建提交：c63151647d7b9f38af550ce50f69a7659ce70cd7。
 - 2026-09-18 使用实际浏览器打开该网址，确认 v0.2 / 172实体 / 33已核验 / 48待核验，并操作了搜索、详情、筛选、缩放和五个导航。
