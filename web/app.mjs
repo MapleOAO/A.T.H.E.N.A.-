@@ -1,5 +1,5 @@
 import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs';
-import { layoutGraph } from './src/layout.mjs';
+import { layoutGraph, routeRelations } from './src/layout.mjs';
 const $ = selector => document.querySelector(selector);
 function el(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
 function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
@@ -30,7 +30,7 @@ function framedImage(entity, attrs = {}) {
   photo.addEventListener('error',()=>frame.remove());frame.append(photo);return frame;
 }
 const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate: 'all', selected: 'ana', relation: null, focus: true, zoom: 1, x: 0, y: 0, view: 'graph' };
-let kb, current, positions, graphWidth = 1000, graphHeight = 780;
+let kb, current, positions, routes, graphWidth = 1000, graphHeight = 780;
 
 try {
   const response = await fetch('./data/knowledge.json', { signal: AbortSignal.timeout(15000) });
@@ -72,7 +72,7 @@ function transform() { $('#viewport').setAttribute('transform', `translate(${gra
 function initPan() {
   let drag = null;
   $('#graph').addEventListener('wheel', e => { e.preventDefault(); zoom(e.deltaY < 0 ? 1.08 : 1 / 1.08); }, { passive:false });
-  $('#graph').addEventListener('pointerdown', e => { if (e.target.closest('.graph-node,.edge-hit')) return; drag = [e.clientX, e.clientY, state.x, state.y]; $('#graph').setPointerCapture(e.pointerId); });
+  $('#graph').addEventListener('pointerdown', e => { if (e.target.closest('.graph-node,.edge-hit,.relation-handle')) return; drag = [e.clientX, e.clientY, state.x, state.y]; $('#graph').setPointerCapture(e.pointerId); });
   $('#graph').addEventListener('pointermove', e => { if (!drag) return; const box = $('#graph').getBoundingClientRect(); const scale = Math.max(graphWidth / box.width, graphHeight / box.height); state.x = drag[2] + (e.clientX - drag[0]) * scale; state.y = drag[3] + (e.clientY - drag[1]) * scale; transform(); });
   for (const event of ['pointerup','pointercancel']) $('#graph').addEventListener(event, () => { drag = null; });
 }
@@ -98,25 +98,30 @@ function render() {
   $('#entity-list').replaceChildren(...directory.map(e => { const n = button('', () => selectEntity(e.id), `entity-item${e.id === state.selected ? ' selected' : ''}`); n.setAttribute('aria-label',`查看${labelFor(kb,e.id)}`); const name = el('span',labelFor(kb,e.id)); name.append(el('small',e.name)); n.append(avatar(e,'list-avatar'),name); return n; }));
   const computed = layoutGraph(current.entities, current.relations, state.selected);
   positions = computed.positions; graphWidth = computed.width; graphHeight = computed.height;
+  routes = routeRelations(positions,current.relations);
   $('#graph').setAttribute('viewBox', `0 0 ${graphWidth} ${graphHeight}`);
   renderGraph(); renderDetail();
 }
 function renderGraph() {
   const near = new Set(current.relations.filter(r => r.from === state.selected || r.to === state.selected).flatMap(r => [r.from,r.to]));
   $('#edges').replaceChildren(); $('#nodes').replaceChildren();
-  for (const [i,r] of current.relations.entries()) {
-    const [ax,ay] = positions.get(r.from), [bx,by] = positions.get(r.to), dx = bx-ax, dy = by-ay, len = Math.hypot(dx,dy)||1;
-    const offset = 34, x1 = ax+dx/len*offset, y1 = ay+dy/len*offset, x2 = bx-dx/len*offset, y2 = by-dy/len*offset;
-    const bend = i%2 ? 22 : -22, mx = (x1+x2)/2-dy/len*bend, my = (y1+y2)/2+dx/len*bend;
-    const d = `M${x1},${y1} Q${mx},${my} ${x2},${y2}`;
+  const handles=[];
+  for (const r of current.relations) {
+    const {path:d,handle:[cx,cy]} = routes.get(r.id);
     const related = r.from === state.selected || r.to === state.selected;
     const line = svg('path',{d,class:`edge ${r.status} ${r.id===state.relation?'selected':related?'neighbor':'edge-dim'}`});
     if (!predicates[r.predicate].symmetric) line.setAttribute('marker-end','url(#arrow)');
     const name = `${labelFor(kb,r.from)} · ${predicates[r.predicate].label} · ${labelFor(kb,r.to)}（${statuses[r.status]}）`;
-    const hit = svg('path',{d,class:'edge-hit',role:'button',tabindex:0,'aria-label':name}); hit.append(svg('title',{},name));
-    hit.onclick = () => selectRelation(r); hit.onkeydown = e => { if (e.key==='Enter'||e.key===' ') {e.preventDefault();selectRelation(r);} };
+    const hit = svg('path',{d,class:'edge-hit','aria-hidden':'true'});
+    hit.onclick = () => selectRelation(r);
+    const handle = svg('circle',{id:`relation-${r.id}`,cx,cy,r:12,class:`relation-handle ${r.status}${r.id===state.relation?' selected':''}`,role:'button',tabindex:0,'aria-label':name,'aria-pressed':r.id===state.relation});
+    handle.append(svg('title',{},name));
+    handle.onclick = () => selectRelation(r);
+    handle.onkeydown = e => { if (e.key==='Enter'||e.key===' ') {e.preventDefault();selectRelation(r);document.getElementById(`relation-${r.id}`).focus();} };
+    handles.push(handle);
     $('#edges').append(line,hit);
   }
+  $('#edges').append(...handles);
   for (const entity of current.entities) {
     const [x,y] = positions.get(entity.id), name = labelFor(kb,entity.id), org = entity.kind === 'organization';
     const n = svg('g',{transform:`translate(${x} ${y})`,class:`graph-node ${entity.kind} ${entity.cluster} ${entity.id===state.selected?'selected':!near.has(entity.id)&&near.size?'dimmed':''}`,role:'button',tabindex:0,'aria-label':`图谱节点：${name}`,'aria-pressed':entity.id===state.selected});

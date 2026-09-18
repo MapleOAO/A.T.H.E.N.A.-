@@ -14,3 +14,9 @@
 .avatar-frame{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
 
 .media-controls{display:flex;gap:20px;flex-wrap:wrap;align-items:center;margin:20px 0}.media-controls select{padding:8px;background:#142330;color:#dcecf3;border:1px solid #345261;border-radius:5px}.media-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}.media-card{padding:22px 12px;display:flex;align-items:center;flex-direction:column;gap:10px;background:#101d28;color:#dcecf3;border:1px solid #294252;border-radius:12px;cursor:pointer}.media-card:hover,.media-card:focus-visible{border-color:#79dacc}.media-card .detail-avatar{margin-bottom:4px}.media-card small{color:#a4b8c6}.media-card .badge{font-size:10px;white-space:normal}
+
+/* Explicit curve controls remain visible and keyboard-accessible. */
+.edge{pointer-events:none}.edge-hit{pointer-events:stroke}
+.relation-handle{fill:#153039;stroke:#83a4b1;stroke-width:1.5;cursor:pointer;outline:none}
+.relation-handle.pending{stroke:var(--gold);fill:#30291f}
+.relation-handle:hover,.relation-handle:focus-visible,.relation-handle.selected{fill:var(--accent);stroke:#e0fffa;stroke-width:3}

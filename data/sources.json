@@ -1245,5 +1245,18 @@
     "locator": "PDF第2–8页正文；未以封面或空白尾页核验人物画面。",
     "rights": "仅保存独立事实摘要和页码，不转载章节正文。",
     "sha256": "65204c2afff85d14f2e1d10f54f0d5e8624ebed8db1670c12c98042bb638c33a"
+  },
+  {
+    "id": "en-lore-new-blood-4",
+    "title": "官方漫画 · New Blood #4",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd491d56e1606d412/61fdc39da6bb9250d3e44a53/OW_2.4_Final_EN.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "accessMethod": "official-pdf-selected-page-render",
+    "read": true,
+    "accessedAt": "2026-09-18",
+    "locator": "本轮逐页图像阅读PDF第7–22页；第3–6页为v0.8历史审阅范围。",
+    "rights": "仅记录独立事实摘要与页码，不转载漫画正文。",
+    "sha256": "4b84dc75390981c74b53f1fb33c5616db5665f238eac1a7e990c245b03961c35"
   }
 ]
