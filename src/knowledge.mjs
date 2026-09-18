@@ -9,6 +9,7 @@ export const predicates = {
   'sister': { label: '姐姐 → 弟弟', from: ['person'], to: ['person'] },
   'student': { label: '就读', from: ['person'], to: ['organization'] },
   'recruited': { label: '招募', from: ['person'], to: ['person'] },
+  'recruited-for': { label: '为其招募人员', from: ['person'], to: ['organization'] },
   'department': { label: '所属部门', from: ['organization'], to: ['organization'] },
   'hired': { label: '雇佣', from: ['person'], to: ['person'] },
   'infiltrated': { label: '潜入', from: ['person'], to: ['organization'] },
