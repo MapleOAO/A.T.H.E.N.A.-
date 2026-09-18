@@ -113,6 +113,11 @@ export function validateKnowledge(kb) {
   for (const e of kb.entities) {
     fail(['person', 'organization'].includes(e.kind), `${e.id}: invalid entity kind`);
     fail(typeof e.name === 'string' && e.name.length > 0, `${e.id}: missing name`);
+    if (e.discovery) {
+      const d=e.discovery, s=sources.get(d.sourceId);
+      fail(s?.kind==='official' && s.read===true && typeof d.locator==='string' && d.locator.trim().length>0 && date(d.reviewedAt), `${e.id}: invalid official discovery evidence`);
+    }
+    fail(e.origins?.length>0 || Boolean(e.discovery), `${e.id}: missing discovery provenance`);
     if (e.researchNote) {
       const n=e.researchNote, s=sources.get(n.sourceId);
       fail(typeof n.summaryZh==='string' && n.summaryZh.trim().length>0 && typeof n.locator==='string' && n.locator.trim().length>0 && s?.kind==='official' && s.read===true && date(n.reviewedAt), `${e.id}: invalid research note evidence`);

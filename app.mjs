@@ -1,5 +1,5 @@
-import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs?v=67277cb8f211e2d0';
-import { layoutGraph, routeRelations } from './src/layout.mjs?v=67277cb8f211e2d0';
+import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs?v=f49f5830e67b1386';
+import { layoutGraph, routeRelations } from './src/layout.mjs?v=f49f5830e67b1386';
 const $ = selector => document.querySelector(selector);
 function el(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
 function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
@@ -33,7 +33,7 @@ const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate:
 let kb, current, positions, routes, graphWidth = 1000, graphHeight = 780;
 
 try {
-  const response = await fetch('./data/knowledge.json?v=67277cb8f211e2d0', { signal: AbortSignal.timeout(15000) });
+  const response = await fetch('./data/knowledge.json?v=f49f5830e67b1386', { signal: AbortSignal.timeout(15000) });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   kb = await response.json();
   const errors = validateKnowledge(kb);
@@ -197,6 +197,7 @@ function renderDetail() {
   if (entity.origins?.length) { const o=entity.origins[0]; pane.append(el('h3','实体收录出处'),link('Atlas 固定版本',kb.sources.find(s=>s.id===o.sourceId).url),el('p',`${o.pointer} · ${o.originalName}`,'small-note')); }
   if(!term.sourceIds.length) pane.append(el('p','未找到官方中文依据，不自动批准。','small-note'));
   pane.append(el('p',`实体 ID · ${entity.id}`,'small-note'));
+  if(entity.discovery) {const d=entity.discovery,s=kb.sources.find(s=>s.id===d.sourceId);pane.append(el('h3','官方原作扩充'),link(s.title,s.url),el('p',d.locator,'small-note'));}
 }
 function renderTables() {
   renderGlossary(); renderCoverage(); renderMedia();
@@ -233,7 +234,7 @@ function renderCoverage() {
     progress.max=total; progress.value=done; progress.setAttribute('aria-label',label);
     card.append(el('h3',label),el('strong',`${done} / ${total}`),progress); $('#coverage-cards').append(card);
   }
-  $('#coverage-note').textContent = `固定 Atlas 版本 ${kb.atlasVersion.commit.slice(0,8)}。实体目录与显式关联输入已收齐；尚有 ${kb.glossary.filter(t=>t.status==='pending').length} 条译名和 ${kb.relations.filter(r=>r.status==='pending').length} 条关系待核验。目录之外另有 Talon 及 Colloseo 异拼条目。Liao / Echo 的双向原始记录保留两个出处，图中共用一条关系。`;
+  $('#coverage-note').textContent = `固定 Atlas 版本 ${kb.atlasVersion.commit.slice(0,8)}。实体目录与显式关联输入已收齐；尚有 ${kb.glossary.filter(t=>t.status==='pending').length} 条译名和 ${kb.relations.filter(r=>r.status==='pending').length} 条关系待核验。另从官方原作独立扩充 ${kb.entities.filter(e=>e.discovery).length} 个实体；其中包含既有黑爪条目；另保留 Colloseo 异拼条目。Liao / Echo 的双向原始记录保留两个出处，图中共用一条关系。`;
 }
 
 function renderMedia() {
