@@ -2,6 +2,8 @@
 
 Read README.md, docs/ARCHITECTURE.md, docs/DATA_POLICY.md and docs/HANDOFF.md before editing.
 
+Before new research, consult docs/research/README.md and docs/REMAINING.md. Reuse recorded page scopes, identity evidence and held findings instead of repeatedly searching already-reviewed material. Downloaded but unread pages are not evidence.
+
 - Independent code only. Never copy Atlas application code, styles, coordinates or assets.
 - Atlas factual records are allowed as attributed candidate inputs, not automatically canonical facts.
 - Keep original Atlas version, JSON pointer and names. Never hide attribution after official corroboration.

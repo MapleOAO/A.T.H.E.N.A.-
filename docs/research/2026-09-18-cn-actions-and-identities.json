@@ -1,0 +1,459 @@
+{
+  "date": "2026-09-18",
+  "version": "0.9.0",
+  "reviewed": [
+    {
+      "sourceId": "cn-story-new-heights",
+      "scope": "阅读PDF第2–12页文字，目视核对第3、4、7页；第3页点名肯德拉·伍兹，第4–7页连续母女回忆支持第7页配图身份",
+      "sha256": "8b75806825d6d495b3bed3522084fdd62ad5f2b66468c774064b256247bda073"
+    },
+    {
+      "sourceId": "cn-story-successors",
+      "scope": "阅读PDF第2、3、5、8页文字，目视核对第1、4、6页插画；第3–5页叙述奥迪耶米与阿坎的对峙，匹配第4页持拳套人物",
+      "sha256": "bbea9c6fc6485549c2be3453ba490f3ad2db0a14bfc189794f9ab20728b962c3"
+    },
+    {
+      "sourceId": "cn-story-progress",
+      "scope": "阅读PDF第2、3、6页文字，查看第4页插画；未发现可确认诺顿博士身份的画面",
+      "sha256": "e9644d5693484aed468ff44d1e4d6e29d30789348ceedc73157594da46b067a7"
+    },
+    {
+      "sourceId": "cn-story-a-rare-power",
+      "scope": "阅读PDF第2、3、8、9、14页文字，查看第4页插画；核对血清失窃、追查合作与招募的不同含义",
+      "sha256": "fe82b60f1e109acff24357d63da3e1ebd207d7ac901c49420e6bf8a91600f19b"
+    },
+    {
+      "sourceId": "cn-story-crossroads",
+      "scope": "阅读PDF第2–12页文字，并目视核对第6页鲍勃袭击卡西迪的动作；未据未点名画面新增人物配图",
+      "sha256": "2cbadd89e36e3a3dea9a1ca0487e937836c2cdefa89cb40d38bf044789d624ff"
+    },
+    {
+      "sourceId": "cn-story-cursebreaker",
+      "scope": "阅读PDF第2、3、6、7页文字；黑浦仅在叙述中提及，不据此分配画面",
+      "sha256": "28e900747dc9f8328e40514d551de20a33e70eb7cd9281fb20b7b3bef5a0eb65"
+    },
+    {
+      "sourceId": "cn-story-facing-demons",
+      "scope": "阅读PDF第2–12页文字，查看第4、6页；咲良只在第6页对白中被提及，不能仅凭同页群像分配身份",
+      "sha256": "7b1b65fbe2a32b809360974286f31a192c7568740a3ff4070abd318ace7e333c"
+    },
+    {
+      "sourceId": "cn-comic-from-the-ashes",
+      "scope": "阅读PDF第2–12页文字，查看第7、10页；核对安燃掩护源氏与回声、队友返回援救的动作与对白",
+      "sha256": "7a49d5fd68745ee71dfb48925170ee24ebd75d025fc46947ba9f2bc217335ea2"
+    },
+    {
+      "sourceId": "en-comic-mission-statement",
+      "scope": "本轮查看PDF第3–6、10页；第3页说明阿努比斯收容历史，第6页设施中的形象与自称支持图像身份；其他页不计本轮已读",
+      "sha256": "d8ea75e31da45358e787fdfd9b3028b7c7aa7656ab25ed6274a11e03ebe0fe04"
+    },
+    {
+      "sourceId": "en-lore-searching",
+      "scope": "本轮查看PDF第3–4页；没有采用办公室画面作为沃斯卡娅工业集团标志，也未把城市街景当作组织标志",
+      "sha256": "03a4b088d038b18ce7114e51820a5deeccb30d47c14b13dd6af864a1275b213b"
+    },
+    {
+      "sourceId": "en-lore-a-new-empire",
+      "scope": "本轮阅读PDF第3–12页文字；未找到可将未点名角斗士对应到当前缺图具名实体的独立依据",
+      "sha256": "cbd34ed66899425d63220863cffa5390a057b699d406be26f3093b95a7db5eda"
+    },
+    {
+      "sourceId": "cn-story-the-fall-of-a-aparrow",
+      "scope": "本轮查看PDF第1、5、10页；未发现宗次郎、朝或家守大人的明确肖像，本轮不新增配图",
+      "sha256": "8bf38e906ecf4f7d1ba3e4c7e63afd2fdce398bda5b922675608c8cfcd256c6d"
+    }
+  ],
+  "visuals": [
+    {
+      "entityId": "kendra",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/kendra-a2d714e43bfb.jpg",
+        "sourceId": "cn-story-new-heights",
+        "sourcePage": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_PANSHANGXINGAO_3aff37e8.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第7页；官方原作局部，身份核对范围见说明",
+        "captionZh": "《攀上新高》第7页左侧成年女子；第3页视频收件人为肯德拉·伍兹，第4–7页为西拉与母亲的连续回忆及对话。保留传记中的肯德拉·班克斯作为另一官方称呼，不推断姓氏变化原因。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；仅引用少量身份辨识局部，未重绘，非独立发布的官方头像。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "a2d714e43bfb29391d5bb47dd4eea96298ae0a962dc38b9dcecd80d667fccd3b",
+          "sourceSha256": "8b75806825d6d495b3bed3522084fdd62ad5f2b66468c774064b256247bda073",
+          "page": 7,
+          "scaleTo": 1400,
+          "region": [
+            307,
+            419,
+            173,
+            193
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "adeyemi",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/adeyemi-9a6d7eb71d04.jpg",
+        "sourceId": "cn-story-successors",
+        "sourcePage": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_Ravine_CN_FNL_3fe60d2a.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第4页；官方原作局部，身份核对范围见说明",
+        "captionZh": "《继承者》第4页手持末日铁拳的男子；第3–5页明确叙述阿坎挑战导师阿金吉·奥迪耶米，画面另一方是尚未夺得拳套的阿坎。本图为奥迪耶米，不是现任英雄铁拳的头像。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；仅引用少量身份辨识局部，未重绘，非独立发布的官方头像。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "9a6d7eb71d040c453ccaccf7717ecc7b6433f8bd0878cb7d64a6e16e5357e4be",
+          "sourceSha256": "bbea9c6fc6485549c2be3453ba490f3ad2db0a14bfc189794f9ab20728b962c3",
+          "page": 4,
+          "scaleTo": 1400,
+          "region": [
+            3,
+            427,
+            375,
+            444
+          ]
+        }
+      }
+    },
+    {
+      "entityId": "anubis",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/anubis-b823a3d832a2.jpg",
+        "sourceId": "en-comic-mission-statement",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd61a7c0fa6827b4d/5d02e273cf7aa6330ac67308/comic-overwatch-mission-statement_en-us.pdf",
+        "checkedAt": "2026-09-18",
+        "locator": "PDF第6页；官方原作局部，身份核对范围见说明",
+        "captionZh": "《Mission Statement》第6页设施内部呈现的阿努比斯形象；同格发言以Anubis自称，第3–4页说明其为失控人工智能。仅展示原作中的设施形象，不把它解释为有肉身的人类或独立角色头像。",
+        "position": "center",
+        "rights": "原画版权归Blizzard Entertainment及署名作者；仅引用少量身份辨识局部，未重绘，非独立发布的官方头像。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "b823a3d832a2328647c164506eff02e2027a1227bd66fcb30b0da9b7d2e1aa22",
+          "sourceSha256": "d8ea75e31da45358e787fdfd9b3028b7c7aa7656ab25ed6274a11e03ebe0fe04",
+          "page": 6,
+          "scaleTo": 1400,
+          "region": [
+            669,
+            857,
+            175,
+            257
+          ]
+        }
+      }
+    }
+  ],
+  "relationChanges": [
+    {
+      "kind": "add",
+      "id": "lore9-anran-protected-genji-reign",
+      "evidence": {
+        "sourceId": "cn-comic-from-the-ashes",
+        "locator": "PDF第6–9页；第7页画面与对白",
+        "noteZh": "直布罗陀受袭时，安燃冲入战斗，掩护被黑爪拖住的源氏撤离。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-anran-protected-echo-reign",
+      "evidence": {
+        "sourceId": "cn-comic-from-the-ashes",
+        "locator": "PDF第6–9页；第7页画面与对白",
+        "noteZh": "直布罗陀受袭时，安燃掩护回声等队友，自己留下阻挡黑爪。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-anran-fought-talon-reign",
+      "evidence": {
+        "sourceId": "cn-comic-from-the-ashes",
+        "locator": "PDF第7–9页",
+        "noteZh": "安燃在直布罗陀迎战黑爪步兵，阻止他们追击撤离中的队友。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-reinhardt-freed-anran-reign",
+      "evidence": {
+        "sourceId": "cn-comic-from-the-ashes",
+        "locator": "PDF第10页；返回支援及带离战场的画面和对白",
+        "noteZh": "莱因哈特参与返回战场援救安燃，协助她撤往运输机。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-zarya-freed-anran-reign",
+      "evidence": {
+        "sourceId": "cn-comic-from-the-ashes",
+        "locator": "PDF第10页；返回支援及带离战场的画面和对白",
+        "noteZh": "查莉娅参与返回战场援救安燃，协助她撤往运输机。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-sojourn-freed-anran-reign",
+      "evidence": {
+        "sourceId": "cn-comic-from-the-ashes",
+        "locator": "PDF第10页；返回支援及带离战场的画面和对白",
+        "noteZh": "索杰恩参与返回战场援救安燃，协助她撤往运输机。"
+      }
+    },
+    {
+      "kind": "corroborate",
+      "id": "cn4-anran-member-overwatch-reign",
+      "evidence": {
+        "sourceId": "cn-comic-from-the-ashes",
+        "locator": "PDF第2、12页",
+        "noteZh": "安燃响应守望先锋招募；结尾队友以守望先锋团队相互依靠的对话接纳姐弟。"
+      }
+    },
+    {
+      "kind": "corroborate",
+      "id": "cn4-wuyang-member-overwatch-reign",
+      "evidence": {
+        "sourceId": "cn-comic-from-the-ashes",
+        "locator": "PDF第2、12页",
+        "noteZh": "无漾与安燃一同响应守望先锋招募，结尾与队友共同撤离并确认团队归属。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-overwatch-allied-yokai-gang-reign",
+      "evidence": {
+        "sourceId": "cn-story-facing-demons",
+        "locator": "PDF第4–7页",
+        "noteZh": "守望先锋与妖怪团联合规划行动：前者处理火车站的武器交易，后者进入桥元寨救人并破坏锻炉。"
+      }
+    },
+    {
+      "kind": "corroborate",
+      "id": "cn4-hashimoto-clan-allied-talon-reign",
+      "evidence": {
+        "sourceId": "cn-story-facing-demons",
+        "locator": "PDF第5页",
+        "noteZh": "妖怪团行动简报明确指出，黑爪支援桥元家族并换取其武器；这是交易合作，不等于组织合并。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-sojourn-contacted-kiriko-reign",
+      "evidence": {
+        "sourceId": "cn-story-facing-demons",
+        "locator": "PDF第7页",
+        "noteZh": "索杰恩通过通讯向雾子汇报武器已大部销毁，以及敌人正返回桥元寨。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-yokai-gang-freed-genji-reign",
+      "evidence": {
+        "sourceId": "cn-story-facing-demons",
+        "locator": "PDF第4–7、12页",
+        "noteZh": "妖怪团进入桥元寨执行救援；第12页通讯明确报告源氏已经获救。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-hashimoto-clan-imprisoned-genji-reign",
+      "evidence": {
+        "sourceId": "cn-story-facing-demons",
+        "locator": "PDF第4、7、12页",
+        "noteZh": "源氏被关押在桥元寨；第12页桥元部下报告被关押的岛田成员已不见。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-shion-coerced-mizuki-family",
+      "evidence": {
+        "sourceId": "cn-story-facing-demons",
+        "locator": "PDF第3、8–9页",
+        "noteZh": "童年回忆中，死怨以惩罚、隔离和恐惧控制瑞稀，要求他服从自己。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-mizuki-colleague-kiriko-reign",
+      "evidence": {
+        "sourceId": "cn-story-facing-demons",
+        "locator": "PDF第6–7页",
+        "noteZh": "瑞稀带雾子等人进入桥元寨，并主动引开敌人，给雾子救出源氏和敏郎争取时间。"
+      }
+    },
+    {
+      "kind": "corroborate",
+      "id": "lore4-mizuki-fought-shion-reign",
+      "evidence": {
+        "sourceId": "cn-story-facing-demons",
+        "locator": "PDF第9–12页",
+        "noteZh": "瑞稀在桥元寨拒绝继续服从死怨，双方发生战斗；不将此单次交战扩展为所有时期的关系。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-kendra-mentor-sierra-family",
+      "evidence": {
+        "sourceId": "cn-story-new-heights",
+        "locator": "PDF第4–7页",
+        "noteZh": "肯德拉在西拉成长过程中以游戏、战术手势和撤离演练训练女儿的应变与求生能力。"
+      }
+    },
+    {
+      "kind": "corroborate",
+      "id": "cn4-kendra-mother-sierra-family",
+      "evidence": {
+        "sourceId": "cn-story-new-heights",
+        "locator": "PDF第3–7页",
+        "noteZh": "视频消息指向肯德拉·伍兹，西拉称她为妈妈；连续回忆显示二人的母女生活。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-freja-colleague-emre-reign",
+      "evidence": {
+        "sourceId": "cn-story-a-rare-power",
+        "locator": "PDF第3、8页",
+        "noteZh": "埃姆雷盗取血清，弗蕾娅牵制追击的西拉并在黑爪运输机接应；这里仅记录此次行动配合。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-emre-stole-from-helix-securities-reign",
+      "evidence": {
+        "sourceId": "cn-story-a-rare-power",
+        "locator": "PDF第3、8–9页",
+        "noteZh": "埃姆雷从海力士驻守的格兰德台地诺顿保险库取走强化血清。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-sierra-colleague-sojourn-reign",
+      "evidence": {
+        "sourceId": "cn-story-a-rare-power",
+        "locator": "PDF第3、8–9、14页",
+        "noteZh": "西拉与索杰恩一同复核失窃录像、对照嫌犯身份，并决定共同追查血清。"
+      }
+    },
+    {
+      "kind": "corroborate",
+      "id": "lore9-kendra-mentor-sierra-family",
+      "evidence": {
+        "sourceId": "cn-story-a-rare-power",
+        "locator": "PDF第9页",
+        "noteZh": "西拉明确说明母亲教会了自己一切；海力士训练不是她能力的唯一来源。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-adeyemi-stole-from-ngumi-unspecified",
+      "evidence": {
+        "sourceId": "cn-story-successors",
+        "locator": "PDF第5页",
+        "noteZh": "阿坎回忆奥迪耶米从古米的尸首上取得末日铁拳；这段文字不说明是谁杀死古米。"
+      }
+    },
+    {
+      "kind": "corroborate",
+      "id": "cn4-adeyemi-mentor-doomfist-early",
+      "evidence": {
+        "sourceId": "cn-story-successors",
+        "locator": "PDF第3–5页",
+        "noteZh": "阿坎明确自称奥迪耶米的门徒，并指出熟悉导师的招式与弱点。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-pharah-fought-anubis-unspecified",
+      "evidence": {
+        "sourceId": "en-comic-mission-statement",
+        "locator": "PDF第3–6页",
+        "noteZh": "法老之鹰率海力士行动队进入失控设施，与阿努比斯控制的武装交战。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-helix-securities-fought-anubis-unspecified",
+      "evidence": {
+        "sourceId": "en-comic-mission-statement",
+        "locator": "PDF第3–6页",
+        "noteZh": "海力士派出工程队后再派战斗小队处置阿努比斯失控；小队遭到其控制的智械袭击。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-overwatch-guarded-anubis-early",
+      "evidence": {
+        "sourceId": "en-comic-mission-statement",
+        "locator": "PDF第3页左下叙述",
+        "noteZh": "漫画叙述守望先锋在智械危机后隔离收容阿努比斯，后来海力士接管相关设施。"
+      }
+    },
+    {
+      "kind": "corroborate",
+      "id": "cn4-deadlock-rebels-allied-talon-reign",
+      "evidence": {
+        "sourceId": "cn-story-crossroads",
+        "locator": "PDF第2、6、11页",
+        "noteZh": "死局帮与黑爪联手袭击格兰德台地；死局帮的袭击掩护了保险库中的血清盗窃。"
+      }
+    },
+    {
+      "kind": "corroborate",
+      "id": "lore4-ashe-fought-cassidy-reign",
+      "evidence": {
+        "sourceId": "cn-story-crossroads",
+        "locator": "PDF第5–10页",
+        "noteZh": "艾什与卡西迪在格兰德台地行动中交战，并争论卡西迪当年离开死局帮的经过。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-b-o-b-fought-cassidy-reign",
+      "evidence": {
+        "sourceId": "cn-story-crossroads",
+        "locator": "PDF第6–7页",
+        "noteZh": "鲍勃在卡西迪与艾什对峙时参与攻击卡西迪。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-ashe-contacted-frankie-reign",
+      "evidence": {
+        "sourceId": "cn-story-crossroads",
+        "locator": "PDF第4–5页",
+        "noteZh": "弗朗姬负责协调进攻，艾什在与卡西迪对峙时呼叫她派出人手。"
+      }
+    },
+    {
+      "kind": "add",
+      "id": "lore9-cassidy-contacted-frankie-reign",
+      "evidence": {
+        "sourceId": "cn-story-crossroads",
+        "locator": "PDF第4页",
+        "noteZh": "卡西迪通过通讯与弗朗姬交谈，询问艾什的位置；不把对话推定为双方合作。"
+      }
+    }
+  ],
+  "held": [
+    "这批资料未提供53条待审工作译名的新国服命名依据；译名状态不变。",
+    "40条Atlas待核验关联尚未获得本轮资料支持；没有靠同场出现或技术比较升级。",
+    "Mission Statement出现Khalil、Tariq、Saleh等姓名，不能映射成Osei、Ngumi或Adeyemi。",
+    "《继承者》第5页只说从古米尸首夺走拳套，不支持奥迪耶米杀死古米的主张；古米未见可确认配图。",
+    "《科学进步》的插画没有明确的诺顿博士肖像；研究贡献不等于与莫伊拉合作。",
+    "《直面心魔》第6页提及咲良，不足以将同页某位未点名队员认作咲良。",
+    "《麻雀之陨》本轮所查看页面未提供宗次郎、山神朝或家守大人的可确认肖像。",
+    "《搜索》办公室和城市画面不是独立组织logo；本轮没有用其消除相关组织缺图。",
+    "《新的帝国》未点名角斗士不映射成Maximus、Magnus、Carmilla等具名条目。",
+    "阿努比斯图像为人工智能设施形象；保留与Anubis Directives的实体消歧边界。"
+  ],
+  "counts": {
+    "newRelations": 23,
+    "previousRelationsWithNewEvidence": 8,
+    "newVisuals": 3,
+    "pendingRelations": 40,
+    "pendingTerms": 53,
+    "missingVisuals": 74
+  }
+}

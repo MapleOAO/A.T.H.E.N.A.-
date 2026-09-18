@@ -3264,9 +3264,34 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/kendra-a2d714e43bfb.jpg",
+      "sourceId": "cn-story-new-heights",
+      "sourcePage": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_PANSHANGXINGAO_3aff37e8.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第7页；官方原作局部，身份核对范围见说明",
+      "captionZh": "《攀上新高》第7页左侧成年女子；第3页视频收件人为肯德拉·伍兹，第4–7页为西拉与母亲的连续回忆及对话。保留传记中的肯德拉·班克斯作为另一官方称呼，不推断姓氏变化原因。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；仅引用少量身份辨识局部，未重绘，非独立发布的官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "a2d714e43bfb29391d5bb47dd4eea96298ae0a962dc38b9dcecd80d667fccd3b",
+        "sourceSha256": "8b75806825d6d495b3bed3522084fdd62ad5f2b66468c774064b256247bda073",
+        "page": 7,
+        "scaleTo": 1400,
+        "region": [
+          307,
+          419,
+          173,
+          193
+        ]
+      }
+    },
+    "researchNote": {
+      "summaryZh": "国服传记称肯德拉·班克斯，《攀上新高》第3页称肯德拉·伍兹；这里保留两种官方称呼。漫画中的母女回忆支持本次配图身份，但没有解释姓氏差异。",
+      "sourceId": "cn-story-new-heights",
+      "locator": "PDF第3–7页；另见术语库所列国服西拉传记",
+      "reviewedAt": "2026-09-18"
     }
   },
   {
@@ -4097,9 +4122,28 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/adeyemi-9a6d7eb71d04.jpg",
+      "sourceId": "cn-story-successors",
+      "sourcePage": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_Ravine_CN_FNL_3fe60d2a.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第4页；官方原作局部，身份核对范围见说明",
+      "captionZh": "《继承者》第4页手持末日铁拳的男子；第3–5页明确叙述阿坎挑战导师阿金吉·奥迪耶米，画面另一方是尚未夺得拳套的阿坎。本图为奥迪耶米，不是现任英雄铁拳的头像。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；仅引用少量身份辨识局部，未重绘，非独立发布的官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "9a6d7eb71d040c453ccaccf7717ecc7b6433f8bd0878cb7d64a6e16e5357e4be",
+        "sourceSha256": "bbea9c6fc6485549c2be3453ba490f3ad2db0a14bfc189794f9ab20728b962c3",
+        "page": 4,
+        "scaleTo": 1400,
+        "region": [
+          3,
+          427,
+          375,
+          444
+        ]
+      }
     }
   },
   {
@@ -4155,9 +4199,34 @@
       }
     ],
     "visual": {
-      "kind": "name-icon",
-      "status": "pending",
-      "note": "本站绘制的名称占位图；待补可靠的官方头像或组织标志。"
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/anubis-b823a3d832a2.jpg",
+      "sourceId": "en-comic-mission-statement",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd61a7c0fa6827b4d/5d02e273cf7aa6330ac67308/comic-overwatch-mission-statement_en-us.pdf",
+      "checkedAt": "2026-09-18",
+      "locator": "PDF第6页；官方原作局部，身份核对范围见说明",
+      "captionZh": "《Mission Statement》第6页设施内部呈现的阿努比斯形象；同格发言以Anubis自称，第3–4页说明其为失控人工智能。仅展示原作中的设施形象，不把它解释为有肉身的人类或独立角色头像。",
+      "position": "center",
+      "rights": "原画版权归Blizzard Entertainment及署名作者；仅引用少量身份辨识局部，未重绘，非独立发布的官方头像。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "b823a3d832a2328647c164506eff02e2027a1227bd66fcb30b0da9b7d2e1aa22",
+        "sourceSha256": "d8ea75e31da45358e787fdfd9b3028b7c7aa7656ab25ed6274a11e03ebe0fe04",
+        "page": 6,
+        "scaleTo": 1400,
+        "region": [
+          669,
+          857,
+          175,
+          257
+        ]
+      }
+    },
+    "researchNote": {
+      "summaryZh": "阿努比斯是人工智能。图像是漫画中设施内部呈现的形象；沿用上游人物类条目不代表它是人类，亦不自动与“阿努比斯指令”组织条目合并。",
+      "sourceId": "en-comic-mission-statement",
+      "locator": "PDF第3–4、6页",
+      "reviewedAt": "2026-09-18"
     }
   },
   {
