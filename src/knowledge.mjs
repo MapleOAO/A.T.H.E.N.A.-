@@ -112,6 +112,10 @@ export function validateKnowledge(kb) {
   for (const e of kb.entities) {
     fail(['person', 'organization'].includes(e.kind), `${e.id}: invalid entity kind`);
     fail(typeof e.name === 'string' && e.name.length > 0, `${e.id}: missing name`);
+    if (e.researchNote) {
+      const n=e.researchNote, s=sources.get(n.sourceId);
+      fail(typeof n.summaryZh==='string' && n.summaryZh.trim().length>0 && typeof n.locator==='string' && n.locator.trim().length>0 && s?.kind==='official' && s.read===true && date(n.reviewedAt), `${e.id}: invalid research note evidence`);
+    }
     if (e.visual) {
       fail(['official-portrait','official-scene','official-logo','official-excerpt','name-icon'].includes(e.visual.kind), `${e.id}: invalid visual kind`);
       if(e.visual.kind?.startsWith('official-')) {
