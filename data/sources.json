@@ -1232,5 +1232,18 @@
     "locator": "阅读PDF第2–12页文字，查看第7、10页；核对安燃掩护源氏与回声、队友返回援救的动作与对白",
     "rights": "仅保存独立事实摘要、页码及必要辨识局部；原作版权归暴雪及署名作者。",
     "sha256": "7a49d5fd68745ee71dfb48925170ee24ebd75d025fc46947ba9f2bc217335ea2"
+  },
+  {
+    "id": "en-lore-deadlock-rebels-chapter-1",
+    "title": "官方小说试读 · Deadlock Rebels Chapter 1",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt1f939c5127a99742/60d240e5ad189d64efcc9ff0/AsheChpt1_EN_BS.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "accessMethod": "official-pdf-text",
+    "read": true,
+    "accessedAt": "2026-09-18",
+    "locator": "PDF第2–8页正文；未以封面或空白尾页核验人物画面。",
+    "rights": "仅保存独立事实摘要和页码，不转载章节正文。",
+    "sha256": "65204c2afff85d14f2e1d10f54f0d5e8624ebed8db1670c12c98042bb638c33a"
   }
 ]

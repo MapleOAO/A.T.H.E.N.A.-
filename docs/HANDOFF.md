@@ -1,13 +1,13 @@
-# 当前接手状态：v0.9.0（2026-09-18）
+# 当前接手状态：v0.9.1（2026-09-18）
 
 用户要求原创代码、Atlas资料输入、自有中文知识库、所有人物与组织可靠配图；已授权发布GitHub Pages，不使用Sites或用户服务器，不清空仓库。
 
-- 172实体；349关系：309 verified / 40 pending。
-- 119 approved术语 / 53 pending；90 sources。
+- 172实体；350关系：311 verified / 39 pending。
+- 119 approved术语 / 53 pending；91 sources。
 - 98官方图像：53头像、19剧情配图、2阵营标志、24原作局部；74缺图。
 - 原先npc-media-kiriko研究已接入（shimada-clan建议ID映射为现有shimada）；鲍勃换成更清晰的官方双人场景。
 - 本轮英雄资料与PDF来源审计在docs/research，准确缺口在docs/REMAINING.md；不能报告“全部补齐”。
-- 43项测试、数据校验、静态构建通过。发布及浏览器最新结果见DEPLOYMENT.md与VERIFY.md。
+- 44项测试、数据校验、静态构建通过。发布及浏览器最新结果见DEPLOYMENT.md与VERIFY.md。
 - 前端新增时期reign与图像目录、原图局部展示。官方CDN图片保持外链，漫画局部保存在本地；没有生成或复制Atlas资产。
 - 60个官方目录旧PDF链接返回403，不可当作已读；15份下载成功，其中实际引用的作品有来源记录和页码。成功下载但未读的作品也不能自动核验。
 - 当前依旧保留Talon Empire/Talon、Colosseo/Colloseo、Ming/Myung的消歧边界。肯德拉两种官方姓氏保留，不编造原因。
@@ -57,3 +57,9 @@ Atlas commit 7df0623bf538ef5dedd49e620fc7a6356f5318d2；blob c52b9ff73955ca9bf4d
 - 本地43项测试、validate、build通过；本轮离线文件被云浏览器URL安全策略阻止，未绕过，不能声称离线浏览器验收通过。线上结果见VERIFY.md。
 
 - v0.9已发布并实际浏览器验收；Pages运行35348907434成功。线上为309已核验／40待核验关系，98图像／74缺图。源码与发布分支均已持久化到GitHub；本地git写入无凭据时可用连接器快进提交。
+
+## v0.9.1 接续重点
+
+- 安娜／搜救部门候选已通过弗蕾娅国服传记核验为recruited-for（为其招募人员），保留Atlas候选和原始定位；不能改为member或leader。
+- 《死局帮》首章PDF第2–8页已读，新增鲍勃保护艾什、补强照料证据；本轮审计见research/2026-09-18-recruitment-audit.json。该首章不能证明廖博士相关候选。
+- 当前39待核验关系、53待审译名、74缺图；本轮无新配图或译名。

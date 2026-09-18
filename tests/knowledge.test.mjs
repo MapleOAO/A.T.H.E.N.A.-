@@ -8,7 +8,19 @@ const clone = () => structuredClone(kb);
 test('seed data passes all cross-reference checks', () => assert.deepEqual(validateKnowledge(kb), []));
 test('coverage distinguishes complete inventory from pending evidence', () => {
   assert.equal(kb.entities.length,172); assert.ok(kb.relations.filter(r=>r.status==='verified').length>=22);
-  assert.equal(kb.relations.filter(r=>r.status==='pending').length,40); assert.equal(kb.candidates.length,57);
+  assert.equal(kb.relations.filter(r=>r.status==='pending').length,39); assert.equal(kb.candidates.length,57);
+});
+test('department recruitment retains Atlas lineage without implying membership or leadership', () => {
+  const r=kb.relations.find(r=>r.id==='ana-recruited-for-search-rescue-early');
+  assert.equal(r.status,'verified');
+  assert.equal(r.predicate,'recruited-for');
+  assert.deepEqual(r.candidateIds,['atlas-ana-7']);
+  assert.equal(kb.candidates.find(c=>c.id==='atlas-ana-7').status,'corroborated');
+  assert.ok(r.evidence.some(e=>e.sourceId==='atlas-codex' && e.locator==='/connections/7'));
+  assert.equal(translateRelation(kb,r).text,'安娜 — 为其招募人员 — 搜救部门');
+  assert.ok(!kb.relations.some(x=>x.from==='ana' && x.to==='search-rescue' && ['member','leader'].includes(x.predicate)));
+  const d=clone(); d.relations.find(x=>x.id===r.id).to='freja';
+  assert.ok(validateKnowledge(d).some(x=>x.includes('invalid predicate endpoints')));
 });
 test('dangling endpoints fail', () => { const d=clone();d.relations[0].from='missing';assert.ok(validateKnowledge(d).some(x=>x.includes('dangling'))); });
 test('duplicate IDs fail', () => { const d=clone();d.entities.push(d.entities[0]);assert.ok(validateKnowledge(d).some(x=>x.includes('duplicate id'))); });

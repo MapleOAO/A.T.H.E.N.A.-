@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-18",
+  "version": "0.9.1",
+  "reviewedSources": [
+    {
+      "id": "cn-freja",
+      "scope": "风暴前夕；/heroConfigs/10/stories/0（id=freja）",
+      "dataUrl": "https://ld5.res.netease.com/pc/zt/20241115153332/static/heroConfigs.json",
+      "sha256": "b50e9d69f86930c2126005a9e3c110fcc372626f4236e44273037007b4515bb3",
+      "reused": true
+    },
+    {
+      "id": "en-lore-deadlock-rebels-chapter-1",
+      "scope": "PDF第2–8页正文",
+      "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt1f939c5127a99742/60d240e5ad189d64efcc9ff0/AsheChpt1_EN_BS.pdf",
+      "sha256": "65204c2afff85d14f2e1d10f54f0d5e8624ebed8db1670c12c98042bb638c33a"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "resolve",
+      "id": "ana-recruited-for-search-rescue-early",
+      "candidateId": "atlas-ana-7",
+      "previousId": "pending-atlas-ana-7",
+      "rationale": "人物为部门招募人员，不等于该部门成员或负责人。"
+    },
+    {
+      "kind": "add",
+      "id": "bob-protected-ashe-family"
+    },
+    {
+      "kind": "corroborate",
+      "id": "bob-cared-for-ashe"
+    }
+  ],
+  "held": [
+    {
+      "entities": [
+        "liao",
+        "ashe",
+        "deadlock-rebels"
+      ],
+      "sourceId": "en-lore-deadlock-rebels-chapter-1",
+      "scope": "PDF第2–8页",
+      "reason": "首章围绕艾什毕业日及与卡西迪初遇，未出现米娜·廖；不能将整部小说可能包含的情节投射到试读首章。"
+    },
+    {
+      "entities": [
+        "ana",
+        "emre"
+      ],
+      "sourceUrl": "https://overwatch.blizzard.com/en-us/heroes/emre/",
+      "scope": "Story、Walking Away、Bounty Hunted、Reign of Talon",
+      "reason": "传记说明埃姆雷曾与支援团队合作，但未提供与安娜的明确互动；乱码章节不作证据。"
+    }
+  ],
+  "counts": {
+    "entities": 172,
+    "relations": 350,
+    "verifiedRelations": 311,
+    "pendingRelations": 39,
+    "approvedTerms": 119,
+    "pendingTerms": 53,
+    "officialImages": 98,
+    "missingImages": 74,
+    "sources": 91
+  }
+}
