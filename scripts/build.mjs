@@ -1,4 +1,4 @@
-import { cp, mkdir, writeFile, readFile } from 'node:fs/promises';
+import { cp, mkdir, writeFile, readFile, rm } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { root, loadKnowledge } from './load.mjs';
 import { validateKnowledge } from '../src/knowledge.mjs';
@@ -7,6 +7,8 @@ const kb = await loadKnowledge();
 const errors = validateKnowledge(kb);
 if (errors.length) throw new Error(errors.join('\n'));
 const excerptAssets = await loadExcerptAssets(kb);
+// Replaced or rejected image crops must not survive from an earlier build.
+await rm(new URL('dist/', root), { recursive: true, force: true });
 await mkdir(new URL('dist/', root), { recursive: true });
 await cp(new URL('web/', root), new URL('dist/', root), { recursive: true });
 await cp(new URL('src/', root), new URL('dist/src/', root), { recursive: true });
