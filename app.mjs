@@ -1,5 +1,5 @@
-import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs?v=e9135866e7b23dca';
-import { layoutGraph } from './src/layout.mjs?v=e9135866e7b23dca';
+import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs?v=0acf94d25c260ba5';
+import { layoutGraph } from './src/layout.mjs?v=0acf94d25c260ba5';
 const $ = selector => document.querySelector(selector);
 function el(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
 function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
@@ -7,7 +7,7 @@ function link(text, url) { const n = el('a', text); if (safeUrl(url)) { n.href =
 const hasImage = entity => entity.visual?.kind?.startsWith('official-');
 const embeddedImages = JSON.parse(document.querySelector('#embedded-images')?.textContent || '{}');
 const imageUrl = entity => embeddedImages[entity.visual?.url] || entity.visual?.url;
-const imageLabel = entity => ({'official-portrait':'官方头像','official-scene':'官方剧情配图','official-logo':'官方组织标志','official-excerpt':'官方漫画局部'}[entity.visual?.kind] || '名称占位图 · 待补图');
+const imageLabel = entity => ({'official-portrait':'官方头像','official-scene':'官方剧情配图','official-logo':'官方组织标志','official-excerpt':'官方原作局部'}[entity.visual?.kind] || '名称占位图 · 待补图');
 function avatar(entity, className = '') {
   const name = labelFor(kb, entity.id), node = el('span', name.slice(0, entity.kind==='organization'?2:1), 'avatar '+entity.kind+' '+className);
   node.setAttribute('role','img');
@@ -33,7 +33,7 @@ const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate:
 let kb, current, positions, graphWidth = 1000, graphHeight = 780;
 
 try {
-  const response = await fetch('./data/knowledge.json?v=e9135866e7b23dca', { signal: AbortSignal.timeout(15000) });
+  const response = await fetch('./data/knowledge.json?v=0acf94d25c260ba5', { signal: AbortSignal.timeout(15000) });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   kb = await response.json();
   const errors = validateKnowledge(kb);
