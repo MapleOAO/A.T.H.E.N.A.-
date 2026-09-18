@@ -1,6 +1,11 @@
 export const statuses = { verified: '已核验', pending: '待核验', disputed: '有争议' };
 export const periods = { all: '全部时期', early: '早期守望先锋', recall: '召回时期', family: '亲属与成长', unspecified: '时期未明' };
 export const predicates = {
+  father: { label: '父亲 → 女儿', from: ['person'], to: ['person'] },
+  godparent: { label: '教父', from: ['person'], to: ['person'] },
+  squire: { label: '侍从 → 骑士', from: ['person'], to: ['person'] },
+  created: { label: '创造 / 开发', from: ['person'], to: ['person'] },
+  freed: { label: '帮助脱困', from: ['person'], to: ['person'] },
   founder: { label: '创始成员', from: ['person'], to: ['organization'] },
   member: { label: '曾隶属', from: ['person'], to: ['organization'] },
   leader: { label: '曾领导', from: ['person'], to: ['organization'] },
@@ -78,6 +83,9 @@ export function validateKnowledge(kb) {
   for (const e of kb.entities) {
     fail(['person', 'organization'].includes(e.kind), `${e.id}: invalid entity kind`);
     fail(typeof e.name === 'string' && e.name.length > 0, `${e.id}: missing name`);
+    for (const origin of e.origins || []) {
+      fail(sources.has(origin.sourceId) && /^\/(nodes|connections)\/\d+(\/(subjectName|linkedName))?$/.test(origin.pointer || '') && origin.commit === kb.atlasVersion?.commit && origin.blob === kb.atlasVersion?.blob && Boolean(origin.originalName), `${e.id}: invalid entity provenance`);
+    }
     fail(kb.glossary.filter(t => t.entityId === e.id).length === 1, `${e.id}: needs exactly one glossary record`);
   }
   for (const t of kb.glossary) {
@@ -123,6 +131,15 @@ export function validateKnowledge(kb) {
       fail(r.translation?.glossaryVersion === kb.glossaryVersion && r.translation?.method === 'knowledge-base-guided-summary', `${r.id}: missing translation provenance`);
       fail(JSON.stringify(r.translation?.termIds) === JSON.stringify([termFor(kb, r.from)?.id, termFor(kb, r.to)?.id]), `${r.id}: translation term IDs mismatch`);
     }
+  }
+  if (kb.atlasVersion?.entityNodes) {
+    const origins = kb.entities.flatMap(e => e.origins || []).filter(o => /^\/nodes\/\d+$/.test(o.pointer));
+    fail(new Set(origins.map(o => o.pointer)).size === kb.atlasVersion.entityNodes, 'Atlas entity inventory coverage mismatch');
+    for (const [kind, key] of [['hero','heroNodes'],['npc','npcNodes'],['faction','organizationNodes']]) fail(origins.filter(o=>o.kind===kind).length === kb.atlasVersion[key], `Atlas ${kind} coverage mismatch`);
+    const pointers = new Set(kb.candidates.map(c=>c.pointer));
+    fail(pointers.size === kb.atlasVersion.connections && kb.candidates.length === kb.atlasVersion.importedCandidates, 'Atlas connection coverage mismatch');
+    for(let i=0;i<kb.atlasVersion.connections;i++) fail(pointers.has(`/connections/${i}`), `Atlas connection ${i} missing`);
+    for(const c of kb.candidates) fail(kb.relations.some(r=>r.candidateIds.includes(c.id)), `${c.id}: candidate not represented in graph`);
   }
   return errors;
 }

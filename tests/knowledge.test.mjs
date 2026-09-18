@@ -6,9 +6,9 @@ import { stageAtlas } from '../src/atlas-import.mjs';
 const kb = await loadKnowledge();
 const clone = () => structuredClone(kb);
 test('seed data passes all cross-reference checks', () => assert.deepEqual(validateKnowledge(kb), []));
-test('counts distinguish 17 verified and 4 pending, with 8 attributed inputs', () => {
-  assert.equal(kb.entities.length,18); assert.equal(kb.relations.filter(r=>r.status==='verified').length,17);
-  assert.equal(kb.relations.filter(r=>r.status==='pending').length,4); assert.equal(kb.candidates.length,8);
+test('coverage distinguishes complete inventory from pending evidence', () => {
+  assert.equal(kb.entities.length,172); assert.ok(kb.relations.filter(r=>r.status==='verified').length>=22);
+  assert.equal(kb.relations.filter(r=>r.status==='pending').length,48); assert.equal(kb.candidates.length,57);
 });
 test('dangling endpoints fail', () => { const d=clone();d.relations[0].from='missing';assert.ok(validateKnowledge(d).some(x=>x.includes('dangling'))); });
 test('duplicate IDs fail', () => { const d=clone();d.entities.push(d.entities[0]);assert.ok(validateKnowledge(d).some(x=>x.includes('duplicate id'))); });
@@ -22,11 +22,11 @@ test('candidate provenance cannot be attached to unrelated facts', () => { const
 test('unsafe source URLs fail', () => { const d=clone();d.sources[0].url='javascript:alert(1)';assert.ok(validateKnowledge(d).some(x=>x.includes('unsafe URL'))); });
 test('normalization handles fullwidth punctuation and aliases', () => { assert.equal(normalize('Ｓｏｌｄｉｅｒ：７６'),normalize('Soldier 76')); const result=filterGraph(kb,{query:'士兵76'});assert.ok(result.entities.some(e=>e.id==='soldier-76')); });
 test('Chinese and English search return the same incident graph', () => { assert.deepEqual(filterGraph(kb,{query:'安娜'}),filterGraph(kb,{query:'ANA'})); });
-test('verified filter never returns uncertain edges', () => { const r=filterGraph(kb,{status:'verified'});assert.equal(r.relations.length,17);assert.ok(r.relations.every(x=>x.status==='verified')); });
+test('verified filter never returns uncertain edges', () => { const r=filterGraph(kb,{status:'verified'});assert.equal(r.relations.length,kb.relations.filter(r=>r.status==='verified').length);assert.ok(r.relations.every(x=>x.status==='verified')); });
 test('period filter does not invent dates', () => { const r=filterGraph(kb,{period:'recall'});assert.ok(r.relations.length>0);assert.ok(r.relations.every(x=>x.period==='recall')); });
 test('entity type filtering removes dangling graph edges', () => { const r=filterGraph(kb,{kind:'organization'});assert.ok(r.entities.every(x=>x.kind==='organization'));assert.ok(r.relations.every(x=>r.entities.some(e=>e.id===x.from)&&r.entities.some(e=>e.id===x.to))); });
 test('focus is one hop and zero results stay empty', () => { assert.ok(filterGraph(kb,{focus:'ana'}).relations.every(r=>r.from==='ana'||r.to==='ana'));assert.deepEqual(filterGraph(kb,{query:'nonexistent-hero'}),{entities:[],relations:[]}); });
-test('Chinese relation output resolves approved terms', () => { const r=translateRelation(kb,kb.relations.find(r=>r.id==='ana-mother'));assert.equal(r.text,'安娜 — 母亲 → 女儿 — 法老之鹰');assert.equal(r.glossaryVersion,'0.1.0'); });
+test('Chinese relation output resolves approved terms', () => { const r=translateRelation(kb,kb.relations.find(r=>r.id==='ana-mother'));assert.equal(r.text,'安娜 — 母亲 → 女儿 — 法老之鹰');assert.equal(r.glossaryVersion,'0.2.0'); });
 test('unknown Chinese terms stop automatic approval', () => { const r=translateRelation(kb,kb.relations.find(r=>r.to==='search-rescue'));assert.equal(r.status,'pending');assert.equal(r.text,null);assert.deepEqual(r.missing,['search-rescue']); });
 test('unsafe and credential-bearing URLs are rejected', () => { assert.equal(safeUrl('https://example.org'),true);for(const x of ['javascript:alert(1)','data:text/html,x','https://user:pass@example.org'])assert.equal(safeUrl(x),false); });
 const provenance={commit:'a'.repeat(40),blob:'b'.repeat(40)};

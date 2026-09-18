@@ -12,8 +12,8 @@
   <a class="skip" href="#workspace">跳转到关系网络</a>
   <header class="topbar">
     <a class="brand" href="./" aria-label="ATHENA 首页"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 29 26H3Z M16 12 22 23H10Z"/></svg><span>A.T.H.E.N.A.<small>守望先锋 · 中文知识档案</small></span></a>
-    <nav aria-label="主导航"><button class="tab active" data-view="graph" aria-current="page">关系网络</button><button class="tab" data-view="glossary">中文术语</button><button class="tab" data-view="sources">资料来源</button><button class="tab" data-view="review">待核验</button></nav>
-    <span class="version">知识库 <b>v0.1</b></span>
+    <nav aria-label="主导航"><button class="tab active" data-view="graph" aria-current="page">关系网络</button><button class="tab" data-view="glossary">中文术语</button><button class="tab" data-view="sources">资料来源</button><button class="tab" data-view="review">待核验</button><button class="tab" data-view="coverage">收录进度</button></nav>
+    <span class="version">知识库 <b>v0.2</b></span>
   </header>
   <div id="boot" role="status">正在载入关系档案…</div>
   <main id="workspace" hidden>
@@ -32,15 +32,16 @@
         <div class="sidebar-note"><span class="eyebrow">阅读提示</span><p>连线箭头表示关系方向。虚线是待核验关联；同色仅用于排版分组，不代表当前阵营。</p></div>
       </aside>
       <section class="canvas-panel" aria-label="关系图">
-        <div class="canvas-top"><div><span class="eyebrow">KNOWLEDGE GRAPH</span><p id="result-count" aria-live="polite"></p></div><span class="chip">首批样本 · 非全量</span></div>
+        <div class="canvas-top"><div><span class="eyebrow">KNOWLEDGE GRAPH</span><p id="result-count" aria-live="polite"></p></div><span class="chip">目录已收齐 · 核验中</span></div>
         <div class="graph-wrap"><svg id="graph" viewBox="0 0 1000 780" aria-label="可交互关系网络，使用实体索引或 Tab 选择节点"><defs><marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z"/></marker></defs><g id="viewport"><g id="edges"></g><g id="nodes"></g></g></svg><div id="empty" class="empty-state" hidden><h3>没有匹配的关系</h3><p>试试其他名称，或放宽筛选条件。</p><button id="empty-reset">清除筛选</button></div></div>
         <div class="canvas-bottom"><div class="legend"><span>○ 人物</span><span>◇ 组织</span><span>━ 已核验</span><span>┄ 待核验</span></div><div class="zoom-controls"><button id="zoom-out" aria-label="缩小关系图">−</button><output id="zoom-level">100%</output><button id="zoom-in" aria-label="放大关系图">＋</button><button id="fit" aria-label="复位关系图">复位</button></div></div>
       </section>
       <aside id="detail" class="detail-panel" aria-label="实体及关系详情" aria-live="polite"></aside>
     </section>
-    <section id="glossary-view" class="alternate" hidden><div class="section-intro"><h2>译名来自知识库，不凭空生成</h2><p>优先采用国服官方用字。暂译、英文别名和审核依据独立记录；关系中文表达由实体 ID 对齐术语。</p></div><div class="table-wrap"><table><thead><tr><th>中文名称</th><th>原名 / 别名</th><th>状态</th><th>命名依据</th></tr></thead><tbody id="glossary-rows"></tbody></table></div></section>
+    <section id="glossary-view" class="alternate" hidden><div class="section-intro"><h2>译名来自知识库，不凭空生成</h2><p>优先采用国服官方用字。暂译、英文别名和审核依据独立记录；关系中文表达由实体 ID 对齐术语。</p></div><div class="table-tools"><label>搜索术语<input id="glossary-search" type="search" placeholder="中文、英文或别名"></label><label>译名状态<select id="glossary-status"><option value="all">全部译名</option><option value="approved">已核对</option><option value="pending">暂译待审</option></select></label><span id="glossary-count" aria-live="polite"></span></div><div class="table-wrap"><table><thead><tr><th>中文名称</th><th>原名 / 别名</th><th>状态</th><th>命名依据</th></tr></thead><tbody id="glossary-rows"></tbody></table></div></section>
     <section id="sources-view" class="alternate" hidden><div class="section-intro"><h2>保留每一步来源</h2><p>Atlas 提供关联输入，官方资料用于核验。独立编写的摘要不替代原始作品，资料归各自权利人所有。</p></div><div id="source-cards" class="source-cards"></div></section>
     <section id="review-view" class="alternate" hidden><div class="section-intro"><h2>有连线，不等于有结论</h2><p>以下记录仍缺少具体关系证据。查看候选记录不会将它发布成已核验事实；审核通过需修改数据并运行校验。</p></div><div id="review-cards" class="review-cards"></div></section>
+    <section id="coverage-view" class="alternate" hidden><div class="section-intro"><h2>目录收齐，结论逐条核验</h2><p id="coverage-note"></p><p>这里的“完整”只针对固定版本的目录和显式关联输入，不代表全部世界观、所有历史事件或当前赛季身份均已核验。</p><a href="./data/knowledge.json" download="athena-knowledge.json">下载当前知识库 JSON</a></div><div id="coverage-cards" class="source-cards"></div></section>
     <footer><span>A.T.H.E.N.A. / 独立社区项目 · 非暴雪官方</span><span id="data-date"></span></footer>
   </main>
 </body>

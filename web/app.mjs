@@ -1,11 +1,12 @@
 import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs';
+import { layoutGraph } from './src/layout.mjs';
 const $ = selector => document.querySelector(selector);
 function el(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
 function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
 function link(text, url) { const n = el('a', text); if (safeUrl(url)) { n.href = url; n.target = '_blank'; n.rel = 'noopener noreferrer'; } return n; }
 function svg(tag, attrs = {}, text) { const n = document.createElementNS('http://www.w3.org/2000/svg', tag); Object.entries(attrs).forEach(([k, v]) => n.setAttribute(k, v)); if (text) n.textContent = text; return n; }
-const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate: 'all', selected: 'ana', relation: null, focus: false, zoom: 1, x: 0, y: 0, view: 'graph' };
-let kb, current, positions;
+const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate: 'all', selected: 'ana', relation: null, focus: true, zoom: 1, x: 0, y: 0, view: 'graph' };
+let kb, current, positions, graphWidth = 1000, graphHeight = 780;
 
 try {
   const response = await fetch('./data/knowledge.json', { signal: AbortSignal.timeout(15000) });
@@ -26,51 +27,52 @@ function boot() {
   const counts = [[kb.entities.length, '收录实体'], [kb.relations.filter(r => r.status === 'verified').length, '已核验关系'], [kb.relations.filter(r => r.status === 'pending').length, '待核验']];
   for (const [count, name] of counts) { const n = el('div', null, 'stat'); n.append(el('strong', String(count).padStart(2, '0')), el('small', name)); $('#stats').append(n); }
   $('#data-date').textContent = `资料核验 ${kb.asOf} · 历史关系不等于当前身份`;
-  $('#search').addEventListener('input', e => { state.query = e.target.value; render(); });
+  $('#search').addEventListener('input', e => { state.query = e.target.value; state.focus = false; $('#focus').checked = false; fit(); render(); });
   for (const key of ['kind', 'status', 'period', 'predicate']) $(`#${key}`).addEventListener('change', e => { state[key] = e.target.value; render(); });
   $('#focus').addEventListener('change', e => { state.focus = e.target.checked; render(); });
   $('#reset').onclick = reset; $('#empty-reset').onclick = reset;
   $('#zoom-in').onclick = () => zoom(1.2); $('#zoom-out').onclick = () => zoom(1 / 1.2); $('#fit').onclick = fit;
   document.querySelectorAll('[data-view]').forEach(n => n.onclick = () => switchView(n.dataset.view));
-  positions = layout(kb.entities);
+  $('#focus').checked = state.focus;
+  $('#glossary-search').addEventListener('input', renderGlossary);
+  $('#glossary-status').addEventListener('change', renderGlossary);
   initPan(); renderTables(); readHash(); render();
   window.addEventListener('hashchange', () => { readHash(); render(); });
 }
-function layout(entities) {
-  // Original layout; deliberately unrelated to Atlas coordinates and routing.
-  const fixed = { overwatch:[440,290], ana:[275,210], pharah:[290,65], emre:[100,135], cassidy:[140,340], reinhardt:[110,480], 'soldier-76':[290,465], 'search-rescue':[110,650], reaper:[695,240], talon:[875,300], widowmaker:[855,100], blackwatch:[615,405], genji:[600,550], hanzo:[840,595], kiriko:[735,690], zenyatta:[440,690], winston:[350,580], shimada:[880,465] };
-  return new Map(entities.map((e, i) => [e.id, fixed[e.id] || [500 + Math.cos(i * 2.4) * 350, 390 + Math.sin(i * 2.4) * 300]]));
-}
 function reset() { Object.assign(state, { query:'', kind:'all', status:'all', period:'all', predicate:'all', focus:false, relation:null }); $('#search').value = ''; for (const key of ['kind','status','period','predicate']) $(`#${key}`).value = 'all'; $('#focus').checked = false; fit(); setHash(); render(); }
 function fit() { state.zoom = 1; state.x = state.y = 0; transform(); }
-function zoom(factor) { state.zoom = Math.min(3, Math.max(.5, state.zoom * factor)); transform(); }
-function transform() { $('#viewport').setAttribute('transform', `translate(${500 + state.x} ${390 + state.y}) scale(${state.zoom}) translate(-500 -390)`); $('#zoom-level').textContent = `${Math.round(state.zoom * 100)}%`; }
+function zoom(factor) { state.zoom = Math.min(8, Math.max(.5, state.zoom * factor)); transform(); }
+function transform() { $('#viewport').setAttribute('transform', `translate(${graphWidth/2 + state.x} ${graphHeight/2 + state.y}) scale(${state.zoom}) translate(${-graphWidth/2} ${-graphHeight/2})`); $('#zoom-level').textContent = `${Math.round(state.zoom * 100)}%`; }
 function initPan() {
   let drag = null;
   $('#graph').addEventListener('wheel', e => { e.preventDefault(); zoom(e.deltaY < 0 ? 1.08 : 1 / 1.08); }, { passive:false });
   $('#graph').addEventListener('pointerdown', e => { if (e.target.closest('.graph-node,.edge-hit')) return; drag = [e.clientX, e.clientY, state.x, state.y]; $('#graph').setPointerCapture(e.pointerId); });
-  $('#graph').addEventListener('pointermove', e => { if (!drag) return; const scale = 1000 / $('#graph').getBoundingClientRect().width; state.x = drag[2] + (e.clientX - drag[0]) * scale; state.y = drag[3] + (e.clientY - drag[1]) * scale; transform(); });
+  $('#graph').addEventListener('pointermove', e => { if (!drag) return; const box = $('#graph').getBoundingClientRect(); const scale = Math.max(graphWidth / box.width, graphHeight / box.height); state.x = drag[2] + (e.clientX - drag[0]) * scale; state.y = drag[3] + (e.clientY - drag[1]) * scale; transform(); });
   for (const event of ['pointerup','pointercancel']) $('#graph').addEventListener(event, () => { drag = null; });
 }
 function setHash() { const value = new URLSearchParams({ view:state.view, entity:state.selected }); if (state.relation) value.set('relation',state.relation); history.replaceState(null,'',`#${value}`); }
-function readHash() { const params = new URLSearchParams(location.hash.slice(1)); if (kb.entities.some(e => e.id === params.get('entity'))) state.selected = params.get('entity'); state.relation = kb.relations.some(r => r.id === params.get('relation')) ? params.get('relation') : null; if (['graph','glossary','sources','review'].includes(params.get('view'))) switchView(params.get('view'),false); }
+function readHash() { const params = new URLSearchParams(location.hash.slice(1)); if (kb.entities.some(e => e.id === params.get('entity'))) state.selected = params.get('entity'); state.relation = kb.relations.some(r => r.id === params.get('relation')) ? params.get('relation') : null; if (['graph','glossary','sources','review','coverage'].includes(params.get('view'))) switchView(params.get('view'),false); }
 function switchView(view, hash = true) {
   state.view = view;
-  const headings = { graph:'人物与组织关系网络', glossary:'中文术语知识库', sources:'资料来源与出处', review:'待核验关联' };
+  const headings = { graph:'人物与组织关系网络', glossary:'中文术语知识库', sources:'资料来源与出处', review:'待核验关联', coverage:'收录与核验进度' };
   $('#page-heading').textContent = headings[view];
   for (const key of Object.keys(headings)) $(`#${key}-view`).hidden = key !== view;
   document.querySelectorAll('[data-view]').forEach(n => { n.classList.toggle('active',n.dataset.view === view); if (n.dataset.view === view) n.setAttribute('aria-current','page'); else n.removeAttribute('aria-current'); });
   if (hash) setHash();
 }
-function selectEntity(id) { state.selected = id; state.relation = null; setHash(); render(); }
+function selectEntity(id) { state.selected = id; state.relation = null; fit(); setHash(); render(); }
 function selectRelation(r) { state.relation = r.id; if (![r.from,r.to].includes(state.selected)) state.selected = r.from; setHash(); renderGraph(); renderDetail(); }
 function render() {
   current = filterGraph(kb, { ...state, focus:state.focus ? state.selected : null });
   if (state.relation && !current.relations.some(r => r.id === state.relation)) state.relation = null;
   $('#result-count').textContent = `${current.entities.length} 个实体 · ${current.relations.length} 条关系`;
-  $('#entity-count').textContent = current.entities.length;
+  const directory = filterGraph(kb, { ...state, focus:null }).entities;
+  $('#entity-count').textContent = directory.length;
   $('#empty').hidden = current.entities.length > 0;
-  $('#entity-list').replaceChildren(...current.entities.map(e => { const n = button('', () => selectEntity(e.id), `entity-item${e.id === state.selected ? ' selected' : ''}`); n.setAttribute('aria-label',`查看${labelFor(kb,e.id)}`); const name = el('span',labelFor(kb,e.id)); name.append(el('small',e.name)); n.append(el('span',e.kind === 'organization' ? '◇':'○',`entity-dot ${e.kind}`),name); return n; }));
+  $('#entity-list').replaceChildren(...directory.map(e => { const n = button('', () => selectEntity(e.id), `entity-item${e.id === state.selected ? ' selected' : ''}`); n.setAttribute('aria-label',`查看${labelFor(kb,e.id)}`); const name = el('span',labelFor(kb,e.id)); name.append(el('small',e.name)); n.append(el('span',e.kind === 'organization' ? '◇':'○',`entity-dot ${e.kind}`),name); return n; }));
+  const computed = layoutGraph(current.entities, current.relations, state.selected);
+  positions = computed.positions; graphWidth = computed.width; graphHeight = computed.height;
+  $('#graph').setAttribute('viewBox', `0 0 ${graphWidth} ${graphHeight}`);
   renderGraph(); renderDetail();
 }
 function renderGraph() {
@@ -92,9 +94,10 @@ function renderGraph() {
   for (const entity of current.entities) {
     const [x,y] = positions.get(entity.id), name = labelFor(kb,entity.id), org = entity.kind === 'organization';
     const n = svg('g',{transform:`translate(${x} ${y})`,class:`graph-node ${entity.kind} ${entity.cluster} ${entity.id===state.selected?'selected':!near.has(entity.id)&&near.size?'dimmed':''}`,role:'button',tabindex:0,'aria-label':`图谱节点：${name}`,'aria-pressed':entity.id===state.selected});
+    n.append(svg('title',{}, `${name} / ${entity.name}`));
     n.append(svg('circle',{r:42,class:'halo'}));
     n.append(org ? svg('rect',{x:-28,y:-28,width:56,height:56,rx:9,transform:'rotate(45)',class:'body'}) : svg('circle',{r:28,class:'body'}));
-    n.append(svg('text',{class:'symbol',y:0},org?'◇':name.slice(0,1)),svg('text',{class:'name',y:org?66:58},name),svg('text',{class:'en',y:org?86:78},entity.name));
+    n.append(svg('text',{class:'symbol',y:0},org?'◇':name.slice(0,1)),svg('text',{class:'name',y:org?66:58},name.length>12?name.slice(0,11)+'…':name),svg('text',{class:'en',y:org?86:78},entity.name.length>24?entity.name.slice(0,23)+'…':entity.name));
     n.onclick = () => selectEntity(entity.id); n.onkeydown = e => { if(e.key==='Enter'||e.key===' ') {e.preventDefault();selectEntity(entity.id);} };
     $('#nodes').append(n);
   }
@@ -121,7 +124,7 @@ function renderDetail() {
   const term = termFor(kb,entity.id), relations = current.relations.filter(r=>r.from===entity.id||r.to===entity.id);
   pane.append(el('span','ENTITY / '+(entity.kind==='person'?'人物档案':'组织档案'),'eyebrow'),el('h2',labelFor(kb,entity.id)),el('p',entity.name,'detail-en'),badge(term.status==='approved'?'国服译名已核对':'暂译 · 待确认',term.status==='approved'?'verified':'pending'));
   const intro = {ana:'守望先锋创始成员。她与组织的历史关系、亲属关系和召回时期的行动，分条记录。',genji:'从岛田家族到暗影守望，再到禅雅塔门下。不同人生阶段，不合并为一个“当前阵营”。',overwatch:'连接人物与组织的历史节点。加入、领导和部门隶属，各有不同含义。'};
-  pane.append(el('p',intro[entity.id] || '选择下方关系，查看具体含义、故事时期与出处。本页只展示首批已整理资料。','detail-lead'));
+  pane.append(el('p',intro[entity.id] || '选择下方关系，查看具体含义、故事时期与出处。没有连线仅表示本库尚未录入关系，不代表该实体没有故事关联。','detail-lead'));
   if (!current.entities.some(e=>e.id===entity.id)) pane.append(el('p','该实体不在当前筛选结果中。','small-note'));
   pane.append(button(state.focus?'查看完整网络':'聚焦一跳关系',()=>{state.focus=!state.focus;$('#focus').checked=state.focus;render();},'focus-button'));
   pane.append(el('div',null,'detail-separator'),el('h3',`当前筛选中的关系 · ${relations.length}`));
@@ -134,17 +137,44 @@ function renderDetail() {
   }
   pane.append(el('h3','中文名称依据'));
   for(const id of term.sourceIds) {const s=kb.sources.find(s=>s.id===id);pane.append(link(s.title,s.url));}
+  pane.append(el('p',term.note,'small-note'));
+  if (entity.origins?.length) { const o=entity.origins[0]; pane.append(el('h3','实体收录出处'),link('Atlas 固定版本',kb.sources.find(s=>s.id===o.sourceId).url),el('p',`${o.pointer} · ${o.originalName}`,'small-note')); }
   if(!term.sourceIds.length) pane.append(el('p','未找到官方中文依据，不自动批准。','small-note'));
   pane.append(el('p',`实体 ID · ${entity.id}`,'small-note'));
 }
 function renderTables() {
-  for (const t of kb.glossary) {
+  renderGlossary(); renderCoverage();
+  for(const s of kb.sources){const card=el('article',null,'source-card');card.append(badge(s.kind==='official'?'官方资料':'社区输入',s.kind==='community'?'pending':'verified'),el('h3',s.title),el('p',s.locator),el('p',s.rights),el('p',`读取日期 ${s.accessedAt} · ${s.language}`),link('查看原始资料 ↗',s.url));if(s.commit)card.append(el('p','固定版本'),el('code',s.commit));$('#source-cards').append(card);}
+  for(const c of kb.candidates.filter(c=>c.status==='pending')){const card=el('article',null,'review-card');card.append(badge('关系性质待核验','pending'),el('h3',`${labelFor(kb,c.from)} ↔ ${labelFor(kb,c.to)}`),el('p',c.note),el('p',`Atlas ${c.pointer}`),button('在图谱中查看',()=>{reset();switchView('graph');state.selected=c.from;state.focus=true;$('#focus').checked=true;render();selectRelation(kb.relations.find(r=>r.candidateIds.includes(c.id)));$('#detail').scrollIntoView({block:'nearest'});}));$('#review-cards').append(card);}
+}
+
+function renderGlossary() {
+  const query = $('#glossary-search').value.toLocaleLowerCase().trim(), status = $('#glossary-status').value;
+  const terms = kb.glossary.filter(t => (status==='all'||t.status===status) && [t.zh,t.en,...t.aliases].some(x=>x.toLocaleLowerCase().includes(query)));
+  $('#glossary-rows').replaceChildren();
+  $('#glossary-count').textContent = `${terms.length} / ${kb.glossary.length} 条术语`;
+  for (const t of terms) {
     const tr=el('tr'), chinese=el('td',t.zh), english=el('td',t.en), status=el('td'), source=el('td');
     if(t.aliases.length)english.append(el('small',t.aliases.join(' / ')));
     status.append(badge(t.status==='approved'?'已核对':'暂译待审',t.status==='approved'?'verified':'pending'));
     for(const id of t.sourceIds){const s=kb.sources.find(s=>s.id===id);source.append(link(s.title,s.url));}
     if(!t.sourceIds.length)source.textContent='尚无官方命名依据';source.append(el('small',t.locator));tr.append(chinese,english,status,source);$('#glossary-rows').append(tr);
   }
-  for(const s of kb.sources){const card=el('article',null,'source-card');card.append(badge(s.kind==='official'?'官方资料':'社区输入',s.kind==='community'?'pending':'verified'),el('h3',s.title),el('p',s.locator),el('p',s.rights),el('p',`读取日期 ${s.accessedAt} · ${s.language}`),link('查看原始资料 ↗',s.url));if(s.commit)card.append(el('p','固定版本'),el('code',s.commit));$('#source-cards').append(card);}
-  for(const c of kb.candidates.filter(c=>c.status==='pending')){const card=el('article',null,'review-card');card.append(badge('关系性质待核验','pending'),el('h3',`${labelFor(kb,c.from)} ↔ ${labelFor(kb,c.to)}`),el('p',c.note),el('p',`Atlas ${c.pointer}`),button('在图谱中查看',()=>{reset();switchView('graph');state.selected=c.from;render();selectRelation(kb.relations.find(r=>r.candidateIds.includes(c.id)));$('#detail').scrollIntoView({block:'nearest'});}));$('#review-cards').append(card);}
+}
+function renderCoverage() {
+  const origin = kb.entities.flatMap(e=>e.origins||[]).filter(o=>/^\/nodes\/\d+$/.test(o.pointer));
+  const data = [
+    ['英雄目录', origin.filter(o=>o.kind==='hero').length, kb.atlasVersion.heroNodes],
+    ['其他角色目录', origin.filter(o=>o.kind==='npc').length, kb.atlasVersion.npcNodes],
+    ['组织目录', origin.filter(o=>o.kind==='faction').length, kb.atlasVersion.organizationNodes],
+    ['显式关联记录', kb.candidates.length, kb.atlasVersion.connections],
+    ['中文译名核对', kb.glossary.filter(t=>t.status==='approved').length, kb.glossary.length],
+    ['具体关系核验', kb.relations.filter(r=>r.status==='verified').length, kb.relations.length]
+  ];
+  for(const [label,done,total] of data) {
+    const card=el('article',null,'source-card'), progress=el('progress');
+    progress.max=total; progress.value=done; progress.setAttribute('aria-label',label);
+    card.append(el('h3',label),el('strong',`${done} / ${total}`),progress); $('#coverage-cards').append(card);
+  }
+  $('#coverage-note').textContent = `固定 Atlas 版本 ${kb.atlasVersion.commit.slice(0,8)}。实体目录与显式关联输入已收齐；尚有 ${kb.glossary.filter(t=>t.status==='pending').length} 条译名和 ${kb.relations.filter(r=>r.status==='pending').length} 条关系待核验。目录之外另有 Talon 及 Colloseo 异拼条目。Liao / Echo 的双向原始记录保留两个出处，图中共用一条关系。`;
 }

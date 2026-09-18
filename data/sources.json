@@ -8,8 +8,8 @@
     "accessMethod": "github-connector",
     "read": true,
     "accessedAt": "2026-09-18",
-    "locator": "connections[0..7]",
-    "rights": "未确认标准再分发许可；仅记录本次八组关系端点事实与出处，不收录原文、布局和资产。",
+    "locator": "codex-labels.json：170 个非 junction 节点的名称与类型、connections[0..56] 的关联端点",
+    "rights": "只整理事实性名称、类型和显式关联端点，保留固定版本及定位。不复制源码、坐标、图像或叙述原文。",
     "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
     "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b"
   },
@@ -84,5 +84,41 @@
     "accessedAt": "2026-09-18",
     "locator": "Story 概述",
     "rights": "仅保存自行概括的关系事实与页面定位；原作及商标归权利人。"
+  },
+  {
+    "id": "cn-echo",
+    "title": "国服官网 · 回声",
+    "url": "https://ow.blizzard.cn/heroes/echo/",
+    "kind": "official",
+    "language": "zh-CN",
+    "accessMethod": "browser-visible-dom",
+    "read": true,
+    "accessedAt": "2026-09-18",
+    "locator": "故事概述 / 米娜·廖",
+    "rights": "保留自行概括的事实及定位，不复制传记全文。"
+  },
+  {
+    "id": "cn-brigitte",
+    "title": "国服官网 · 布丽吉塔",
+    "url": "https://ow.blizzard.cn/heroes/brigitte/",
+    "kind": "official",
+    "language": "zh-CN",
+    "accessMethod": "browser-visible-dom",
+    "read": true,
+    "accessedAt": "2026-09-18",
+    "locator": "故事概述 / 铁甲工匠",
+    "rights": "仅保存自行概括的事实与章节定位；原作归相应权利人。"
+  },
+  {
+    "id": "cn-kiriko",
+    "title": "国服官网 · 雾子",
+    "url": "https://ow.blizzard.cn/heroes/kiriko/",
+    "kind": "official",
+    "language": "zh-CN",
+    "accessMethod": "browser-visible-dom",
+    "read": true,
+    "accessedAt": "2026-09-18",
+    "locator": "故事概述 / 岛田家族",
+    "rights": "仅保存自行概括的事实与章节定位；原作归相应权利人。"
   }
 ]
