@@ -64,3 +64,10 @@ preview.html 是不依赖托管的离线审阅版；下载后可直接打开。
 - gh-pages：63bc780a7ef7a4b05744650e7ab69ed827c41640。
 - 构建树：e74df3aaba2ada3df530e5c6d6ff75bc93fafe99；本地dist树与发布树完全一致。
 - GitHub Pages运行35336562002成功；浏览器实测v0.6.0及5项新增图像。
+
+## v0.7.0 发布（2026-09-18）
+
+- 源码提交：e67d168b0a8d35f01dd771cbf1043e6be4f5603e。
+- gh-pages提交：64e3f8c42c428edf4bbcef1077892b8a7e3ca6c6。
+- 两个远端树与本地源码索引、完整dist树逐项一致；更新均为快进。
+- Pages工作流35342564156成功；浏览器已核对3项新增图像和实体说明，详见VERIFY.md。
