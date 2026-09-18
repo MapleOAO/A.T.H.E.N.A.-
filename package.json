@@ -1,0 +1,16 @@
+{
+  "name": "athena-knowledge-graph",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/server.mjs",
+    "start": "node scripts/server.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "import:atlas": "node scripts/import-atlas.mjs",
+    "translate": "node scripts/translate.mjs"
+  }
+}

@@ -1,0 +1,150 @@
+import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs';
+const $ = selector => document.querySelector(selector);
+function el(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
+function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
+function link(text, url) { const n = el('a', text); if (safeUrl(url)) { n.href = url; n.target = '_blank'; n.rel = 'noopener noreferrer'; } return n; }
+function svg(tag, attrs = {}, text) { const n = document.createElementNS('http://www.w3.org/2000/svg', tag); Object.entries(attrs).forEach(([k, v]) => n.setAttribute(k, v)); if (text) n.textContent = text; return n; }
+const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate: 'all', selected: 'ana', relation: null, focus: false, zoom: 1, x: 0, y: 0, view: 'graph' };
+let kb, current, positions;
+
+try {
+  const response = await fetch('./data/knowledge.json', { signal: AbortSignal.timeout(15000) });
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  kb = await response.json();
+  const errors = validateKnowledge(kb);
+  if (errors.length) throw new Error(`知识库校验失败：${errors[0]}`);
+  boot();
+} catch (error) {
+  $('#boot').replaceChildren(el('h2', '暂时无法载入知识库'), el('p', `请通过项目服务或构建后的静态站点访问。${error.message}`), button('重新载入', () => location.reload()));
+}
+
+function boot() {
+  $('#boot').hidden = true; $('#workspace').hidden = false;
+  for (const [key, name] of Object.entries(periods)) $('#period').append(new Option(name, key));
+  $('#predicate').append(new Option('全部关系', 'all'));
+  for (const [key, p] of Object.entries(predicates)) $('#predicate').append(new Option(p.label, key));
+  const counts = [[kb.entities.length, '收录实体'], [kb.relations.filter(r => r.status === 'verified').length, '已核验关系'], [kb.relations.filter(r => r.status === 'pending').length, '待核验']];
+  for (const [count, name] of counts) { const n = el('div', null, 'stat'); n.append(el('strong', String(count).padStart(2, '0')), el('small', name)); $('#stats').append(n); }
+  $('#data-date').textContent = `资料核验 ${kb.asOf} · 历史关系不等于当前身份`;
+  $('#search').addEventListener('input', e => { state.query = e.target.value; render(); });
+  for (const key of ['kind', 'status', 'period', 'predicate']) $(`#${key}`).addEventListener('change', e => { state[key] = e.target.value; render(); });
+  $('#focus').addEventListener('change', e => { state.focus = e.target.checked; render(); });
+  $('#reset').onclick = reset; $('#empty-reset').onclick = reset;
+  $('#zoom-in').onclick = () => zoom(1.2); $('#zoom-out').onclick = () => zoom(1 / 1.2); $('#fit').onclick = fit;
+  document.querySelectorAll('[data-view]').forEach(n => n.onclick = () => switchView(n.dataset.view));
+  positions = layout(kb.entities);
+  initPan(); renderTables(); readHash(); render();
+  window.addEventListener('hashchange', () => { readHash(); render(); });
+}
+function layout(entities) {
+  // Original layout; deliberately unrelated to Atlas coordinates and routing.
+  const fixed = { overwatch:[440,290], ana:[275,210], pharah:[290,65], emre:[100,135], cassidy:[140,340], reinhardt:[110,480], 'soldier-76':[290,465], 'search-rescue':[110,650], reaper:[695,240], talon:[875,300], widowmaker:[855,100], blackwatch:[615,405], genji:[600,550], hanzo:[840,595], kiriko:[735,690], zenyatta:[440,690], winston:[350,580], shimada:[880,465] };
+  return new Map(entities.map((e, i) => [e.id, fixed[e.id] || [500 + Math.cos(i * 2.4) * 350, 390 + Math.sin(i * 2.4) * 300]]));
+}
+function reset() { Object.assign(state, { query:'', kind:'all', status:'all', period:'all', predicate:'all', focus:false, relation:null }); $('#search').value = ''; for (const key of ['kind','status','period','predicate']) $(`#${key}`).value = 'all'; $('#focus').checked = false; fit(); setHash(); render(); }
+function fit() { state.zoom = 1; state.x = state.y = 0; transform(); }
+function zoom(factor) { state.zoom = Math.min(3, Math.max(.5, state.zoom * factor)); transform(); }
+function transform() { $('#viewport').setAttribute('transform', `translate(${500 + state.x} ${390 + state.y}) scale(${state.zoom}) translate(-500 -390)`); $('#zoom-level').textContent = `${Math.round(state.zoom * 100)}%`; }
+function initPan() {
+  let drag = null;
+  $('#graph').addEventListener('wheel', e => { e.preventDefault(); zoom(e.deltaY < 0 ? 1.08 : 1 / 1.08); }, { passive:false });
+  $('#graph').addEventListener('pointerdown', e => { if (e.target.closest('.graph-node,.edge-hit')) return; drag = [e.clientX, e.clientY, state.x, state.y]; $('#graph').setPointerCapture(e.pointerId); });
+  $('#graph').addEventListener('pointermove', e => { if (!drag) return; const scale = 1000 / $('#graph').getBoundingClientRect().width; state.x = drag[2] + (e.clientX - drag[0]) * scale; state.y = drag[3] + (e.clientY - drag[1]) * scale; transform(); });
+  for (const event of ['pointerup','pointercancel']) $('#graph').addEventListener(event, () => { drag = null; });
+}
+function setHash() { const value = new URLSearchParams({ view:state.view, entity:state.selected }); if (state.relation) value.set('relation',state.relation); history.replaceState(null,'',`#${value}`); }
+function readHash() { const params = new URLSearchParams(location.hash.slice(1)); if (kb.entities.some(e => e.id === params.get('entity'))) state.selected = params.get('entity'); state.relation = kb.relations.some(r => r.id === params.get('relation')) ? params.get('relation') : null; if (['graph','glossary','sources','review'].includes(params.get('view'))) switchView(params.get('view'),false); }
+function switchView(view, hash = true) {
+  state.view = view;
+  const headings = { graph:'人物与组织关系网络', glossary:'中文术语知识库', sources:'资料来源与出处', review:'待核验关联' };
+  $('#page-heading').textContent = headings[view];
+  for (const key of Object.keys(headings)) $(`#${key}-view`).hidden = key !== view;
+  document.querySelectorAll('[data-view]').forEach(n => { n.classList.toggle('active',n.dataset.view === view); if (n.dataset.view === view) n.setAttribute('aria-current','page'); else n.removeAttribute('aria-current'); });
+  if (hash) setHash();
+}
+function selectEntity(id) { state.selected = id; state.relation = null; setHash(); render(); }
+function selectRelation(r) { state.relation = r.id; if (![r.from,r.to].includes(state.selected)) state.selected = r.from; setHash(); renderGraph(); renderDetail(); }
+function render() {
+  current = filterGraph(kb, { ...state, focus:state.focus ? state.selected : null });
+  if (state.relation && !current.relations.some(r => r.id === state.relation)) state.relation = null;
+  $('#result-count').textContent = `${current.entities.length} 个实体 · ${current.relations.length} 条关系`;
+  $('#entity-count').textContent = current.entities.length;
+  $('#empty').hidden = current.entities.length > 0;
+  $('#entity-list').replaceChildren(...current.entities.map(e => { const n = button('', () => selectEntity(e.id), `entity-item${e.id === state.selected ? ' selected' : ''}`); n.setAttribute('aria-label',`查看${labelFor(kb,e.id)}`); const name = el('span',labelFor(kb,e.id)); name.append(el('small',e.name)); n.append(el('span',e.kind === 'organization' ? '◇':'○',`entity-dot ${e.kind}`),name); return n; }));
+  renderGraph(); renderDetail();
+}
+function renderGraph() {
+  const near = new Set(current.relations.filter(r => r.from === state.selected || r.to === state.selected).flatMap(r => [r.from,r.to]));
+  $('#edges').replaceChildren(); $('#nodes').replaceChildren();
+  for (const [i,r] of current.relations.entries()) {
+    const [ax,ay] = positions.get(r.from), [bx,by] = positions.get(r.to), dx = bx-ax, dy = by-ay, len = Math.hypot(dx,dy)||1;
+    const offset = 34, x1 = ax+dx/len*offset, y1 = ay+dy/len*offset, x2 = bx-dx/len*offset, y2 = by-dy/len*offset;
+    const bend = i%2 ? 22 : -22, mx = (x1+x2)/2-dy/len*bend, my = (y1+y2)/2+dx/len*bend;
+    const d = `M${x1},${y1} Q${mx},${my} ${x2},${y2}`;
+    const related = r.from === state.selected || r.to === state.selected;
+    const line = svg('path',{d,class:`edge ${r.status} ${r.id===state.relation?'selected':related?'neighbor':'edge-dim'}`});
+    if (!predicates[r.predicate].symmetric) line.setAttribute('marker-end','url(#arrow)');
+    const name = `${labelFor(kb,r.from)} · ${predicates[r.predicate].label} · ${labelFor(kb,r.to)}（${statuses[r.status]}）`;
+    const hit = svg('path',{d,class:'edge-hit',role:'button',tabindex:0,'aria-label':name}); hit.append(svg('title',{},name));
+    hit.onclick = () => selectRelation(r); hit.onkeydown = e => { if (e.key==='Enter'||e.key===' ') {e.preventDefault();selectRelation(r);} };
+    $('#edges').append(line,hit);
+  }
+  for (const entity of current.entities) {
+    const [x,y] = positions.get(entity.id), name = labelFor(kb,entity.id), org = entity.kind === 'organization';
+    const n = svg('g',{transform:`translate(${x} ${y})`,class:`graph-node ${entity.kind} ${entity.cluster} ${entity.id===state.selected?'selected':!near.has(entity.id)&&near.size?'dimmed':''}`,role:'button',tabindex:0,'aria-label':`图谱节点：${name}`,'aria-pressed':entity.id===state.selected});
+    n.append(svg('circle',{r:42,class:'halo'}));
+    n.append(org ? svg('rect',{x:-28,y:-28,width:56,height:56,rx:9,transform:'rotate(45)',class:'body'}) : svg('circle',{r:28,class:'body'}));
+    n.append(svg('text',{class:'symbol',y:0},org?'◇':name.slice(0,1)),svg('text',{class:'name',y:org?66:58},name),svg('text',{class:'en',y:org?86:78},entity.name));
+    n.onclick = () => selectEntity(entity.id); n.onkeydown = e => { if(e.key==='Enter'||e.key===' ') {e.preventDefault();selectEntity(entity.id);} };
+    $('#nodes').append(n);
+  }
+  transform();
+}
+function badge(text, status = '') { return el('span',text,`badge ${status}`); }
+function evidenceCard(ev) { const source = kb.sources.find(s => s.id===ev.sourceId); const n = el('div',null,source.kind==='community'?'evidence pending-note':'evidence'); n.append(link(source.title,source.url),el('p',ev.locator,'locator'),el('p',ev.noteZh)); return n; }
+function renderDetail() {
+  const pane = $('#detail'); pane.replaceChildren();
+  const entity = kb.entities.find(e=>e.id===state.selected);
+  if (!entity) return;
+  const relation = kb.relations.find(r=>r.id===state.relation);
+  if (relation) {
+    pane.append(el('span','RELATION / EVIDENCE','eyebrow'),el('h2',predicates[relation.predicate].label),badge(statuses[relation.status],relation.status));
+    pane.append(el('p',`${labelFor(kb,relation.from)} ${predicates[relation.predicate].symmetric?'↔':'→'} ${labelFor(kb,relation.to)}`,'detail-lead'));
+    const nav=el('div',null,'detail-nav'); nav.append(button(labelFor(kb,relation.from),()=>selectEntity(relation.from)),button(labelFor(kb,relation.to),()=>selectEntity(relation.to))); pane.append(nav);
+    pane.append(el('p',relation.summaryZh,'detail-lead'));
+    const dl=el('dl'); for(const [key,value] of [['故事时期',periods[relation.period]],['审核日期',relation.review?.date || '尚未核验'],['中文依据',`术语库 v${kb.glossaryVersion}`],['翻译状态',translateRelation(kb,relation).status==='approved'?'术语已对齐':'含待确认译名']]) dl.append(el('dt',key),el('dd',value)); pane.append(dl);
+    pane.append(el('h3','证据与定位'),...relation.evidence.map(evidenceCard));
+    if (relation.candidateIds.length) { pane.append(el('h3','Atlas 输入记录')); for(const id of relation.candidateIds) { const c=kb.candidates.find(c=>c.id===id), box=el('div',null,'evidence pending-note'); box.append(el('p',c.originalNames.join(' ↔ ')),el('p',c.pointer,'locator'),el('code',`commit ${c.commit}`),el('p','关联输入保留署名；具体关系语义由官方证据独立确认。')); pane.append(box); } }
+    pane.append(button('返回实体档案',()=>selectEntity(state.selected),'focus-button'));
+    return;
+  }
+  const term = termFor(kb,entity.id), relations = current.relations.filter(r=>r.from===entity.id||r.to===entity.id);
+  pane.append(el('span','ENTITY / '+(entity.kind==='person'?'人物档案':'组织档案'),'eyebrow'),el('h2',labelFor(kb,entity.id)),el('p',entity.name,'detail-en'),badge(term.status==='approved'?'国服译名已核对':'暂译 · 待确认',term.status==='approved'?'verified':'pending'));
+  const intro = {ana:'守望先锋创始成员。她与组织的历史关系、亲属关系和召回时期的行动，分条记录。',genji:'从岛田家族到暗影守望，再到禅雅塔门下。不同人生阶段，不合并为一个“当前阵营”。',overwatch:'连接人物与组织的历史节点。加入、领导和部门隶属，各有不同含义。'};
+  pane.append(el('p',intro[entity.id] || '选择下方关系，查看具体含义、故事时期与出处。本页只展示首批已整理资料。','detail-lead'));
+  if (!current.entities.some(e=>e.id===entity.id)) pane.append(el('p','该实体不在当前筛选结果中。','small-note'));
+  pane.append(button(state.focus?'查看完整网络':'聚焦一跳关系',()=>{state.focus=!state.focus;$('#focus').checked=state.focus;render();},'focus-button'));
+  pane.append(el('div',null,'detail-separator'),el('h3',`当前筛选中的关系 · ${relations.length}`));
+  if (!relations.length) pane.append(el('p','当前筛选条件下没有关联。','small-note'));
+  for (const r of relations) {
+    const other = r.from===entity.id?r.to:r.from;
+    const n=button('',()=>selectRelation(r),'connection-button');
+    const text=el('span',labelFor(kb,other)); text.append(el('small',`${r.from===entity.id?'→':'←'} ${predicates[r.predicate].label} · ${periods[r.period]}`));
+    n.append(text,el('span',r.status==='pending'?'待核验':'↗',r.status==='pending'?'badge pending':'arrow')); pane.append(n);
+  }
+  pane.append(el('h3','中文名称依据'));
+  for(const id of term.sourceIds) {const s=kb.sources.find(s=>s.id===id);pane.append(link(s.title,s.url));}
+  if(!term.sourceIds.length) pane.append(el('p','未找到官方中文依据，不自动批准。','small-note'));
+  pane.append(el('p',`实体 ID · ${entity.id}`,'small-note'));
+}
+function renderTables() {
+  for (const t of kb.glossary) {
+    const tr=el('tr'), chinese=el('td',t.zh), english=el('td',t.en), status=el('td'), source=el('td');
+    if(t.aliases.length)english.append(el('small',t.aliases.join(' / ')));
+    status.append(badge(t.status==='approved'?'已核对':'暂译待审',t.status==='approved'?'verified':'pending'));
+    for(const id of t.sourceIds){const s=kb.sources.find(s=>s.id===id);source.append(link(s.title,s.url));}
+    if(!t.sourceIds.length)source.textContent='尚无官方命名依据';source.append(el('small',t.locator));tr.append(chinese,english,status,source);$('#glossary-rows').append(tr);
+  }
+  for(const s of kb.sources){const card=el('article',null,'source-card');card.append(badge(s.kind==='official'?'官方资料':'社区输入',s.kind==='community'?'pending':'verified'),el('h3',s.title),el('p',s.locator),el('p',s.rights),el('p',`读取日期 ${s.accessedAt} · ${s.language}`),link('查看原始资料 ↗',s.url));if(s.commit)card.append(el('p','固定版本'),el('code',s.commit));$('#source-cards').append(card);}
+  for(const c of kb.candidates.filter(c=>c.status==='pending')){const card=el('article',null,'review-card');card.append(badge('关系性质待核验','pending'),el('h3',`${labelFor(kb,c.from)} ↔ ${labelFor(kb,c.to)}`),el('p',c.note),el('p',`Atlas ${c.pointer}`),button('在图谱中查看',()=>{reset();switchView('graph');state.selected=c.from;render();selectRelation(kb.relations.find(r=>r.candidateIds.includes(c.id)));$('#detail').scrollIntoView({block:'nearest'});}));$('#review-cards').append(card);}
+}

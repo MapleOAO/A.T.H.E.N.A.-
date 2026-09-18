@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ana",
+    "name": "Ana",
+    "kind": "person",
+    "cluster": "overwatch"
+  },
+  {
+    "id": "cassidy",
+    "name": "Cassidy",
+    "kind": "person",
+    "cluster": "overwatch"
+  },
+  {
+    "id": "emre",
+    "name": "Emre",
+    "kind": "person",
+    "cluster": "overwatch"
+  },
+  {
+    "id": "pharah",
+    "name": "Pharah",
+    "kind": "person",
+    "cluster": "overwatch"
+  },
+  {
+    "id": "reaper",
+    "name": "Reaper",
+    "kind": "person",
+    "cluster": "blackwatch"
+  },
+  {
+    "id": "reinhardt",
+    "name": "Reinhardt",
+    "kind": "person",
+    "cluster": "overwatch"
+  },
+  {
+    "id": "soldier-76",
+    "name": "Soldier 76",
+    "kind": "person",
+    "cluster": "overwatch"
+  },
+  {
+    "id": "overwatch",
+    "name": "Overwatch",
+    "kind": "organization",
+    "cluster": "overwatch"
+  },
+  {
+    "id": "search-rescue",
+    "name": "Search & Rescue",
+    "kind": "organization",
+    "cluster": "overwatch"
+  },
+  {
+    "id": "genji",
+    "name": "Genji",
+    "kind": "person",
+    "cluster": "shimada"
+  },
+  {
+    "id": "hanzo",
+    "name": "Hanzo",
+    "kind": "person",
+    "cluster": "shimada"
+  },
+  {
+    "id": "zenyatta",
+    "name": "Zenyatta",
+    "kind": "person",
+    "cluster": "shimada"
+  },
+  {
+    "id": "kiriko",
+    "name": "Kiriko",
+    "kind": "person",
+    "cluster": "shimada"
+  },
+  {
+    "id": "winston",
+    "name": "Winston",
+    "kind": "person",
+    "cluster": "overwatch"
+  },
+  {
+    "id": "blackwatch",
+    "name": "Blackwatch",
+    "kind": "organization",
+    "cluster": "blackwatch"
+  },
+  {
+    "id": "talon",
+    "name": "Talon",
+    "kind": "organization",
+    "cluster": "blackwatch"
+  },
+  {
+    "id": "widowmaker",
+    "name": "Widowmaker",
+    "kind": "person",
+    "cluster": "blackwatch"
+  },
+  {
+    "id": "shimada",
+    "name": "Shimada Clan",
+    "kind": "organization",
+    "cluster": "shimada"
+  }
+]

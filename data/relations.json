@@ -1,0 +1,628 @@
+[
+  {
+    "id": "ana-founder",
+    "from": "ana",
+    "to": "overwatch",
+    "predicate": "founder",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "安娜是守望先锋的创始成员；这里记录组织早期的历史身份。",
+    "evidence": [
+      {
+        "sourceId": "cn-ana",
+        "locator": "故事概述 / 守望先锋",
+        "noteZh": "安娜是守望先锋的创始成员；这里记录组织早期的历史身份。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-ana-6"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-ana",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "ana-mother",
+    "from": "ana",
+    "to": "pharah",
+    "predicate": "mother",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "安娜是法老之鹰的母亲。",
+    "evidence": [
+      {
+        "sourceId": "en-ana",
+        "locator": "Story → RECALL，第 1 段",
+        "noteZh": "安娜是法老之鹰的母亲。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-ana-2"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-ana",
+        "term-pharah"
+      ]
+    }
+  },
+  {
+    "id": "ana-soldier",
+    "from": "ana",
+    "to": "soldier-76",
+    "predicate": "colleague",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "在召回时期的叙述中，安娜与士兵：76一同行动；此处不表示她重新入队。",
+    "evidence": [
+      {
+        "sourceId": "en-ana",
+        "locator": "Story → RECALL，第 1–2 段",
+        "noteZh": "在召回时期的叙述中，安娜与士兵：76一同行动；此处不表示她重新入队。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-ana-5"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-ana",
+        "term-soldier-76"
+      ]
+    }
+  },
+  {
+    "id": "ana-cassidy",
+    "from": "ana",
+    "to": "cassidy",
+    "predicate": "contacted",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "安娜联络卡西迪，希望新一代力量参与组织重建。",
+    "evidence": [
+      {
+        "sourceId": "en-ana",
+        "locator": "Story → RECALL，第 1 段",
+        "noteZh": "安娜联络卡西迪，希望新一代力量参与组织重建。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-ana-0"
+    ],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-ana",
+        "term-cassidy"
+      ]
+    }
+  },
+  {
+    "id": "reaper-overwatch",
+    "from": "reaper",
+    "to": "overwatch",
+    "predicate": "leader",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "加布里尔·莱耶斯曾任守望先锋战地指挥官，后来以死神之名活动。",
+    "evidence": [
+      {
+        "sourceId": "en-reaper",
+        "locator": "Story 概述",
+        "noteZh": "加布里尔·莱耶斯曾任守望先锋战地指挥官，后来以死神之名活动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-reaper",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "reaper-blackwatch",
+    "from": "reaper",
+    "to": "blackwatch",
+    "predicate": "leader",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "莱耶斯曾领导暗影守望。这是一条历史职务记录。",
+    "evidence": [
+      {
+        "sourceId": "en-reaper",
+        "locator": "Story 概述",
+        "noteZh": "莱耶斯曾领导暗影守望。这是一条历史职务记录。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-reaper",
+        "term-blackwatch"
+      ]
+    }
+  },
+  {
+    "id": "blackwatch-overwatch",
+    "from": "blackwatch",
+    "to": "overwatch",
+    "predicate": "branch",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "暗影守望是守望先锋的秘密行动部门。",
+    "evidence": [
+      {
+        "sourceId": "en-reaper",
+        "locator": "Story 概述",
+        "noteZh": "暗影守望是守望先锋的秘密行动部门。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-blackwatch",
+        "term-overwatch"
+      ]
+    }
+  },
+  {
+    "id": "reaper-talon",
+    "from": "reaper",
+    "to": "talon",
+    "predicate": "member",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "官方传记概述将死神描述为黑爪的行动人员；本条未核对其最新赛季身份。",
+    "evidence": [
+      {
+        "sourceId": "en-reaper",
+        "locator": "Story 概述",
+        "noteZh": "官方传记概述将死神描述为黑爪的行动人员；本条未核对其最新赛季身份。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-reaper",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "widowmaker-talon",
+    "from": "widowmaker",
+    "to": "talon",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "安娜的历史传记将黑百合称为黑爪特工。",
+    "evidence": [
+      {
+        "sourceId": "cn-ana",
+        "locator": "故事 → 守望先锋，第 2 段",
+        "noteZh": "安娜的历史传记将黑百合称为黑爪特工。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-widowmaker",
+        "term-talon"
+      ]
+    }
+  },
+  {
+    "id": "overwatch-genji",
+    "from": "overwatch",
+    "to": "genji",
+    "predicate": "rescued",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "守望先锋救下濒死的源氏，并为其进行机械化改造。",
+    "evidence": [
+      {
+        "sourceId": "cn-genji",
+        "locator": "故事概述",
+        "noteZh": "守望先锋救下濒死的源氏，并为其进行机械化改造。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-overwatch",
+        "term-genji"
+      ]
+    }
+  },
+  {
+    "id": "genji-blackwatch",
+    "from": "genji",
+    "to": "blackwatch",
+    "predicate": "member",
+    "period": "early",
+    "status": "verified",
+    "summaryZh": "接受改造后，源氏加入暗影守望，参与对岛田家族犯罪网络的行动。",
+    "evidence": [
+      {
+        "sourceId": "en-genji",
+        "locator": "Story → BLACKWATCH，第 2 段",
+        "noteZh": "接受改造后，源氏加入暗影守望，参与对岛田家族犯罪网络的行动。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-genji",
+        "term-blackwatch"
+      ]
+    }
+  },
+  {
+    "id": "hanzo-genji",
+    "from": "hanzo",
+    "to": "genji",
+    "predicate": "brother",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "半藏是源氏的哥哥。",
+    "evidence": [
+      {
+        "sourceId": "cn-genji",
+        "locator": "故事 → 岛田家族",
+        "noteZh": "半藏是源氏的哥哥。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-hanzo",
+        "term-genji"
+      ]
+    }
+  },
+  {
+    "id": "zenyatta-genji",
+    "from": "zenyatta",
+    "to": "genji",
+    "predicate": "mentor",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "守望先锋解散后，源氏追随禅雅塔修行。时期指该段历史叙述，不设精确年份。",
+    "evidence": [
+      {
+        "sourceId": "cn-genji",
+        "locator": "故事概述",
+        "noteZh": "守望先锋解散后，源氏追随禅雅塔修行。时期指该段历史叙述，不设精确年份。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-zenyatta",
+        "term-genji"
+      ]
+    }
+  },
+  {
+    "id": "genji-kiriko",
+    "from": "genji",
+    "to": "kiriko",
+    "predicate": "friend",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "源氏在山神朝门下学剑时，与她的女儿雾子成为朋友。",
+    "evidence": [
+      {
+        "sourceId": "cn-genji",
+        "locator": "故事 → 岛田家族",
+        "noteZh": "源氏在山神朝门下学剑时，与她的女儿雾子成为朋友。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-genji",
+        "term-kiriko"
+      ]
+    }
+  },
+  {
+    "id": "genji-winston",
+    "from": "genji",
+    "to": "winston",
+    "predicate": "answered",
+    "period": "recall",
+    "status": "verified",
+    "summaryZh": "源氏在修行之后响应温斯顿的召唤。",
+    "evidence": [
+      {
+        "sourceId": "cn-genji",
+        "locator": "故事概述",
+        "noteZh": "源氏在修行之后响应温斯顿的召唤。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-genji",
+        "term-winston"
+      ]
+    }
+  },
+  {
+    "id": "genji-shimada",
+    "from": "genji",
+    "to": "shimada",
+    "predicate": "member",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "源氏出身于岛田家族，是家族大名的小儿子；不表示他参与了家族犯罪。",
+    "evidence": [
+      {
+        "sourceId": "cn-genji",
+        "locator": "故事 → 岛田家族",
+        "noteZh": "源氏出身于岛田家族，是家族大名的小儿子；不表示他参与了家族犯罪。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-genji",
+        "term-shimada"
+      ]
+    }
+  },
+  {
+    "id": "hanzo-shimada",
+    "from": "hanzo",
+    "to": "shimada",
+    "predicate": "member",
+    "period": "family",
+    "status": "verified",
+    "summaryZh": "半藏是岛田家族大名之子，父亲去世后要求源氏参与家业。",
+    "evidence": [
+      {
+        "sourceId": "cn-genji",
+        "locator": "故事 → 岛田家族",
+        "noteZh": "半藏是岛田家族大名之子，父亲去世后要求源氏参与家业。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-18",
+      "scope": "对应传记章节，不宣称当前赛季全量事实"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-hanzo",
+        "term-shimada"
+      ]
+    }
+  },
+  {
+    "id": "pending-atlas-ana-1",
+    "from": "ana",
+    "to": "emre",
+    "predicate": "related",
+    "period": "unspecified",
+    "status": "pending",
+    "summaryZh": "Atlas 记录了两者的关联，但未提供明确关系说明；尚未核验具体性质。",
+    "evidence": [
+      {
+        "sourceId": "atlas-codex",
+        "locator": "/connections/1",
+        "noteZh": "仅有端点，不能据此推断亲属、队友或敌对关系。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-ana-1"
+    ],
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-ana",
+        "term-emre"
+      ]
+    }
+  },
+  {
+    "id": "pending-atlas-ana-3",
+    "from": "ana",
+    "to": "reaper",
+    "predicate": "related",
+    "period": "unspecified",
+    "status": "pending",
+    "summaryZh": "Atlas 记录了两者的关联，但未提供明确关系说明；尚未核验具体性质。",
+    "evidence": [
+      {
+        "sourceId": "atlas-codex",
+        "locator": "/connections/3",
+        "noteZh": "仅有端点，不能据此推断亲属、队友或敌对关系。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-ana-3"
+    ],
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-ana",
+        "term-reaper"
+      ]
+    }
+  },
+  {
+    "id": "pending-atlas-ana-4",
+    "from": "ana",
+    "to": "reinhardt",
+    "predicate": "related",
+    "period": "unspecified",
+    "status": "pending",
+    "summaryZh": "Atlas 记录了两者的关联，但未提供明确关系说明；尚未核验具体性质。",
+    "evidence": [
+      {
+        "sourceId": "atlas-codex",
+        "locator": "/connections/4",
+        "noteZh": "仅有端点，不能据此推断亲属、队友或敌对关系。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-ana-4"
+    ],
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-ana",
+        "term-reinhardt"
+      ]
+    }
+  },
+  {
+    "id": "pending-atlas-ana-7",
+    "from": "ana",
+    "to": "search-rescue",
+    "predicate": "related",
+    "period": "unspecified",
+    "status": "pending",
+    "summaryZh": "Atlas 记录了两者的关联，但未提供明确关系说明；尚未核验具体性质。",
+    "evidence": [
+      {
+        "sourceId": "atlas-codex",
+        "locator": "/connections/7",
+        "noteZh": "仅有端点，不能据此推断亲属、队友或敌对关系。"
+      }
+    ],
+    "candidateIds": [
+      "atlas-ana-7"
+    ],
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.1.0",
+      "termIds": [
+        "term-ana",
+        "term-search-rescue"
+      ]
+    }
+  }
+]

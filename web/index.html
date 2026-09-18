@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>A.T.H.E.N.A. · 守望先锋关系档案</title>
+  <meta name="description" content="独立构建的中文守望先锋人物与组织关系档案。每条关系保留出处、时期与核验状态。">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#workspace">跳转到关系网络</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="ATHENA 首页"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 29 26H3Z M16 12 22 23H10Z"/></svg><span>A.T.H.E.N.A.<small>守望先锋 · 中文知识档案</small></span></a>
+    <nav aria-label="主导航"><button class="tab active" data-view="graph" aria-current="page">关系网络</button><button class="tab" data-view="glossary">中文术语</button><button class="tab" data-view="sources">资料来源</button><button class="tab" data-view="review">待核验</button></nav>
+    <span class="version">知识库 <b>v0.1</b></span>
+  </header>
+  <div id="boot" role="status">正在载入关系档案…</div>
+  <main id="workspace" hidden>
+    <section class="page-title"><div><span class="eyebrow">RELATIONSHIP ARCHIVE / 01</span><h1 id="page-heading">人物与组织关系网络</h1><p id="page-description">从一位英雄出发，沿着有据可查的关系，理解这个世界。</p></div><div class="stat-bar" id="stats"></div></section>
+    <section id="graph-view" class="workbench">
+      <aside class="filters" aria-label="关系筛选">
+        <div class="panel-heading"><h2>探索档案</h2><button id="reset" class="text-button">重置</button></div>
+        <label class="search-wrap"><span>搜索名称或别名</span><input id="search" type="search" placeholder="安娜 / Ana / 士兵76" autocomplete="off"></label>
+        <label>实体类型<select id="kind"><option value="all">人物与组织</option><option value="person">仅人物</option><option value="organization">仅组织</option></select></label>
+        <label>核验状态<select id="status"><option value="all">全部 · 区分待核验</option><option value="verified">仅已核验</option><option value="pending">仅待核验</option><option value="disputed">仅有争议</option></select></label>
+        <label>故事时期<select id="period"></select></label>
+        <label>关系类型<select id="predicate"></select></label>
+        <label class="check-row"><input type="checkbox" id="focus">只看选中实体的一跳关系</label>
+        <div class="list-heading"><span>实体索引</span><span id="entity-count"></span></div>
+        <div id="entity-list" class="entity-list"></div>
+        <div class="sidebar-note"><span class="eyebrow">阅读提示</span><p>连线箭头表示关系方向。虚线是待核验关联；同色仅用于排版分组，不代表当前阵营。</p></div>
+      </aside>
+      <section class="canvas-panel" aria-label="关系图">
+        <div class="canvas-top"><div><span class="eyebrow">KNOWLEDGE GRAPH</span><p id="result-count" aria-live="polite"></p></div><span class="chip">首批样本 · 非全量</span></div>
+        <div class="graph-wrap"><svg id="graph" viewBox="0 0 1000 780" aria-label="可交互关系网络，使用实体索引或 Tab 选择节点"><defs><marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z"/></marker></defs><g id="viewport"><g id="edges"></g><g id="nodes"></g></g></svg><div id="empty" class="empty-state" hidden><h3>没有匹配的关系</h3><p>试试其他名称，或放宽筛选条件。</p><button id="empty-reset">清除筛选</button></div></div>
+        <div class="canvas-bottom"><div class="legend"><span>○ 人物</span><span>◇ 组织</span><span>━ 已核验</span><span>┄ 待核验</span></div><div class="zoom-controls"><button id="zoom-out" aria-label="缩小关系图">−</button><output id="zoom-level">100%</output><button id="zoom-in" aria-label="放大关系图">＋</button><button id="fit" aria-label="复位关系图">复位</button></div></div>
+      </section>
+      <aside id="detail" class="detail-panel" aria-label="实体及关系详情" aria-live="polite"></aside>
+    </section>
+    <section id="glossary-view" class="alternate" hidden><div class="section-intro"><h2>译名来自知识库，不凭空生成</h2><p>优先采用国服官方用字。暂译、英文别名和审核依据独立记录；关系中文表达由实体 ID 对齐术语。</p></div><div class="table-wrap"><table><thead><tr><th>中文名称</th><th>原名 / 别名</th><th>状态</th><th>命名依据</th></tr></thead><tbody id="glossary-rows"></tbody></table></div></section>
+    <section id="sources-view" class="alternate" hidden><div class="section-intro"><h2>保留每一步来源</h2><p>Atlas 提供关联输入，官方资料用于核验。独立编写的摘要不替代原始作品，资料归各自权利人所有。</p></div><div id="source-cards" class="source-cards"></div></section>
+    <section id="review-view" class="alternate" hidden><div class="section-intro"><h2>有连线，不等于有结论</h2><p>以下记录仍缺少具体关系证据。查看候选记录不会将它发布成已核验事实；审核通过需修改数据并运行校验。</p></div><div id="review-cards" class="review-cards"></div></section>
+    <footer><span>A.T.H.E.N.A. / 独立社区项目 · 非暴雪官方</span><span id="data-date"></span></footer>
+  </main>
+</body>
+</html>

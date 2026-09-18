@@ -1,0 +1,122 @@
+[
+  {
+    "id": "atlas-ana-0",
+    "from": "ana",
+    "to": "cassidy",
+    "sourceId": "atlas-codex",
+    "pointer": "/connections/0",
+    "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
+    "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",
+    "originalNames": [
+      "Ana",
+      "Cassidy"
+    ],
+    "status": "corroborated",
+    "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
+  },
+  {
+    "id": "atlas-ana-1",
+    "from": "ana",
+    "to": "emre",
+    "sourceId": "atlas-codex",
+    "pointer": "/connections/1",
+    "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
+    "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",
+    "originalNames": [
+      "Ana",
+      "Emre"
+    ],
+    "status": "pending",
+    "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
+  },
+  {
+    "id": "atlas-ana-2",
+    "from": "ana",
+    "to": "pharah",
+    "sourceId": "atlas-codex",
+    "pointer": "/connections/2",
+    "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
+    "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",
+    "originalNames": [
+      "Ana",
+      "Pharah"
+    ],
+    "status": "corroborated",
+    "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
+  },
+  {
+    "id": "atlas-ana-3",
+    "from": "ana",
+    "to": "reaper",
+    "sourceId": "atlas-codex",
+    "pointer": "/connections/3",
+    "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
+    "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",
+    "originalNames": [
+      "Ana",
+      "Reaper"
+    ],
+    "status": "pending",
+    "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
+  },
+  {
+    "id": "atlas-ana-4",
+    "from": "ana",
+    "to": "reinhardt",
+    "sourceId": "atlas-codex",
+    "pointer": "/connections/4",
+    "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
+    "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",
+    "originalNames": [
+      "Ana",
+      "Reinhardt"
+    ],
+    "status": "pending",
+    "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
+  },
+  {
+    "id": "atlas-ana-5",
+    "from": "ana",
+    "to": "soldier-76",
+    "sourceId": "atlas-codex",
+    "pointer": "/connections/5",
+    "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
+    "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",
+    "originalNames": [
+      "Ana",
+      "Soldier 76"
+    ],
+    "status": "corroborated",
+    "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
+  },
+  {
+    "id": "atlas-ana-6",
+    "from": "ana",
+    "to": "overwatch",
+    "sourceId": "atlas-codex",
+    "pointer": "/connections/6",
+    "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
+    "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",
+    "originalNames": [
+      "Ana",
+      "Overwatch"
+    ],
+    "status": "corroborated",
+    "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
+  },
+  {
+    "id": "atlas-ana-7",
+    "from": "ana",
+    "to": "search-rescue",
+    "sourceId": "atlas-codex",
+    "pointer": "/connections/7",
+    "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
+    "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",
+    "originalNames": [
+      "Ana",
+      "Search & Rescue"
+    ],
+    "status": "pending",
+    "note": "Atlas 显式连接只证明条目关联；关系语义另行核验。"
+  }
+]

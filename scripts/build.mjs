@@ -1,0 +1,12 @@
+import { cp, mkdir, writeFile } from 'node:fs/promises';
+import { root, loadKnowledge } from './load.mjs';
+import { validateKnowledge } from '../src/knowledge.mjs';
+const kb = await loadKnowledge();
+const errors = validateKnowledge(kb);
+if (errors.length) throw new Error(errors.join('\n'));
+await mkdir(new URL('dist/', root), { recursive: true });
+await cp(new URL('web/', root), new URL('dist/', root), { recursive: true });
+await cp(new URL('src/', root), new URL('dist/src/', root), { recursive: true });
+await mkdir(new URL('dist/data/', root), { recursive: true });
+await writeFile(new URL('dist/data/knowledge.json', root), JSON.stringify(kb));
+console.log(`Built dist/: ${kb.entities.length} entities / ${kb.relations.length} relations. No external assets or dependencies.`);

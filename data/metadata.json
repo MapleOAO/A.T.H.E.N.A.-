@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "glossaryVersion": "0.1.0",
+  "version": "0.1.0",
+  "asOf": "2026-09-18",
+  "scope": "首批可核验样本，非全量守望先锋百科",
+  "atlasVersion": {
+    "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",
+    "blob": "c52b9ff73955ca9bf4d5fd1d83a0fd589718df0b",
+    "nodes": 1216,
+    "edges": 1430,
+    "connections": 57,
+    "importedCandidates": 8
+  }
+}

@@ -1,0 +1,273 @@
+[
+  {
+    "id": "term-ana",
+    "entityId": "ana",
+    "en": "Ana",
+    "zh": "安娜",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-cassidy",
+    "entityId": "cassidy",
+    "en": "Cassidy",
+    "zh": "卡西迪",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-emre",
+    "entityId": "emre",
+    "en": "Emre",
+    "zh": "埃姆雷",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-pharah",
+    "entityId": "pharah",
+    "en": "Pharah",
+    "zh": "法老之鹰",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-reaper",
+    "entityId": "reaper",
+    "en": "Reaper",
+    "zh": "死神",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-reinhardt",
+    "entityId": "reinhardt",
+    "en": "Reinhardt",
+    "zh": "莱因哈特",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-soldier-76",
+    "entityId": "soldier-76",
+    "en": "Soldier 76",
+    "zh": "士兵：76",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [
+      "Soldier: 76",
+      "士兵76"
+    ],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-overwatch",
+    "entityId": "overwatch",
+    "en": "Overwatch",
+    "zh": "守望先锋",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-ana"
+    ],
+    "locator": "故事章节中的组织名称",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-search-rescue",
+    "entityId": "search-rescue",
+    "en": "Search & Rescue",
+    "zh": "搜救部门（暂译）",
+    "locale": "zh-CN",
+    "status": "pending",
+    "aliases": [],
+    "sourceIds": [],
+    "locator": "尚未取得国服官方组织译名",
+    "reviewedAt": "2026-09-18",
+    "note": "Atlas 名称暂译；不可作为已核验术语。"
+  },
+  {
+    "id": "term-genji",
+    "entityId": "genji",
+    "en": "Genji",
+    "zh": "源氏",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-hanzo",
+    "entityId": "hanzo",
+    "en": "Hanzo",
+    "zh": "半藏",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-zenyatta",
+    "entityId": "zenyatta",
+    "en": "Zenyatta",
+    "zh": "禅雅塔",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-kiriko",
+    "entityId": "kiriko",
+    "en": "Kiriko",
+    "zh": "雾子",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-winston",
+    "entityId": "winston",
+    "en": "Winston",
+    "zh": "温斯顿",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-blackwatch",
+    "entityId": "blackwatch",
+    "en": "Blackwatch",
+    "zh": "暗影守望",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-genji"
+    ],
+    "locator": "故事章节中的组织名称",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-talon",
+    "entityId": "talon",
+    "en": "Talon",
+    "zh": "黑爪",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-ana"
+    ],
+    "locator": "故事章节中的组织名称",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-widowmaker",
+    "entityId": "widowmaker",
+    "en": "Widowmaker",
+    "zh": "黑百合",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-heroes"
+    ],
+    "locator": "英雄名录对应英雄卡片",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  },
+  {
+    "id": "term-shimada",
+    "entityId": "shimada",
+    "en": "Shimada Clan",
+    "zh": "岛田家族",
+    "locale": "zh-CN",
+    "status": "approved",
+    "aliases": [],
+    "sourceIds": [
+      "cn-genji"
+    ],
+    "locator": "故事章节中的组织名称",
+    "reviewedAt": "2026-09-18",
+    "note": "已观察国服官方用字；英文名通过英雄页面 slug / 角色身份对齐。"
+  }
+]
