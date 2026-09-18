@@ -4,19 +4,29 @@ const $ = selector => document.querySelector(selector);
 function el(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
 function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
 function link(text, url) { const n = el('a', text); if (safeUrl(url)) { n.href = url; n.target = '_blank'; n.rel = 'noopener noreferrer'; } return n; }
+const hasImage = entity => entity.visual?.kind?.startsWith('official-');
+const imageLabel = entity => ({'official-portrait':'官方头像','official-scene':'官方剧情配图','official-logo':'官方组织标志'}[entity.visual?.kind] || '名称占位图 · 待补图');
 function avatar(entity, className = '') {
   const name = labelFor(kb, entity.id), node = el('span', name.slice(0, entity.kind==='organization'?2:1), 'avatar '+entity.kind+' '+className);
   node.setAttribute('role','img');
-  node.setAttribute('aria-label', name + (entity.visual?.kind==='official-portrait'?'：官方头像':'：名称占位图，待补图'));
-  node.title = entity.visual?.kind==='official-portrait'?'官方头像':'名称占位图 · 待补官方图像';
-  if(entity.visual?.kind==='official-portrait') {
-    const img=el('img');img.src=entity.visual.url;img.alt='';img.loading='lazy';img.referrerPolicy='no-referrer';
+  node.setAttribute('aria-label', name + '：' + imageLabel(entity));
+  node.title = imageLabel(entity);
+  if(hasImage(entity) && entity.visual.crop) {
+    node.append(framedImage(entity, {class:'avatar-frame','aria-hidden':'true'}));
+  } else if(hasImage(entity)) {
+    const img=el('img');img.src=entity.visual.url;img.alt='';img.loading='lazy';img.referrerPolicy='no-referrer';img.style.objectPosition=(entity.visual.position||'center')+' center';
     img.addEventListener('error',()=>{img.remove();node.title='图片暂时无法加载 · 显示名称图标';});
     node.append(img);
   }
   return node;
 }
 function svg(tag, attrs = {}, text) { const n = document.createElementNS('http://www.w3.org/2000/svg', tag); Object.entries(attrs).forEach(([k, v]) => n.setAttribute(k, v)); if (text) n.textContent = text; return n; }
+function framedImage(entity, attrs = {}) {
+  const v=entity.visual;
+  const frame=svg('svg',{viewBox:v.crop.join(' '),preserveAspectRatio:'xMidYMid meet',overflow:'hidden',...attrs});
+  const photo=svg('image',{href:v.url,width:v.sourceSize[0],height:v.sourceSize[1]});
+  photo.addEventListener('error',()=>frame.remove());frame.append(photo);return frame;
+}
 const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate: 'all', selected: 'ana', relation: null, focus: true, zoom: 1, x: 0, y: 0, view: 'graph' };
 let kb, current, positions, graphWidth = 1000, graphHeight = 780;
 
@@ -49,6 +59,7 @@ function boot() {
   $('#focus').checked = state.focus;
   $('#glossary-search').addEventListener('input', renderGlossary);
   $('#glossary-status').addEventListener('change', renderGlossary);
+  for(const id of ['media-kind','media-status'])$('#'+id).addEventListener('change',renderMedia);
   initPan(); renderTables(); readHash(); render();
   window.addEventListener('hashchange', () => { readHash(); render(); });
 }
@@ -111,10 +122,11 @@ function renderGraph() {
     n.append(svg('circle',{r:42,class:'halo'}));
     n.append(org ? svg('rect',{x:-28,y:-28,width:56,height:56,rx:9,transform:'rotate(45)',class:'body'}) : svg('circle',{r:28,class:'body'}));
     n.append(svg('text',{class:'symbol',y:0},org?name.slice(0,2):name.slice(0,1)),svg('text',{class:'name',y:org?66:58},name.length>12?name.slice(0,11)+'…':name),svg('text',{class:'en',y:org?86:78},entity.name.length>24?entity.name.slice(0,23)+'…':entity.name));
-    if(entity.visual?.kind==='official-portrait') {
+    if(hasImage(entity)) {
       const clip=svg('clipPath',{id:'portrait-'+entity.id,clipPathUnits:'userSpaceOnUse'});clip.append(svg('circle',{r:27}));
       const defs=svg('defs');defs.append(clip);
-      const photo=svg('image',{href:entity.visual.url,x:-27,y:-27,width:54,height:54,'clip-path':`url(#portrait-${entity.id})`,preserveAspectRatio:'xMidYMin slice',class:'node-portrait'});
+      const photo=entity.visual.crop ? svg('g',{'clip-path':`url(#portrait-${entity.id})`}) : svg('image',{href:entity.visual.url,x:-27,y:-27,width:54,height:54,'clip-path':`url(#portrait-${entity.id})`,preserveAspectRatio:entity.visual.kind==='official-logo'?'xMidYMid meet':({left:'xMinYMid slice',center:'xMidYMid slice',right:'xMaxYMid slice'}[entity.visual.position]||'xMidYMin slice'),class:'node-portrait'});
+      if(entity.visual.crop)photo.append(framedImage(entity,{x:-27,y:-27,width:54,height:54,class:'node-portrait'}));
       photo.addEventListener('error',()=>photo.remove());n.append(defs,photo);
     }
     n.onclick = () => selectEntity(entity.id); n.onkeydown = e => { if(e.key==='Enter'||e.key===' ') {e.preventDefault();selectEntity(entity.id);} };
@@ -156,8 +168,15 @@ function renderDetail() {
     n.append(text,el('span',r.status==='pending'?'待核验':'↗',r.status==='pending'?'badge pending':'arrow')); pane.append(n);
   }
   pane.append(el('h3','图像来源'));
-  if(entity.visual?.kind==='official-portrait') {
-    pane.append(link('国服官网英雄头像',entity.visual.sourcePage),el('p',entity.visual.rights,'small-note'));
+  if(hasImage(entity)) {
+    pane.append(link(imageLabel(entity)+' · 查看出处',entity.visual.sourcePage));
+    if(entity.visual.kind==='official-scene' || entity.visual.kind==='official-logo') {
+      const figure=el('figure',null,'scene-figure'),img=el('img');img.src=entity.visual.url;img.alt=entity.visual.captionZh;img.loading='lazy';img.referrerPolicy='no-referrer';
+      img.addEventListener('error',()=>{img.remove();figure.prepend(el('p','配图暂时无法加载，可通过出处查看原图。','small-note'));});
+      figure.append(img,el('figcaption',entity.visual.captionZh));pane.append(figure);
+    }
+    if(entity.visual.locator)pane.append(el('p',entity.visual.locator,'small-note'));
+    pane.append(el('p',entity.visual.rights,'small-note'));
   } else {
     pane.append(el('p','本站名称占位图 · 待补可靠的头像或组织标志。此图不是官方形象。','small-note'));
   }
@@ -169,7 +188,7 @@ function renderDetail() {
   pane.append(el('p',`实体 ID · ${entity.id}`,'small-note'));
 }
 function renderTables() {
-  renderGlossary(); renderCoverage();
+  renderGlossary(); renderCoverage(); renderMedia();
   for(const s of kb.sources){const card=el('article',null,'source-card');card.append(badge(s.kind==='official'?'官方资料':'社区输入',s.kind==='community'?'pending':'verified'),el('h3',s.title),el('p',s.locator),el('p',s.rights),el('p',`读取日期 ${s.accessedAt} · ${s.language}`),link('查看原始资料 ↗',s.url));if(s.commit)card.append(el('p','固定版本'),el('code',s.commit));$('#source-cards').append(card);}
   for(const c of kb.candidates.filter(c=>c.status==='pending')){const card=el('article',null,'review-card');card.append(badge('关系性质待核验','pending'),el('h3',`${labelFor(kb,c.from)} ↔ ${labelFor(kb,c.to)}`),el('p',c.note),el('p',`Atlas ${c.pointer}`),button('在图谱中查看',()=>{reset();switchView('graph');state.selected=c.from;state.focus=true;$('#focus').checked=true;render();selectRelation(kb.relations.find(r=>r.candidateIds.includes(c.id)));$('#detail').scrollIntoView({block:'nearest'});}));$('#review-cards').append(card);}
 }
@@ -196,7 +215,7 @@ function renderCoverage() {
     ['显式关联记录', kb.candidates.length, kb.atlasVersion.connections],
     ['中文译名核对', kb.glossary.filter(t=>t.status==='approved').length, kb.glossary.length],
     ['具体关系核验', kb.relations.filter(r=>r.status==='verified').length, kb.relations.length],
-    ['官方头像 / 标志', kb.entities.filter(e=>e.visual?.kind==='official-portrait').length, kb.entities.length]
+    ['官方图像（含剧情配图）', kb.entities.filter(hasImage).length, kb.entities.length]
   ];
   for(const [label,done,total] of data) {
     const card=el('article',null,'source-card'), progress=el('progress');
@@ -204,4 +223,15 @@ function renderCoverage() {
     card.append(el('h3',label),el('strong',`${done} / ${total}`),progress); $('#coverage-cards').append(card);
   }
   $('#coverage-note').textContent = `固定 Atlas 版本 ${kb.atlasVersion.commit.slice(0,8)}。实体目录与显式关联输入已收齐；尚有 ${kb.glossary.filter(t=>t.status==='pending').length} 条译名和 ${kb.relations.filter(r=>r.status==='pending').length} 条关系待核验。目录之外另有 Talon 及 Colloseo 异拼条目。Liao / Echo 的双向原始记录保留两个出处，图中共用一条关系。`;
+}
+
+function renderMedia() {
+  const kind=$('#media-kind').value, status=$('#media-status').value;
+  const items=kb.entities.filter(e=>(kind==='all'||e.kind===kind)&&(status==='all'||hasImage(e)===(status==='official')));
+  $('#media-count').textContent=`${items.length} 个实体`;
+  $('#media-gallery').replaceChildren(...items.map(e=>{
+    const card=button('',()=>{reset();state.focus=true;$('#focus').checked=true;switchView('graph');selectEntity(e.id);$('#detail').scrollIntoView({block:'nearest'});},'media-card');
+    card.append(avatar(e,'detail-avatar'),el('strong',labelFor(kb,e.id)),el('small',e.name),badge(imageLabel(e),hasImage(e)?'verified':'pending'));
+    return card;
+  }));
 }
