@@ -1,5 +1,5 @@
-import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs?v=f49f5830e67b1386';
-import { layoutGraph, routeRelations } from './src/layout.mjs?v=f49f5830e67b1386';
+import { filterGraph, labelFor, termFor, statuses, periods, predicates, safeUrl, translateRelation, validateKnowledge } from './src/knowledge.mjs?v=401c0dcf573d0603';
+import { layoutGraph, routeRelations } from './src/layout.mjs?v=401c0dcf573d0603';
 const $ = selector => document.querySelector(selector);
 function el(tag, text, className) { const n = document.createElement(tag); if (text != null) n.textContent = text; if (className) n.className = className; return n; }
 function button(text, fn, className) { const n = el('button', text, className); n.type = 'button'; n.addEventListener('click', fn); return n; }
@@ -33,7 +33,7 @@ const state = { query: '', kind: 'all', status: 'all', period: 'all', predicate:
 let kb, current, positions, routes, graphWidth = 1000, graphHeight = 780;
 
 try {
-  const response = await fetch('./data/knowledge.json?v=f49f5830e67b1386', { signal: AbortSignal.timeout(15000) });
+  const response = await fetch('./data/knowledge.json?v=401c0dcf573d0603', { signal: AbortSignal.timeout(15000) });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   kb = await response.json();
   const errors = validateKnowledge(kb);
