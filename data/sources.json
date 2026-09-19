@@ -1271,5 +1271,44 @@
     "locator": "PDF正文第3、6–7、10页；与国服版本对应姓名及会议事件。",
     "rights": "仅记录独立事实摘要、姓名与页码，不转载正文。",
     "sha256": "19b3f3a44e413a3de8bc42f1ad252b9220b4cec72f2ad425204c64e5f9adcb85"
+  },
+  {
+    "id": "en-comic-destroyer",
+    "title": "官方漫画 · Destroyer",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0b9872d6857ba358/5d02d18aa812cef40914a4a6/comic-overwatch-destroyer_en-us.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "accessMethod": "official-pdf-page-render",
+    "read": true,
+    "accessedAt": "2026-09-19",
+    "locator": "PDF第3–10页逐页图像审阅；本版正文无可提取文字层。",
+    "sha256": "29a85d12bb5d4272a9a16a01dd465179be34a50f75ae5eb577432e433f332705",
+    "rights": "仅保存独立事实摘要及少量身份辨识局部；原作版权归Blizzard Entertainment及相关权利人。"
+  },
+  {
+    "id": "en-comic-binary",
+    "title": "官方漫画 · Binary",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt39f14b7a80be5780/5d02d10aa812cef40914a494/comic-overwatch-binary_en-us.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "accessMethod": "official-pdf-page-render",
+    "read": true,
+    "accessedAt": "2026-09-19",
+    "locator": "PDF第3–12页逐页图像审阅；本版正文无可提取文字层。",
+    "sha256": "4d841fa961cff7ec2a00fdadb4ec6182419bc5e519cedeb3f5901c44ca9e565e",
+    "rights": "仅保存独立事实摘要及少量身份辨识局部；原作版权归Blizzard Entertainment及相关权利人。"
+  },
+  {
+    "id": "en-comic-dragon-slayer",
+    "title": "官方漫画 · Dragon Slayer",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltbe5f9564d8d79e2a/5d02d202486d1c3d0af73230/comic-overwatch-dragon-slayer_en-us.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "accessMethod": "official-pdf-page-render",
+    "read": true,
+    "accessedAt": "2026-09-19",
+    "locator": "PDF第3–10页逐页图像审阅。",
+    "sha256": "afeaeb637adc43f9ae445bce9bced4284c10fc2d19b972208d9c2b64a3c3fb96",
+    "rights": "仅记录独立事实摘要与页码，不转载全文。"
   }
 ]

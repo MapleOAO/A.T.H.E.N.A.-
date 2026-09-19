@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "glossaryVersion": "0.10.0",
-  "version": "0.10.0",
-  "asOf": "2026-09-18",
+  "version": "0.10.1",
+  "asOf": "2026-09-19",
   "scope": "固定Atlas目录与显式关联输入，加上从官方原作独立发现的扩充实体；持续核验译名、关系与图像",
   "atlasVersion": {
     "commit": "7df0623bf538ef5dedd49e620fc7a6356f5318d2",

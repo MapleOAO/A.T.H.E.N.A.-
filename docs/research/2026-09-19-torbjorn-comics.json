@@ -1,0 +1,141 @@
+{
+  "date": "2026-09-19",
+  "version": "0.10.1",
+  "reviewedSources": [
+    {
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/destroyer/",
+      "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0b9872d6857ba358/5d02d18aa812cef40914a4a6/comic-overwatch-destroyer_en-us.pdf",
+      "sha256": "29a85d12bb5d4272a9a16a01dd465179be34a50f75ae5eb577432e433f332705",
+      "sourceId": "en-comic-destroyer",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/binary/",
+      "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt39f14b7a80be5780/5d02d10aa812cef40914a494/comic-overwatch-binary_en-us.pdf",
+      "sha256": "4d841fa961cff7ec2a00fdadb4ec6182419bc5e519cedeb3f5901c44ca9e565e",
+      "sourceId": "en-comic-binary",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/dragon-slayer/",
+      "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltbe5f9564d8d79e2a/5d02d202486d1c3d0af73230/comic-overwatch-dragon-slayer_en-us.pdf",
+      "sha256": "afeaeb637adc43f9ae445bce9bced4284c10fc2d19b972208d9c2b64a3c3fb96",
+      "sourceId": "en-comic-dragon-slayer",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "entityId": "sven",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/sven-be7eb71b7dd5.jpg",
+        "sourceId": "en-comic-destroyer",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0b9872d6857ba358/5d02d18aa812cef40914a4a6/comic-overwatch-destroyer_en-us.pdf",
+        "checkedAt": "2026-09-19",
+        "locator": "PDF第7页点名Sven，第9–10页连续画面确认头盔内人物；局部来自第10页左上格。",
+        "captionZh": "Sven在与托比昂对峙时摘下头盔的面部局部；中文工作译名仍待国服依据。",
+        "position": "center",
+        "rights": "© Blizzard Entertainment及原作权利人；仅取身份辨识所需漫画局部，完整作品见官方出处。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "be7eb71b7dd53f0a3da693e3383c9fc3dd5a32d1be3f67fec2386618b277db7b",
+          "sourceSha256": "29a85d12bb5d4272a9a16a01dd465179be34a50f75ae5eb577432e433f332705",
+          "page": 10,
+          "scaleTo": 1600,
+          "region": [
+            100,
+            130,
+            280,
+            250
+          ]
+        }
+      }
+    },
+    {
+      "relationId": "lore101-torbjorn-protected-bastion-unspecified",
+      "action": "add"
+    },
+    {
+      "relationId": "cn4-torbjorn-member-ironclad-guild-unspecified",
+      "action": "corroborate"
+    },
+    {
+      "relationId": "brigitte-squire-reinhardt",
+      "action": "corroborate"
+    },
+    {
+      "relationId": "cn4-brigitte-rescued-reinhardt-unspecified",
+      "action": "corroborate"
+    }
+  ],
+  "held": [
+    {
+      "entities": [
+        "sven",
+        "torbjorn"
+      ],
+      "locator": "Destroyer PDF第6–10页",
+      "finding": "明确有过去合作、对峙与击伤，但Sven官方中文名未批准，保留此研究线索，不新增已核验中文关系。"
+    },
+    {
+      "entities": [
+        "sven",
+        "liao",
+        "echo"
+      ],
+      "finding": "本漫画没有给出Sven与廖或回声关系的证据，两个Atlas候选不据此升级。"
+    },
+    {
+      "entities": [
+        "bastion",
+        "torbjorn"
+      ],
+      "locator": "Binary PDF第6页",
+      "finding": "对白提到设计堡垒型号，不据此推断托比昂直接制造了英雄堡垒这个个体。"
+    },
+    {
+      "entities": [
+        "liam"
+      ],
+      "locator": "Binary PDF第3页",
+      "finding": "男孩具名Liam，但无中文官方用字；女伴及警方负责人未具名，暂未扩充实体。"
+    },
+    {
+      "entities": [
+        "geiger"
+      ],
+      "locator": "Dragon Slayer PDF第3–10页",
+      "finding": "恶龙帮头目在本作未具名；不能仅因外貌或帮派风格将其认作Geiger。小女孩Hanna具名，尚无中文官方用字，不在本批新增。"
+    }
+  ]
+}

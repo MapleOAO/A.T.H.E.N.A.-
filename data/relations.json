@@ -1565,6 +1565,11 @@
         "sourceId": "cn-brigitte",
         "locator": "故事概述 / 铁甲工匠，第2段",
         "noteZh": "布丽吉塔成为莱因哈特的侍从，与他一同旅行。"
+      },
+      {
+        "sourceId": "en-comic-dragon-slayer",
+        "locator": "PDF第3、6、10页",
+        "noteZh": "同行途中布丽吉塔管理补给、维护盔甲并查找恶龙帮据点，补强侍从随行的具体情境。"
       }
     ],
     "candidateIds": [],
@@ -4992,6 +4997,11 @@
         "sourceId": "cn-bastion",
         "locator": "托比昂；公开页面数据 /heroConfigs/16",
         "noteZh": "托比昂将堡垒带回自己所属的铁甲公会。"
+      },
+      {
+        "sourceId": "en-comic-destroyer",
+        "locator": "PDF第6页左上旁白。",
+        "noteZh": "托比昂明确回忆自己在铁甲公会进行研发的时期，为曾隶属提供另一时期的直接依据。"
       }
     ],
     "candidateIds": [],
@@ -5052,6 +5062,11 @@
         "sourceId": "cn-brigitte",
         "locator": "骑士的侍从；公开页面数据 /heroConfigs/17",
         "noteZh": "布丽吉塔在莱因哈特与恶龙帮交战后为他包扎伤口。"
+      },
+      {
+        "sourceId": "en-comic-dragon-slayer",
+        "locator": "PDF第5–6页",
+        "noteZh": "莱因哈特挨打后，布丽吉塔在旅车旁处理他的面部伤口。"
       }
     ],
     "candidateIds": [],
@@ -10547,6 +10562,35 @@
       "termIds": [
         "term-shion",
         "term-seira-horvath"
+      ]
+    }
+  },
+  {
+    "id": "lore101-torbjorn-protected-bastion-unspecified",
+    "from": "torbjorn",
+    "to": "bastion",
+    "predicate": "protected",
+    "period": "unspecified",
+    "status": "verified",
+    "summaryZh": "托比昂确认堡垒没有攻击意图后，要求警方停止追捕，并束缚追捕者，让堡垒免遭继续追杀。",
+    "evidence": [
+      {
+        "sourceId": "en-comic-binary",
+        "locator": "PDF第9–12页，尤其第10–11页要求停止追捕及束缚警方。",
+        "noteZh": "由起初戒备转为阻止警方伤害堡垒；只主张本次事件。"
+      }
+    ],
+    "candidateIds": [],
+    "review": {
+      "reviewer": "assistant-source-review",
+      "date": "2026-09-19"
+    },
+    "translation": {
+      "method": "knowledge-base-guided-summary",
+      "glossaryVersion": "0.10.0",
+      "termIds": [
+        "term-torbjorn",
+        "term-bastion"
       ]
     }
   }
