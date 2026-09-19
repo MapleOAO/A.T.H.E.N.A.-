@@ -1310,5 +1310,31 @@
     "locator": "PDF第3–10页逐页图像审阅。",
     "sha256": "afeaeb637adc43f9ae445bce9bced4284c10fc2d19b972208d9c2b64a3c3fb96",
     "rights": "仅记录独立事实摘要与页码，不转载全文。"
+  },
+  {
+    "id": "en-comic-train-hopper",
+    "title": "官方漫画 · Train Hopper",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt46ce6d6e4643f9b0/5d02e58da812cef40914a52e/comic-overwatch-train-hopper_en-us.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "accessMethod": "official-pdf-page-render",
+    "read": true,
+    "accessedAt": "2026-09-19",
+    "locator": "PDF第3–10页逐页图像审阅。",
+    "sha256": "28503e2cf71dc261651f50e1fd020805203a99b2fdf5ed819e262de3fbb83e3a",
+    "rights": "仅记录独立事实摘要、页码及少量身份辨识局部；版权归Blizzard Entertainment及相关权利人。"
+  },
+  {
+    "id": "en-comic-wasted-land",
+    "title": "官方漫画 · Wasted Land",
+    "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt6503516b8ab2835e/5d02e6a3cf7aa6330ac67344/comic-overwatch-wasted-land_en-us.pdf",
+    "kind": "official",
+    "language": "en-US",
+    "accessMethod": "official-pdf-page-render",
+    "read": true,
+    "accessedAt": "2026-09-19",
+    "locator": "PDF第3–10页逐页图像审阅。",
+    "sha256": "20e662b5684d44815a9f5a8d20bd6bdc897ba9b5835a08d823cf0d21daf50ae4",
+    "rights": "仅记录独立事实摘要、页码及少量身份辨识局部；版权归Blizzard Entertainment及相关权利人。"
   }
 ]

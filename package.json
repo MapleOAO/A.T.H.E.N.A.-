@@ -1,6 +1,6 @@
 {
   "name": "athena-knowledge-graph",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "private": true,
   "type": "module",
   "engines": {

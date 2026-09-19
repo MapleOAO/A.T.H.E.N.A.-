@@ -5566,5 +5566,47 @@
       "status": "pending",
       "note": "已核对官方姓名；尚未找到身份明确的官方人物图像。"
     }
+  },
+  {
+    "id": "bruce",
+    "name": "Bruce",
+    "kind": "person",
+    "cluster": "archive",
+    "origins": [],
+    "discovery": {
+      "sourceId": "en-comic-wasted-land",
+      "locator": "PDF第6–7页；第7页旁白明确点名Bruce及工程师旧业。",
+      "reviewedAt": "2026-09-19"
+    },
+    "researchNote": {
+      "summaryZh": "Bruce曾是一名工程师，是路霸的旧识。他向路霸提供惯常使用的补给，接受废料抵付并让路霸保留硬币。官方中文姓名尚未核对，不与其他已有角色合并。",
+      "sourceId": "en-comic-wasted-land",
+      "locator": "PDF第6–7页：店铺会面、交易及具名旁白。",
+      "reviewedAt": "2026-09-19"
+    },
+    "visual": {
+      "kind": "official-excerpt",
+      "url": "./assets/portraits/bruce-8df8f0a6f627.jpg",
+      "sourceId": "en-comic-wasted-land",
+      "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt6503516b8ab2835e/5d02e6a3cf7aa6330ac67344/comic-overwatch-wasted-land_en-us.pdf",
+      "checkedAt": "2026-09-19",
+      "locator": "PDF第6页店主面部；第7页同一会面中的旁白点名Bruce。",
+      "captionZh": "Bruce在店铺中接待路霸的官方漫画局部；以相邻页连续画面和具名旁白确认身份。",
+      "position": "center",
+      "rights": "© Blizzard Entertainment及原作权利人；仅取身份辨识局部，完整作品见官方出处。",
+      "extraction": {
+        "method": "pdf-region-render",
+        "sha256": "8df8f0a6f627726634a287fd1c26a701da3fc149287e9634c8ab2f0688c68606",
+        "sourceSha256": "20e662b5684d44815a9f5a8d20bd6bdc897ba9b5835a08d823cf0d21daf50ae4",
+        "page": 6,
+        "scaleTo": 1600,
+        "region": [
+          595,
+          740,
+          155,
+          210
+        ]
+      }
+    }
   }
 ]

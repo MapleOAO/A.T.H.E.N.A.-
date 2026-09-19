@@ -1,0 +1,122 @@
+{
+  "date": "2026-09-19",
+  "version": "0.10.2",
+  "reviewedSources": [
+    {
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/train-hopper/",
+      "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt46ce6d6e4643f9b0/5d02e58da812cef40914a52e/comic-overwatch-train-hopper_en-us.pdf",
+      "sha256": "28503e2cf71dc261651f50e1fd020805203a99b2fdf5ed819e262de3fbb83e3a",
+      "sourceId": "en-comic-train-hopper",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "page": "https://overwatch.blizzard.com/en-us/media/comic/wasted-land/",
+      "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt6503516b8ab2835e/5d02e6a3cf7aa6330ac67344/comic-overwatch-wasted-land_en-us.pdf",
+      "sha256": "20e662b5684d44815a9f5a8d20bd6bdc897ba9b5835a08d823cf0d21daf50ae4",
+      "sourceId": "en-comic-wasted-land",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "entityId": "bruce",
+      "action": "add",
+      "visual": {
+        "kind": "official-excerpt",
+        "url": "./assets/portraits/bruce-8df8f0a6f627.jpg",
+        "sourceId": "en-comic-wasted-land",
+        "sourcePage": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt6503516b8ab2835e/5d02e6a3cf7aa6330ac67344/comic-overwatch-wasted-land_en-us.pdf",
+        "checkedAt": "2026-09-19",
+        "locator": "PDF第6页店主面部；第7页同一会面中的旁白点名Bruce。",
+        "captionZh": "Bruce在店铺中接待路霸的官方漫画局部；以相邻页连续画面和具名旁白确认身份。",
+        "position": "center",
+        "rights": "© Blizzard Entertainment及原作权利人；仅取身份辨识局部，完整作品见官方出处。",
+        "extraction": {
+          "method": "pdf-region-render",
+          "sha256": "8df8f0a6f627726634a287fd1c26a701da3fc149287e9634c8ab2f0688c68606",
+          "sourceSha256": "20e662b5684d44815a9f5a8d20bd6bdc897ba9b5835a08d823cf0d21daf50ae4",
+          "page": 6,
+          "scaleTo": 1600,
+          "region": [
+            595,
+            740,
+            155,
+            210
+          ]
+        }
+      }
+    },
+    {
+      "relationId": "cn4-cassidy-fought-talon-unspecified",
+      "action": "corroborate"
+    },
+    {
+      "relationId": "cn4-roadhog-protected-junkrat-unspecified",
+      "action": "corroborate"
+    },
+    {
+      "relationId": "cn4-roadhog-colleague-junkrat-unspecified",
+      "action": "corroborate"
+    }
+  ],
+  "held": [
+    {
+      "entities": [
+        "bruce",
+        "roadhog"
+      ],
+      "locator": "Wasted Land PDF第6–7页",
+      "finding": "旧识和补给交易有直接证据，但Bruce中文名待审，暂只作实体核对说明，不新增已核验中文关系。"
+    },
+    {
+      "entities": [
+        "frankie",
+        "bars"
+      ],
+      "locator": "Wasted Land PDF第3–10页",
+      "finding": "店主被明确点名为Bruce；酒保与打手未具名，不将他们自动映射为Frankie或Bars。"
+    },
+    {
+      "entities": [
+        "cassidy",
+        "blackwatch"
+      ],
+      "locator": "Train Hopper PDF第4页",
+      "finding": "卡西迪认出袭击者采用暗影守望战术，不足以证明袭击者属于暗影守望，或他仍是现任成员。"
+    },
+    {
+      "entities": [
+        "echo"
+      ],
+      "locator": "Train Hopper PDF第9页",
+      "finding": "货舱紫色装置没有明确身份，不能当作回声或其核心。"
+    },
+    {
+      "entities": [
+        "junker-queen",
+        "junkrat",
+        "roadhog"
+      ],
+      "locator": "Wasted Land PDF第5–10页",
+      "finding": "保留打手声称代表女王的层级，不新增女王本人直接攻击或胁迫的关系。"
+    }
+  ]
+}

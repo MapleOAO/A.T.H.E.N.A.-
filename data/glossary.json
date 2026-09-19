@@ -2566,5 +2566,18 @@
     "locator": "国服PDF第6页；英文PDF第6页。",
     "reviewedAt": "2026-09-18",
     "note": "中英官方版本按同一段落具名身份逐一对应；不借用相似名字的已有角色。"
+  },
+  {
+    "id": "term-bruce",
+    "entityId": "bruce",
+    "en": "Bruce",
+    "zh": "Bruce〔中文待核对〕",
+    "locale": "zh-CN",
+    "status": "pending",
+    "aliases": [],
+    "sourceIds": [],
+    "locator": "英文姓名见en-comic-wasted-land第7页；尚缺国服中文用字。",
+    "reviewedAt": "2026-09-19",
+    "note": "暂保留英文原名；没有把音译或英文资料当作官方中文命名依据。"
   }
 ]

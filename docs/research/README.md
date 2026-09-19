@@ -4,6 +4,7 @@
 
 | 研究记录 | 可复用内容 |
 | --- | --- |
+| [v0.10.2 列车与废土](2026-09-19-train-wasteland.json) | Bruce身份与头像；卡西迪交战、路霸保护与分成；16页审阅及未采用推断 |
 | [v0.10.1 三部早期漫画](2026-09-19-torbjorn-comics.json) | Sven头像；托比昂保护堡垒；布丽吉塔随行与救治；26页审阅及未采用身份 |
 | [v0.10.0 官方扩充](2026-09-18-official-expansion.json) | 四位桥元长老的双语姓名及会议事件；配图排除记录 |
 | [v0.9.2 新血续读](2026-09-18-new-blood-followup.json) | 新血4第7–22页、Going Legit第5–10页；合作与保护证据；Alisa、Hyde Global、Zera等未采用映射 |

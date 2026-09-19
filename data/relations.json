@@ -5984,6 +5984,11 @@
         "sourceId": "cn-cassidy",
         "locator": "守望先锋解散后；公开页面数据 /heroConfigs/26",
         "noteZh": "卡西迪在德克萨斯州的列车上与黑爪交战。"
+      },
+      {
+        "sourceId": "en-comic-train-hopper",
+        "locator": "PDF第4–9页，尤其第7页黑爪通讯呼号与第8页交火。",
+        "noteZh": "卡西迪击退劫持列车的黑爪人员；没有由其使用暗影守望战术推定仍属暗影守望。"
       }
     ],
     "candidateIds": [],
@@ -6014,6 +6019,11 @@
         "sourceId": "cn-junkrat",
         "locator": "通缉犯；公开页面数据 /heroConfigs/27",
         "noteZh": "路霸以宝藏分成为条件，担任狂鼠的私人保镖。"
+      },
+      {
+        "sourceId": "en-comic-wasted-land",
+        "locator": "PDF第8–10页。",
+        "noteZh": "路霸击退威胁狂鼠的打手；本次事件对应后来保镖关系的开端。"
       }
     ],
     "candidateIds": [],
@@ -6474,6 +6484,11 @@
         "sourceId": "cn-roadhog",
         "locator": "渣客；公开页面数据 /heroConfigs/32",
         "noteZh": "路霸与狂鼠结成合作搭档并约定分配宝藏。"
+      },
+      {
+        "sourceId": "en-comic-wasted-land",
+        "locator": "PDF第9–10页，尤其第10页最后谈判。",
+        "noteZh": "路霸要求一半分成，狂鼠最终接受，随后两人同行。"
       }
     ],
     "candidateIds": [],
