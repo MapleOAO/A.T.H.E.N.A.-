@@ -1,0 +1,338 @@
+{
+  "date": "2026-09-20",
+  "note": "迁移时临时PDF清单，仅记录文件指纹和既有来源；不代表全文已读。sources为空时查researchRecords中的同一哈希；没有直接匹配的条目保留待定位。完整原作、全文提取和整页渲染不随公开仓库再分发。",
+  "files": [
+    {
+      "filename": "a-rare-power.pdf",
+      "bytes": 3385320,
+      "sha256": "fe82b60f1e109acff24357d63da3e1ebd207d7ac901c49420e6bf8a91600f19b",
+      "sources": [
+        {
+          "id": "cn-story-a-rare-power",
+          "url": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_Sierra_Micro_LOC_CN_FNL_f9ba13b1_updated_03fa4e6e.pdf",
+          "reviewScope": "官方媒体目录提供的 PDF；具体页码见术语和关系证据"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "ambush-en.pdf",
+      "bytes": 2310060,
+      "sha256": "19b3f3a44e413a3de8bc42f1ad252b9220b4cec72f2ad425204c64e5f9adcb85",
+      "sources": [
+        {
+          "id": "en-story-ambush",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt1f045c78ab440de9/6a45646e970e6f7b7eb75d8a/Ha$H_EN_FNL.pdf",
+          "reviewScope": "PDF正文第3、6–7、10页；与国服版本对应姓名及会议事件。"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-expansion.json"
+      ]
+    },
+    {
+      "filename": "ambush.pdf",
+      "bytes": 2468545,
+      "sha256": "51f4132ca2f15fdb9120ed95da45a07d737c7cbdedcdc647d65fb5fc11e4be7b",
+      "sources": [],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-expansion.json",
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-new-blood-followup.json"
+      ]
+    },
+    {
+      "filename": "binary.pdf",
+      "bytes": 10911022,
+      "sha256": "4d841fa961cff7ec2a00fdadb4ec6182419bc5e519cedeb3f5901c44ca9e565e",
+      "sources": [
+        {
+          "id": "en-comic-binary",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt39f14b7a80be5780/5d02d10aa812cef40914a494/comic-overwatch-binary_en-us.pdf",
+          "reviewScope": "PDF第3–12页逐页图像审阅；本版正文无可提取文字层。"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-19-torbjorn-comics.json"
+      ]
+    },
+    {
+      "filename": "crossroads.pdf",
+      "bytes": 20353972,
+      "sha256": "2cbadd89e36e3a3dea9a1ca0487e937836c2cdefa89cb40d38bf044789d624ff",
+      "sources": [
+        {
+          "id": "cn-story-crossroads",
+          "url": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_SHIZILUKOU_c0f3a196.pdf",
+          "reviewScope": "官方媒体目录提供的 PDF；具体页码见术语和关系证据"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "cursebreaker.pdf",
+      "bytes": 6031082,
+      "sha256": "28e900747dc9f8328e40514d551de20a33e70eb7cd9281fb20b7b3bef5a0eb65",
+      "sources": [
+        {
+          "id": "cn-story-cursebreaker",
+          "url": "https://ld5.res.netease.com/video/2026/0330/static/comic/Yokai_Micro_zhCN_Final_db51d306_updated_a890ff94.pdf",
+          "reviewScope": "官方媒体目录提供的 PDF；具体页码见术语和关系证据"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "deadlock-ch1.pdf",
+      "bytes": 2013839,
+      "sha256": "65204c2afff85d14f2e1d10f54f0d5e8624ebed8db1670c12c98042bb638c33a",
+      "sources": [
+        {
+          "id": "en-lore-deadlock-rebels-chapter-1",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt1f939c5127a99742/60d240e5ad189d64efcc9ff0/AsheChpt1_EN_BS.pdf",
+          "reviewScope": "PDF第2–8页正文；未以封面或空白尾页核验人物画面。"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-recruitment-audit.json"
+      ]
+    },
+    {
+      "filename": "destroyer.pdf",
+      "bytes": 12825260,
+      "sha256": "29a85d12bb5d4272a9a16a01dd465179be34a50f75ae5eb577432e433f332705",
+      "sources": [
+        {
+          "id": "en-comic-destroyer",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt0b9872d6857ba358/5d02d18aa812cef40914a4a6/comic-overwatch-destroyer_en-us.pdf",
+          "reviewScope": "PDF第3–10页逐页图像审阅；本版正文无可提取文字层。"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-19-torbjorn-comics.json"
+      ]
+    },
+    {
+      "filename": "dragon-slayer.pdf",
+      "bytes": 7516488,
+      "sha256": "afeaeb637adc43f9ae445bce9bced4284c10fc2d19b972208d9c2b64a3c3fb96",
+      "sources": [
+        {
+          "id": "en-comic-dragon-slayer",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltbe5f9564d8d79e2a/5d02d202486d1c3d0af73230/comic-overwatch-dragon-slayer_en-us.pdf",
+          "reviewScope": "PDF第3–10页逐页图像审阅。"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-19-torbjorn-comics.json"
+      ]
+    },
+    {
+      "filename": "en-comic-mission-statement.pdf",
+      "bytes": 8882402,
+      "sha256": "d8ea75e31da45358e787fdfd9b3028b7c7aa7656ab25ed6274a11e03ebe0fe04",
+      "sources": [
+        {
+          "id": "en-comic-mission-statement",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd61a7c0fa6827b4d/5d02e273cf7aa6330ac67308/comic-overwatch-mission-statement_en-us.pdf",
+          "reviewScope": "实际阅读PDF第3–6、10页；原先第3–5页范围保留，新增第6页阿努比斯形象及第10页结尾。其他页未计入已读。"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-cn-actions-and-identities.json",
+        "docs/research/2026-09-18-original-art-audit.json"
+      ]
+    },
+    {
+      "filename": "en-lore-a-new-empire.pdf",
+      "bytes": 44347160,
+      "sha256": "cbd34ed66899425d63220863cffa5390a057b699d406be26f3093b95a7db5eda",
+      "sources": [
+        {
+          "id": "en-lore-a-new-empire",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt88558193e32a2781/68f2cfbc403b2522cfc2f88d/OW_Vendetta_EN.pdf",
+          "reviewScope": "PDF第2–12页正文"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-comics-excerpts.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "en-lore-searching.pdf",
+      "bytes": 15545208,
+      "sha256": "03a4b088d038b18ce7114e51820a5deeccb30d47c14b13dd6af864a1275b213b",
+      "sources": [
+        {
+          "id": "en-lore-searching",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd13218194c4736a5/5d02e4d5486d1c3d0af73280/comic-overwatch-searching_en-us.pdf",
+          "reviewScope": "PDF第3–6页；角色介绍、受托追查及Sombra Collective误认澄清"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-comics-identity-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "facing-demons.pdf",
+      "bytes": 21910018,
+      "sha256": "7b1b65fbe2a32b809360974286f31a192c7568740a3ff4070abd318ace7e333c",
+      "sources": [
+        {
+          "id": "cn-story-facing-demons",
+          "url": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_Mizuki_CN_FULL_FNL_5cddcdec.pdf",
+          "reviewScope": "官方媒体目录提供的 PDF；具体页码见术语和关系证据"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "from-the-ashes.pdf",
+      "bytes": 16637303,
+      "sha256": "7a49d5fd68745ee71dfb48925170ee24ebd75d025fc46947ba9f2bc217335ea2",
+      "sources": [
+        {
+          "id": "cn-comic-from-the-ashes",
+          "url": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_Gibraltar_CN_FNL_022726_9dcda9a0.pdf",
+          "reviewScope": "阅读PDF第2–12页文字，查看第7、10页；核对安燃掩护源氏与回声、队友返回援救的动作与对白"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "going-legit.pdf",
+      "bytes": 11898014,
+      "sha256": "a613d0752ae1e455f6fce9c917ece50fa3a4fa11a647e8082978485abec09b1c",
+      "sources": [],
+      "researchRecords": [
+        "docs/research/2026-09-18-new-blood-followup.json"
+      ]
+    },
+    {
+      "filename": "new-blood-4.pdf",
+      "bytes": 97012208,
+      "sha256": "4b84dc75390981c74b53f1fb33c5616db5665f238eac1a7e990c245b03961c35",
+      "sources": [
+        {
+          "id": "en-lore-new-blood-4",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/bltd491d56e1606d412/61fdc39da6bb9250d3e44a53/OW_2.4_Final_EN.pdf",
+          "reviewScope": "本轮逐页图像阅读PDF第7–22页；第3–6页为v0.8历史审阅范围。"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-new-blood-followup.json"
+      ]
+    },
+    {
+      "filename": "new-heights.pdf",
+      "bytes": 16448232,
+      "sha256": "8b75806825d6d495b3bed3522084fdd62ad5f2b66468c774064b256247bda073",
+      "sources": [
+        {
+          "id": "cn-story-new-heights",
+          "url": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_PANSHANGXINGAO_3aff37e8.pdf",
+          "reviewScope": "官方媒体目录提供的 PDF；具体页码见术语和关系证据"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "progress.pdf",
+      "bytes": 1930444,
+      "sha256": "e9644d5693484aed468ff44d1e4d6e29d30789348ceedc73157594da46b067a7",
+      "sources": [
+        {
+          "id": "cn-story-progress",
+          "url": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_KEXUEJINBU_cb8f8e6a.pdf",
+          "reviewScope": "官方媒体目录提供的 PDF；具体页码见术语和关系证据"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "successors.pdf",
+      "bytes": 1938573,
+      "sha256": "bbea9c6fc6485549c2be3453ba490f3ad2db0a14bfc189794f9ab20728b962c3",
+      "sources": [
+        {
+          "id": "cn-story-successors",
+          "url": "https://ld5.res.netease.com/video/2026/0330/static/comic/OW_Ravine_CN_FNL_3fe60d2a.pdf",
+          "reviewScope": "官方媒体目录提供的 PDF；具体页码见术语和关系证据"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "the-fall-of-a-aparrow.pdf",
+      "bytes": 2513286,
+      "sha256": "8bf38e906ecf4f7d1ba3e4c7e63afd2fdce398bda5b922675608c8cfcd256c6d",
+      "sources": [
+        {
+          "id": "cn-story-the-fall-of-a-aparrow",
+          "url": "https://ld5.res.netease.com/video/2026/0330/static/comic/JPCollab_LOC_CN_FNL_7594aa00.pdf",
+          "reviewScope": "官方媒体目录提供的 PDF；具体页码见术语和关系证据"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-18-official-lore-audit.json",
+        "docs/research/2026-09-18-cn-actions-and-identities.json"
+      ]
+    },
+    {
+      "filename": "train-hopper.pdf",
+      "bytes": 9586783,
+      "sha256": "28503e2cf71dc261651f50e1fd020805203a99b2fdf5ed819e262de3fbb83e3a",
+      "sources": [
+        {
+          "id": "en-comic-train-hopper",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt46ce6d6e4643f9b0/5d02e58da812cef40914a52e/comic-overwatch-train-hopper_en-us.pdf",
+          "reviewScope": "PDF第3–10页逐页图像审阅。"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-19-train-wasteland.json"
+      ]
+    },
+    {
+      "filename": "wasted-land.pdf",
+      "bytes": 10025731,
+      "sha256": "20e662b5684d44815a9f5a8d20bd6bdc897ba9b5835a08d823cf0d21daf50ae4",
+      "sources": [
+        {
+          "id": "en-comic-wasted-land",
+          "url": "https://blz-contentstack-assets.akamaized.net/v3/assets/blt2477dcaf4ebd440c/blt6503516b8ab2835e/5d02e6a3cf7aa6330ac67344/comic-overwatch-wasted-land_en-us.pdf",
+          "reviewScope": "PDF第3–10页逐页图像审阅。"
+        }
+      ],
+      "researchRecords": [
+        "docs/research/2026-09-19-train-wasteland.json"
+      ]
+    }
+  ]
+}
